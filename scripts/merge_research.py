@@ -68,23 +68,25 @@ def shop_key(name: str) -> str:
 
 
 QTY_SUFFIX = re.compile(r"[（(]?\s*\d+\s*(?:入り?|個入り?|枚入り?|本入り?|袋入り?|粒入り?|缶入り?|切入り?)\s*[）)]?")
+BRACKETS = re.compile(r"[（(〈][^）)〉]*[）)〉]")   # 丸括弧の中（季節・入数など）だけ除く。［黒豆］のような味の違いは残す
 
 
 def base_name(s: str | None) -> str:
-    """入数の表記（「（8入）」「20個入り」など）を除いた商品名"""
-    return norm(QTY_SUFFIX.sub("", unicodedata.normalize("NFKC", s or "")))
+    """括弧内（季節・入数など）と入数の表記を除いた商品名"""
+    t = unicodedata.normalize("NFKC", s or "")
+    t = BRACKETS.sub("", t)
+    return norm(QTY_SUFFIX.sub("", t))
 
 
 def same_product(a: str, b: str) -> bool:
+    """同じ商品か。誤統合を避けるため、完全一致（括弧・入数を除く）か、名前の長さが近い包含だけを認める"""
     na, nb = base_name(a), base_name(b)
     if not na or not nb:
         return False
     if na == nb:
         return True
     short, long_ = sorted([na, nb], key=len)
-    if len(short) >= 3 and short in long_ and len(short) / len(long_) >= 0.7:
-        return True
-    return difflib.SequenceMatcher(None, na, nb).ratio() >= 0.82
+    return len(short) >= 3 and short in long_ and len(short) / len(long_) >= 0.85
 
 
 def name_hit(rule_name: str, prod_name: str) -> bool:
@@ -103,6 +105,12 @@ def clean_text(t: str | None) -> str:
 
 
 JARGON_SENT = re.compile(r"ingredient_flags|ingredients・flags|flagsは|\bflags\b|price_tax_incl|\bnull\b|JSON|schema|in_scope")
+
+
+def join_notes(a: str, b: str) -> str:
+    if not a:
+        return b
+    return a + ("" if not b else (" " if a.endswith("。") else " ／") + b)
 
 
 def clean_note(t: str | None) -> str:
@@ -278,7 +286,55 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
             info["reason"] = clean_text(s["scope_note"])
         return info
 
-    order = ["G0"] + [g for g in sorted(groups) if g not in ("G0", "G7")]
+    def gnum(g):
+        m = re.search(r"\d+", g)
+        return int(m.group(0)) if m else 999
+
+    def absorb(existing: dict, prod: dict) -> None:
+        """同じ商品の情報を統合する。同じ入数・同じ価格は先の値を優先し、食い違いは備考へ。別の入数は追加、空欄は埋める"""
+        have_qty = {qty_key(o): o for o in existing["options"]}
+        have_price = {o["price"] for o in existing["options"]}
+        for o in prod["options"]:
+            kk = qty_key(o)
+            if kk in have_qty:
+                a = have_qty[kk]
+                if a["price"] != o["price"]:
+                    if a["confidence"] == "A":
+                        msg = f"検索結果では{o['label']}が{o['price']:,}円と出た（前任の確認値{a['price']:,}円と不一致・要確認）"
+                    else:
+                        msg = f"{o['label']}の価格が検索結果で2通り（{a['price']:,}円／{o['price']:,}円）・要確認"
+                    existing["notes"] = join_notes(existing["notes"], msg)
+            elif o["price"] in have_price:
+                continue
+            else:
+                existing["options"].append(o)
+                have_qty[kk] = o
+                have_price.add(o["price"])
+        for fld in ("description", "kind", "shelf_life_text", "seasonal", "page_url", "wrap_note", "allergens"):
+            if not existing.get(fld) and prod.get(fld):
+                existing[fld] = prod[fld]
+        if existing.get("shelf_life_days") is None and prod.get("shelf_life_days") is not None:
+            existing["shelf_life_days"] = prod["shelf_life_days"]
+        elif (existing.get("shelf_life_days") and prod.get("shelf_life_days")
+              and abs(existing["shelf_life_days"] - prod["shelf_life_days"]) > 0.2 * existing["shelf_life_days"]):
+            existing["notes"] = join_notes(existing["notes"], f"日持ちが資料により異なる（{existing['shelf_life_days']}日／{prod['shelf_life_days']}日）")
+        # 原材料: 空なら新しい方、両方あるときは長い（より完全な）方
+        a_ing, b_ing = existing.get("ingredients"), prod.get("ingredients")
+        if b_ing and (not a_ing or (existing["group"] != "G0" and len(b_ing) > len(a_ing) * 1.3)):
+            existing["ingredients"] = b_ing
+            existing["ingredient_check"], existing["ingredient_hits"], existing["ingredient_notes"] = ingredient_check(b_ing, None)
+        if existing.get("wrap_level") is None and prod.get("wrap_level") is not None:
+            existing["wrap_level"] = prod["wrap_level"]
+            if prod.get("wrap_note"):
+                existing["wrap_note"] = prod["wrap_note"]
+        elif prod.get("wrap_level") is not None and prod["wrap_level"] != existing.get("wrap_level") and existing["group"] != "G0":
+            existing["notes"] = join_notes(existing["notes"], f"個包装の有無が資料により異なる（{existing['wrap_level']}／{prod['wrap_level']}）")
+        for sent in re.split(r"(?<=。)\s*|\s*／\s*", prod.get("notes") or ""):
+            sent = sent.strip()
+            if sent and sent not in existing["notes"]:
+                existing["notes"] = join_notes(existing["notes"], sent)
+
+    order = ["G0"] + [g for g in sorted(groups, key=gnum) if g not in ("G0", "G7")]
     by_shop_products: dict[str, list[dict]] = defaultdict(list)
 
     for g in order:
@@ -335,48 +391,17 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
                     "confidence": pconf, "notes": clean_note(p.get("notes")), "group": g,
                 }
                 existing = None
-                if g != "G0":
-                    best = 0.0
-                    for q in by_shop_products[k]:
-                        if q["group"] == "G0" and same_product(q["name"], prod["name"]):
-                            r = difflib.SequenceMatcher(None, norm(q["name"]), norm(prod["name"])).ratio()
-                            if r >= best:
-                                best, existing = r, q
+                best = 0.0
+                for q in by_shop_products[k]:
+                    if same_product(q["name"], prod["name"]):
+                        r = difflib.SequenceMatcher(None, base_name(q["name"]), base_name(prod["name"])).ratio()
+                        if r >= best:
+                            best, existing = r, q
                 if existing is None:
                     by_shop_products[k].append(prod)
                     products.append(prod)
-                    continue
-                # 前任データ（A）へ統合: 同じ入数・同じ価格は前任を優先し、価格の食い違いは備考へ。別の入数は追加（B）
-                have_qty = {qty_key(o): o for o in existing["options"]}
-                have_price = {o["price"] for o in existing["options"]}
-                for o in prod["options"]:
-                    kk = qty_key(o)
-                    if kk in have_qty:
-                        a = have_qty[kk]
-                        if a["price"] != o["price"]:
-                            if a["confidence"] == "A":
-                                msg = f"検索結果では{o['label']}が{o['price']:,}円と出た（前任の確認値{a['price']:,}円と不一致・要確認）"
-                            else:
-                                msg = f"{o['label']}の価格が検索結果で2通り（{a['price']:,}円／{o['price']:,}円）・要確認"
-                            existing["notes"] = (existing["notes"] + " ／" + msg).strip(" ／")
-                    elif o["price"] in have_price:
-                        continue
-                    else:
-                        existing["options"].append(o)
-                        have_qty[kk] = o
-                        have_price.add(o["price"])
-                for fld in ("description", "kind", "shelf_life_text", "seasonal", "page_url", "wrap_note"):
-                    if not existing.get(fld) and prod.get(fld):
-                        existing[fld] = prod[fld]
-                if existing.get("shelf_life_days") is None and prod.get("shelf_life_days") is not None:
-                    existing["shelf_life_days"] = prod["shelf_life_days"]
-                if not existing.get("ingredients") and prod.get("ingredients"):
-                    for fld in ("ingredients", "ingredient_check", "ingredient_hits", "ingredient_notes"):
-                        existing[fld] = prod[fld]
-                if existing.get("wrap_level") is None and prod.get("wrap_level") is not None:
-                    existing["wrap_level"] = prod["wrap_level"]
-                if prod.get("notes") and prod["notes"] not in existing["notes"]:
-                    existing["notes"] = (existing["notes"] + " ／" + prod["notes"]).strip(" ／")
+                else:
+                    absorb(existing, prod)
 
     if "G0" in groups:
         excluded.extend(groups["G0"].get("excluded", []))
@@ -439,6 +464,13 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
                                                 "source_url": rule.get("source_url"), "evidence": rule.get("evidence"),
                                                 "note": rule.get("reason", "")})
                         applied.append(rule)
+        for rule in ov.get("merge_products", []):
+            keep = next((q for q in products if shop_key(rule["shop"]) == q["shop_key"] and name_hit(rule["keep"], q["name"])), None)
+            gone = next((q for q in products if shop_key(rule["shop"]) == q["shop_key"] and q is not keep and name_hit(rule["absorb"], q["name"])), None)
+            if keep and gone:
+                absorb(keep, gone)
+                products.remove(gone)
+                applied.append(rule)
         for rule in ov.get("set_notes", []):
             for prod in products:
                 if shop_key(rule["shop"]) == prod["shop_key"] and name_hit(rule["product"], prod["name"]):
@@ -494,7 +526,7 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
 
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "products.json").write_text(json.dumps(
-        {"generated_from": sorted(groups), "products": products}, ensure_ascii=False, indent=1), encoding="utf-8")
+        {"generated_from": sorted(groups, key=lambda g: int(re.search(r"\d+", g).group(0)) if re.search(r"\d+", g) else 999), "products": products}, ensure_ascii=False, indent=1), encoding="utf-8")
     (out_dir / "shops.json").write_text(json.dumps(
         {"shops": shop_order, "popular": popular}, ensure_ascii=False, indent=1), encoding="utf-8")
     (out_dir / "excluded.json").write_text(json.dumps(
@@ -509,6 +541,15 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
         per[p["shop"]][1] += len(p["options"])
     for s, (n, m) in sorted(per.items(), key=lambda x: shop_rank.get(shop_key(x[0]), 999)):
         print(f"  {s}: 商品{n} / 入数{m}")
+    seen_pairs = []
+    for i, a in enumerate(products):
+        for b in products[i + 1:]:
+            if a["shop_key"] == b["shop_key"]:
+                r = difflib.SequenceMatcher(None, base_name(a["name"]), base_name(b["name"])).ratio()
+                if r >= 0.7:
+                    seen_pairs.append((a["shop"], a["name"], b["name"], round(r, 2)))
+    for sh, x, y, r in seen_pairs:
+        print(f"[check] 似た名前の商品（別商品として扱っている）: {sh}｜{x}｜{y}｜類似度{r}")
     chk = defaultdict(int)
     for p in products:
         chk[p["ingredient_check"]] += 1

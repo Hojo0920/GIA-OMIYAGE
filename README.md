@@ -35,6 +35,7 @@ scripts/merge_research.py       data/raw → data/*.json（店名の表記ゆれ
 scripts/build_xlsx.py           data/*.json → xlsx（数式・条件付き書式つき）
 scripts/verify_xlsx.py          LibreOfficeで数式を再計算し、キャッシュ値と全数比較
 scripts/list_backlog.py         まだ商品を調べていない店の一覧
+scripts/gap_report.py           店ごとに「分かっていること」と「未確認の項目」をまとめる（調査の割り当て用）
 ```
 
 ## 使い方
