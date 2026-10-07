@@ -81,6 +81,8 @@ def base_name(s: str | None) -> str:
 
 def same_product(a: str, b: str) -> bool:
     """同じ商品か。誤統合を避けるため、完全一致（括弧・入数を除く）か、名前の長さが近い包含だけを認める"""
+    if norm(a) and norm(a) == norm(b):          # 括弧の有無だけが違う表記ゆれ
+        return True
     na, nb = base_name(a), base_name(b)
     if not na or not nb:
         return False
