@@ -1,0 +1,551 @@
+{
+  "group": "G15",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "菓匠 高木屋",
+      "shop_short": "高木屋",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=347",
+      "anto_phone": "076-260-3777",
+      "anto_location": null,
+      "official_site": "http://www.takagiya.jp/",
+      "online_shop": "https://takagiya.base.ec/",
+      "in_scope": true,
+      "scope_note": null,
+      "products": [
+        {
+          "product_name": "一口千歳",
+          "category": "求肥菓子（餡入り）",
+          "description": "加賀産米飴入りの特製黒練あんを柔らかい求肥で包み、紅白の和三盆糖をまぶした菓子。白は鶴、紅は旭日を表し、金沢の慶事に欠かせない和菓子とされる。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 842, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": "https://takagiya.base.ec/items/32543694"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 1350, "evidence": "前回までの確認値（今回は再確認していない）。楽天の販売店ページにも「10個入、賞味期限：常温15日」とある", "source_url": "https://takagiya.base.ec/items/32529443"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 1998, "evidence": "前回までの確認値（今回は再確認していない）。楽天の販売店ページにも「15個入、賞味期限：常温15日」とある", "source_url": null},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 2592, "evidence": "一口千歳（20個入） 価格 ¥2,592（税込） 日持ち 15日間", "source_url": "https://takagiya.base.ec/items/32543753"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "公式通販ページの説明にも、楽天など販売店ページの説明にも、個包装かどうかの記載が出てこなかった。店頭で確認が必要。",
+          "shelf_life_days": 15,
+          "shelf_life_text": "日持ち15日間（常温）",
+          "ingredients": "砂糖（国内製造）、小豆、餅粉、水飴、米飴、和三盆糖／加工デンプン、着色料（コチニール）",
+          "ingredient_flags": ["コチニール"],
+          "allergens": "アレルギー：無し",
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32543753",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "着色料にコチニール（昆虫由来の赤色色素）を使用。豚由来成分・アルコールに当たる表示は見当たらない。ムスリム向けには色素の由来を気にする人もいるため、渡す相手に応じて判断が必要。15個入以下は2,000円以内、20個入は2,592円で2,300円超。"
+        },
+        {
+          "product_name": "大納言もなか",
+          "category": "最中",
+          "description": "厳選した大納言小豆を丁寧に焚き上げ、あっさり仕上げた粒あんを、パリパリの最中種にたっぷり詰めた最中。全国菓子大博覧会で無鑑査賞を受賞。",
+          "options": [
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2160, "evidence": "大納言もなか（10個入） ¥2,160（税込） 日持ち 15日間", "source_url": "https://takagiya.base.ec/items/32529431"},
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 2548, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": "https://takagiya.base.ec/items/32529435"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 2808, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": "https://takagiya.base.ec/items/32529439"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "公式通販ページの説明に個包装かどうかの記載がなかった（最中なので個包装の可能性は高いが、記載としては未確認）。店頭で確認が必要。",
+          "shelf_life_days": 15,
+          "shelf_life_text": "日持ち15日間",
+          "ingredients": "砂糖（国内製造）、小豆、最中種（もち米）、還元水飴",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32529431",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は砂糖・小豆・最中種（もち米）・還元水飴のみで、豚由来成分・アルコール・着色料の表示は見当たらない（10個入のページの表示）。アレルゲン表示は検索で出てこなかった。10個入が2,160円で「少し超過」の範囲（2,001〜2,300円）、12個入以上は2,300円を超える。"
+        },
+        {
+          "product_name": "旬味紙ふうせん（秋冬限定）",
+          "category": "寒天ゼリー菓子（最中種包み）",
+          "description": "紙ふうせんの秋冬限定の味。みかんといちごの風味とされる。原材料に最中種（もち米）と寒天を使うことから、最中種で包んだ寒天ゼリーの菓子と読み取れる。",
+          "options": [
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 810, "evidence": "旬味紙ふうせん(9個入)※秋冬限定 ¥810（税込） 日持ち25日 10月〜2月", "source_url": "https://takagiya.base.ec/items/32583317"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "検索で出た説明には個包装とあったが、9個入という形式からの推測と見られ、商品ページの記載とは確認できない。通常の紙ふうせんについては、二次情報に「個包装はされていない」とある。",
+          "shelf_life_days": 25,
+          "shelf_life_text": "日持ち25日",
+          "ingredients": "砂糖、最中種（もち米）、寒天、水飴、香料、着色料（コチニール、クチナシ）",
+          "ingredient_flags": ["コチニール"],
+          "allergens": null,
+          "seasonal": "秋冬限定（10月〜2月）",
+          "page_url": "https://takagiya.base.ec/items/32583317",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "原材料は検索で出た英訳から日本語に戻して記載しており、原文の表記・順序とは異なる可能性がある。着色料にコチニール（昆虫由来）とクチナシを使用。豚由来成分・アルコールに当たる表示は見当たらない。保存は常温で、高温多湿を避ける。9個入810円と手頃。"
+        },
+        {
+          "product_name": "紙ふうせん",
+          "category": "寒天ゼリー菓子（最中種包み）",
+          "description": "高木屋の看板商品。二次情報では、赤ぶどう・白ワイン・黄レモン・黒糖風味のゼリーとされる。",
+          "options": [
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 810, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": "https://takagiya.base.ec/items/32240247"},
+            {"qty_label": "16個入", "qty": 16, "unit": "個", "price_tax_incl": 1404, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": "https://takagiya.base.ec/items/32527174"},
+            {"qty_label": "28個入", "qty": 28, "unit": "個", "price_tax_incl": 2160, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": null}
+          ],
+          "individually_wrapped": false,
+          "wrap_note": "二次情報（観光まとめサイト「おみや」の紹介記事）に「個包装はされていません」とある。9〜28個入まであり用途に合わせて選べる、との記述。",
+          "shelf_life_days": 25,
+          "shelf_life_text": "日持ち25日（前回確認）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32240247",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "個包装なしの根拠は二次情報のみ（公式の記載は確認できていない）。二次情報に「白ワイン」風味とあるため、原材料にワイン（アルコール）が含まれないか確認が必要（今回は原材料表示を確認できていない）。3つの入数とも2,300円以内。"
+        },
+        {
+          "product_name": "金沢ほっとしるこ",
+          "category": "しるこ",
+          "description": "こし餡・さくら・ほうじ茶・抹茶の4種の味があるしるこの商品。",
+          "options": [
+            {"qty_label": "4個袋入", "qty": 4, "unit": "個", "price_tax_incl": 1080, "evidence": "金沢ほっとしるこ（4個袋入） ¥1,080（税込） 日持ち180日", "source_url": "https://takagiya.base.ec/items/36208034"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2808, "evidence": "金沢ほっとしるこ（10個入） ¥2,808（税込） 日持ち180日", "source_url": "https://takagiya.base.ec/items/36208050"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "公式通販ページの説明に個包装かどうかの記載がなかった。「4個袋入」という表記はあるが、1個ずつ包装されているかは未確認。",
+          "shelf_life_days": 180,
+          "shelf_life_text": "日持ち180日",
+          "ingredients": "【こし餡】砂糖、還元水飴、小豆餡、和三盆糖、もち米、でん粉（馬鈴薯）、食塩、寒梅粉、着色料（赤3、赤102、赤106、青1、黄4）／【さくら】同上に桜葉粉末を加える／【ほうじ茶】同上にほうじ茶粉末を加える／【抹茶】同上に抹茶粉末を加える",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/36208034",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "原材料は検索で出た英訳から日本語に戻して記載しており、原文の表記・順序とは異なる可能性がある。豚由来成分・アルコールに当たる表示は見当たらない。合成着色料（赤3、赤102、赤106、青1、黄4）を使用している点だけ注意。日持ちは180日と長い。4個袋入は1,080円で2,000円以内、10個入は2,808円で2,300円超。"
+        },
+        {
+          "product_name": "紙ふうせん・千歳（詰合せ）",
+          "category": "詰合せ",
+          "description": "紙ふうせんと一口千歳の詰合せ。",
+          "options": [
+            {"qty_label": "16個入", "qty": 16, "unit": "個", "price_tax_incl": 1814, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": null},
+            {"qty_label": "28個入", "qty": 28, "unit": "個", "price_tax_incl": 2937, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": null}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは確認できていない。",
+          "shelf_life_days": 15,
+          "shelf_life_text": "日持ち15日（前回確認）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32543168",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "9個入の商品ページ（上記URL）と、楽天の販売店ページにも「紙ふうせん・千歳9個入」があるが、価格は確認できていない。紙ふうせんと一口千歳の詰合せなので、一口千歳の原材料（コチニール使用）と同じ注意が必要。"
+        }
+      ],
+      "skipped": [
+        "涼味紙ふうせん（9個入）: 夏季限定のため10月は販売時期外"
+      ],
+      "unresolved": [
+        "一口千歳・大納言もなか・金沢ほっとしるこが1個ずつ個包装かどうか（公式通販・楽天モールの説明には記載なし。店頭確認が必要）",
+        "旬味紙ふうせんも通常の紙ふうせんと同じく個包装なしの可能性があるが、ページ上の記載は未確認",
+        "紙ふうせんの原材料表示（「白ワイン」風味とされるため、アルコールの有無の確認が必要）",
+        "新しく名前が出た商品で価格・原材料が未確認のもの: 加賀伝統菓子「福梅」（10個入・20個入）、銘菓撰加賀1（8個入）、紙ふうせん詰合せ1、紙ふうせん初春詰合せ、パイ詰合せ（15個入・20個入）、紙ふうせんスイカ（5個入。夏向けかどうか未確認）",
+        "あんずパイ・大納言パイ・紙ふうせんプレミアムは今回は再確認していない（前回データのまま）",
+        "あんと店頭での取扱い・店頭価格（公式通販の掲載品を元にしているため）"
+      ]
+    },
+    {
+      "shop_name": "まめや 金澤萬久",
+      "shop_short": "まめや金澤萬久",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=362",
+      "anto_phone": "076-260-1080",
+      "anto_location": null,
+      "official_site": "https://www.mameya-bankyu.com/",
+      "online_shop": "https://www.budoo-shop.jp/DefaultBrandTop.aspx?bid=bankyu",
+      "in_scope": true,
+      "scope_note": null,
+      "products": [
+        {
+          "product_name": "わらび餅のバウム［能登大納言×抹茶］",
+          "category": "洋菓子（バウムクーヘン）",
+          "description": "もちもちのわらび餅と、しっとり炊いた能登大納言の甘納豆、抹茶の香るバウムクーヘンを組み合わせた菓子。個包装で、食べやすいよう半分に切り目が入っている。",
+          "options": [
+            {"qty_label": "5個入", "qty": 5, "unit": "個", "price_tax_incl": 1512, "evidence": "わらび餅のバウム［能登大納言×抹茶］（５個入り） ¥1,512(税込) 内容量：5個", "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MF79&bid=bankyu&cat=200200"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2970, "evidence": "わらび餅のバウム［能登大納言×抹茶］（１０個入り） ¥2,970(税込) 内容量：10個", "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MF80&bid=bankyu&cat=200200"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "商品説明に「個包装になっており、さらに食べやすいよう、半分に切り目が入っております」とある。",
+          "shelf_life_days": 35,
+          "shelf_life_text": "35日（通販では発送日を含め28日以上のものを届ける）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦、卵、乳成分、大豆、アーモンド",
+          "seasonal": "通年（通販サイトに常時掲載。季節限定の記載は見当たらない）",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MF79&bid=bankyu&cat=200200",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "正式な原材料欄は検索で出てこなかったため、乳化剤・ゼラチン・洋酒などの有無は未確認（アレルギー表示のみ確認）。5個入は1,512円で2,000円以内、10個入は2,970円で2,300円超。箱の外寸は5個入が縦20×横9.7×高5.5cm。同シリーズに［オレンジ×加賀棒茶］（5個入り）もある。"
+        },
+        {
+          "product_name": "わらび餅のバウム［黒豆］",
+          "category": "洋菓子（バウムクーヘン）",
+          "description": "わらび餅のバウムシリーズの黒豆の味。",
+          "options": [
+            {"qty_label": "5個入", "qty": 5, "unit": "個", "price_tax_incl": 1512, "evidence": "前回までの確認値（今回は再確認していない）。同シリーズの［能登大納言×抹茶］5個入の現行価格は1,512円", "source_url": null},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": null, "evidence": "旧公式サイトでは2,214円と表示。現行ショップでの価格は確認できず（同シリーズの［能登大納言×抹茶］10個入は現行2,970円）", "source_url": null}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "前回の確認で個包装あり。同シリーズの［能登大納言×抹茶］のページにも「個包装になっており、半分に切り目が入っている」とある。",
+          "shelf_life_days": 35,
+          "shelf_life_text": "35日（前回確認）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductList.aspx?shop=0&cat=200200004&bid=bankyu",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】10個入は旧公式サイトで2,214円、同シリーズの現行10個入は2,970円と出た。黒豆の現行10個入の価格は未確認。原材料・アレルギー表示も未確認（［能登大納言×抹茶］は小麦・卵・乳成分・大豆・アーモンド）。"
+        },
+        {
+          "product_name": "有機大豆の炒り豆・紅白豆（豆箱入り）",
+          "category": "豆菓子",
+          "description": "国産の有機大豆を炒り豆にした、紅白のおめでたい豆。「しおみつ」（やさしい甘さにほのかな塩味）と「梅」（酸味控えめでほんのり梅が香る）の2種の詰合せ。豆箱（縦9×横13×高4.5cm）に30g入りの袋が2つ入る。",
+          "options": [
+            {"qty_label": "30g×2袋（豆箱入り）", "qty": 2, "unit": "袋", "price_tax_incl": 1080, "evidence": "有機大豆の炒り豆・紅白豆（豆箱入り） ¥1,080(税込) 内容量30g×2袋", "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC419&bid=bankyu&cat=200200"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "30g入りの小袋が2袋、豆箱に入る形式。小袋単位で分けることはできるが、1粒ずつの個包装ではない。",
+          "shelf_life_days": 90,
+          "shelf_life_text": "90日（前回確認。同シリーズの他の味のページには「発送日を含め30日以上のものをお届け」とある）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "大豆（製品には蜂蜜を使用。1歳未満の乳児には食べさせないでください）",
+          "seasonal": "通年",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC419&bid=bankyu&cat=200200",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "正式な原材料欄は検索で出てこなかった（商品説明とアレルギー表示のみ確認）。説明の範囲では醤油・酒類・ゼラチンなどの記載は見当たらないが、原材料欄を見ていないため含まれないとは断定できない。蜂蜜を使用。豆箱の絵柄は商品ごとに異なり、このページは「招き猫」。1,080円で2,000円以内。"
+        },
+        {
+          "product_name": "有機大豆の炒り豆 能登塩キャラメル（豆箱入り）",
+          "category": "豆菓子",
+          "description": "有機大豆の炒り豆に、濃厚なキャラメルペーストとキャラメルパウダーをまとわせ、能登塩を加えて深みのある味わいに仕上げた豆菓子。豆箱（縦9×横13×高4.5cm）に30g入りの袋が2つ入る。",
+          "options": [
+            {"qty_label": "30g×2袋（豆箱入り）", "qty": 2, "unit": "袋", "price_tax_incl": 1080, "evidence": "有機大豆の炒り豆 能登塩キャラメル（豆箱入り） ¥1,080(税込) 内容量30g×2袋 賞味期限90日", "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC468&bid=bankyu&cat=200200005"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "30g入りの小袋が2袋、豆箱に入る形式。小袋単位で分けることはできるが、1粒ずつの個包装ではない。",
+          "shelf_life_days": 90,
+          "shelf_life_text": "90日（通販では発送日を含め30日以上のものをお届け）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "乳成分、大豆（製品には蜂蜜を使用。1歳未満の乳児には食べさせないでください）",
+          "seasonal": "通年",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC468&bid=bankyu&cat=200200005",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "正式な原材料欄は検索で出てこなかった。キャラメルペースト・パウダーに乳化剤などが入っているかは未確認。乳成分を含む。蜂蜜を使用。豆箱の絵柄は商品ごとに異なり、このページは「うさぎ」。1,080円で2,000円以内。"
+        },
+        {
+          "product_name": "有機大豆の炒り豆・みたらし豆（豆箱入り）",
+          "category": "豆菓子",
+          "description": "金沢市大野の老舗「ヤマト醤油味噌」の醤油を使い、醤油・砂糖・唐辛子でみたらしのたれの味に仕上げた炒り豆。豆箱（縦9×横13×高4.5cm）に30g入りの袋が2つ入る。",
+          "options": [
+            {"qty_label": "30g×2袋（豆箱入り）", "qty": 2, "unit": "袋", "price_tax_incl": 1080, "evidence": "有機大豆の炒り豆・みたらし豆（豆箱入り） ¥1,080（税込） 内容量30g×2袋 賞味期限90日", "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC418&bid=bankyu&cat=200200"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "30g入りの小袋が2袋、豆箱に入る形式。小袋単位で分けることはできるが、1粒ずつの個包装ではない。",
+          "shelf_life_days": 90,
+          "shelf_life_text": "90日（通販では発送日を含め30日以上のものをお届け）",
+          "ingredients": "（商品説明より。正式な原材料欄ではない）醤油、砂糖、唐辛子でみたらしのたれの味に仕上げたもの。蜂蜜も使用",
+          "ingredient_flags": ["醤油"],
+          "allergens": "小麦、ごま、大豆（製品には蜂蜜を使用。1歳未満の乳児には食べさせないでください）",
+          "seasonal": "通年",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC418&bid=bankyu&cat=200200",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "醤油を使用しているため、アルコール（醤油も含める条件）に当たる可能性が高く、条件を厳密に見るなら対象外になりうる。【食い違い】前回は972円・日持ち30日、今回の豆箱入りのページでは1,080円・賞味期限90日と出た（前回の値は袋タイプのページの値が混ざった可能性があるが未確認）。豆箱の絵柄は商品ごとに異なり、このページは「うさぎ」。"
+        },
+        {
+          "product_name": "能登大納言甘納豆（豆箱入り）",
+          "category": "豆菓子（甘納豆）",
+          "description": "奥能登の気候と土壌で育つ、大粒で鮮やかな赤色の小豆「能登大納言」の甘納豆。豆箱入りで、絵柄違いの複数ページがある。",
+          "options": [
+            {"qty_label": "55g×2袋（豆箱入り）", "qty": 2, "unit": "袋", "price_tax_incl": null, "evidence": "検索結果では「1,188円〜1,296円（税込）」と出た（絵柄違いの複数ページがあり、この内容量の価格と特定できず）。前回は972円と確認していた", "source_url": "https://www.budoo-shop.jp/Form/Product/ProductList.aspx?shop=0&cat=200200005&bid=bankyu"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "55g入りの小袋が2袋、豆箱に入る形式（前回確認）。個包装かどうかは今回確認できなかった。",
+          "shelf_life_days": 28,
+          "shelf_life_text": "28日（前回確認。今回は確認できず）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.mameya-bankyu.com/product/amanatto/",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】前回は972円、今回の検索では1,188円〜1,296円と出た。どれが現行の55g×2袋の価格か特定できなかった（いずれにしても2,000円以内）。原材料表示・個包装の有無は今回も確認できず。"
+        },
+        {
+          "product_name": "金かすてら・プレーン",
+          "category": "カステラ",
+          "description": "金沢の金箔を贅沢に使った、豪華なかすてら。卵は臭みや雑味の少ないものを使い、小麦粉は増田製粉所の「特宝笠」を選定。卵黄と白身を一緒に泡立てる「共立て」で、職人が一つずつ焼き上げる。",
+          "options": [
+            {"qty_label": "5カット（1本）", "qty": 5, "unit": "カット", "price_tax_incl": 2538, "evidence": "金かすてら・プレーン【５カット】 ¥2,538（税込） 内容量 1本（5カット） 賞味期限21日（発送日を含め14日以上のものをお届け） 箱 縦19×横6.5×高7cm", "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=ME35&bid=all&cat=200200"},
+            {"qty_label": "5カット（1本）※前回確認の別の表示", "qty": 5, "unit": "カット", "price_tax_incl": 1404, "evidence": "前回までの確認値。今回の検索では5カットが2,538円と表示された", "source_url": null},
+            {"qty_label": "大 8カット（1本）", "qty": 8, "unit": "カット", "price_tax_incl": 2160, "evidence": "金かすてら・プレーン（大 ８カット） ¥2,160（税込） 内容量 1本（8カット） 賞味期限21日（発送日を含め10日以上のものをお届け）", "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=ME21&bid=all&cat=200200"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1本をカットした形で、1切れずつの個包装かどうかは確認できなかった。",
+          "shelf_life_days": 21,
+          "shelf_life_text": "21日（通販では5カットは発送日を含め14日以上、8カットは10日以上のものを届ける）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=ME35&bid=all&cat=200200",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】5カット（1本）は前回1,404円、今回の通販ページでは2,538円と出た。同名の5カットの商品ページが2つ見つかっており、仕様の違う別商品の可能性もあるが、今回の検索では特定できなかった。2,538円が現行なら2,300円超で対象外。8カット（大）は2,160円で「少し超過」の範囲。原材料表示・アレルギー表示は検索で出てこず未確認（カステラは卵・小麦を使うことが分かっている）。"
+        }
+      ],
+      "skipped": [
+        "黒豆しょこら（袋タイプ）: チョコがけで溶けやすいと思われるため（商品名からの判断）"
+      ],
+      "unresolved": [
+        "炒り豆（紅白豆・能登塩キャラメル）・甘納豆・金かすてら・わらび餅のバウムの正式な原材料欄（通販ページの検索結果にはアレルギー表示と商品説明しか出なかった）",
+        "金かすてら5カットの現行価格（1,404円か2,538円か）と、1切れずつの個包装かどうか",
+        "能登大納言甘納豆（豆箱入り）の現行価格（972円か、1,188円〜1,296円か）と、原材料・個包装",
+        "わらび餅のバウム［黒豆］10個入の現行価格。［オレンジ×加賀棒茶］5個入りの商品ページもあるが価格は未確認",
+        "ほかに掲載のある豆菓子（炒り豆・山椒七味＆磯海苔の豆箱入り、炒り豆・磯海苔の袋タイプ、みたらし豆の袋タイプ、北の大地の黒豆甘納豆の豆箱入り）と金かすてら・桜の価格・原材料は未調査",
+        "あんと店頭での取扱い・店頭価格・賞味期限の残り日数（通販の表示は「発送日を含め◯日以上」の出荷基準付き）"
+      ]
+    },
+    {
+      "shop_name": "落雁 諸江屋",
+      "shop_short": "諸江屋",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=307",
+      "anto_phone": "076-260-3750",
+      "anto_location": null,
+      "official_site": "https://moroeya.co.jp/",
+      "online_shop": "https://moroeya.net/",
+      "in_scope": true,
+      "scope_note": null,
+      "products": [
+        {
+          "product_name": "加賀鳶最中",
+          "category": "最中",
+          "description": "直径約35mm・高さ約30mmの丸い最中。1個あたり約60kcal。",
+          "options": [
+            {"qty_label": "1個（バラ）", "qty": 1, "unit": "個", "price_tax_incl": 92, "evidence": "1個 92円（税込として表示）", "source_url": "https://moroeya.net/?pid=7343882"},
+            {"qty_label": "6個ナイロン袋入", "qty": 6, "unit": "個", "price_tax_incl": 605, "evidence": "6個ナイロン袋入 605円（税込として表示）", "source_url": "https://moroeya.net/?pid=7343882"},
+            {"qty_label": "12個箱入", "qty": 12, "unit": "個", "price_tax_incl": 1458, "evidence": "12個箱入 1,458円（税込として表示）", "source_url": "https://moroeya.net/?pid=7343882"},
+            {"qty_label": "24個箱入", "qty": 24, "unit": "個", "price_tax_incl": null, "evidence": "24個箱入 2,500円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=7343882"},
+            {"qty_label": "36個箱入", "qty": 36, "unit": "個", "price_tax_incl": 3996, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": "https://moroeya.net/?pid=7343882"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索で出た商品説明に、1個ずつ赤い包装紙で包まれているとの趣旨の記述がある。6個入はナイロン袋入り。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日（密封包装。開封後は5日）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://moroeya.net/?pid=7343882",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料の表示は商品ページの検索結果に出てこなかった。アレルギー表示欄に品目の記載は見当たらなかった（「なし」と書かれているのか未記載なのかは未確認）。24個箱入は「2,500円＋税」と税別表記で、税込価格は未確定。1個〜12個は税込表示と読み取れる。12個箱入1,458円は2,000円以内。"
+        },
+        {
+          "product_name": "加賀宝生",
+          "category": "生らくがん",
+          "description": "軽く塩味をきかせた生らくがんの間に小豆餡を挟んだ菓子。能（宝生流）の上品さを映し、白と黒の層が対称になった姿。創業1849年の諸江屋を代表する菓子。",
+          "options": [
+            {"qty_label": "2個簡易箱入", "qty": 2, "unit": "個", "price_tax_incl": null, "evidence": "2個簡易箱入り 300円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=7217833"},
+            {"qty_label": "6個袋入", "qty": 6, "unit": "個", "price_tax_incl": null, "evidence": "6個袋入り 810円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=7217833"},
+            {"qty_label": "10個箱入", "qty": 10, "unit": "個", "price_tax_incl": null, "evidence": "10個箱入 1,530円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=7217833"},
+            {"qty_label": "15個箱入", "qty": 15, "unit": "個", "price_tax_incl": null, "evidence": "15個箱入 2,170円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=7217833"},
+            {"qty_label": "20個箱入", "qty": 20, "unit": "個", "price_tax_incl": null, "evidence": "20個箱入 3,100円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=7217833"},
+            {"qty_label": "30個箱入", "qty": 30, "unit": "個", "price_tax_incl": null, "evidence": "30個箱入 4,590円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=7217833"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは確認できなかった。検索結果の説明に、諸江屋の菓子全般を個包装でギフト向きとする記述があったが、この商品を特定した記載ではない。",
+          "shelf_life_days": 14,
+          "shelf_life_text": "14日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://moroeya.net/?pid=7217833",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格はすべて「＋税」の税別表記のため、税込は未確定（原文の税別価格を記録）。原材料表示と個包装の記載は確認できなかった。アレルギー表示欄に品目の記載は見当たらなかった。生らくがんで日持ちは14日と短め。48個箱入（6,660円＋税）もある。"
+        },
+        {
+          "product_name": "La'KuGaN（ラクガン）シリーズ",
+          "category": "落雁",
+          "description": "落雁のシリーズ。ココア・能登和紅茶・珈琲・檸檬・ソーダ・マスカットの6種の味があり、1種ごとに12個入のパウチで販売。",
+          "options": [
+            {"qty_label": "12粒入（パウチ）", "qty": 12, "unit": "粒", "price_tax_incl": null, "evidence": "各味 12個入パウチ 500円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=163177922"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "12個入のパウチ入りで、1粒ずつの個包装かどうかは確認できなかった。",
+          "shelf_life_days": 90,
+          "shelf_life_text": "90日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://moroeya.net/?pid=163177922",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "税別表記（500円＋税）のため税込は未確定。原材料表示と個包装は確認できなかった。ほかに「しらべシリーズ」（茶のしらべ・果のしらべ）がある。"
+        },
+        {
+          "product_name": "金澤情菓「茶のしらべ」",
+          "category": "落雁",
+          "description": "加賀棒茶を使い、濃淡の異なる5種を2本ずつ詰めた10本入の菓子。湿気を避けて保存する。",
+          "options": [
+            {"qty_label": "10本入（5種×2本）", "qty": 10, "unit": "本", "price_tax_incl": null, "evidence": "10個入（濃淡5種類2本ずつ） 1,100円＋税（税別表記）", "source_url": "https://moroeya.net/?pid=184946053"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "10本入（5種×2本）で、1本ずつ包装されているかどうかは確認できなかった。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://moroeya.net/?pid=184946053",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "税別表記（1,100円＋税）のため税込は未確定。原材料表示と個包装は確認できなかった。同じ「しらべシリーズ」に「果のしらべ」もある。"
+        }
+      ],
+      "skipped": [
+        "上用饅頭: 生菓子で予約制のため"
+      ],
+      "unresolved": [
+        "加賀鳶最中・加賀宝生・La'KuGaN・茶のしらべの正式な原材料表示（商品ページの検索結果に出てこなかった）",
+        "加賀宝生・La'KuGaN・茶のしらべが1個（1本）ずつ個包装かどうか",
+        "加賀鳶最中の24個箱入・36個箱入の税込価格（24個箱入は「2,500円＋税」の税別表記。36個箱入は今回再確認していない）",
+        "方丈菓子は今回調べていない（前回データのまま）",
+        "ほかに掲載のある商品（果のしらべ、加賀てまり、花うさぎ、千代古禮糖、金の霊澤、菓子文庫、菓子つづら、菓子だより、生らくがん詰合）の価格・日持ち・原材料は未調査",
+        "あんと店頭での取扱い・店頭価格"
+      ]
+    },
+    {
+      "shop_name": "和菓子 加賀陣屋",
+      "shop_short": "加賀陣屋",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=306",
+      "anto_phone": "076-260-3760",
+      "anto_location": null,
+      "official_site": "http://www.kagajinya.com/index.html",
+      "online_shop": "https://kagajinya.com/SHOP/list.php?Search=&Type=02&PAGE=1",
+      "in_scope": true,
+      "scope_note": null,
+      "products": [
+        {
+          "product_name": "金箔羽二重餅",
+          "category": "羽二重餅",
+          "description": "羽二重餅に金箔をあしらった菓子。",
+          "options": [
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 972, "evidence": "金箔羽二重餅 9個入 ¥972（税込）", "source_url": "https://www.kagajinya.com/SHOP/900001n.html"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索で出た説明に、加賀陣屋のこの商品群は「個包装と思われる」とある。商品ページの原文は確認できていないため、店頭で確認が必要。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "製造日から30日（常温）",
+          "ingredients": "水飴、麦芽糖、餅粉、砂糖、米粉、トレハロース、金箔",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.kagajinya.com/SHOP/900001n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は検索で出た英訳から日本語に戻して記載しており、原文の表記・順序とは異なる可能性がある。豚由来成分・アルコールに当たる表示は見当たらない。972円で2,000円以内。"
+        },
+        {
+          "product_name": "金沢のまち",
+          "category": "洋風焼菓子（チョコ使用）",
+          "description": "原材料にチョコレート・小麦粉・卵・金箔を使う菓子。",
+          "options": [
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 1296, "evidence": "金沢のまち 12個入 ¥1,296（税込）", "source_url": "https://www.kagajinya.com/SHOP/900005n.html"},
+            {"qty_label": "18個入", "qty": 18, "unit": "個", "price_tax_incl": 1890, "evidence": "金沢のまち 18個入 ¥1,890（税込）", "source_url": "https://www.kagajinya.com/SHOP/900006n.html"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索で出た説明に、加賀陣屋のこの商品群は「個包装と思われる」とある。商品ページの原文は確認できていないため、店頭で確認が必要。",
+          "shelf_life_days": 50,
+          "shelf_life_text": "50日（前回確認）",
+          "ingredients": "チョコレート、小麦粉、卵、金箔ほか（一部のみ確認）",
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.kagajinya.com/SHOP/900006n.html",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】18個入は前回1,728円、今回の商品ページでは1,890円と出た。原材料は一部しか分からず、チョコレートを使っているため乳化剤などの有無は判断できない（要確認）。12個入1,296円・18個入1,890円とも2,000円以内。"
+        },
+        {
+          "product_name": "金沢の月プレミアム",
+          "category": "洋風焼菓子（カスタード）",
+          "description": "国産の卵、カスタードクリーム、小麦粉、砂糖などを使い、金箔をあしらった菓子。",
+          "options": [
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 1080, "evidence": "金沢の月プレミアム 12個入 ¥1,080（税込）", "source_url": "https://www.kagajinya.com/SHOP/900003n.html"},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 1944, "evidence": "金沢の月プレミアム 20個入 ¥1,944（税込）", "source_url": "https://www.kagajinya.com/SHOP/900004n.html"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索で出た説明に、加賀陣屋のこの商品群は「個包装と思われる」とある。商品ページの原文は確認できていないため、店頭で確認が必要。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日（前回確認）",
+          "ingredients": "卵（国産）、カスタードクリーム、小麦粉、砂糖、植物油脂、マルチトールほか、金箔（一部のみ確認）",
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.kagajinya.com/SHOP/900004n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は検索で出た英訳から日本語に戻したもので、一部しか分からない。植物油脂・カスタードクリームを使用しており、乳化剤・ゼラチン・洋酒などの有無は判断できない（要確認）。12個入1,080円・20個入1,944円とも2,000円以内。"
+        },
+        {
+          "product_name": "五郎島金時 芋長寿",
+          "category": "さつまいも菓子",
+          "description": "金沢の五郎島金時（さつまいも）の餡を使った菓子。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 1420, "evidence": "前回までの確認値。今回の価格帯（1,420円〜4,280円）の下限と一致", "source_url": "https://kagajinya.com/SHOP/777063n.html"},
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 2660, "evidence": "前回までの確認値（今回は再確認していない）", "source_url": "https://www.kagajinya.com/SHOP/777064n.html"},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 4280, "evidence": "前回までの確認値。今回の価格帯（1,420円〜4,280円）の上限と一致", "source_url": "https://www.kagajinya.com/SHOP/777065n.html"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索で出た説明に「6・12・20個入の個包装」とある。商品ページの原文は確認できていない。",
+          "shelf_life_days": 14,
+          "shelf_life_text": "製造日から14日（常温）",
+          "ingredients": "五郎島金時のさつまいも餡、乳製品、卵黄、麦芽糖などを使用（一部のみ確認）",
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.kagajinya.com/SHOP/777064n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は検索で出た説明の一部だけで、乳製品を使用。乳化剤などの有無は判断できない（要確認）。日持ちは14日と短め。6個入1,420円は2,000円以内、12個入は2,660円で2,300円超。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "加賀の殿様・栗春日・甘えび煎餅・上々かすてぃらの個包装の有無と原材料（今回の検索では入数ごとの価格が特定できなかった）",
+        "【食い違い】加賀の殿様: 前回は6個入1,210円・10個入1,770円・15個入2,670円、今回は10・15・20個入で1,404〜2,700円と出た",
+        "【食い違い】栗春日: 前回は6個入1,500円・10個入2,420円、今回は6・10・15個入で1,370〜3,175円と出た",
+        "【食い違い】甘えび煎餅: 前回は8枚入594円・15枚入1,026円・24枚入1,620円、今回は10・18・30個入で475〜1,188円と出た（商品や入数の取り違えの可能性がある）",
+        "上々かすてぃら: 今回の価格帯は1,300〜2,850円（前回は1箱1,512円）。切数ごとの価格は未確認",
+        "加賀のおかきパイ・金沢あんころ餅・愉経世・金箔羽二重餅と金箔黒羽二重餅の詰合せは今回は再確認していない（前回データのまま）",
+        "あんと店頭での取扱い・店頭価格"
+      ]
+    }
+  ]
+}

@@ -272,6 +272,7 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
     products: list[dict] = []
     excluded: list[dict] = []
     unresolved: list[dict] = []
+    covered_by: dict[str, int] = {}   # 店 -> その店を最後に調べたグループの番号
     warnings: list[str] = []
 
     def get_shop(s: dict, group: str) -> dict:
@@ -356,9 +357,11 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
             for sk in s.get("skipped") or []:
                 head, _, tail = str(sk).partition(":")
                 excluded.append({"shop": label, "item": head.strip(), "reason": clean_text(tail) or "調査担当が対象外と判断", "level": "B"})
+            if g != "G0":
+                covered_by[k] = max(covered_by.get(k, 0), gnum(g))
             for u in s.get("unresolved") or []:
-                if not is_cap_note(str(u)) and not re.search(r"区画番号|anto_location", str(u)):
-                    unresolved.append({"shop": label, "item": clean_text(str(u)), "group": g})
+                if not is_cap_note(str(u)) and not re.search(r"区画番号|anto_location|あんと店頭|店頭での取扱|店頭価格|店頭の取扱|あんと店の取扱", str(u)):
+                    unresolved.append({"shop": label, "shop_key": k, "item": clean_text(str(u)), "group": g, "gnum": gnum(g)})
             for p in s.get("products") or []:
                 opts = []
                 for o in p.get("options") or []:
@@ -439,7 +442,7 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
         popular = g7.get("popular", [])
         for u in g7.get("unresolved") or []:
             if not is_cap_note(str(u)):
-                unresolved.append({"shop": "（店舗の洗い出し）", "item": clean_text(str(u)), "group": "G7"})
+                unresolved.append({"shop": "（店舗の洗い出し）", "shop_key": "", "item": clean_text(str(u)), "group": "G7", "gnum": 7})
     for info in shops.values():
         info["category"] = norm_category(info.get("census_category") or info.get("raw_category"), info.get("name") or "")
         info.setdefault("area", "")
@@ -526,6 +529,10 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
         ranks = [CONF_RANK.get(o["confidence"], 1) for o in p["options"]]
         p["confidence_min"] = {3: "A", 2: "B", 1: "C"}[min(ranks)]
         p["confidence_max"] = {3: "A", 2: "B", 1: "C"}[max(ranks)]
+
+    # 店ごとに、その店を最後に調べたグループの「未確認」だけを残す（前のグループの項目は後で解決済みのことがある）
+    unresolved = [u for u in unresolved if u.get("group") == "G7" or u.get("shop_key") not in covered_by
+                  or u.get("gnum") == covered_by.get(u.get("shop_key"))]
 
     best: dict = {}
     for e in excluded:

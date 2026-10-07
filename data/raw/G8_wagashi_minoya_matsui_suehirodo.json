@@ -1,0 +1,1017 @@
+{
+  "group": "G8",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "菓匠 みのや",
+      "shop_short": "みのや",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=348",
+      "anto_phone": "076-260-3781",
+      "anto_location": null,
+      "official_site": "https://wagashi.sakura.ne.jp/top.html",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "商品情報は公式サイトの商品ページ（検索結果の要約）に基づく。あんと店頭にどの商品が並ぶかは未確認。公式サイトに2021年3月にネットショップを開設したとの記載があるが、そのURLは特定できていない。",
+      "products": [
+        {
+          "product_name": "兼六ことじ燈籠",
+          "category": "焼き菓子（餡菓子）",
+          "description": "甘さをおさえた粒餡を、抹茶餡と白餡で包み、兼六園の象徴「ことじ燈籠」を印して焼き上げた菓子。菓子博で連続受賞した銘菓と紹介されている。",
+          "options": [
+            {
+              "qty_label": "6入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 810,
+              "evidence": "6入 ￥810、10入 ￥1296、15入 ￥1944、20入 ￥2592（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/kotoji.html"
+            },
+            {
+              "qty_label": "10入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1296,
+              "evidence": "6入 ￥810、10入 ￥1296、15入 ￥1944、20入 ￥2592（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/kotoji.html"
+            },
+            {
+              "qty_label": "15入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 1944,
+              "evidence": "6入 ￥810、10入 ￥1296、15入 ￥1944、20入 ￥2592（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/kotoji.html"
+            },
+            {
+              "qty_label": "20入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 2592,
+              "evidence": "6入 ￥810、10入 ￥1296、15入 ￥1944、20入 ￥2592（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/kotoji.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは検索結果に明記がなく未確認（「開封後3日」の記載はある）",
+          "shelf_life_days": 40,
+          "shelf_life_text": "40日（開封後3日）",
+          "ingredients": "餡(国内製造)、砂糖、水飴、抹茶、クロレラ",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/kotoji.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は検索結果の要約に出た表示で、小麦・卵などの記載は出ていない（全文かどうかは未確認）。アレルギー表示も未確認。15入1,944円は2,000円以内、20入は2,300円超。"
+        },
+        {
+          "product_name": "詰合せ 兼六のいろどり",
+          "category": "詰め合わせ（焼き菓子ほか）",
+          "description": "金沢兼六園をテーマに四季のいろどりを添えた創作銘菓の詰め合わせ。「ことじ燈籠」6個・「兼六の彩」6個・「金沢春秋（小豆餡）」5個の3種17個入り。",
+          "options": [
+            {
+              "qty_label": "3種17入（ことじ燈籠6・兼六の彩6・金沢春秋5）",
+              "qty": 17,
+              "unit": "個",
+              "price_tax_incl": 2268,
+              "evidence": "3種17入 ￥2268 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/irodori.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": 40,
+          "shelf_life_text": "40日（開封後3日）",
+          "ingredients": "金沢春秋（小豆餡）: 餡、砂糖、水飴、小麦粉、くるみ、卵、マーガリン(乳成分・大豆を含む)、膨張剤／兼六の彩: 砂糖、餡、コーン系の色素など（一部のみ）。いずれも検索結果の英語要約から日本語に戻したもので、実際の表記と言い回しが違う可能性がある",
+          "ingredient_flags": [
+            "マーガリン"
+          ],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/irodori.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "2,000円をわずかに超える（2,268円）。中身の金沢春秋にマーガリンの表示があり、豚由来の可能性がある成分に当たるため要注意。兼六の彩の原材料は一部しか確認できていない。"
+        },
+        {
+          "product_name": "金沢金箔羽二重餅",
+          "category": "羽二重餅",
+          "description": "金沢の名産、金箔をのせた羽二重餅。友禅柄の和紙のパッケージでお土産として人気と紹介されている。",
+          "options": [
+            {
+              "qty_label": "5入（友禅紙包装）",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 810,
+              "evidence": "友禅紙包装 5入 ￥810（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-yuzen.html"
+            },
+            {
+              "qty_label": "9入",
+              "qty": 9,
+              "unit": "個",
+              "price_tax_incl": 1134,
+              "evidence": "9入 ￥1,134 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-gold.html"
+            },
+            {
+              "qty_label": "12入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 1458,
+              "evidence": "12入 ￥1,458 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-gold.html"
+            },
+            {
+              "qty_label": "24入",
+              "qty": 24,
+              "unit": "個",
+              "price_tax_incl": 2592,
+              "evidence": "24入 ￥2,592 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-gold.html"
+            },
+            {
+              "qty_label": "36入",
+              "qty": 36,
+              "unit": "個",
+              "price_tax_incl": 3888,
+              "evidence": "36入 ￥3,888 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-gold.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に「すべての商品は個包装」とあるが、商品ページの記載そのものは未確認",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日（開封後3日）",
+          "ingredients": "砂糖(国内製造)、水飴、もち粉／着色料(金箔)、乳化剤(乳由来)",
+          "ingredient_flags": [
+            "乳化剤"
+          ],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/habutae-gold.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "乳化剤は「乳由来」と表示されているが、豚由来の可能性がある成分としては要確認。友禅紙包装の5入は別ページ（金箔羽二重餅・友禅）の記載。2,000円以内は12入まで、24入は2,300円超。"
+        },
+        {
+          "product_name": "金沢羽二重餅（プレーン）",
+          "category": "羽二重餅",
+          "description": "プレーンの羽二重餅。",
+          "options": [
+            {
+              "qty_label": "12入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 810,
+              "evidence": "12入 ￥810（税込）、20入 ￥1,350（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae.html"
+            },
+            {
+              "qty_label": "20入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 1350,
+              "evidence": "12入 ￥810（税込）、20入 ￥1,350（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に「すべての商品は個包装」とあるが、商品ページの記載そのものは未確認",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日（開封後3日）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/habutae.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料表示は未確認。同じ羽二重餅の金箔・くるみ・梅柚子は乳化剤（乳由来）を含むため、プレーンも含む可能性がある。"
+        },
+        {
+          "product_name": "金沢くるみ羽二重餅",
+          "category": "羽二重餅",
+          "description": "くるみときな粉を使った羽二重餅。",
+          "options": [
+            {
+              "qty_label": "12入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 972,
+              "evidence": "12入 ￥972 (税込)、20入 ￥1566 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-kurumi.html"
+            },
+            {
+              "qty_label": "20入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 1566,
+              "evidence": "12入 ￥972 (税込)、20入 ￥1566 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-kurumi.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に「すべての商品は個包装」とあるが、商品ページの記載そのものは未確認",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日（開封後3日）",
+          "ingredients": "砂糖(国内製造)、水飴、もち粉、くるみ、きな粉(大豆)／乳化剤(乳由来)",
+          "ingredient_flags": [
+            "乳化剤"
+          ],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/habutae-kurumi.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "賞味期限は、羽二重餅全般について「30日（開封後3日）」と書かれた要約から採用（この商品単独の記載は未確認）。乳化剤は「乳由来」と表示。"
+        },
+        {
+          "product_name": "金沢梅柚子羽二重餅",
+          "category": "羽二重餅",
+          "description": "梅肉と柚子肉を使った羽二重餅。",
+          "options": [
+            {
+              "qty_label": "12入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 972,
+              "evidence": "12入 ￥972 (税込)、20入 ￥1566 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-ume.html"
+            },
+            {
+              "qty_label": "20入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 1566,
+              "evidence": "12入 ￥972 (税込)、20入 ￥1566 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-ume.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に「すべての商品は個包装」とあるが、商品ページの記載そのものは未確認",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日（開封後3日）",
+          "ingredients": "砂糖(国内製造)、水飴、もち粉、梅肉、柚子肉／乳化剤(乳由来)、紫コーン色素",
+          "ingredient_flags": [
+            "乳化剤"
+          ],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/habutae-ume.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "賞味期限は、羽二重餅全般について「30日（開封後3日）」と書かれた要約から採用（この商品単独の記載は未確認）。乳化剤は「乳由来」と表示。"
+        },
+        {
+          "product_name": "金沢羽二重餅（あん入り）",
+          "category": "羽二重餅",
+          "description": "あん入りの羽二重餅。",
+          "options": [
+            {
+              "qty_label": "12入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 1512,
+              "evidence": "12入 ￥1,512（税込）、24入 ￥3,024（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-tochi.html"
+            },
+            {
+              "qty_label": "24入",
+              "qty": 24,
+              "unit": "個",
+              "price_tax_incl": 3024,
+              "evidence": "12入 ￥1,512（税込）、24入 ￥3,024（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/habutae-tochi.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に「すべての商品は個包装」とあるが、商品ページの記載そのものは未確認",
+          "shelf_life_days": 14,
+          "shelf_life_text": "2週間（開封後3日）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/habutae-tochi.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料表示は未確認。ほかの羽二重餅（30日）より賞味期限が短い。"
+        },
+        {
+          "product_name": "あんころ",
+          "category": "あんころ餅",
+          "description": "甘さ控えめな味覚で、菓子処金沢の名物として知られるあんころ餅。",
+          "options": [
+            {
+              "qty_label": "10粒",
+              "qty": 10,
+              "unit": "粒",
+              "price_tax_incl": 486,
+              "evidence": "20粒 ￥648、10粒 ￥486（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/ankoro.html"
+            },
+            {
+              "qty_label": "20粒",
+              "qty": 20,
+              "unit": "粒",
+              "price_tax_incl": 648,
+              "evidence": "20粒 ￥648、10粒 ￥486（税込）",
+              "source_url": "https://wagashi.sakura.ne.jp/ankoro.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは未確認",
+          "shelf_life_days": null,
+          "shelf_life_text": "この商品単独では未確認（同系統の栗・抹茶・ミックスは12日・開封後24時間）",
+          "ingredients": "あん(国内製造)、水飴、砂糖、もち粉",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/ankoro.html",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "20粒が648円で、10粒486円との差が小さい。ジュニアサイズなど別の大きさの可能性もあるため、入数と価格の対応は要確認。"
+        },
+        {
+          "product_name": "栗あんころJr.",
+          "category": "あんころ餅",
+          "description": "栗あんを使ったあんころ餅（Jr.サイズ）。",
+          "options": [
+            {
+              "qty_label": "10粒",
+              "qty": 10,
+              "unit": "粒",
+              "price_tax_incl": 540,
+              "evidence": "10粒 ￥540 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/ankoro-kuri.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは未確認",
+          "shelf_life_days": 12,
+          "shelf_life_text": "12日（開封後24時間）",
+          "ingredients": "栗あん(国内製造)、砂糖、水飴、もち粉、栗",
+          "ingredient_flags": [],
+          "allergens": "卵、乳、そば、小麦、落花生、えび、かに、ゼラチン、くるみ、大豆、いか、あわび、いくら、さけ、さば、りんご、もも、キウイ、オレンジ、バナナ、まつたけ、やまいも、牛肉（検索結果の要約に出た表示。ページ上での位置づけは未確認）",
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/ankoro-kuri.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料欄にゼラチンは無いが、アレルギー欄の一覧にゼラチン・牛肉などが並ぶ。同じ工場の他製品に関する注意書きの可能性があり、ページ本文での確認が必要。開封後24時間と短いため、分けて配る用途には向かない。"
+        },
+        {
+          "product_name": "抹茶あんころ",
+          "category": "あんころ餅",
+          "description": "抹茶あんを使ったあんころ餅。",
+          "options": [
+            {
+              "qty_label": "10粒",
+              "qty": 10,
+              "unit": "粒",
+              "price_tax_incl": 486,
+              "evidence": "10粒 ￥486 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/pc/ankoro-tea.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは未確認",
+          "shelf_life_days": 12,
+          "shelf_life_text": "12日（開封後24時間）",
+          "ingredients": "抹茶あん(国内製造)、水飴、砂糖、もち粉、抹茶",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/pc/ankoro-tea.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "開封後24時間と短い。"
+        },
+        {
+          "product_name": "あんころJr.ミックス",
+          "category": "あんころ餅（詰め合わせ）",
+          "description": "小倉・栗・抹茶の3種のあんころJr.の詰め合わせ。",
+          "options": [
+            {
+              "qty_label": "3種 各10粒",
+              "qty": null,
+              "unit": "粒",
+              "price_tax_incl": 1458,
+              "evidence": "各10粒 ￥1458 (税込)",
+              "source_url": "https://wagashi.sakura.ne.jp/ankoro-mix.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは未確認",
+          "shelf_life_days": 12,
+          "shelf_life_text": "12日（開封後24時間）",
+          "ingredients": "小倉: あん(国内製造)、水飴、砂糖、もち粉／栗: 栗あん(国内製造)、砂糖、水飴、もち粉、栗／抹茶: 抹茶あん(国内製造)、水飴、砂糖、もち粉、抹茶",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi.sakura.ne.jp/ankoro-mix.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "「各10粒 1,458円」とあり、3種で合計何粒かの明記は未確認（単品10粒486円の3種分と同額）。開封後24時間と短い。"
+        }
+      ],
+      "skipped": [
+        "友禅かさね（1号3,024円・2号3,834円）: 2,300円以下の入数がないため",
+        "上生菓子などの生菓子: 公式の商品一覧では見つからず、対象外"
+      ],
+      "unresolved": [
+        "あんと店頭で実際に買える商品と価格（公式サイトの商品ページに基づく情報のため）",
+        "ネットショップ（2021年3月開設）のURL",
+        "花くるみ・みるく浪饅・金沢春秋の単品の入数・価格・賞味期限・原材料",
+        "金沢羽二重餅（プレーン・あん入り）の原材料",
+        "兼六ことじ燈籠の個包装の有無とアレルギー表示",
+        "あんころ（小倉）の20粒648円の再確認と、賞味期限",
+        "栗あんころJr.のアレルギー欄にあるゼラチン・牛肉の意味（同一工場の表示か原材料か）",
+        "あんとの区画番号"
+      ]
+    },
+    {
+      "shop_name": "菓匠 まつ井",
+      "shop_short": "まつ井",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=349",
+      "anto_phone": "076-260-3778",
+      "anto_location": null,
+      "official_site": "https://wagashi-matsui.co.jp/",
+      "online_shop": "https://shopping.corezo.co.jp/wagashimatsui/",
+      "in_scope": true,
+      "scope_note": "公式サイトの価格は税抜表示で、注文は電話・FAXの案内。通販は北陸のモールCOREZO内のまつ井ページ（税込表示）で確認できる。あんと店頭にどの商品が並ぶかは未確認。",
+      "products": [
+        {
+          "product_name": "友禅ころも",
+          "category": "羽二重餅",
+          "description": "淡く紅色に染めた白味噌あんを羽二重餅でそっと包み、金箔を添えた上品な菓子。加賀友禅のイメージを和菓子で表現した、まつ井の看板商品として紹介されている。",
+          "options": [
+            {
+              "qty_label": "4個入",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 918,
+              "evidence": "公式: 4個入り850円（税抜）／COREZO: 友禅ころも 4個入 918 yen (tax included)",
+              "source_url": "https://shopping.corezo.co.jp/wagashimatsui/products/detail.php?product_id=4665"
+            },
+            {
+              "qty_label": "8個入",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 8個入り1,800円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 12個入り2,650円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "16個入",
+              "qty": 16,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 16個入り3,450円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは検索結果に明記がなく未確認",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日（常温）",
+          "ingredients": "砂糖、もち粉、白餡（白いんげん豆）、水飴、白味噌／着色料（赤3、金箔）",
+          "ingredient_flags": [],
+          "allergens": "大豆",
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi-matsui.co.jp/sweets",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "公式サイトは税抜表示（4個入のみ、COREZOで税込918円を確認）。24個入（5,000円・税抜）もある。白味噌が入るが、酒精・みりんなどの表示は見当たらない。着色料は赤3と金箔。原材料は楽天市場・COREZOの商品情報から。"
+        },
+        {
+          "product_name": "友禅はながら",
+          "category": "和菓子（羊羹をあんで包んだ型押し菓子）",
+          "description": "加賀友禅の着物に描かれた四季折々の花絵を木型にして、栗入り小倉羊羹をあずきこしあんで包み、和三盆糖をまぶして型押しした菓子。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 6個入り900円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "8個入",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 8個入り1,200円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 12個入り1,750円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "16個入",
+              "qty": 16,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 16個入り2,300円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは検索結果に明記がなく未確認",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi-matsui.co.jp/sweets",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "公式サイトは税抜表示。原材料・アレルギー・個包装は確認できていない。別の販売サイトの検索結果に「友禅はながら 1,296円（税込）」という表示があり、入数は示されていないが、8個入1,200円（税抜）に消費税8%を足した額と一致する。"
+        },
+        {
+          "product_name": "金箔羊羹",
+          "category": "羊羹",
+          "description": "日本一の生産を誇る金沢金箔を贅沢に使った、金沢らしい絢爛豪華な羊羹。",
+          "options": [
+            {
+              "qty_label": "3個入",
+              "qty": 3,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 3個入り1,360円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "3個入（COREZO表示）",
+              "qty": 3,
+              "unit": "個",
+              "price_tax_incl": 1782,
+              "evidence": "COREZO: 金箔羊羹 3個入 1,782 yen (tax included)",
+              "source_url": "https://shopping.corezo.co.jp/wagashimatsui/products/detail.php?product_id=4663"
+            },
+            {
+              "qty_label": "4個入",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 4個入り1,830円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 6個入り2,770円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "8個入",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 8個入り3,710円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは検索結果に明記がなく未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日",
+          "ingredients": "あずきあん、砂糖、水飴、寒天／トレハロース、着色料（金箔）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://shopping.corezo.co.jp/wagashimatsui/products/detail.php?product_id=4663",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】3個入が、公式サイトでは1,360円（税抜）、COREZOでは1,782円（税込）と出た。公式の4個入以上の価格は1個あたり470円ずつ増える並びで、1,360円はそれに合う。原材料は検索結果の英語要約から日本語に戻したもので、実際の表記と言い回しが違う可能性がある。"
+        },
+        {
+          "product_name": "加賀くるみ",
+          "category": "焼き菓子（くるみあん）",
+          "description": "白漉し餡に鬼クルミを入れて炊き上げたくるみあんを使った焼き菓子。",
+          "options": [
+            {
+              "qty_label": "8個入",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 8個入り750円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 12個入り1,100円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 15個入り1,350円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "20個入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 20個入り1,750円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "24個入",
+              "qty": 24,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 24個入り2,200円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            },
+            {
+              "qty_label": "30個入",
+              "qty": 30,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "公式: 30個入り2,650円（税抜表記）",
+              "source_url": "https://wagashi-matsui.co.jp/sweets"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは検索結果に明記がなく未確認",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://wagashi-matsui.co.jp/sweets",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "公式サイトは税抜表示。焼き菓子のため、バター・マーガリン・乳化剤などの使用有無を原材料表示で確認する必要があるが、今回は原材料・アレルギー・個包装とも確認できなかった。"
+        },
+        {
+          "product_name": "くるみ最中",
+          "category": "最中",
+          "description": "大納言小豆と鬼ぐるみを組み合わせた昔ながらのお菓子と紹介されている。大正15年創業のまつ井の製造。",
+          "options": [
+            {
+              "qty_label": "5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "5個入り：600円（税込・税別の記載なし）",
+              "source_url": "https://omiyadata.jp/souvenir/matsui-kurumimonaka/"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "10個入り：1,200円（税込・税別の記載なし）",
+              "source_url": "https://omiyadata.jp/souvenir/matsui-kurumimonaka/"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "15個入り：1,800円（税込・税別の記載なし）",
+              "source_url": "https://omiyadata.jp/souvenir/matsui-kurumimonaka/"
+            },
+            {
+              "qty_label": "20個入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "20個入り：2,400円（税込・税別の記載なし）",
+              "source_url": "https://omiyadata.jp/souvenir/matsui-kurumimonaka/"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは未確認",
+          "shelf_life_days": 14,
+          "shelf_life_text": "2週間（常温）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://omiyadata.jp/souvenir/matsui-kurumimonaka/",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "まとめサイト（おみや）のみの情報で、公式サイトの商品一覧では確認できていない。価格は5個入600円・10個入1,200円・15個入1,800円・20個入2,400円と出たが、税込か税別かの記載がなく、切りのよい金額なので税抜表示の可能性がある。公式サイトの「加賀くるみ」とは別の商品とみられるが、同じかどうかも未確認。"
+        }
+      ],
+      "skipped": [
+        "四季の上生菓子セット（Amazon掲載）: 生菓子のため"
+      ],
+      "unresolved": [
+        "あんと店頭で実際に買える商品と価格（公式サイトの価格は税抜表示）",
+        "友禅はながら・加賀くるみ・くるみ最中の原材料とアレルギー表示",
+        "友禅ころも・金箔羊羹・加賀くるみなどの個包装の有無",
+        "金箔羊羹3個入の正しい価格（公式1,360円・税抜／COREZO 1,782円・税込）",
+        "友禅流し・友禅詰合せ・KOJO（10個入）の入数・価格・原材料",
+        "くるみ最中が公式の商品一覧にあるか、価格が税込か税別か",
+        "友禅はながらの税込価格と入数の対応（1,296円の表示を確認したが入数が不明）",
+        "あんとの区画番号"
+      ]
+    },
+    {
+      "shop_name": "和菓子 末広堂",
+      "shop_short": "末広堂",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=304",
+      "anto_phone": "076-260-3784",
+      "anto_location": null,
+      "official_site": "https://www.suehirodou.jp/",
+      "online_shop": "https://store.suehirodou.jp/",
+      "in_scope": true,
+      "scope_note": "あんと店の紹介文は「四季折々の上生菓子、朝生菓子」だけ。ただし公式通販には常温で日持ちする品（きんつば・うすかわまんじゅう・花のかなざわ・憩菊の露など）が載っており、これらがあんと店頭にも並ぶかは未確認。店頭で取り扱いがあるか、購入前に店へ確認が必要。",
+      "products": [
+        {
+          "product_name": "花のかなざわ（黄味しぐれ）",
+          "category": "黄味しぐれ（蒸し菓子）",
+          "description": "ふんわりした黄味しぐれ。金沢ブランド芋「五郎島金時」を使い、口当たりがなめらかで溶けるような食感と紹介されている。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 750,
+              "evidence": "花のかなざわ：6個入り750円（税込）／6個入：750円、10個入：1,200円",
+              "source_url": "https://www.suehirodou.jp/hananokanazawa.php"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1200,
+              "evidence": "6個入：750円、10個入：1,200円",
+              "source_url": "https://store.suehirodou.jp/products/hananokanazawa-10"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の説明に「商品は個包装」とある（包装の詳しい形は未確認）",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間（常温・直射日光と高温多湿を避ける）",
+          "ingredients": "白餡(国内製造)、砂糖、さつま芋ペースト、上用粉(国産)、蜂蜜、卵、脱脂粉乳/着色料(赤3、106、黄4)",
+          "ingredient_flags": [],
+          "allergens": "一部に卵・乳を含む",
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://store.suehirodou.jp/products/hananokanazawa-10",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "公式通販・公式サイトの検索結果で確認。着色料（赤3・106・黄4）の表示あり。ゼラチン・乳化剤・酒類などの表示は見当たらない。商品ページ本文そのものは未閲覧。"
+        },
+        {
+          "product_name": "憩菊の露",
+          "category": "和菓子",
+          "description": "天皇・皇后両陛下献上菓子と紹介されている。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1200,
+              "evidence": "価格：6ヶ 1,200円(税込)、10ヶ 2,000円(税込)、15ヶ 3,000円(税込)、20ヶ 4,000円(税込)",
+              "source_url": "https://www.suehirodou.jp/kikunotsuyu.php"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 2000,
+              "evidence": "価格：6ヶ 1,200円(税込)、10ヶ 2,000円(税込)、15ヶ 3,000円(税込)、20ヶ 4,000円(税込)",
+              "source_url": "https://www.suehirodou.jp/kikunotsuyu.php"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 3000,
+              "evidence": "価格：6ヶ 1,200円(税込)、10ヶ 2,000円(税込)、15ヶ 3,000円(税込)、20ヶ 4,000円(税込)",
+              "source_url": "https://www.suehirodou.jp/kikunotsuyu.php"
+            },
+            {
+              "qty_label": "20個入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 4000,
+              "evidence": "価格：6ヶ 1,200円(税込)、10ヶ 2,000円(税込)、15ヶ 3,000円(税込)、20ヶ 4,000円(税込)",
+              "source_url": "https://www.suehirodou.jp/kikunotsuyu.php"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日",
+          "ingredients": "砂糖、小倉、餅粉(国産)、水飴、卵、塩",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://www.suehirodou.jp/kikunotsuyu.php",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "お菓子の形・個包装の有無・アレルギー表示は検索結果に出ず未確認。10個入はちょうど2,000円で、1点2,000円以内の条件に収まる最大の入数。"
+        },
+        {
+          "product_name": "砂糖を使わないきんつば",
+          "category": "きんつば",
+          "description": "北海道産大納言小豆を使い、砂糖を使わず還元麦芽糖水飴で仕上げた手焼きのきんつば。第二十五回全国菓子大博覧会で栄誉大賞を受賞。",
+          "options": [
+            {
+              "qty_label": "3個入",
+              "qty": 3,
+              "unit": "個",
+              "price_tax_incl": 900,
+              "evidence": "3個入り: ¥900 (tax included)／きんつば：3個入り 900円～（税込）",
+              "source_url": "https://www.suehirodou.jp/products/kintsuba"
+            },
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1800,
+              "evidence": "6個入り: ¥1,800 (tax included)",
+              "source_url": "https://store.suehirodou.jp/products/kintsuba-11"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 3000,
+              "evidence": "10個入り: ¥3,000 (tax included)",
+              "source_url": "https://store.suehirodou.jp/products/kintsuba-11"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 4500,
+              "evidence": "15個入り: ¥4,500 (tax included)",
+              "source_url": "https://store.suehirodou.jp/products/kintsuba-11"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の紹介文に「個包装なので食べやすく、日持ちする」とある",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日",
+          "ingredients": "還元麦芽糖水飴（国内製造）、小豆、小麦粉、寒天、塩",
+          "ingredient_flags": [],
+          "allergens": "一部に小麦を含む",
+          "seasonal": "通年",
+          "page_url": "https://www.suehirodou.jp/products/kintsuba",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "ほかに1個売りと20個入（6,000円）もあるが、1個の価格は未確認。3個入は900円、6個入は1,800円で1個300円の計算。商品ページ本文そのものは未閲覧。"
+        },
+        {
+          "product_name": "うすかわまんじゅう",
+          "category": "まんじゅう",
+          "description": "小豆あんを薄い皮で包んだまんじゅう。第23回全国菓子大博覧会で内閣総理大臣賞を受賞したと紹介されている。",
+          "options": [
+            {
+              "qty_label": "2個入",
+              "qty": 2,
+              "unit": "個",
+              "price_tax_incl": 280,
+              "evidence": "うすかわまんじゅう：2個入り 280円～（税込）",
+              "source_url": "https://store.suehirodou.jp/products/usukawa-2"
+            },
+            {
+              "qty_label": "5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 780,
+              "evidence": "5個入り：¥780（税込み）",
+              "source_url": "https://store.suehirodou.jp/products/usukawa-5"
+            },
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 750,
+              "evidence": "6個入り：¥750（税込み）／6個入り: ¥750 (tax included)",
+              "source_url": "https://store.suehirodou.jp/products/usukawa-6"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1300,
+              "evidence": "10個入り: ¥1,300 (tax included)",
+              "source_url": "https://store.suehirodou.jp/products/usukawa-10"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 1800,
+              "evidence": "15個入り: ¥1,800 (tax included)",
+              "source_url": "https://store.suehirodou.jp/products/usukawa-15"
+            },
+            {
+              "qty_label": "20個入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 2400,
+              "evidence": "20個入り：¥2,400（税込み）",
+              "source_url": "https://store.suehirodou.jp/products/usukawa-20"
+            },
+            {
+              "qty_label": "30個入",
+              "qty": 30,
+              "unit": "個",
+              "price_tax_incl": 3600,
+              "evidence": "30個入り：¥3,600（税込み）",
+              "source_url": "https://store.suehirodou.jp/products/usukawa-30"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは検索結果に明記がなく未確認",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日（常温・直射日光と高温多湿を避ける）",
+          "ingredients": "小豆（国産）、小麦粉、砂糖、水飴、蜂蜜、丸芋ペースト、塩、黒ごま／トレハロース、膨張剤",
+          "ingredient_flags": [],
+          "allergens": "小麦・やまいも・ごま",
+          "seasonal": "通年",
+          "page_url": "https://www.suehirodou.jp/usukawa.php",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】5個入が780円、6個入が750円と出た（5個入のほうが高い）。ほかの入数は1個あたり約120〜130円で、5個入だけ割高に見えるため要確認。賞味期限30日は検索結果の要約に出たもので、商品ページ本文では未確認。購入時に店頭の表示で確認したほうがよい。"
+        },
+        {
+          "product_name": "おかしの部屋",
+          "category": "最中（金平糖・砂糖菓子入り）",
+          "description": "砂糖菓子と金平糖を最中の中に詰め込んだ菓子。チョコレート菓子も入る。",
+          "options": [
+            {
+              "qty_label": "4個入",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 800,
+              "evidence": "4個入り：¥800、6個入り：¥1,200",
+              "source_url": "https://store.suehirodou.jp/products/okashinoheya-4"
+            },
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1200,
+              "evidence": "4個入り：¥800、6個入り：¥1,200",
+              "source_url": "https://store.suehirodou.jp/products/okashinoheya-6"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": 90,
+          "shelf_life_text": "90日間",
+          "ingredients": "砂糖、くず粉、水飴、澱粉、カカオマス、全粉乳、ゼラチン、卵など（検索結果の要約に出た一部。金平糖は グラニュー糖／香料、着色料（赤3、黄4、青1））",
+          "ingredient_flags": [
+            "ゼラチン"
+          ],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://suehirodou.jp/okashi.php",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料にゼラチンの表示があり、豚由来の可能性があるため対象外にすべき品。チョコレート菓子入りで暑いと溶けるおそれもある。原材料は全文を確認できておらず、一部のみ。"
+        }
+      ],
+      "skipped": [
+        "上生菓子・朝生菓子各種: 生菓子のため",
+        "うすかわ抹茶まんじゅう（2個入ページのみ確認）: 入数・価格・賞味期限・原材料が未確認のため掲載せず",
+        "金平糖（砂糖菓子）・チョコ最中: 公式サイトに記載はあるが、入数・価格・原材料を確認できていない"
+      ],
+      "unresolved": [
+        "あんと店頭できんつば・うすかわまんじゅう・花のかなざわ・憩菊の露などが買えるか（あんと店の紹介文は上生菓子・朝生菓子のみ）",
+        "あんと店頭と公式通販で価格・入数が同じかどうか",
+        "うすかわまんじゅうの個包装の有無と、5個入780円・賞味期限30日の再確認",
+        "憩菊の露の形・個包装の有無・アレルギー表示",
+        "きんつば1個売りの価格",
+        "あんとの区画番号"
+      ]
+    }
+  ]
+}

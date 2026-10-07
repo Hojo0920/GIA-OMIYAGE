@@ -1,0 +1,1032 @@
+{
+  "group": "G10",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "茶菓工房 たろう",
+      "shop_short": "たろう",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=315",
+      "anto_phone": "076-263-1088",
+      "anto_location": null,
+      "official_site": "https://www.sakakobo-taro.com/",
+      "online_shop": "https://www.sakakobo-taro.com/",
+      "in_scope": true,
+      "scope_note": "「窓」（日持ち4〜6日・バター入り）は対象外だが、日持ちする箱入り・個包装の菓子が複数ある。なかでも「たろうのようかん」（個包装・賞味期限60〜90日・原材料は砂糖・小豆・寒天が中心）が最有力。以下は公式サイトの表示から読み取ったもので、あんと店頭の取扱品目・店頭価格は未確認。",
+      "products": [
+        {
+          "product_name": "たろうのようかん",
+          "category": "羊羹（個包装の小型ようかん）",
+          "description": "1個45gのようかんを1個ずつ包装した菓子。つぶあん・こしあん・チョコレート・こいちゃ（抹茶）などの味がある。3個入から20個入まで。",
+          "options": [
+            {
+              "qty_label": "3個入（ありがとうギフト）",
+              "qty": 3,
+              "unit": "個",
+              "price_tax_incl": 918,
+              "evidence": "公式サイトの検索要約:「たろうのようかん3個入：918円（税込）、賞味期限：60〜90日」",
+              "source_url": "https://www.sakakobo-taro.com/thankyougift.html"
+            },
+            {
+              "qty_label": "5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1620,
+              "evidence": "公式サイトの検索要約:「5個入で1,620円（税込）」",
+              "source_url": "https://www.sakakobo-taro.com/yokan2025.html"
+            },
+            {
+              "qty_label": "10個入（箱入）",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 3240,
+              "evidence": "公式サイトの検索要約:「詰合セット（箱入）10個入は3,240円（税込）」",
+              "source_url": "https://www.sakakobo-taro.com/yokan2025.html"
+            },
+            {
+              "qty_label": "15個入（箱入）",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 4752,
+              "evidence": "公式サイトの検索要約:「15個入は4,752円（税込）」",
+              "source_url": "https://www.sakakobo-taro.com/yokan2025.html"
+            },
+            {
+              "qty_label": "20個入（箱入）",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 6318,
+              "evidence": "公式サイトの検索要約:「20個入は6,318円（税込）」",
+              "source_url": "https://www.sakakobo-taro.com/yokan2025.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "各種類は個包装で1個45g（公式サイトの検索要約）。「ありがとうギフト」の説明にも個包装とある。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60〜90日",
+          "ingredients": "【つぶあん】砂糖（国内製造）、小豆、米飴、寒天／【こしあん】砂糖（国内製造）、小豆、寒天／【こいちゃ】砂糖（国内製造）、手亡豆、抹茶、寒天／【チョコレート】砂糖（国内製造）、小豆、チョコレート、寒天（一部に乳成分・大豆を含む）",
+          "ingredient_flags": [],
+          "allergens": "チョコレート味は乳成分・大豆を含む（ほかの味のアレルゲン表示は確認できていない）",
+          "seasonal": "通年とみられる（商品ページ名に2025の年表記あり）",
+          "page_url": "https://www.sakakobo-taro.com/yokan2025.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "ゼラチンではなく寒天を使い、確認できた原材料に豚由来成分・アルコールはない。5個入が1つの味か詰合せかは未確認。味の全種類も未確認。チョコレート味はチョコレートの内訳（乳化剤など）が未確認。10個入以上は予算超過。"
+        },
+        {
+          "product_name": "たろうのひとくちきんつば",
+          "category": "きんつば",
+          "description": "ひとくちサイズのきんつば。1袋に2個入りで、袋を単位に4袋入〜12袋入の箱入りがある。",
+          "options": [
+            {
+              "qty_label": "1袋（2個入）",
+              "qty": 1,
+              "unit": "袋",
+              "price_tax_incl": 302,
+              "evidence": "公式サイトの検索要約:「1袋（2個入）は302円（税込）、賞味期限は20〜30日」",
+              "source_url": "https://www.sakakobo-taro.com/kintsuba.html"
+            },
+            {
+              "qty_label": "4袋入（1袋2個入）",
+              "qty": 4,
+              "unit": "袋",
+              "price_tax_incl": 1426,
+              "evidence": "公式サイトの検索要約:「4袋入（1,426円税込）」",
+              "source_url": "https://www.sakakobo-taro.com/kintsuba.html"
+            },
+            {
+              "qty_label": "6袋入（1袋2個入）",
+              "qty": 6,
+              "unit": "袋",
+              "price_tax_incl": 2030,
+              "evidence": "公式サイトの検索要約:「6袋入（2,030円税込）」",
+              "source_url": "https://www.sakakobo-taro.com/kintsuba.html"
+            },
+            {
+              "qty_label": "8袋入（1袋2個入）",
+              "qty": 8,
+              "unit": "袋",
+              "price_tax_incl": 2635,
+              "evidence": "公式サイトの検索要約:「8袋入（2,635円税込）」",
+              "source_url": "https://www.sakakobo-taro.com/kintsuba.html"
+            },
+            {
+              "qty_label": "12袋入（1袋2個入）",
+              "qty": 12,
+              "unit": "袋",
+              "price_tax_incl": 3899,
+              "evidence": "公式サイトの検索要約:「12袋入（3,899円税込）」",
+              "source_url": "https://www.sakakobo-taro.com/kintsuba.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "2個入りの小袋が単位で、箱に袋が4〜12袋入る。1個ずつの個包装かどうかは未確認。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20〜30日",
+          "ingredients": "砂糖（国内製造）、小豆、小麦粉、米飴（米、大麦）、寒天、還元水飴、餅粉、食塩／トレハロース（一部に小麦を含む）",
+          "ingredient_flags": [],
+          "allergens": "小麦",
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.sakakobo-taro.com/kintsuba.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "6袋入（2,030円）までが予算内（2,000円を少し超える）。8袋入以上は2,300円超。確認できた原材料に豚由来成分・アルコールはない。"
+        },
+        {
+          "product_name": "もりの音（琥珀糖）",
+          "category": "琥珀糖（干菓子）",
+          "description": "寒天で固めた琥珀糖。持ち歩きやすいスティック（13粒）と、クリアケース（48粒）がある。",
+          "options": [
+            {
+              "qty_label": "スティック（13粒）",
+              "qty": 13,
+              "unit": "粒",
+              "price_tax_incl": 432,
+              "evidence": "公式サイトの検索要約:「スティック（13粒） 価格：432円（税込） 賞味期限：20〜30日」",
+              "source_url": "https://www.sakakobo-taro.com/morino_oto.html"
+            },
+            {
+              "qty_label": "クリアケース（48粒）",
+              "qty": 48,
+              "unit": "粒",
+              "price_tax_incl": 1134,
+              "evidence": "公式サイトの検索要約:「クリアケース（48粒） 価格：1,134円（税込） 賞味期限：20〜30日」",
+              "source_url": "https://www.sakakobo-taro.com/morino_oto.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "「ありがとうギフト」の説明には各商品が個包装とあるが、粒ごとの包装かどうかは未確認。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20〜30日",
+          "ingredients": "砂糖（国内製造）、加工黒糖、寒天、ブルーベリー、抹茶",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.sakakobo-taro.com/morino_oto.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【食い違い】価格は、公式サイトの表示では432円・1,134円、別の検索結果の要約では378円・1,080円が出た。公式サイトの表示を採用（旧価格の可能性）。ゼラチンではなく寒天を使い、豚由来成分・アルコールの心配が少ない。"
+        },
+        {
+          "product_name": "地の香（きな粉とマカダミアナッツの干菓子）",
+          "category": "干菓子（きなこ玉）",
+          "description": "ひきたてのきな粉を水飴で練り、砕いたマカダミアナッツを加えて丸め、和三盆糖で包んだ、きなこ玉の干菓子。スティックと缶入（25粒）がある。",
+          "options": [
+            {
+              "qty_label": "スティック",
+              "qty": null,
+              "unit": null,
+              "price_tax_incl": 432,
+              "evidence": "公式サイトの検索要約:「スティック 価格：432円（税込）」",
+              "source_url": "https://www.sakakobo-taro.com/chinoka.html"
+            },
+            {
+              "qty_label": "缶入（25粒）",
+              "qty": 25,
+              "unit": "粒",
+              "price_tax_incl": 1242,
+              "evidence": "公式サイトの検索要約:「缶入（25粒） 価格：1,242円（税込）」",
+              "source_url": "https://www.sakakobo-taro.com/chinoka.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは未確認。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "詰合せ・ギフトの表示では20〜30日（地の香単品の表示は未確認）",
+          "ingredients": "きな粉（大豆）（国内製造）、砂糖、水飴、和三盆糖、マカダミアナッツ",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.sakakobo-taro.com/chinoka.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に大豆（きな粉）とマカダミアナッツを含む。スティックの粒数と、単品の賞味期限は未確認。確認できた原材料に豚由来成分・アルコールはない。"
+        },
+        {
+          "product_name": "能登大納言のしかくいもなか",
+          "category": "最中",
+          "description": "能登大納言小豆を使った、四角い最中。8個入から24個入まで。",
+          "options": [
+            {
+              "qty_label": "8個入",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": 1944,
+              "evidence": "公式サイトの検索要約:「8個入は1,944円（税込）で賞味期限は10〜14日」",
+              "source_url": "https://www.sakakobo-taro.com/shikakuimonaka.html"
+            },
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 2808,
+              "evidence": "公式サイトの検索要約:「12個入（2,808円税込）」",
+              "source_url": "https://www.sakakobo-taro.com/shikakuimonaka.html"
+            },
+            {
+              "qty_label": "16個入",
+              "qty": 16,
+              "unit": "個",
+              "price_tax_incl": 3726,
+              "evidence": "公式サイトの検索要約:「16個入（3,726円税込）」",
+              "source_url": "https://www.sakakobo-taro.com/shikakuimonaka.html"
+            },
+            {
+              "qty_label": "24個入",
+              "qty": 24,
+              "unit": "個",
+              "price_tax_incl": 5508,
+              "evidence": "公式サイトの検索要約:「24個入（5,508円税込）」",
+              "source_url": "https://www.sakakobo-taro.com/shikakuimonaka.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は検索結果から確認できなかった。",
+          "shelf_life_days": 10,
+          "shelf_life_text": "10〜14日",
+          "ingredients": "大納言小豆（国内製造）、砂糖、もち米、米飴、寒天／トレハロース",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.sakakobo-taro.com/shikakuimonaka.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "日持ちは10〜14日で、ようかん（60〜90日）・きんつば（20〜30日）より短い。8個入が予算内（2,000円を少し下回る）。確認できた原材料に豚由来成分・アルコールはない。"
+        },
+        {
+          "product_name": "はなことたろう",
+          "category": "プチケーキ（抹茶カステラ＋チョコようかん）",
+          "description": "蒸した抹茶カステラの上に、砕いたアーモンド入りのチョコようかんを重ねた二層のプチケーキ。5個入（200×60×30mmの箱）。",
+          "options": [
+            {
+              "qty_label": "5個入（1本）",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1080,
+              "evidence": "公式サイトの検索要約:「5個入の箱は1,080円（税込）、賞味期限は14〜20日、200×60×30mm」",
+              "source_url": "https://www.sakakobo-taro.com/hanakotaro.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかは未確認。",
+          "shelf_life_days": 14,
+          "shelf_life_text": "14〜20日",
+          "ingredients": "砂糖（国内製造）、小豆、手亡豆、卵、チョコレート、アーモンド、米飴、小麦粉、米粉、還元水飴、はちみつ、抹茶、寒天／トレハロース、着色料（金箔）",
+          "ingredient_flags": [],
+          "allergens": "卵・乳・小麦・アーモンド・大豆",
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.sakakobo-taro.com/hanakotaro.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は検索要約からの読み取りで、細部（金箔の表記など）は原文での確認が必要。チョコレートの内訳（乳化剤など）は未確認。日持ち14〜20日で、ようかんより短い。"
+        },
+        {
+          "product_name": "ありがとうギフト もりの音・地の香 2本セット",
+          "category": "干菓子の小さなギフト",
+          "description": "琥珀糖「もりの音」と干菓子「地の香」のスティックを1本ずつ組み合わせた小さなギフト。",
+          "options": [
+            {
+              "qty_label": "2本セット",
+              "qty": 2,
+              "unit": "本",
+              "price_tax_incl": 896,
+              "evidence": "公式サイトの検索要約:「もりの音、地の香2本セット：896円（税込）、賞味期限：20〜30日」",
+              "source_url": "https://www.sakakobo-taro.com/thankyougift.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "ギフトの各商品は個包装との記載があるが、スティック内の粒ごとの包装かは未確認。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20〜30日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.sakakobo-taro.com/thankyougift.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は「もりの音」「地の香」それぞれの欄を参照（どちらも豚由来成分・アルコールは確認されていない）。900円前後の小さな手土産向き。"
+        },
+        {
+          "product_name": "和菓子の詰合せ（あかね・つゆくさ ほか）",
+          "category": "詰合せギフト",
+          "description": "はなことたろう・地の香・もりの音・ひとくちきんつば・ようかんを組み合わせた詰合せ。包装は包装紙のほか水引も選べる。予算内なのは「あかね」のみ。",
+          "options": [
+            {
+              "qty_label": "あかね（はなことたろう1本・地の香1本・もりの音1本）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 2160,
+              "evidence": "公式サイトの検索要約:「あかね：2,160円 - はなことたろう1本、地の香1本、もりの音1本（賞味期限：14〜20日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            },
+            {
+              "qty_label": "つゆくさ（地の香1本・もりの音1本・ようかん5個）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 2592,
+              "evidence": "公式サイトの検索要約:「つゆくさ：2,592円 - 地の香1本、もりの音1本、たろうのようかん5個（賞味期限：20〜30日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            },
+            {
+              "qty_label": "うすべに（はなことたろう1本・ようかん5個）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 2808,
+              "evidence": "公式サイトの検索要約:「うすべに：2,808円 - はなことたろう1本、たろうのようかん5個（賞味期限：14〜20日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            },
+            {
+              "qty_label": "しおん（はなことたろう1本・地の香1本・もりの音1本・ひとくちきんつば3袋）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 3067,
+              "evidence": "公式サイトの検索要約:「しおん：3,067円（賞味期限：14〜20日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            },
+            {
+              "qty_label": "やまぶき（ひとくちきんつば3袋・地の香1本・もりの音1本・ようかん5個）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 3499,
+              "evidence": "公式サイトの検索要約:「やまぶき：3,499円（賞味期限：20〜30日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            },
+            {
+              "qty_label": "なでしこ（はなことたろう1本・地の香1本・もりの音1本・ようかん5個）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 3672,
+              "evidence": "公式サイトの検索要約:「なでしこ：3,672円（賞味期限：14〜20日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            },
+            {
+              "qty_label": "りきゅう（はなことたろう1本・地の香1本・もりの音1本・ひとくちきんつば6袋）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 4028,
+              "evidence": "公式サイトの検索要約:「りきゅう：4,028円（賞味期限：14〜20日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            },
+            {
+              "qty_label": "かなりあ（はなことたろう1本・ようかん10個）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 4320,
+              "evidence": "公式サイトの検索要約:「かなりあ：4,320円（賞味期限：14〜20日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            },
+            {
+              "qty_label": "ときいろ（はなことたろう1本・地の香1本・もりの音1本・ひとくちきんつば3袋・ようかん5個）",
+              "qty": 1,
+              "unit": "セット",
+              "price_tax_incl": 4633,
+              "evidence": "公式サイトの検索要約:「ときいろ：4,633円（賞味期限：14〜20日）」",
+              "source_url": "https://www.sakakobo-taro.com/gifttaro.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "中身のようかんは個包装。ほかの中身の包装は未確認。",
+          "shelf_life_days": 14,
+          "shelf_life_text": "セットにより14〜20日、または20〜30日（中身の中で最も短いものに合わせた表示）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.sakakobo-taro.com/gifttaro.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "「あかね」（2,160円）は2,000円を少し超えるが2,300円以内。「つゆくさ」（2,592円）は2,300円超。はなことたろうを含むセットは日持ちが14〜20日に下がる。組合せの変更も相談できるとの記載あり（変更時の価格は未確認）。水引包装の追加料金は未確認。"
+        }
+      ],
+      "skipped": [
+        "キューブの最中「窓」: バター入りで日持ち4〜6日（前回確認済み）",
+        "Bar 窓（チェダーチーズとウイスキー）: ウイスキー（酒）を使う商品名のため",
+        "たろうの酒まんじゅう: 酒を使う菓子のため（詳細は未確認）",
+        "おひるねピーどら（ピーナツどら焼き）: 日持ち4〜7日で短く、原材料に味醂も含むため。2個入は486円",
+        "旬の生菓子: 生菓子のため",
+        "福梅（お正月の伝統菓子）: 正月向けの季節品のため",
+        "和菓子の詰合せ「こはく」（5,238円）「ひすい」（6,145円）: 5,000円超のため省略"
+      ],
+      "unresolved": [
+        "たろうのようかん5個入が1つの味か詰合せか、味の全種類",
+        "チョコレートを使う商品（ようかんのチョコ味・はなことたろう）のチョコレートの内訳（乳化剤など）",
+        "ひとくちきんつば・しかくいもなか・もりの音・地の香・はなことたろうの個包装の細目（1個ずつ包装か）",
+        "「おやつ菓子」「たろうの一週間」の中身・価格・日持ち",
+        "もりの音の正しい価格（432円・1,134円と、378円・1,080円の食い違い）",
+        "あんと店頭での取扱品目・店頭価格・区画番号"
+      ]
+    },
+    {
+      "shop_name": "あめの俵屋",
+      "shop_short": "俵屋",
+      "category": "和菓子（飴）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=243",
+      "anto_phone": "076-260-3745",
+      "anto_location": null,
+      "official_site": "http://www.ame-tawaraya.co.jp/",
+      "online_shop": "https://ame-tawaraya.shop/",
+      "in_scope": true,
+      "scope_note": "公式サイトに「原料は厳選した国内産の米と大麦のみ」とあり、豚由来成分やアルコールを使わない飴として有力。ただし商品ごとの原材料表示は一部しか確認できていない。以下の価格・日持ちは公式オンラインショップ等の検索結果から読み取ったもので、個包装の有無は旅行・口コミサイトの記述による。あんと店頭の取扱品目・店頭価格は未確認。",
+      "products": [
+        {
+          "product_name": "俵っ子〈つぶあめ〉",
+          "category": "飴（ひとくちの粒あめ）",
+          "description": "米と大麦から作る粒状の飴。通常サイズ150gと、お徳用200gがある。",
+          "options": [
+            {
+              "qty_label": "150g",
+              "qty": 150,
+              "unit": "g",
+              "price_tax_incl": 1026,
+              "evidence": "公式オンラインショップの検索要約:「俵っ子つぶあめ 150g…1,026円（税込）」",
+              "source_url": "https://ame-tawaraya.shop/items/691eb70f9267566f19efbb66"
+            },
+            {
+              "qty_label": "200g（お徳用）",
+              "qty": 200,
+              "unit": "g",
+              "price_tax_incl": 1080,
+              "evidence": "公式オンラインショップの検索要約:「【お徳用】俵っ子つぶあめ 200g…1,080円（税込）」",
+              "source_url": "https://ame-tawaraya.shop/items/691eb70f9267566f19efbb66"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "旅行サイト・口コミの要約に「つぶあめは一つずつ個包装」とある（公式ページでの確認はできていない）。",
+          "shelf_life_days": 360,
+          "shelf_life_text": "製造日から360日",
+          "ingredients": "米（国産）、もち米（国産）、大麦、米粉",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://ame-tawaraya.shop/items/691eb70f9267566f19efbb66",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は検索結果の要約文から読み取った表記で、商品ページ本文での最終確認はしていない。150g品の個別ページURLは未特定（150gは通販サイト「味と技」にも掲載: https://ajitowaza.raku-uru.jp/item-detail/1208470 ）。一粒あたりの重さ・粒数は不明。"
+        },
+        {
+          "product_name": "俵っ子〈しょうが〉",
+          "category": "飴（しょうが味の粒あめ）",
+          "description": "俵っ子つぶあめのしょうが味。通常サイズ150gと、お徳用200gがある。",
+          "options": [
+            {
+              "qty_label": "150g",
+              "qty": 150,
+              "unit": "g",
+              "price_tax_incl": 1026,
+              "evidence": "公式オンラインショップの検索要約:「俵っ子しょうが 150g…1,026円（税込）」",
+              "source_url": "https://ame-tawaraya.shop/"
+            },
+            {
+              "qty_label": "200g（お徳用）",
+              "qty": 200,
+              "unit": "g",
+              "price_tax_incl": 1080,
+              "evidence": "公式オンラインショップの検索要約:「お徳用200g…1,080円（税込）」",
+              "source_url": "https://ame-tawaraya.shop/"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "同じ俵っ子シリーズのつぶあめは個包装との記載があるが、しょうが味の個包装の有無は確認できなかった。",
+          "shelf_life_days": 360,
+          "shelf_life_text": "製造日から360日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://ajitowaza.raku-uru.jp/item-detail/1215936",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料表示は検索結果から取れなかった（しょうがを使うと思われるが、ほかの原料は未確認）。公式オンラインショップ内の個別ページURLは未特定のため、通販サイト「味と技」の150g掲載ページを記載した。"
+        },
+        {
+          "product_name": "飴ん子〈しろ〉（町家パッケージ）",
+          "category": "飴（ひとくちの飴）",
+          "description": "米と大麦で作る白い飴。130gは町家パッケージ。袋入りのお徳用180gもある。",
+          "options": [
+            {
+              "qty_label": "130g（町家パッケージ）",
+              "qty": 130,
+              "unit": "g",
+              "price_tax_incl": 918,
+              "evidence": "公式オンラインショップの検索要約:「飴ん子しろ 130g…918円（税込）」／別の通販の要約でも「飴ん子〈しろ〉町家パッケージ 130g 918円」",
+              "source_url": "https://ame-tawaraya.shop/items/641d539395624d00788a0c0e"
+            },
+            {
+              "qty_label": "180g（お徳用）",
+              "qty": 180,
+              "unit": "g",
+              "price_tax_incl": 1080,
+              "evidence": "公式オンラインショップの検索要約:「お徳用180g…1,080円（税込）」",
+              "source_url": "https://ame-tawaraya.shop/items/641d539395624d00788a0c0e"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "旅行サイト・口コミの要約に「飴ん子は個包装で入っている」とある（公式ページでの確認はできていない）。詰め合わせ「みのり」の説明には「飴ん子しろ 8粒入」とあり、130gで約8粒とみられる。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "製造日から60日",
+          "ingredients": "米（国産）、もち米（国産）、大麦、米粉",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://ame-tawaraya.shop/items/641d539395624d00788a0c0e",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【食い違い】130gの価格は、918円（公式オンラインショップの要約、別の通販の要約）と1,026円（ほかの要約2件）が出た。公式オンラインショップの918円を採用。日持ちは60日で、俵っ子（360日）より短い。"
+        },
+        {
+          "product_name": "飴ん子〈きなこ〉（町家パッケージ）",
+          "category": "飴（きなこ味のひとくち飴）",
+          "description": "米と大麦の飴にきなこをまぶした飴。130gは町家パッケージ。袋入りのお徳用180gもある。",
+          "options": [
+            {
+              "qty_label": "130g（町家パッケージ）",
+              "qty": 130,
+              "unit": "g",
+              "price_tax_incl": 1026,
+              "evidence": "公式オンラインショップの検索要約:「飴ん子きなこ 130g…1,026円（税込）」",
+              "source_url": "https://ame-tawaraya.shop/items/641d53e0508a1018d48a37f2"
+            },
+            {
+              "qty_label": "180g（お徳用）",
+              "qty": 180,
+              "unit": "g",
+              "price_tax_incl": 1080,
+              "evidence": "公式オンラインショップの検索要約:「お徳用180g…1,080円（税込）」",
+              "source_url": "https://ame-tawaraya.shop/items/641d53e0508a1018d48a37f2"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "旅行サイト・口コミの要約に「飴ん子は個包装で入っている」とある（公式ページでの確認はできていない）。詰め合わせ「みのり」の説明には「飴ん子きなこ 8粒入」とあり、130gで約8粒とみられる。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "製造日から60日",
+          "ingredients": "米（国産）、大豆（アメリカ産）、もち米（国産）、砂糖、大麦",
+          "ingredient_flags": [],
+          "allergens": "大豆（原材料に含む）",
+          "seasonal": "通年",
+          "page_url": "https://ame-tawaraya.shop/items/641d53e0508a1018d48a37f2",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【食い違い】130gの価格は、公式オンラインショップの要約では1,026円（旅行サイトの要約も飴ん子は1,026円）、別の通販の要約では「しろ・きなことも町家パッケージ130gが918円」と読める記述があった。公式の1,026円を採用。原材料は検索結果の要約文から読み取ったもので、商品ページ本文での最終確認はしていない。"
+        },
+        {
+          "product_name": "町家箱（2個入りセット／4個入りセット）",
+          "category": "飴の詰め合わせ（ギフト箱）",
+          "description": "あめの俵屋のギフトセット。2個入りと4個入りがあるが、何の飴が入るかは確認できていない。",
+          "options": [
+            {
+              "qty_label": "2個入りセット",
+              "qty": 2,
+              "unit": "個",
+              "price_tax_incl": 2140,
+              "evidence": "検索結果の要約:「町家箱2個入りセット ¥2,140（税込）」",
+              "source_url": "https://ame-tawaraya.shop/"
+            },
+            {
+              "qty_label": "4個入りセット",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 4434,
+              "evidence": "検索結果の要約:「町家箱4個入りセット ¥4,434（税込）」",
+              "source_url": "https://ame-tawaraya.shop/"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://ame-tawaraya.shop/",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格は公式オンラインショップのトップ付近を要約した文面のみで、個別の商品ページは検索で見つからなかった。「個」が何を指すか（箱の数か、飴の種類か）、中身、日持ち、原材料、個包装の有無はすべて未確認。2個入りは2,140円で予算内（2,300円以下）。"
+        },
+        {
+          "product_name": "じろあめ 壺入り",
+          "category": "水あめ（液状の飴）",
+          "description": "米と大麦から作る水あめ。壺入りで180g・300g・400gの3サイズ。公式サイトには、じろあめを使った料理のレシピもある。",
+          "options": [
+            {
+              "qty_label": "180g",
+              "qty": 180,
+              "unit": "g",
+              "price_tax_incl": null,
+              "evidence": "壺入りの価格帯「1,134円〜2,106円」（サイズ別の価格は検索結果に明記なし）",
+              "source_url": "https://ame-tawaraya.shop/items/641d4eb5a49922002d7bc18e"
+            },
+            {
+              "qty_label": "300g",
+              "qty": 300,
+              "unit": "g",
+              "price_tax_incl": 1674,
+              "evidence": "検索結果の要約:「じろあめ（300g）¥1,674（税込）」",
+              "source_url": "https://ame-tawaraya.shop/"
+            },
+            {
+              "qty_label": "400g",
+              "qty": 400,
+              "unit": "g",
+              "price_tax_incl": null,
+              "evidence": "壺入りの価格帯「1,134円〜2,106円」（サイズ別の価格は検索結果に明記なし）",
+              "source_url": "https://ame-tawaraya.shop/items/641d4eb5a49922002d7bc18e"
+            }
+          ],
+          "individually_wrapped": false,
+          "wrap_note": "壺入りの液状の飴で、個包装ではない。",
+          "shelf_life_days": 360,
+          "shelf_life_text": "製造日から360日（別の要約では約11か月〜1年）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://ame-tawaraya.shop/items/641d4eb5a49922002d7bc18e",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "サイズ別の価格は、価格帯（1,134〜2,106円）と300gの1,674円から、180gが最安・400gが最高とみられるが、検索結果には明記されていない。300gの1,674円が壺入りの価格かどうかも未確認。公式サイトの説明では原料は国内産の米と大麦のみ。液状で個包装ではないため、配り分けには向かない。"
+        }
+      ],
+      "skipped": [
+        "みのり（詰め合わせ）: 4,482円で2,300円を超える（じろあめ180g・うめ風味180g・俵っ子つぶあめ70g・俵っ子しょうが70g・飴ん子しろ8粒・飴ん子きなこ8粒の内容と読める）",
+        "三撰花（6,102円）・ゆうが（7,884円）: 価格が大きく予算超過",
+        "じろあめ タッパー入り 1,000g（4,482〜4,806円）: 大容量で予算超過",
+        "【特別販売】じろバター: バターを使う特別販売品で、保存方法・日持ちが未確認のため見送り"
+      ],
+      "unresolved": [
+        "俵っ子・飴ん子の個包装は、旅行サイト・口コミの要約では「一粒ずつ個包装」とあるが公式ページでは確認できていない（しょうが味は個別の記載なし）",
+        "俵っ子〈しょうが〉の原材料表示",
+        "町家箱の中身・日持ち・原材料・個包装の有無と、個別の商品ページ",
+        "じろあめ壺入りのサイズ別の正確な価格",
+        "おこしあめ 樽入り700g・飴棒（50本入り）の価格と日持ち（商品ページは出たが価格が読み取れなかった）",
+        "あんと店頭での取扱品目と店頭価格（通販サイトと同じ価格かどうか）、あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "すずめ（通販名: 豆餅すゞめ）",
+      "shop_short": "すずめ",
+      "category": "和菓子（豆餅・おかき）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=369",
+      "anto_phone": "076-221-5011",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": "https://suzume.shop-pro.jp/",
+      "in_scope": true,
+      "scope_note": "物販の菓子が対象（食堂は飲食のため対象外）。通販サイト「豆餅すゞめ」の商品から調べた。冷凍の大福・まる焼きは常温で運べないため対象外。あんと店頭で同じ商品・同じ価格で買えるかは未確認。",
+      "products": [
+        {
+          "product_name": "豆板餅",
+          "category": "餅（豆餅）",
+          "description": "石川県白山市産のもち米と黒大豆、食塩だけで作る豆餅。10枚入で480g。",
+          "options": [
+            {
+              "qty_label": "10枚入（480g）",
+              "qty": 10,
+              "unit": "枚",
+              "price_tax_incl": 1144,
+              "evidence": "検索結果の要約:「豆板餅 10枚入 内容量480g/10枚 賞味期限 常温60日〜（未開封） 1,144円（税込）」",
+              "source_url": "https://suzume.shop-pro.jp/?pid=132739665"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "一枚ずつ包装されているかは検索結果から確認できなかった。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "常温60日〜（未開封）",
+          "ingredients": "水稲もち米（石川県白山市産）・黒大豆・食塩",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://suzume.shop-pro.jp/?pid=132739665",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料が3つだけで、豚由来成分・アルコールの心配が少ない。ただし、そのまま食べるのか焼いて食べるのかは未確認。黒大豆（大豆）を使う。通販サイトには「10枚入 4本セット」「10枚入 5本セット」もあるが価格は未確認（1本1,144円なので、セットは予算を大きく超えるとみられる）。"
+        },
+        {
+          "product_name": "サクサク米せんべい まろやかカレー（個包装）",
+          "category": "せんべい（米菓）",
+          "description": "石川県白山市産のうるち米と米粉で作る、カレー味のサクサクした米せんべい。個包装。",
+          "options": [
+            {
+              "qty_label": "55g",
+              "qty": 55,
+              "unit": "g",
+              "price_tax_incl": 398,
+              "evidence": "検索結果の要約:「サクサク米せんべい まろやかカレー（個包装） 内容量55g 賞味期限 常温30日〜（未開封） 398円（税込）」",
+              "source_url": "https://suzume.shop-pro.jp/?pid=133347105"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "商品名に「個包装」とある。1袋あたりの枚数は未確認。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温30日〜（未開封）",
+          "ingredients": "うるち米（石川県白山市産）・植物油脂・米粉（石川県白山市産）・砂糖・カレー粉・食塩・馬鈴薯澱粉（北海道産）・酵母エキス・果汁（パイナップル、マンゴー、パパイア）・粉末トマト・麦芽エキス（※一部に大豆を含む）",
+          "ingredient_flags": [],
+          "allergens": "一部に大豆を含む",
+          "seasonal": "通年",
+          "page_url": "https://suzume.shop-pro.jp/?pid=133347105",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "醤油・みりん・酒類は原材料に出てこない。カレー粉の内訳は不明。辛さの程度は未確認。1袋55gと小さく、配るには複数買いが必要。"
+        },
+        {
+          "product_name": "源助大根としょうがののど飴",
+          "category": "飴（のど飴）",
+          "description": "源助大根としょうがを使ったのど飴。小（10粒・58g）・中・大の3サイズ。",
+          "options": [
+            {
+              "qty_label": "小（10粒・58g）",
+              "qty": 10,
+              "unit": "粒",
+              "price_tax_incl": 216,
+              "evidence": "検索結果の要約:「源助大根としょうがののど飴（小／10粒） 58g 賞味期限 常温90日〜（未開封） 216円（税込）」",
+              "source_url": "https://suzume.shop-pro.jp/?pid=156971395"
+            },
+            {
+              "qty_label": "中",
+              "qty": null,
+              "unit": null,
+              "price_tax_incl": 324,
+              "evidence": "検索結果の要約:「小: 216円（税込）、中: 324円（税込）、大: 598円（税込）」",
+              "source_url": "https://suzume.shop-pro.jp/?pid=156971395"
+            },
+            {
+              "qty_label": "大",
+              "qty": null,
+              "unit": null,
+              "price_tax_incl": 598,
+              "evidence": "検索結果の要約:「小: 216円（税込）、中: 324円（税込）、大: 598円（税込）」",
+              "source_url": "https://suzume.shop-pro.jp/?pid=156971395"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は検索結果から確認できなかった。",
+          "shelf_life_days": 90,
+          "shelf_life_text": "常温90日〜（未開封）（小サイズの表示）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://suzume.shop-pro.jp/?pid=156971395",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料表示は検索結果から取れなかった。中・大の粒数と日持ちは未確認。小サイズ（10粒）は216円で、添え物にしやすい価格。"
+        },
+        {
+          "product_name": "焼きおにせんべい（6枚箱入）",
+          "category": "せんべい（米菓）",
+          "description": "石川県産うるち米のせんべい。原材料にしょうゆ・みりんを使う。6枚入の箱で、1枚ずつ個包装。",
+          "options": [
+            {
+              "qty_label": "6枚箱入",
+              "qty": 6,
+              "unit": "枚",
+              "price_tax_incl": 450,
+              "evidence": "検索結果の要約:「焼きおにせんべい（6枚箱入） 450円（税込）」（別の記載では480円（税込））",
+              "source_url": "https://suzume.shop-pro.jp/?pid=139369916"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に「1枚ずつ個包装」とある。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温約30日（未開封）",
+          "ingredients": "うるち米（石川県産）、植物油、しょうゆ、砂糖、水あめ、みりん、かつおだし、酵母エキス（大豆を含む）。同じ製造所で小麦・卵・乳・落花生・えび・かにを扱う",
+          "ingredient_flags": [
+            "醤油",
+            "みりん"
+          ],
+          "allergens": "大豆（原材料に含む）。同じ製造所で小麦・卵・乳・落花生・えび・かにを扱う",
+          "seasonal": "通年",
+          "page_url": "https://suzume.shop-pro.jp/?pid=139369916",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】価格は450円と480円が出た。醤油とみりんを使うため、アルコールを避ける条件には合わない。原材料の書き起こしは検索要約からの読み取りで、細部は未確認。30枚箱入（?pid=139370229）ともち麦＆焼きおにせんべい詰め合わせ30枚箱入（?pid=172603541）もあるが価格は未確認（いずれも https://suzume.shop-pro.jp/ 配下）。"
+        },
+        {
+          "product_name": "香ばしもち麦せんべい",
+          "category": "せんべい（米菓）",
+          "description": "石川県産うるち米ともち麦で作るせんべい。原材料にしょうゆを使う。125g入。",
+          "options": [
+            {
+              "qty_label": "125g",
+              "qty": 125,
+              "unit": "g",
+              "price_tax_incl": 578,
+              "evidence": "検索結果の要約:「香ばしもち麦せんべい 内容量125g 賞味期限 常温30日〜（未開封） 578円（税込）」",
+              "source_url": "https://suzume.shop-pro.jp/?pid=134027900"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は検索結果から確認できなかった。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温30日〜（未開封）",
+          "ingredients": "うるち米（石川県産）、もち麦、植物油脂、しょうゆ、砂糖、酵母エキス、昆布エキス、かつお節エキス、椎茸エキス（一部に小麦・大豆を含む）",
+          "ingredient_flags": [
+            "醤油"
+          ],
+          "allergens": "一部に小麦・大豆を含む",
+          "seasonal": "通年",
+          "page_url": "https://suzume.shop-pro.jp/?pid=134027900",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "醤油を使うため、アルコールを避ける条件には合わない。"
+        }
+      ],
+      "skipped": [
+        "すゞめのまる焼（塩豆あずき・2個入）・塩豆大福18個入シェアボックス・まる焼きお試しセットC・家族ほっこり和菓子だんらんセット: 冷凍品のため",
+        "食堂のメニュー: 飲食のため対象外"
+      ],
+      "unresolved": [
+        "源助大根としょうがののど飴の原材料・個包装の有無・中と大の粒数",
+        "豆板餅の個包装の有無と食べ方（焼くかどうか）、4本セット・5本セットの価格",
+        "家族ほっこりおかきセット、柿の種＆ミックスナッツ（通常・徳用ボトル）、焼きおにせんべい30枚箱入、もち麦＆焼きおにせんべい詰め合わせ30枚箱入の価格と原材料",
+        "焼きおにせんべい6枚箱入の正しい価格（450円か480円か）",
+        "あんと店頭での取扱品目・店頭価格・区画番号",
+        "通販サイト以外の公式サイト"
+      ]
+    },
+    {
+      "shop_name": "金澤 福うさぎ",
+      "shop_short": "福うさぎ",
+      "category": "和菓子（蒸し饅頭）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=329",
+      "anto_phone": "076-221-1511",
+      "anto_location": null,
+      "official_site": "https://www.fukuusagi.jp/",
+      "online_shop": "https://www.fukuusagi.jp/",
+      "in_scope": true,
+      "scope_note": "公式オンラインショップ（fukuusagi.jp）を特定できた。うさぎ型の小さな蒸し饅頭で、個包装・常温。ただし卵・乳成分・小麦を使い、日持ちは約20〜30日と、飴やようかんより短め。原材料表示（乳化剤・ショートニング等の有無）は確認できていない。以下は公式通販の表示で、あんと百番街店の店頭価格・取扱品目は未確認。",
+      "products": [
+        {
+          "product_name": "銘菓 福うさぎ（能登大納言／五郎島金時／棒茶／能登産かぼちゃ の単品）",
+          "category": "蒸し饅頭",
+          "description": "ふんわりもっちりした生地でこだわりの餡を包んだ、うさぎ型の小さな蒸し饅頭。餡は能登大納言・五郎島金時・棒茶・能登産かぼちゃなど。2個入と4個入がある。",
+          "options": [
+            {
+              "qty_label": "2ヶ入",
+              "qty": 2,
+              "unit": "個",
+              "price_tax_incl": 378,
+              "evidence": "検索結果の要約:「2ヶ入：378円」（味ごとの2ヶ入ページが公式通販にある）",
+              "source_url": "https://www.fukuusagi.jp/?pid=155474038"
+            },
+            {
+              "qty_label": "4ヶ入",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 658,
+              "evidence": "公式通販「銘菓 福うさぎ（能登大納言）4ヶ入」の検索要約:「658円」",
+              "source_url": "https://www.fukuusagi.jp/?pid=89993843"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に「商品は個包装されて」おり、公式通販ページ由来の要約でも個包装とある。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "公式通販は「お届け日より約20日間」、常温保存。別の資料には「製造日より30日」とある。",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "能登大納言: 小麦・卵・乳成分・やまいも／五郎島金時: 小麦・卵・乳成分・大豆・やまいも（味により異なる）",
+          "seasonal": "通年",
+          "page_url": "https://www.fukuusagi.jp/?pid=89993843",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【食い違い】日持ちは「お届け日から約20日」（公式通販）と「製造日から30日」（別資料）が出た。短い方の20日を採用。原材料表示（乳化剤・ショートニング・酒類の有無）は検索で取れなかった。価格は能登大納言4ヶ入で確認済みで、ほかの味の2ヶ入・4ヶ入が同額かは未確認（能登の塩は4ヶ入680円で別価格）。味ごとのページ: 五郎島金時4ヶ入 ?pid=89993839／棒茶4ヶ入 ?pid=89993849／棒茶2ヶ入 ?pid=155474053／能登産かぼちゃ4ヶ入 ?pid=89993872／能登産かぼちゃ2ヶ入 ?pid=155473847／五郎島金時2ヶ入 ?pid=155473609（いずれも https://www.fukuusagi.jp/ 配下）。"
+        },
+        {
+          "product_name": "銘菓 福うさぎ（能登の塩）",
+          "category": "蒸し饅頭",
+          "description": "福うさぎの能登の塩味。4個入。",
+          "options": [
+            {
+              "qty_label": "4ヶ入",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 680,
+              "evidence": "検索結果の要約:「銘菓 福うさぎ（能登の塩）4ヶ入 価格：680円」（税込の明記はなし）",
+              "source_url": "https://www.fukuusagi.jp/?pid=102194705"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "福うさぎ全般が個包装との記載（この味個別の記載は未確認）。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "公式通販は「お届け日より約20日間」（福うさぎ全般の表記）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.fukuusagi.jp/?pid=102194705",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格に税込の明記は検索結果になかったが、他の福うさぎと同じく8%の税込表示とみられる。味・原材料・アレルゲンは未確認。"
+        },
+        {
+          "product_name": "銘菓 福うさぎ（5種詰め合わせ）",
+          "category": "蒸し饅頭の詰め合わせ",
+          "description": "福うさぎを5種の餡（五郎島金時・能登大納言・棒茶・能登産かぼちゃ・石川県産ゆず）で詰め合わせたもの。10個・15個・20個入がある。",
+          "options": [
+            {
+              "qty_label": "10ヶ入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1620,
+              "evidence": "検索結果の要約:「5種詰め合わせ 10ヶ入：1,620円」",
+              "source_url": "https://www.fukuusagi.jp/?pid=90652146"
+            },
+            {
+              "qty_label": "15ヶ入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 2430,
+              "evidence": "検索結果の要約:「5種詰め合わせ 15ヶ入：2,430円」",
+              "source_url": "https://www.fukuusagi.jp/?pid=90652206"
+            },
+            {
+              "qty_label": "20ヶ入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 3240,
+              "evidence": "検索結果の要約:「5種詰め合わせ 20ヶ入：3,240円」",
+              "source_url": "https://www.fukuusagi.jp/?pid=90652266"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に個包装とある。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "公式通販は「お届け日より約20日間」、常温保存。別の資料には「製造日より30日」とある。",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "特定原材料等: 小麦・卵・乳成分・大豆・やまいも（5種全体の表示）",
+          "seasonal": "通年",
+          "page_url": "https://www.fukuusagi.jp/?pid=90652146",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【食い違い】日持ちは「お届け日から約20日」と「製造日から30日」が出た（短い方を採用）。15個入は2,430円で、2,300円を少し超える。10個入が予算内。各味の個数配分は未確認。ほかの通販サイト（金澤あるげん蔵 https://www.arugenzo.com/i/0970010010 など）にも10個入・15個入の掲載あり。原材料表示は未確認。"
+        },
+        {
+          "product_name": "金の福うさぎ",
+          "category": "蒸し饅頭",
+          "description": "公式通販に「金の福うさぎ」という別シリーズがあり、8個入が確認できた。どんな餡・仕様かは確認できていない。",
+          "options": [
+            {
+              "qty_label": "8ヶ入",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": 1490,
+              "evidence": "検索結果の要約:「金の福うさぎ 8ヶ入 価格：1,490円、内容量：8個、賞味期限：お届け日より約20日間」（税込の明記はなし）",
+              "source_url": "https://www.fukuusagi.jp/?pid=97425454"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は未確認。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "お届け日より約20日間",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年とみられる（未確認）",
+          "page_url": "https://www.fukuusagi.jp/?pid=97425454",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格に税込の明記は検索結果になかったが、8%換算で端数が整うため税込表示とみられる。餡の種類・原材料・アレルゲンは未確認。シリーズ一覧: https://www.fukuusagi.jp/?mode=cate&cbid=2068743&csid=0"
+        },
+        {
+          "product_name": "銘菓 福うさぎ（ひゃくまんさんVer）",
+          "category": "蒸し饅頭",
+          "description": "石川県のキャラクター「ひゃくまんさん」のバージョンの福うさぎ。入数・中身は確認できていない。",
+          "options": [
+            {
+              "qty_label": "入数不明",
+              "qty": null,
+              "unit": null,
+              "price_tax_incl": 1080,
+              "evidence": "検索結果の要約:「銘菓 福うさぎ（ひゃくまんさんVer）価格：1,080円」（税込・入数の明記はなし）",
+              "source_url": "https://www.fukuusagi.jp/?pid=90652389"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明（限定版の可能性あり）",
+          "page_url": "https://www.fukuusagi.jp/?pid=90652389",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "入数・中身・日持ち・販売期間のいずれも未確認。"
+        }
+      ],
+      "skipped": [
+        "金の澤 ちょこ・しゃ: 名称からチョコレート系とみられ、溶けるおそれがあるため見送り（内容は未確認）"
+      ],
+      "unresolved": [
+        "福うさぎの原材料表示（乳化剤・ショートニング・ラード・酒類の有無）",
+        "ほかのシリーズ（銘菓詰め合わせA https://www.fukuusagi.jp/?pid=171151773 、金澤しずくゼリー、たままる）の中身・価格・日持ち・原材料",
+        "福うさぎの日持ち（公式通販は届け日から約20日、別資料は製造日から30日）の正確な基準",
+        "あんと百番街店の店頭価格・取扱品目・区画番号",
+        "ひゃくまんさんVerの入数と販売期間"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "group": "G13",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "不室屋",
+      "shop_short": "不室屋",
+      "category": "麩・麩菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=351",
+      "anto_phone": "076-260-3753",
+      "anto_location": null,
+      "official_site": "https://www.fumuroya.co.jp/",
+      "online_shop": "http://www.eshop.fumuroya.co.jp/",
+      "in_scope": true,
+      "scope_note": "麩を使った菓子『おやつ麩』が対象。生麩・汁物の麩は対象外。公式サイトに金沢百番街店のページ（https://www.fumuroya.co.jp/shop-list/kanazawa-hyakubangai/）があり、紹介記事にも『金沢駅で買える定番のお土産』とあるが、あんと店の店頭にいま並んでいるかまでは確認できていない。",
+      "products": [
+        {
+          "product_name": "おやつ麩",
+          "category": "麩菓子（スナック）",
+          "description": "麩を揚げた、サクサク・カリカリ食感の一口サイズのおやつ。味はメープルシロップ（通常の味）、カレー、チーズの3種。",
+          "options": [
+            {
+              "qty_label": "3箱入（1箱18g、計54g）",
+              "qty": 3,
+              "unit": "箱",
+              "price_tax_incl": 778,
+              "evidence": "通常の味・カレー味・チーズ味はいずれも778円（税込）／キューブ型の3箱セットで販売（紹介記事）",
+              "source_url": "https://www.fumuroya.co.jp/products/kanmi/"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "1箱18gの小箱が3つ入り（紹介記事）。箱の中身がさらに小分けかは未確認",
+          "shelf_life_days": 20,
+          "shelf_life_text": "【食い違い】製造日から30日（公式ページの検索結果）／20日間（紹介記事）。短い方の20日を日数欄に記載",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（要確認）",
+          "page_url": "https://www.fumuroya.co.jp/products/kanmi/",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格は公式ページ・公式オンラインショップの検索結果で確認したが、778円が3箱セットの価格かは公式ページ上で明記を確認できていない（紹介記事では3箱セットが定番）。【食い違い】賞味期限が30日と20日で分かれた。内容量も紹介記事で54g（18g×3箱）と50gの2通りの記載がある。原材料表示と、詰合せなど他の入数は未確認。公式オンラインショップ: http://www.eshop.fumuroya.co.jp/product/kanmi.html"
+        }
+      ],
+      "skipped": [
+        "生麩まんじゅう: 生菓子のため",
+        "加賀生麩: 生麩（生もの）のため",
+        "ふやき御汁 宝の麩（ハローキティ版・カレースープ版も）: 汁物の具で菓子ではないため"
+      ],
+      "unresolved": [
+        "おやつ麩の原材料表示（醤油・乳化剤・ショートニングなどの有無）",
+        "賞味期限が30日か20日か、778円が何入りの価格か",
+        "あんと店でおやつ麩を現在取り扱っているか",
+        "不室屋オリジナルグッズが食品かどうか",
+        "公式サイトの『甘味』ページに常温で日持ちする菓子が他にあるか"
+      ]
+    },
+    {
+      "shop_name": "石川百右衛門",
+      "shop_short": "石川百右衛門",
+      "category": "加工品・洋菓子（サカイダフルーツ直営）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=424",
+      "anto_phone": "076-208-6133",
+      "anto_location": "あんと内（区画番号は未確認）",
+      "official_site": "https://sakaidafruits.com/hyakuemon/",
+      "online_shop": "https://sakaidafruits.shop/collections/%E7%9F%B3%E5%B7%9D%E7%99%BE%E5%8F%B3%E8%A1%9B%E9%96%80",
+      "in_scope": true,
+      "scope_note": "老舗八百屋サカイダフルーツの直営店。生鮮のフルーツ・野菜は対象外で、フルーツや野菜を使った加工菓子・スナックが対象。",
+      "products": [
+        {
+          "product_name": "ルビーロマン ラングドシャ",
+          "category": "洋菓子（クッキー）",
+          "description": "ラングドシャ生地に、石川県のブランドぶどう『ルビーロマン』のピューレを練り込んだオリジナルのお菓子。",
+          "options": [
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 1350,
+              "evidence": "ルビーロマン ラングドシャ（12個） ¥1,350円（税込）",
+              "source_url": "https://sakaidafruits.com/hyakuemon/rubyroman02/"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果に『個包装で、お友達に配るなどに利用できます』との記載あり",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（要確認）",
+          "page_url": "https://sakaidafruits.com/hyakuemon/rubyroman02/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格・個数・個包装は検索結果で確認。賞味期限と原材料（乳化剤・ショートニング・洋酒の有無）は確認できていない。通販ページ: https://sakaidafruits.shop/products/rubyroman-rang"
+        },
+        {
+          "product_name": "加賀れんこんチップス",
+          "category": "スナック（野菜チップス）",
+          "description": "加賀野菜の加賀蓮根をオリーブオイルで揚げ、岩塩で味つけしたチップス（紹介文より）。",
+          "options": [
+            {
+              "qty_label": "40g入（1袋）",
+              "qty": 40,
+              "unit": "g",
+              "price_tax_incl": 850,
+              "evidence": "加賀れんこんチップス ¥850円（税込）／40g袋入り",
+              "source_url": "https://sakaidafruits.com/hyakuemon/renkon/"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1袋入りとみられるが、小分けの有無は未確認",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（要確認）",
+          "page_url": "https://sakaidafruits.com/hyakuemon/renkon/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "紹介文では味つけは岩塩のみとされ、醤油を使う記載はない。ただし正式な原材料表示と賞味期限は確認できていない。"
+        },
+        {
+          "product_name": "石川揚芋門 甘々の乱（五郎島金時の芋けんぴ 砂糖まぶし）",
+          "category": "芋けんぴ",
+          "description": "五郎島金時（さつまいも）を細いスティック状に切って揚げ、砂糖をまぶした芋けんぴ。味つけは砂糖と塩のみで添加物なしと紹介されている。",
+          "options": [
+            {
+              "qty_label": "1袋（内容量は未確認）",
+              "qty": null,
+              "unit": null,
+              "price_tax_incl": 750,
+              "evidence": "石川揚芋門 甘々の乱 ¥750円（税込） 五郎島さつまいも",
+              "source_url": "https://sakaidafruits.shop/products/ageimon_amaama"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1袋入りとの記載のみで、小分けの有無は未確認",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（要確認）",
+          "page_url": "https://sakaidafruits.shop/products/ageimon_amaama",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格は検索結果で確認。揚げ油の種類・賞味期限・内容量・正式な原材料表示は未確認。紹介ページ: https://sakaidafruits.com/hyakuemon/imokenpi/"
+        },
+        {
+          "product_name": "能登柿之助 バターの乱",
+          "category": "干し柿の菓子（バター入りころ柿）",
+          "description": "能登の干し柿『ころ柿』にバターを合わせた菓子（『バター入りころ柿』のページあり）。",
+          "options": [
+            {
+              "qty_label": "3個入",
+              "qty": 3,
+              "unit": "個",
+              "price_tax_incl": 2592,
+              "evidence": "能登柿之助 バターの乱（3個） ¥2,592円（税込）",
+              "source_url": "https://sakaidafruits.com/hyakuemon/korogaki02/"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "季節品の可能性あり（要確認）",
+          "page_url": "https://sakaidafruits.shop/products/notokakinosuke-buttersand",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "3個入は2,300円を超える。保存方法（常温か冷蔵・冷凍か）、賞味期限、他の入数、販売時期は未確認。バターを使う干し柿のため、常温で持ち運べるかの確認が必要。"
+        }
+      ],
+      "skipped": [
+        "ずるいゼリー・ルビーロマンゼリー・D'orプリン: ゼリー・プリンは生菓子系のため（通販ブランドで、あんと店での取扱いも未確認）",
+        "生鮮のフルーツ・野菜: 生鮮品のため"
+      ],
+      "unresolved": [
+        "ラングドシャ・れんこんチップス・甘々の乱の賞味期限と原材料表示",
+        "五郎島さつまいもチップス、野菜チップス（詰合せ）の価格と入数",
+        "能登柿之助 バターの乱・ころ柿の保存方法と、他の入数・価格",
+        "上記商品が、あんと店で現在実際に並んでいるか"
+      ]
+    },
+    {
+      "shop_name": "ささら屋 金沢百番街あんと店",
+      "shop_short": "ささら屋",
+      "category": "米菓（えびせんべい・あられ）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=370",
+      "anto_phone": "076-260-3755",
+      "anto_location": "あんと内（区画番号は未確認）",
+      "official_site": "https://www.sasaraya-kakibei.com/",
+      "online_shop": "https://www.sasaraya-kakibei.com/",
+      "in_scope": true,
+      "scope_note": "富山のお米で作るおかき・あられ・せんべいの店（大正13年創業）。営業時間8:30〜20:00。えびせんべいは乳化剤や醤油を使う商品が多い。",
+      "products": [
+        {
+          "product_name": "しろえび撰（プレミアム白えびせんべい）",
+          "category": "えびせんべい",
+          "description": "富山の白えびを使ったえびせんべいの上位ライン。入数の違う袋入り・箱入りが複数ある。",
+          "options": [
+            {"qty_label": "9枚袋入", "qty": 9, "unit": "枚", "price_tax_incl": 648, "evidence": "しろえび撰 9枚 648円（税込）／しろえび撰[9枚袋入]は1枚ずつ個包装", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000023/"},
+            {"qty_label": "15枚入", "qty": 15, "unit": "枚", "price_tax_incl": 1296, "evidence": "しろえび撰 15枚 1,296円（税込）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000024/"},
+            {"qty_label": "22枚入", "qty": 22, "unit": "枚", "price_tax_incl": 1782, "evidence": "しろえび撰 22枚 1,782円（税込）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000025/"},
+            {"qty_label": "30枚入", "qty": 30, "unit": "枚", "price_tax_incl": 2592, "evidence": "しろえび撰 30枚 2,592円（税込）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000026/"},
+            {"qty_label": "48枚入", "qty": 48, "unit": "枚", "price_tax_incl": 3780, "evidence": "しろえび撰 48枚 3,780円（税込）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000027/"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "9枚袋入は『1枚ずつ個包装』と明記。箱入りの各サイズも同様かは確認できていない",
+          "shelf_life_days": 120,
+          "shelf_life_text": "製造日より120日",
+          "ingredients": "うるち米（富山県産）、植物油、砂糖、しろえびパウダー、えび、食塩、香味油、魚介エキスパウダー、蛋白加水分解物、調味料（アミノ酸等）、乳化剤、酸化防止剤（ビタミンE、茶抽出物）、香料、着色料（カラメル）／原材料の一部に小麦・えび・さば・大豆を含む",
+          "ingredient_flags": ["乳化剤"],
+          "allergens": "えび、小麦、さば、大豆（※本品製造工場では卵、小麦、乳成分、えびを含む製品を生産）",
+          "seasonal": "通年",
+          "page_url": "https://www.sasaraya-kakibei.com/shopbrand/shiroebisen/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に乳化剤が含まれる（醤油の記載はなかった）。どのサイズの商品ページの表示かは検索結果上で特定できていない。90枚入（6,264円）もあるが省略。【食い違い】少量パックについて、紹介記事では『10枚入594円〜』、公式通販の検索結果では『9枚入648円』と出た。"
+        },
+        {
+          "product_name": "えび恋し（甘えびせんべい）",
+          "category": "えびせんべい",
+          "description": "甘えびを使ったえびせんべい。金沢駅限定パッケージ（28枚入）がある。",
+          "options": [
+            {"qty_label": "袋入 15枚", "qty": 15, "unit": "枚", "price_tax_incl": 648, "evidence": "えび恋し 袋入[15枚] 648円（税込）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000005/"},
+            {"qty_label": "結箱 20枚", "qty": 20, "unit": "枚", "price_tax_incl": null, "evidence": "公式通販に『えび恋し 結箱[20枚]』のページあり（価格は検索結果に出なかった）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000013/"},
+            {"qty_label": "金沢駅限定パッケージ 28枚入", "qty": 28, "unit": "枚", "price_tax_incl": 1512, "evidence": "えび恋し 金沢駅限定パッケージは28枚で1,512円（税込）", "source_url": "https://www.kanazawabiyori.com/products/sasaraya.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "店全体としては『個包装で小分けされた商品を提供』と紹介されているが、この商品単独での確認はできていない",
+          "shelf_life_days": 120,
+          "shelf_life_text": "製造日より120日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦、えび、大豆",
+          "seasonal": "通年",
+          "page_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000005/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "15枚入は公式通販の検索結果で確認。28枚入は紹介記事（二次情報）のみで、公式ページでは確認できていない。原材料表示は未確認で、同じ工場のしろえび撰には乳化剤、ごち海老には乳化剤と粉末醤油が入っているため、この商品にも入っている可能性がある。"
+        },
+        {
+          "product_name": "ごち海老",
+          "category": "えびせんべい（揚げ）",
+          "description": "富山米の生地に白えびなどを使った揚げせんべい。",
+          "options": [
+            {"qty_label": "袋入 5枚", "qty": 5, "unit": "枚", "price_tax_incl": 648, "evidence": "ごち海老 袋入(5枚) 648円（税込）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000305/"},
+            {"qty_label": "10枚入（数量限定）", "qty": 10, "unit": "枚", "price_tax_incl": 1296, "evidence": "ごち海老（10枚入）は税込1296円（紹介記事の記載）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000306/"},
+            {"qty_label": "15枚入", "qty": 15, "unit": "枚", "price_tax_incl": null, "evidence": "公式通販に『ごち海老 (15枚)』のページあり（価格は検索結果に出なかった）", "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000307/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "店全体としては『個包装で小分けされた商品を提供』と紹介されているが、この商品単独での確認はできていない",
+          "shelf_life_days": 120,
+          "shelf_life_text": "製造日より120日",
+          "ingredients": "うるち米(富山県産)、植物油(胡麻を含む)、小麦粉、しろえびパウダー、甘えび(金沢港)、砂糖、食塩、えび、蛋白加水分解物(大豆を含む)、香味油、粉末醤油、魚介エキスパウダー(さばを含む)、デキストリン、澱粉、酵母エキスパウダー、オリゴ糖/調味料(アミノ酸等)、香料、乳化剤、酸化防止剤(ビタミンE、茶抽出物)、着色料(カラメル)",
+          "ingredient_flags": ["乳化剤", "粉末醤油"],
+          "allergens": "えび、小麦、ごま、さば、大豆（※本品製造工場では乳成分、卵を含む製品を生産）",
+          "seasonal": "通年（10枚入は数量限定）",
+          "page_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000305/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に粉末醤油と乳化剤が入っているため、アルコール・豚由来の可能性がある成分の条件に当たる。10枚入の価格は紹介記事のみで、公式ページの価格は確認できていない。"
+        }
+      ],
+      "skipped": [
+        "チョコっとあられ（チョコ袋入 18g×5袋）: チョコがけで溶けやすいため",
+        "【こいのぼり】えび恋し[18枚]: 季節柄のパッケージのため（販売時期は未確認）",
+        "紅白えびセット・えびかさね・おすすめ4箱・しろえび百祭（3種詰合せ）・えびさん（3種）などの詰合せ: 価格と、あんと店での取扱いが未確認"
+      ],
+      "unresolved": [
+        "えび恋しの原材料表示（醤油・乳化剤の有無）",
+        "あんと店で実際に扱う商品と入数（金沢駅限定パッケージの有無）",
+        "ごち海老10枚・15枚、えび恋し結箱20枚の公式価格",
+        "SHIRO SASARAYA『しろえびせん』（9枚袋入、15枚・30枚・48枚箱入）の価格と原材料",
+        "おやつ袋シリーズ（しろえび小判）の価格と入数"
+      ]
+    },
+    {
+      "shop_name": "金沢の味 佃の佃煮",
+      "shop_short": "佃の佃煮",
+      "category": "佃煮・食品",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=338",
+      "anto_phone": "076-260-3765",
+      "anto_location": "あんと内（区画番号は未確認）",
+      "official_site": "https://www.tukudani.co.jp/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "佃煮が中心で、醤油などを使うものが多い。食べきりサイズの小分けパック（一人ひとり）と、ナッツの限定商品がある。営業時間8:30〜20:00。",
+      "products": [
+        {
+          "product_name": "一人ひとり（食べきりサイズの佃煮）",
+          "category": "佃煮",
+          "description": "食べきりサイズの小さなパックに入った佃煮。食品添加物を使わず、厳選した調味料で職人が一釜ずつ炊き上げると紹介されている。",
+          "options": [
+            {"qty_label": "3個入", "qty": 3, "unit": "個", "price_tax_incl": 842, "evidence": "賞味期限は80日間で、3個入（842円）", "source_url": "https://www.weekend-kanazawa.com/entry/omiyage_anto_amakunai-omiyage"},
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 1836, "evidence": "6個入（1,836円）", "source_url": "https://www.weekend-kanazawa.com/entry/omiyage_anto_amakunai-omiyage"},
+            {"qty_label": "8個入", "qty": 8, "unit": "個", "price_tax_incl": 2484, "evidence": "8個入（2,484円）", "source_url": "https://www.weekend-kanazawa.com/entry/omiyage_anto_amakunai-omiyage"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "『小さめのパックに入っていて配布に向く』『食べきりサイズ』との記載から小分けと読み取れる",
+          "shelf_life_days": 80,
+          "shelf_life_text": "80日間",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（要確認）",
+          "page_url": "https://www.kanazawalabo.net/shop/shop.shtml?s=1592",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格と賞味期限は検索結果の要約にあった二次情報で、出典の記事を断定できていない（候補は週末、金沢の記事）。佃煮は一般に醤油・みりんなどを使うため、原材料表示の確認が必要。8個入は2,300円を超える。"
+        },
+        {
+          "product_name": "マカダミアナッツ ほうじ茶ラテ（限定品）",
+          "category": "ナッツ菓子",
+          "description": "カリッとしたマカダミアナッツに味をつけた限定商品として紹介されている（ほうじ茶ラテ味）。",
+          "options": [
+            {"qty_label": "1袋（内容量は未確認）", "qty": null, "unit": null, "price_tax_incl": 648, "evidence": "マカダミアナッツ ほうじ茶ラテ ¥648", "source_url": "https://www.kanazawalabo.net/shop/shop.shtml?s=1592"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "限定品（販売期間は未確認）",
+          "page_url": "https://www.kanazawalabo.net/shop/shop.shtml?s=1592",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "648円が税込かの明記はないが、600円＋税8%と一致する金額。賞味期限・原材料・個包装の有無・現在の販売状況は未確認。"
+        },
+        {
+          "product_name": "磯くるみ",
+          "category": "佃煮",
+          "description": "くるみに、ぎんぽ・川えび・ごまを合わせた佃煮。上品な甘さで長く愛されていると紹介されている。",
+          "options": [],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（要確認）",
+          "page_url": "https://www.kanazawalabo.net/shop/shop.shtml?s=1592",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格・入数・賞味期限・原材料は確認できていない。佃煮のため醤油を使う可能性が高い。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "電話番号は検索結果の要約に出たものを採用。金沢百番街の公式店舗ページでの再確認は未了",
+        "一人ひとりの原材料表示（醤油・みりん・酒の有無）と個包装の形態",
+        "ナッツ類の原材料・賞味期限・個包装",
+        "そのほかの佃煮の商品名・入数別価格"
+      ]
+    },
+    {
+      "shop_name": "まるろく",
+      "shop_short": "まるろく",
+      "category": "珍味・佃煮・乾物・漬物",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=359",
+      "anto_phone": null,
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": false,
+      "scope_note": "北陸の珍味・佃煮・乾物・漬物を扱う店で、菓子ではない。検索では商品名・価格・原材料が出てこず、条件に合う常温の個包装品は確認できなかったため、暫定的に候補から外している（現物を見れば再検討の余地あり）。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "具体的な商品名・入数別価格・賞味期限・原材料",
+        "あんと店の電話番号・区画",
+        "公式サイト・通販サイト"
+      ]
+    },
+    {
+      "shop_name": "大畑食品（店名：クルミのおやつ）",
+      "shop_short": "大畑食品",
+      "category": "クルミ菓子（佃煮屋が作るスイーツ）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=373",
+      "anto_phone": "076-208-3328",
+      "anto_location": null,
+      "official_site": "https://oohata.jp/",
+      "online_shop": "https://oohata.jp/collections/kurumi-no-oyatsu",
+      "in_scope": true,
+      "scope_note": "対象はクルミのおやつのみ（佃煮と、佃煮入りの詰合せ『久留美づくし』は対象外）。以下の価格は公式オンラインストアのもので、あんと店で実際に並ぶ味・サイズは未確認。",
+      "products": [
+        {
+          "product_name": "クルミのおやつ 2種（生姜カラメル・シナモン）",
+          "category": "クルミ菓子（詰合せ）",
+          "description": "佃煮と同じ釜炊きの工程で、飴色になるまで炊いたクルミ。生姜カラメルとシナモンの2缶セット。",
+          "options": [
+            {"qty_label": "2缶入（各50g）", "qty": 2, "unit": "缶", "price_tax_incl": 1998, "evidence": "クルミのおやつ2種 生姜カラメルとシナモン 1,998円（税込）", "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "缶の中は小分けパック（前回調査で確認済み）",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間",
+          "ingredients": "生姜カラメル味: ローストクルミ（クルミ（アメリカ産））、砂糖、おろししょうが（生姜、食塩）／カラメル色素（シナモン味の原材料表示は未確認）",
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "生姜カラメル味の原材料には、豚由来・アルコールに当たる成分はない。シナモン味の原材料表示は確認できていないため、セット全体としては要確認。主原料がクルミのため、クルミアレルギーに注意。この商品単独のページURLは検索結果に出なかった。"
+        },
+        {
+          "product_name": "クルミのおやつ 2種（クランベリーパパイヤ・黒糖カラメル）",
+          "category": "クルミ菓子（詰合せ）",
+          "description": "クランベリー＆パパイヤ（メープル入り）と黒糖カラメルの2種セット。",
+          "options": [
+            {"qty_label": "2種セット（内容量は未確認）", "qty": 2, "unit": "種", "price_tax_incl": 1890, "evidence": "クルミのおやつ2種 クランベリーパパイヤと黒糖カラメル 1,890円（税込）", "source_url": "https://oohata.jp/products/kurumi-brown-sugar-cranberry-papaya"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。このセットも同様かは未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（同シリーズの表示）",
+          "ingredients": "クランベリー＆パパイヤ味: ローストクルミ（クルミ（アメリカ産））、メープルシロップ、ドライクランベリー（クランベリー、砂糖、植物油）、ドライパパイヤ（パパイヤ、砂糖）、食塩 / 保存料（亜硫酸塩）（黒糖カラメル味の原材料表示は未確認）",
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/products/kurumi-brown-sugar-cranberry-papaya",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格は検索結果の要約で確認（商品ページ本文は未確認）。クランベリー＆パパイヤ味の原材料には、豚由来・アルコールに当たる成分はない。黒糖カラメル味の原材料表示は未確認。保存料に亜硫酸塩を使用。"
+        },
+        {
+          "product_name": "クルミのおやつ 大野醤油",
+          "category": "クルミ菓子（単品缶）",
+          "description": "金沢の大野醤油を使ったクルミのおやつ。",
+          "options": [
+            {"qty_label": "50g缶", "qty": 50, "unit": "g", "price_tax_incl": 810, "evidence": "大野醤油 50g：810円", "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu/products/oono-shoyu-50g"},
+            {"qty_label": "120g缶", "qty": 120, "unit": "g", "price_tax_incl": 1080, "evidence": "大野醤油 120g：1,080円", "source_url": "https://oohata.jp/products/oono-shoyu-120g"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。この単品缶も同様かは未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間",
+          "ingredients": "ローストクルミ（クルミ（アメリカ産））、砂糖、醤油（大豆・小麦を含む）／カラメル色素",
+          "ingredient_flags": ["醤油"],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/collections/kurumi-no-oyatsu/products/oono-shoyu-50g",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "醤油を使うため、アルコールの条件に当たる。価格は公式ストアの検索結果で確認。"
+        },
+        {
+          "product_name": "クルミのおやつ メープル",
+          "category": "クルミ菓子（単品缶）",
+          "description": "香ばしいクルミにやさしい甘さのメープルを絡めたもの。",
+          "options": [
+            {"qty_label": "50g缶", "qty": 50, "unit": "g", "price_tax_incl": 864, "evidence": "メープル 50g：864円（税込）", "source_url": "https://oohata.jp/products/maple-50g"},
+            {"qty_label": "120g缶", "qty": 120, "unit": "g", "price_tax_incl": 1080, "evidence": "メープル 120g：1,080円", "source_url": "https://oohata.jp/products/maple-120g"},
+            {"qty_label": "135g缶", "qty": 135, "unit": "g", "price_tax_incl": null, "evidence": "公式ストアに『メープル 135g』のページあり（価格は検索結果に出なかった）", "source_url": "https://oohata.jp/products/maple-135g"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。この単品缶も同様かは未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（同シリーズの表示）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/products/maple-50g",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "メープルには120g缶と135g缶の両方のページがあり、どちらが現行品かは未確認。原材料表示は未確認。"
+        },
+        {
+          "product_name": "クルミのおやつ 黒糖カラメル",
+          "category": "クルミ菓子（単品缶）",
+          "description": "黒糖カラメルを絡めたクルミのおやつ。",
+          "options": [
+            {"qty_label": "50g缶", "qty": 50, "unit": "g", "price_tax_incl": 864, "evidence": "黒糖カラメル50g：864円（税込）／別の検索結果では 黒糖カラメル 50g: 810円（税込）", "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu"},
+            {"qty_label": "120g缶", "qty": 120, "unit": "g", "price_tax_incl": null, "evidence": "公式ストアに『黒糖カラメル 120g』のページあり（価格は検索結果に出なかった）", "source_url": "https://oohata.jp/products/kokuto-caramel-120g"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。この単品缶も同様かは未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（同シリーズの表示）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】50g缶の価格が864円と810円で分かれた。高い方の864円を記載。原材料表示は未確認。"
+        },
+        {
+          "product_name": "クルミのおやつ 生姜カラメル",
+          "category": "クルミ菓子（単品缶）",
+          "description": "おろししょうがを使った生姜カラメル味のクルミのおやつ。",
+          "options": [
+            {"qty_label": "50g缶", "qty": 50, "unit": "g", "price_tax_incl": 810, "evidence": "クルミのおやつ 生姜カラメル 50g: 810円（税込）", "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu"},
+            {"qty_label": "120g缶", "qty": 120, "unit": "g", "price_tax_incl": null, "evidence": "公式ストアに『生姜カラメル 120g』のページあり（価格は検索結果に出なかった）", "source_url": "https://oohata.jp/products/shoga-caramel-120g"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "缶の中は小分けパック（2缶セットの前回調査で確認済み）",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間",
+          "ingredients": "ローストクルミ（クルミ（アメリカ産））、砂糖、おろししょうが（生姜、食塩）／カラメル色素",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/products/shoga-caramel-120g",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に豚由来・アルコールに当たる成分はない。50g缶の価格は検索結果の要約のみで確認し、商品ページ本文は未確認。"
+        },
+        {
+          "product_name": "クルミのおやつ クランベリー＆パパイヤ",
+          "category": "クルミ菓子（単品缶）",
+          "description": "クルミにメープルシロップとドライクランベリー・ドライパパイヤを合わせたもの（黄缶）。",
+          "options": [
+            {"qty_label": "50g缶", "qty": 50, "unit": "g", "price_tax_incl": 864, "evidence": "クランベリー＆パパイヤ 50g 価格：864円（税込）", "source_url": "https://oohata.jp/products/cranberry-papaya-50g"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。この単品缶も同様かは未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間",
+          "ingredients": "ローストクルミ（クルミ（アメリカ産））、メープルシロップ、ドライクランベリー（クランベリー、砂糖、植物油）、ドライパパイヤ（パパイヤ、砂糖）、食塩 / 保存料（亜硫酸塩）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/products/cranberry-papaya-50g",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "豚由来・アルコールに当たる成分はない。保存料に亜硫酸塩を使用（今回の条件の対象外だが記録）。"
+        },
+        {
+          "product_name": "クルミのおやつ バナナチップ",
+          "category": "クルミ菓子（単品缶）",
+          "description": "クルミとバナナチップに黒糖を絡めたもの（黄缶）。",
+          "options": [
+            {"qty_label": "40g缶", "qty": 40, "unit": "g", "price_tax_incl": 864, "evidence": "バナナチップ 40g：864円（税込）", "source_url": "https://oohata.jp/products/banana-chip-40g"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。この単品缶も同様かは未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（同シリーズの表示）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/products/banana-chip-40g",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料表示は未確認。バナナチップは植物油で揚げたものが使われることが多く、油の種類の確認が望ましい。"
+        },
+        {
+          "product_name": "クルミのおやつ シナモン",
+          "category": "クルミ菓子（単品缶）",
+          "description": "シナモン風味のクルミのおやつ。",
+          "options": [
+            {"qty_label": "50g缶", "qty": 50, "unit": "g", "price_tax_incl": 918, "evidence": "シナモン 50g 918円（税込）", "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。この単品缶も同様かは未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（同シリーズの表示）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料表示は未確認。"
+        },
+        {
+          "product_name": "クルミのおやつ 4種A（メープル・大野醤油・黒糖カラメル・生姜カラメル）",
+          "category": "クルミ菓子（詰合せ）",
+          "description": "メープル・大野醤油・黒糖カラメル・生姜カラメルの4種詰合せ。",
+          "options": [
+            {"qty_label": "4種セット", "qty": 4, "unit": "種", "price_tax_incl": 3672, "evidence": "クルミのおやつ4種A 3,672円（税込）", "source_url": "https://oohata.jp/products/kurumi-4a"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。この詰合せも同様かは未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（同シリーズの表示）",
+          "ingredients": null,
+          "ingredient_flags": ["醤油"],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/products/kurumi-4a",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "大野醤油味が入っているため、醤油を避ける条件では不可。2,300円を超える。缶のサイズは未確認。"
+        }
+      ],
+      "skipped": [
+        "クルミのおやつ6種（5,184円）: 5,000円超のため省略",
+        "久留美づくし S/M/L（Lは5,184円）: 佃煮入りの詰合せのため",
+        "クルミのおやつと昔ながらの佃煮のセット: 佃煮入りの詰合せのため",
+        "花くるみ25g・ごり25g・田作り25gなどの佃煮: 佃煮・調味料系のため"
+      ],
+      "unresolved": [
+        "あんと店で実際に並んでいる味とサイズ（公式ストアの価格を記載）",
+        "珈琲味の価格・原材料",
+        "シナモン・メープル・黒糖カラメル・バナナチップの原材料表示",
+        "黒糖カラメル・生姜カラメルの120g缶の価格",
+        "黒糖カラメル50g缶の価格（864円と810円で食い違い）",
+        "単品缶（50g）の小分けパックの有無"
+      ]
+    },
+    {
+      "shop_name": "おみやげ処",
+      "shop_short": "おみやげ処",
+      "category": "その他（土産店）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=258",
+      "anto_phone": "076-233-6088",
+      "anto_location": "金沢百番街『Rinto』内（新幹線改札口の目の前）",
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": false,
+      "scope_note": "検索結果の住所表記が『金沢百番街「Rinto」内』で、『あんと』の店ではないと読み取れる。北陸の銘菓・珍味・駅弁などを扱い、きんつば・落雁・加賀棒茶・金箔グッズなどが並ぶとの紹介がある。営業時間7:00〜21:00。あんとでの購入が前提のため候補から外したが、同じ金沢百番街内で新幹線改札口の目の前にある。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "取り扱っている菓子ブランドと代表商品の入数別価格",
+        "『あんと』の店として扱ってよいかの最終確認（Rinto内との表記のみ確認）"
+      ]
+    }
+  ]
+}

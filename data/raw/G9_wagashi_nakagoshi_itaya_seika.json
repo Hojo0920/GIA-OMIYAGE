@@ -1,0 +1,524 @@
+{
+  "group": "G9",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "和菓子処 中越",
+      "shop_short": "中越",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=303",
+      "anto_phone": "076-260-3770",
+      "anto_location": null,
+      "official_site": "https://www.nakagosi.co.jp/",
+      "online_shop": "https://nakagoshi.shop/",
+      "in_scope": true,
+      "scope_note": "常温の焼菓子（つぶより・黄金金時と、その詰め合わせ）は対象。看板のまるごとみかん大福などフルーツ大福は、冷凍で届く要冷蔵品（解凍後2日）のため対象外。公式サイトは nakagosi.co.jp（つぶより・黄金金時・詰め合わせの掲載あり）で、nakagoshi.shop はフルーツ大福の通販ページ。",
+      "products": [
+        {
+          "product_name": "つぶより",
+          "category": "焼菓子（栗あん包み）",
+          "description": "栗の甘露煮を自家製の黄身あんで包んだ焼菓子。創業以来のロングセラー。",
+          "options": [
+            {"qty_label": "1個（バラ売り）", "qty": 1, "unit": "個", "price_tax_incl": 250, "evidence": "つぶより…1個250円（税込）", "source_url": "https://www.100bangai.co.jp/news/detail.php?id=32008"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は確認できなかった（バラでも詰め合わせでも買える）",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温で約1か月（高温多湿を避けて保存）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（ロングセラーとの記載。販売期間の明記は未確認）",
+          "page_url": "https://www.100bangai.co.jp/news/detail.php?id=32008",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格は金沢百番街あんとのお知らせページ「つぶより」の記載（1個250円・税込）。日持ち（常温で1か月）は検索結果の要約で見たもので、出典ページまでは特定できていない。【食い違い】あんの種類が「黄身あん」とする記述と「白あんで包み焼いた」とする記述があった。原材料表示・個包装の有無は確認できなかった。"
+        },
+        {
+          "product_name": "つぶより＆くりパイ 詰め合わせ",
+          "category": "焼菓子の詰め合わせ",
+          "description": "つぶよりとくりパイの詰め合わせ。",
+          "options": [
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2200, "evidence": "10コ入り2,200円（税込価格）", "source_url": "https://www.nakagosi.co.jp/set"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 3200, "evidence": "15コ入り3,200円（税込価格）", "source_url": "https://www.nakagosi.co.jp/set"},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 4200, "evidence": "20コ入り4,200円（税込価格）", "source_url": "https://www.nakagosi.co.jp/set"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.nakagosi.co.jp/set",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "公式サイトの詰め合わせページの要約で価格を確認（1回のみ）。10個入2,200円は2,001〜2,300円の少し超過帯。つぶより・くりパイの個数の内訳、賞味期限、原材料、個包装の有無は確認できなかった。"
+        },
+        {
+          "product_name": "黄金金時（こがねきんとき）",
+          "category": "和菓子（五郎島金時）",
+          "description": "加賀野菜の五郎島金時とこしあんを使った、一口サイズの和菓子。",
+          "options": [
+            {"qty_label": "5個入", "qty": 5, "unit": "個", "price_tax_incl": 880, "evidence": "5コ入り880円（税込価格）", "source_url": "https://www.nakagosi.co.jp/popular.html"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 1800, "evidence": "10コ入り1,800円（税込価格）", "source_url": "https://www.nakagosi.co.jp/popular.html"},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 3450, "evidence": "20コ入り3,450円（税込価格）", "source_url": "https://www.nakagosi.co.jp/popular.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "検索結果の要約には「個包装」とあるが、商品ページ上の明記かは確認できていない",
+          "shelf_life_days": 14,
+          "shelf_life_text": "2週間",
+          "ingredients": "さつまいも（国産）、小豆、砂糖、バター、卵黄、植物油脂、乳、寒梅粉、上用粉、ごま、トレハロース、乳化剤、カラメル",
+          "ingredient_flags": ["乳化剤"],
+          "allergens": "原料の一部に乳・卵・ごま・大豆を含む",
+          "seasonal": "通年",
+          "page_url": "https://www.nakagosi.co.jp/popular.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格は2回の検索で同じ結果。原材料と賞味期限（2週間）は検索結果の要約によるもので、【要確認】同名の「黄金金時（10個/20個）」を載せた別サイト（じのもんオンラインショップ）の表示が混ざっている可能性があり、中越の商品ページの表示と言い切れない。原材料に乳化剤があるため、豚由来の可能性がある成分を避ける条件には合わない可能性が高い。"
+        }
+      ],
+      "skipped": [
+        "まるごとみかん大福（4個入1,520円など）: 冷凍で届く要冷蔵品で、解凍後2日のため",
+        "フルーツ大福各種（ふんわりブルーベリー大福・ごろごろりんご大福・アソートセット）: 冷凍・要冷蔵のため",
+        "お祝い用のころころ餅・おはぎ・五色生菓子: 生菓子のため（ページ名から判断。日持ちは未確認）"
+      ],
+      "unresolved": [
+        "つぶより・くりパイの原材料表示と個包装の有無",
+        "黄金金時の原材料・賞味期限が中越自身の表示かどうか（別サイトの同名商品と混ざっている可能性）",
+        "詰め合わせの内訳（つぶより・くりパイの個数）と賞味期限、くりパイ単品の価格",
+        "あんと店で実際に扱う品目と店頭価格（通販・お知らせの価格と同じか）、あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "板屋",
+      "shop_short": "板屋",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=337",
+      "anto_phone": "076-260-3780",
+      "anto_location": null,
+      "official_site": "https://itaya-net.com/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "蒸しカステラ・栗菓子・焼菓子・干菓子とも常温で日持ちするため対象。公式サイトに通販ページは見当たらず、通販代行サイト（発見!うまうま探検隊、Yahoo!ショッピング・楽天市場）で取り扱いあり。",
+      "products": [
+        {
+          "product_name": "香林（こうりん）",
+          "category": "蒸しカステラ",
+          "description": "甘露煮の栗をふんだんに使った現代感覚の蒸しカステラ。上段に山芋、下段にこし餡を練り込んだ二層の生地の間に栗を挟む。そのまま食べても蒸し直してもよいとの紹介がある。",
+          "options": [
+            {"qty_label": "1本", "qty": 1, "unit": "本", "price_tax_incl": 1502, "evidence": "1本：1,502円（本体価格1,390円）", "source_url": "https://itaya-net.com/catalog/kourin/"},
+            {"qty_label": "2本入", "qty": 2, "unit": "本", "price_tax_incl": 3284, "evidence": "2本入：3,284円（本体価格3,040円）", "source_url": "https://itaya-net.com/catalog/kourin/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "切り分け済みか・個包装かの記載は確認できなかった",
+          "shelf_life_days": 20,
+          "shelf_life_text": "製造から20日（常温）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/kourin/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料表示は確認できず、洋酒・乳化剤の有無は不明（店頭の表示で要確認）。5本入（7,917円）は5,000円超のため省略。【食い違い】紹介記事に850円（税別）の記載があったが、公式ページは1本1,390円（税別）・1,502円（税込）で、公式の価格を採用した。全国菓子大博覧会で受賞したと紹介されている。日持ちは20日で、板屋の商品の中では短め。"
+        },
+        {
+          "product_name": "こもかぶり",
+          "category": "栗菓子",
+          "description": "蜜漬けにした大粒の栗を丸ごと一つ、北海道産小豆の粒餡と特製の芳ばしい薄皮で包んだ和菓子。金沢の冬の風物詩「こも掛け」を表した意匠。",
+          "options": [
+            {"qty_label": "1個（バラ売り）", "qty": 1, "unit": "個", "price_tax_incl": 378, "evidence": "1個(バラ売り) 378円（本体価格350円）", "source_url": "https://itaya-net.com/catalog/kaburi/"},
+            {"qty_label": "6個入（箱入り）", "qty": 6, "unit": "個", "price_tax_incl": 2538, "evidence": "6個入(箱入り) 2,538円（本体価格2,350円）", "source_url": "https://itaya-net.com/catalog/kaburi/"},
+            {"qty_label": "8個入（箱入り）", "qty": 8, "unit": "個", "price_tax_incl": 3305, "evidence": "8個入(箱入り) 3,305円（本体価格3,060円）", "source_url": "https://itaya-net.com/catalog/kaburi/"},
+            {"qty_label": "12個入（箱入り）", "qty": 12, "unit": "個", "price_tax_incl": 4839, "evidence": "12個入(箱入り) 4,839円（本体価格4,480円）", "source_url": "https://itaya-net.com/catalog/kaburi/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は確認できなかった",
+          "shelf_life_days": 30,
+          "shelf_life_text": "製造から30日",
+          "ingredients": "砂糖（国内製造）、小麦粉、卵、小豆、栗、蜂蜜、醤油、海苔、胡麻油／クチナシ色素、膨張剤",
+          "ingredient_flags": ["醤油"],
+          "allergens": "一部に小麦、卵、ごま、大豆を含む",
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/kaburi/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格・日持ちは公式ページ、原材料は通販代行サイト（発見!うまうま探検隊）の6個入・12個入ページの要約による。醤油を含む（洋酒・乳化剤・ゼラチンの記載はない）。箱入りの最小は6個入2,538円で2,300円を超え、2,300円以内はバラ売り1個378円のみ。16個入（6,405円）・20個入（7,971円）は5,000円超のため省略。"
+        },
+        {
+          "product_name": "尾山の杜（おやまのもり）",
+          "category": "カステラ",
+          "description": "板屋伝統の「こげ蜜」を使った特製カステラ。こげ蜜はしょうゆと砂糖を煮詰めたものと紹介されている。",
+          "options": [
+            {"qty_label": "1本", "qty": 1, "unit": "本", "price_tax_incl": 1502, "evidence": "1本 1,502円（本体価格1,390円）", "source_url": "https://itaya-net.com/catalog/oyamanomori/"},
+            {"qty_label": "2本入", "qty": 2, "unit": "本", "price_tax_incl": 3284, "evidence": "2本入 3,284円（本体価格3,040円）", "source_url": "https://itaya-net.com/catalog/oyamanomori/"},
+            {"qty_label": "3本入", "qty": 3, "unit": "本", "price_tax_incl": 4806, "evidence": "3本入 4,806円（本体価格4,450円）", "source_url": "https://itaya-net.com/catalog/oyamanomori/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "切り分け済みか・個包装かの記載は確認できなかった",
+          "shelf_life_days": 30,
+          "shelf_life_text": "製造から30日",
+          "ingredients": "卵（国産）、砂糖、小麦粉、米飴、しょうゆ／着色料（金箔）",
+          "ingredient_flags": ["醤油"],
+          "allergens": "一部に小麦・卵・大豆を含む",
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/oyamanomori/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格・日持ちは公式ページ、原材料は通販代行サイト（発見!うまうま探検隊）の1本ページの要約による。しょうゆを含む（洋酒・乳化剤の記載はない）。4本入（6,362円）・5本入（7,917円）は5,000円超のため省略。"
+        },
+        {
+          "product_name": "尾山の雪",
+          "category": "干菓子（和三盆）",
+          "description": "和三盆糖菓子で、金沢の名勝・尾山神社と兼六園に降る雪を表現した干菓子。",
+          "options": [
+            {"qty_label": "1箱", "qty": 1, "unit": "箱", "price_tax_incl": 1458, "evidence": "1箱 1,458円（本体価格1,350円）", "source_url": "https://itaya-net.com/catalog/oyama/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1箱の個数・個包装の記載は確認できなかった",
+          "shelf_life_days": 60,
+          "shelf_life_text": "製造から60日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/oyama/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "日持ちが60日と長い。1箱の個数・内容量・原材料は確認できなかった。"
+        },
+        {
+          "product_name": "雪つり",
+          "category": "菓子（詳細未確認）",
+          "description": "板屋の菓子。商品の説明は確認できなかった。",
+          "options": [
+            {"qty_label": "1箱", "qty": 1, "unit": "箱", "price_tax_incl": 1458, "evidence": "1箱 1,458円（本体価格1,350円）", "source_url": "https://itaya-net.com/catalog/yukitsuri/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": 60,
+          "shelf_life_text": "製造から60日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/yukitsuri/",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【要確認】尾山の雪と同じ価格（1,458円）・賞味期限（60日）が出ており、ページの取り違えの可能性がある。商品の内容・入数・原材料は確認できなかった。"
+        },
+        {
+          "product_name": "どら焼き",
+          "category": "どら焼き",
+          "description": "板屋のどら焼き。商品の説明は確認できなかった。",
+          "options": [
+            {"qty_label": "1個", "qty": 1, "unit": "個", "price_tax_incl": 303, "evidence": "1個 303円（本体価格280円）", "source_url": "https://itaya-net.com/catalog/dorayaki/"},
+            {"qty_label": "5個入", "qty": 5, "unit": "個", "price_tax_incl": 1728, "evidence": "5個入 1,728円（本体価格1,600円）", "source_url": "https://itaya-net.com/catalog/dorayaki/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は確認できなかった",
+          "shelf_life_days": 25,
+          "shelf_life_text": "製造から25日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/dorayaki/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料（乳化剤・みりん・洋酒の有無）は確認できなかった。コーヒー味のどら焼きのページ（どら焼き（コーヒー））もあるが、価格は確認できなかった。"
+        },
+        {
+          "product_name": "パイ菓子",
+          "category": "パイ菓子",
+          "description": "板屋のパイ菓子。商品の説明は確認できなかった。",
+          "options": [
+            {"qty_label": "1個", "qty": 1, "unit": "個", "price_tax_incl": 216, "evidence": "1個 216円（本体価格200円）", "source_url": "https://itaya-net.com/catalog/pie/"},
+            {"qty_label": "8個入", "qty": 8, "unit": "個", "price_tax_incl": 2009, "evidence": "8個入 2,009円（本体価格1,860円）", "source_url": "https://itaya-net.com/catalog/pie/"},
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 2895, "evidence": "12個入 2,895円（本体価格2,680円）", "source_url": "https://itaya-net.com/catalog/pie/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は確認できなかった",
+          "shelf_life_days": 25,
+          "shelf_life_text": "製造から25日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/pie/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "8個入2,009円は2,001〜2,300円の少し超過帯。パイ生地の油脂・乳化剤の有無など原材料は確認できなかった。"
+        },
+        {
+          "product_name": "金沢ベアーズギフトもなか",
+          "category": "もなか",
+          "description": "「金沢ベアーズ」の名を冠した、板屋のギフト用もなか。あんや皮の説明は確認できなかった。",
+          "options": [
+            {"qty_label": "1個", "qty": 1, "unit": "個", "price_tax_incl": 195, "evidence": "1個 195円（本体価格180円）", "source_url": "https://itaya-net.com/catalog/kumamonaka/"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2247, "evidence": "10個入 2,247円（本体価格2,080円）", "source_url": "https://itaya-net.com/catalog/kumamonaka/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は確認できなかった",
+          "shelf_life_days": 20,
+          "shelf_life_text": "製造から20日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/kumamonaka/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "10個入2,247円は2,001〜2,300円の少し超過帯。原材料は確認できなかった。"
+        },
+        {
+          "product_name": "ブラックメタルカステラ（BMC）",
+          "category": "カステラ",
+          "description": "板屋のカステラ。通常盤と特別盤の2種がある。商品の説明は確認できなかった。",
+          "options": [
+            {"qty_label": "通常盤", "qty": null, "unit": null, "price_tax_incl": 1349, "evidence": "通常盤: 1,349円（本体価格1,249円）", "source_url": "https://itaya-net.com/catalog/bmc/"},
+            {"qty_label": "特別盤", "qty": null, "unit": null, "price_tax_incl": 2538, "evidence": "特別盤: 2,538円（本体価格2,350円）", "source_url": "https://itaya-net.com/catalog/bmc/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": 25,
+          "shelf_life_text": "25日間",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://itaya-net.com/catalog/bmc/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "通常盤・特別盤それぞれの大きさ・入数と原材料（洋酒の有無）は確認できなかった。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "香林・どら焼き・パイ菓子・もなか・干菓子・ブラックメタルカステラの原材料表示（洋酒・乳化剤の有無）",
+        "各商品が個包装か、カステラは切り分け済みか",
+        "雪つり・尾山の雪の内容と入数、どら焼き（コーヒー）の価格",
+        "公式の通販サイトの有無（取扱店は発見!うまうま探検隊、Yahoo!ショッピング、楽天市場）",
+        "あんと店の区画番号と、あんと店での取り扱い品目・店頭価格"
+      ]
+    },
+    {
+      "shop_name": "清香室町",
+      "shop_short": "清香室町",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=320",
+      "anto_phone": "076-260-0131",
+      "anto_location": null,
+      "official_site": "https://www.seika-muromachi.com",
+      "online_shop": "https://www.seika-muromachi.com/products/list?category_id=all",
+      "in_scope": true,
+      "scope_note": "銘菓くるみ（全国菓子博 名誉総裁賞）をはじめ、常温で30日前後持つ個包装の菓子が中心で対象。商品数が多く、価格帯は700〜1,700円台が中心。",
+      "products": [
+        {
+          "product_name": "銘菓くるみ",
+          "category": "最中",
+          "description": "甘さ控えめの自家製餡と厳選した大粒のくるみを、一口サイズの最中に閉じ込めた銘菓。全国菓子博覧会で名誉総裁賞を受賞。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 659, "evidence": "6個入 ¥659", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=a"},
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 972, "evidence": "9個入：¥972(税込)", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=b"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 1080, "evidence": "10個入 ¥1,080", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=c"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 1458, "evidence": "15個入：¥1,458(税込)", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=d"},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 2160, "evidence": "20個入：¥2,160(税込)", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=e"},
+            {"qty_label": "30個入", "qty": 30, "unit": "個", "price_tax_incl": 3456, "evidence": "30個入 ¥3,456", "source_url": "https://www.seika-muromachi.com/products/?products_id=kurumi"},
+            {"qty_label": "36個入", "qty": 36, "unit": "個", "price_tax_incl": 4104, "evidence": "36個入 ¥4,104", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=g"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "配りやすい個包装（職場へのお土産向けと紹介）",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間",
+          "ingredients": "砂糖（国内製造）、小豆、くるみ、水飴、もち米／トレハロース",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=kurumi",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に乳化剤・ゼラチン・酒類はない。くるみを含む（アレルゲン表示の全文は未確認）。【食い違い】9個入が875円と972円、20個入が1,944円と2,160円と出た。価格一覧ページと再確認の結果は972円・2,160円で、15個入の1,458円は一致。30個入・36個入は1回の確認のみ。2,300円以内は15個入まで、20個入は2,001〜2,300円の少し超過帯。"
+        },
+        {
+          "product_name": "豊楽（ほうらく）",
+          "category": "和菓子（青梅の白餡包み）",
+          "description": "蜜漬けの青梅を白餡で包んだ和菓子。縁起物の梅で、お祝い事向きと紹介されている。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 1458, "evidence": "豊楽は6個入で¥1,458（税込）", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=houraku&kind_id=a"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "1個63gの個包装",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間",
+          "ingredients": "砂糖（国内製造）、白いんげん豆、小麦粉、青梅、卵、ハチミツ、和三盆糖、無塩バター",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=houraku",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は検索結果に出た範囲（添加物の表記が続く可能性は未確認）。乳化剤・ゼラチン・酒類の記載はない。6個入以外の入数があるかは未確認。"
+        },
+        {
+          "product_name": "金澤文鳥（羊羹）",
+          "category": "羊羹",
+          "description": "こだわり素材の意外なコラボが生む新感覚の羊羹。加賀紅茶味・加賀棒茶味・白い珈琲味などがある。",
+          "options": [
+            {"qty_label": "各味（入数は未確認）", "qty": null, "unit": null, "price_tax_incl": 1674, "evidence": "金澤文鳥 加賀紅茶味は¥1,674（税込）／価格一覧に「金澤文鳥各種（¥1,674）」", "source_url": "https://www.seika-muromachi.com/products/?products_id=kanazawabunchou"},
+            {"qty_label": "とまり木によりそい文鳥（詰合せ・入数は未確認）", "qty": null, "unit": null, "price_tax_incl": 2020, "evidence": "金澤文鳥 とまり木によりそい文鳥（¥2,020）", "source_url": "https://www.seika-muromachi.com/products/price/?price_id=c"},
+            {"qty_label": "文鳥会議 9個入（3味×各3個）", "qty": 9, "unit": "個", "price_tax_incl": 2948, "evidence": "文鳥会議は9個入で¥2,948（税込）", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kanazawabunchou&kind_id=e"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "文鳥会議（9個入）は一つ一つ個包装。1個は約50g",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間",
+          "ingredients": "砂糖（国内製造）、白いんげん豆、いちじく、レーズン、ブルーベリー、クランベリー、水飴、加賀紅茶、寒天、植物油脂、トレハロース（加賀紅茶味）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（夏限定の加賀紅茶味もある）",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=kanazawabunchou",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は加賀紅茶味のもの。加賀棒茶味・白い珈琲味の原材料は未確認。植物油脂の記載があるが、由来の詳細は表示からは分からない。1,674円の入数は確認できなかった（夏限定の加賀紅茶味に5個入のページはあるが、通常の各味が同じ入数かは未確認）。とまり木によりそい文鳥2,020円は少し超過帯、文鳥会議2,948円は2,300円超。"
+        },
+        {
+          "product_name": "金沢羽二重こもち",
+          "category": "羽二重餅",
+          "description": "さつま芋餡を羽二重餅で包んだ和菓子。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 659, "evidence": "6個入り ¥659（税込）", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=komochi&kind_id=a"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 1080, "evidence": "10個入り ¥1,080", "source_url": "https://www.seika-muromachi.com/products/?products_id=komochi"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 1620, "evidence": "15個入り ¥1,620（税込）", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=komochi&kind_id=c"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "検索結果の要約には個包装とあるが、商品ごとの明記は確認できなかった",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間（夏季は20日間）",
+          "ingredients": "砂糖（国内製造）、餅粉（羽二重粉）、白いんげん豆、さつま芋、水飴、きな粉、米粉、きび粉／トレハロース",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.seika-muromachi.com/products/detail/?products_id=komochi&kind_id=a",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "乳化剤・ゼラチン・酒類の記載はない。6個入の659円は価格一覧ページでも確認。夏季は賞味期限が20日に短くなる（10月は30日の想定だが、店頭表示で要確認）。"
+        },
+        {
+          "product_name": "金沢犀月（さいげつ）",
+          "category": "和菓子（羽二重粉の生地に粒餡）",
+          "description": "もちもちとした羽二重粉の生地と、あっさりとした粒餡の和菓子。",
+          "options": [
+            {"qty_label": "5個入", "qty": 5, "unit": "個", "price_tax_incl": 972, "evidence": "金沢犀月 5個入：¥972", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=saigetsu&kind_id=a"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 1890, "evidence": "10個入り ¥1,890（税込）", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=saigetsu&kind_id=b"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "検索結果の要約には個包装とあるが、商品ごとの明記は確認できなかった",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間",
+          "ingredients": "砂糖（国内製造）、小豆、卵、小麦粉、水飴、植物油脂、はちみつ、羽二重粉／トレハロース、増粘多糖類、乳化剤、膨張剤",
+          "ingredient_flags": ["乳化剤"],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=saigetsu",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に乳化剤があるため、豚由来の可能性がある成分を避ける条件には合わない可能性が高い。【食い違い】5個入が810円と972円と出た。価格一覧ページと再確認の2回は972円。"
+        },
+        {
+          "product_name": "金沢の森ピスタチオ",
+          "category": "和菓子（ピスタチオ餡）",
+          "description": "濃厚なピスタチオ餡が特徴の期間限定の和菓子。",
+          "options": [
+            {"qty_label": "5個入", "qty": 5, "unit": "個", "price_tax_incl": 1134, "evidence": "金沢の森ピスタチオ 5個入り ¥1,134（税込）", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=pistachio&kind_id=a"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "検索結果の要約には個包装とあるが、商品ごとの明記は確認できなかった",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間",
+          "ingredients": "砂糖（国内製造）、白いんげん豆、小麦粉、ピスタチオペースト、水飴、卵、バター、植物油脂、無糖練乳、ハチミツ／トレハロース、膨張剤、着色料（黄4、青1）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "期間限定（販売期間は未確認）",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=pistachio",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "ページ名に「期間限定」とあり、2026年10月に買えるかは未確認。乳化剤・ゼラチン・酒類の記載はない（植物油脂の由来は不明）。"
+        },
+        {
+          "product_name": "生しばふね",
+          "category": "和菓子（柴舟の生姜風味に餡）",
+          "description": "金沢名物「柴舟」の生姜風味に餡を合わせた、口どけのよい和菓子。",
+          "options": [
+            {"qty_label": "5個入", "qty": 5, "unit": "個", "price_tax_incl": 1080, "evidence": "生しばふね 5個入：¥1,080", "source_url": "https://www.seika-muromachi.com/products/?products_id=shibafune"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "検索結果の要約には個包装とあるが、商品ごとの明記は確認できなかった",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=shibafune",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は確認できなかった。「生しばふね＋金沢犀月」の詰合せページの特定原材料表示は、卵・乳・小麦・アーモンド・ごま・大豆（犀月分を含む）。10個入のページがあるが価格は確認できなかった。生しばふねと銘菓くるみ、生しばふねと金沢の森の詰合せもある（価格は未確認）。"
+        },
+        {
+          "product_name": "金沢くるみ万頭",
+          "category": "万頭",
+          "description": "くるみを乗せた一口サイズの和菓子。引越しのご挨拶などにと紹介されている。",
+          "options": [
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 972, "evidence": "金沢くるみ万頭 9個入：¥972", "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumimanjyu&kind_id=b"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=kurumimanjyu",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "賞味期限・原材料・個包装の有無は確認できなかった。他の入数があるかも未確認。"
+        },
+        {
+          "product_name": "もりのかくれんぼ",
+          "category": "和菓子（詳細未確認）",
+          "description": "清香室町の和菓子。商品の説明は確認できなかった。",
+          "options": [
+            {"qty_label": "3個入", "qty": 3, "unit": "個", "price_tax_incl": 1080, "evidence": "もりのかくれんぼ 3個入り ¥1,080（税込）", "source_url": "https://www.seika-muromachi.com/products/price/?price_id=b"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": null,
+          "page_url": "https://www.seika-muromachi.com/products/price/?price_id=b",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格一覧ページの記載のみ。商品の内容・賞味期限・原材料・個包装は確認できなかった。"
+        }
+      ],
+      "skipped": [
+        "金澤和しょこらくり 3個入（702円）: 名称からチョコ系と思われ、溶けやすい可能性があり詳細も未確認のため",
+        "大栗入りそば万頭 6個入（2,430円）: 2,300円超の6個入のみ確認（小さい入数の有無は未確認）"
+      ],
+      "unresolved": [
+        "もりのかくれんぼ・生しばふね・金沢くるみ万頭・金澤文鳥（紅茶味以外）の原材料表示と賞味期限",
+        "詰合せ各種（生しばふね詰合せ、くるみ詰合せ18個入、清香室町詰合せ25個入・30個入）の価格",
+        "金澤文鳥の各味の入数（1,674円が何個入か）",
+        "金沢の森ピスタチオの販売期間（10月に買えるか）",
+        "あんと店で実際に扱う品目と店頭価格、あんと店の区画番号"
+      ]
+    }
+  ]
+}

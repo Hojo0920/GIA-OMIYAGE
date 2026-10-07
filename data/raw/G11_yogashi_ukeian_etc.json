@@ -1,0 +1,686 @@
+{
+  "group": "G11",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "烏鶏庵",
+      "shop_short": "烏鶏庵",
+      "category": "洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=355",
+      "anto_phone": "076-222-2755",
+      "anto_location": null,
+      "official_site": "https://www.ukokkei.co.jp",
+      "online_shop": "https://www.ukokkei.co.jp/c/16",
+      "in_scope": true,
+      "scope_note": "金沢郊外の自社農場で育てた烏骨鶏の卵で作るかすていらが看板。下記の価格・日持ちは公式通販サイトの表示で、あんと店の店頭で同じサイズ・同じ価格で売っているかは確認できていない。",
+      "products": [
+        {
+          "product_name": "烏骨鶏かすていら【金箔】",
+          "category": "かすていら",
+          "description": "自社農場の烏骨鶏の卵で焼いた、砂糖控えめのかすていらに金箔をあしらったもの。2号は約200g（5〜6切れ分）、3号は約300g（7〜8切れ分）。",
+          "options": [
+            {
+              "qty_label": "2号（約200g・5〜6切れ分）",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 2160,
+              "evidence": "【金箔】（2号）は販売価格 ¥2,160 税込",
+              "source_url": "https://www.ukokkei.co.jp/c/16/34/228"
+            },
+            {
+              "qty_label": "3号（約300g・7〜8切れ分）",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 2732,
+              "evidence": "【金箔】（3号）は販売価格 ¥2,732 税込",
+              "source_url": "https://www.ukokkei.co.jp/c/16/34/02ca-300gn"
+            },
+            {
+              "qty_label": "【プレーン・金箔】2号 2本セット",
+              "qty": 2,
+              "unit": "本",
+              "price_tax_incl": 3844,
+              "evidence": "【プレーン・金箔】（2号）2本セットは販売価格 ¥3,844 税込（箱 縦14.5×横7.5×高8.5cm）",
+              "source_url": "https://www.ukokkei.co.jp/c/16/33/02ca-2002gpn"
+            }
+          ],
+          "individually_wrapped": false,
+          "wrap_note": "1本を切り分けて食べる形（2号で5〜6切れ分）。切れ分けごとの個包装ではない（「切れ分」の表記からの判断）。個包装が良ければ下の「個包装 3色」を参照。",
+          "shelf_life_days": 25,
+          "shelf_life_text": "発送日から約25日（常温、直射日光・高温多湿を避ける）",
+          "ingredients": "烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜（原材料の一部に大豆を含む）",
+          "ingredient_flags": [],
+          "allergens": "卵・小麦・乳・そば・落花生（2号の商品ページの検索結果より。原材料の並びには乳・そば・落花生に当たる原料が見当たらず、表示の意味は未確認）",
+          "seasonal": "通年",
+          "page_url": "https://www.ukokkei.co.jp/c/16/34/228",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "2号（2,160円）は予算内、3号は2,732円で予算を超える。原材料は検索結果の要約に出た表示で、金箔版の商品ページ本文では直接確認できていない（金箔の記載の有無も未確認）。植物油脂は種類の記載なし。乳化剤・ゼラチン・洋酒・みりんの表示は見当たらなかった。賞味期限は通販の「発送日から」の日数で、店頭で買った時の残り日数は未確認。あんと店の総選挙で洋菓子部門1位という情報は依頼メモによるもので、今回の検索では確認できていない。"
+        },
+        {
+          "product_name": "烏骨鶏かすていら（プレーン）",
+          "category": "かすていら",
+          "description": "烏骨鶏の卵で焼いた定番のかすていら。2号約200g、3号約300g、4号約400g。",
+          "options": [
+            {
+              "qty_label": "2号（約200g）",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 1555,
+              "evidence": "「TV等で話題」烏骨鶏かすていら（2号）は1,555円（税込）",
+              "source_url": "https://www.ukokkei.co.jp/c/16/32/179"
+            },
+            {
+              "qty_label": "3号（約300g）",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 2322,
+              "evidence": "烏骨鶏かすていら（3号）約300g: ¥2,322 税込",
+              "source_url": "https://www.ukokkei.co.jp/c/16/32/02ca-300n"
+            },
+            {
+              "qty_label": "4号（約400g）",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 2959,
+              "evidence": "烏骨鶏かすていら（4号）はプレーン約400gで2,959円（税込）",
+              "source_url": "https://www.ukokkei.co.jp/c/16/32/16"
+            }
+          ],
+          "individually_wrapped": false,
+          "wrap_note": "1本を切り分けて食べる形。個包装ではない（サイズ表記が「切れ分」であることからの判断）。",
+          "shelf_life_days": null,
+          "shelf_life_text": "プレーンの表示は未確認（金箔版・個包装版は発送日から約25日）",
+          "ingredients": "烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜（原材料の一部に大豆を含む）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.ukokkei.co.jp/c/16/32/179",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "2号（1,555円）は予算内で、金箔なしの最も手頃なサイズ。3号は2,322円で2,300円を22円超える。原材料は検索結果の要約に出た表示で、商品ページ本文では直接確認できていない。植物油脂は種類の記載なし。乳化剤・ゼラチン・洋酒・みりんの表示は見当たらなかった。賞味期限は、プレーンの商品ページでは確認できていない。"
+        },
+        {
+          "product_name": "烏骨鶏かすていら【抹茶】【黒糖】（2号）",
+          "category": "かすていら",
+          "description": "烏骨鶏かすていらの抹茶味と黒糖味。サイズは2号。",
+          "options": [
+            {
+              "qty_label": "【抹茶】2号",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 1674,
+              "evidence": "烏骨鶏かすていら【抹茶】（2号）: ¥1,674 税込",
+              "source_url": "https://ukokkei.co.jp/fs/ukeian/17"
+            },
+            {
+              "qty_label": "【黒糖】2号",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 1674,
+              "evidence": "烏骨鶏かすていら【黒糖】（2号）: ¥1,674 税込",
+              "source_url": "https://www.ukokkei.co.jp/c/16/32"
+            },
+            {
+              "qty_label": "【プレーン・抹茶】2号 2本セット",
+              "qty": 2,
+              "unit": "本",
+              "price_tax_incl": 3412,
+              "evidence": "烏骨鶏かすていら【プレーン・抹茶】（2号）2本セットは3,412円（税込）",
+              "source_url": "https://www.ukokkei.co.jp/c/16/33"
+            }
+          ],
+          "individually_wrapped": false,
+          "wrap_note": "1本を切り分けて食べる形。個包装ではない（「切れ分」の表記からの判断）。",
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認（プレーンと同じ約25日の可能性があるが、検索結果には明記なし）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://ukokkei.co.jp/fs/ukeian/17",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格は検索結果の要約で確認したもので、商品ページ本文は見ていない。抹茶・黒糖味の原材料表示と賞味期限は未確認（プレーンの原材料に抹茶・黒糖が加わるだけとは限らない）。"
+        },
+        {
+          "product_name": "烏骨鶏かすていら 個包装 3色",
+          "category": "かすていら",
+          "description": "30gの烏骨鶏かすていらを1個ずつ包んだ詰合せ。プレーン・抹茶・黒糖の3種類が入る。",
+          "options": [
+            {
+              "qty_label": "5個入（30g×5：プレーン×3、抹茶・黒糖×各1）",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1533,
+              "evidence": "烏骨鶏かすていら個包装 3色 5個入りは販売価格¥1,533税込（30g×5個入）",
+              "source_url": "https://www.ukokkei.co.jp/c/16/30/02ca-0305pmk"
+            },
+            {
+              "qty_label": "12個入（30g×12：プレーン×6、抹茶×3、黒糖×3）",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 3628,
+              "evidence": "烏骨鶏かすていら個包装 3色 12個入りは販売価格¥3,628税込",
+              "source_url": "https://www.ukokkei.co.jp/c/16/30/02ca-03121pmk"
+            },
+            {
+              "qty_label": "20個入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 5940,
+              "evidence": "3色20個入りは販売価格¥5,940税込もあります",
+              "source_url": "https://www.ukokkei.co.jp/c/16/30"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "30gの個包装、プレーン・抹茶・黒糖の3種",
+          "shelf_life_days": 25,
+          "shelf_life_text": "発送日から約25日（常温、直射日光・高温多湿を避ける）",
+          "ingredients": "烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜（原材料の一部に大豆を含む）（プレーンの表示と思われる）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.ukokkei.co.jp/c/16/30/02ca-0305pmk",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "5個入（1,533円）は予算内で、分けて配りやすい。12個入は3,628円で予算を超える。原材料は検索結果の要約に出た表示で、どの商品の表示かは明記がなく、抹茶・黒糖の分の表示は未確認。植物油脂は種類の記載なし。乳化剤・ゼラチン・洋酒・みりんの表示は見当たらなかった。"
+        }
+      ],
+      "skipped": [
+        "烏骨鶏バームクーヘン（個包装）: 香りづけにラム酒を使うと書かれているため（アルコールを含む）",
+        "かすていらとバームクーヘンの詰合せ各種: バームクーヘンにラム酒を使うため",
+        "烏骨鶏プリン（詰合せに含まれるもの）: 洋生菓子で日持ちが短いと思われるため（温度帯は未確認）",
+        "烏骨鶏かすていら【寿】【祝】: 慶事用の化粧箱で、用途が異なるため"
+      ],
+      "unresolved": [
+        "あんと店で扱っているサイズ・商品と店頭価格（上記は公式通販サイトの表示）",
+        "金箔版・抹茶版・黒糖版の原材料表示を商品ページ本文で直接確認すること",
+        "店頭で買う場合の賞味期限（通販は発送日から約25日）",
+        "アレルゲン表示（乳・そば・落花生）の意味（原料か、同じ工場で作る他商品の注意か）",
+        "あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "ジュプランサ（je prends ça）",
+      "shop_short": "ジュプランサ",
+      "category": "洋菓子（北陸の菓子セレクトショップ）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=378",
+      "anto_phone": "080-5223-4741",
+      "anto_location": null,
+      "official_site": "https://www.je-prends-ca.info/",
+      "online_shop": "https://www.je-prends-ca.info/onlinestore",
+      "in_scope": true,
+      "scope_note": "北陸の人気菓子を5〜6ブランド集めたセレクトショップで、あんと店は焼き菓子が中心。品揃えは定期的に入れ替わり、下記は公式オンラインストアで確認できた商品なので、あんと店の店頭に並ぶとは限らない。",
+      "products": [
+        {
+          "product_name": "能登ミルククッキー缶（能登ミルク）",
+          "category": "クッキー",
+          "description": "能登ミルクを使ったクッキーを1枚ずつ袋に入れ、缶に詰めたもの。",
+          "options": [
+            {
+              "qty_label": "10袋入（缶入り・1枚ずつ個包装）",
+              "qty": 10,
+              "unit": "袋",
+              "price_tax_incl": 2100,
+              "evidence": "能登ミルククッキー缶 価格：¥2,100（税込） 内容量：10袋入（1枚ずつ袋に個包装された状態で缶に入っております）",
+              "source_url": "https://www.je-prends-ca.info/product-page/notomilk-cookie-can"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "クッキー1枚ずつ袋入りで、10袋を缶に詰めている",
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認",
+          "ingredients": "小麦粉（北海道産）・てんさい糖蜜・植物油脂（なたね油）・牛乳（能登ミルク）・てんさい糖・食塩（珠洲の塩）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年と思われる（販売期間の記載は見当たらない）",
+          "page_url": "https://www.je-prends-ca.info/product-page/notomilk-cookie-can",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "2,000円を100円超えるが2,300円以内。原材料に乳化剤・ゼラチン・洋酒・みりんの表示はなく、小麦と牛乳を使う。賞味期限は未確認。あんと店の店頭にあるかも未確認。"
+        },
+        {
+          "product_name": "抹茶のマカロンサブレ KINTSUGI",
+          "category": "サブレ",
+          "description": "抹茶のマカロンサブレ。ジュプランサの紹介記事では「金沢の新しいお土産スイーツ」として取り上げられている。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1620,
+              "evidence": "抹茶のマカロンサブレ KINTSUGI 価格は税込 1,620円（6個入り）",
+              "source_url": "https://www.je-prends-ca.info/product-page/matcha-macaron-sable-kintugi"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "未確認",
+          "page_url": "https://www.je-prends-ca.info/product-page/matcha-macaron-sable-kintugi",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料・賞味期限・個包装の有無は未確認。あんと店の店頭にあるかも未確認。"
+        },
+        {
+          "product_name": "ドゥーブルサブレ（とみつ金時・チョコレートジンジャー）",
+          "category": "サブレ",
+          "description": "福井県の「とみつ金時」味と、越前生姜を使った「チョコレートジンジャー」味の詰合せサブレ（je prends ça PREMIUM）。",
+          "options": [
+            {
+              "qty_label": "20個入（2種の詰合せ）",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 2200,
+              "evidence": "ドゥーブルサブレ ... 詰め合わせで、価格は¥2,200",
+              "source_url": "https://www.je-prends-ca.info/product-page/doublesable-20peaces"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "未確認",
+          "page_url": "https://www.je-prends-ca.info/product-page/doublesable-20peaces",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "2,000円を200円超えるが2,300円以内。検索結果には「¥2,200」とだけあり、税込の明記は見当たらない（同店の他の商品ページは税込表示）。とみつ金時は福井県の産物。原材料・賞味期限・個包装は未確認。"
+        },
+        {
+          "product_name": "五郎島金時フィナンシェ（je prends ça PREMIUM）",
+          "category": "フィナンシェ",
+          "description": "加賀野菜の五郎島金時（さつまいも）を使ったフィナンシェ。5個入の箱がある。",
+          "options": [
+            {
+              "qty_label": "5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1670,
+              "evidence": "五郎島金時フィナンシェ 5peaces ¥1,570（税込）／別の検索結果では フィナンシェ 5peaces の価格は￥1,670",
+              "source_url": "https://www.je-prends-ca.info/product-page/financier-sweetpotato-5peaces"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "未確認",
+          "page_url": "https://www.je-prends-ca.info/product-page/financier-sweetpotato-5peaces",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】1,570円と1,670円が出た（ここでは高い方を載せた）。どちらでも2,000円以内。原材料・賞味期限・個包装は未確認（バターを使う焼き菓子なので、乳化剤や洋酒の有無の確認が必要）。"
+        },
+        {
+          "product_name": "オリジナルフィナンシェ（バタープレーン／ビターチョコ）",
+          "category": "フィナンシェ",
+          "description": "焦がしバターとアーモンドパウダーを使った、香ばしい食感のフィナンシェ。味はバタープレーンと、エクアドルのアマゾン産カカオを使ったビターチョコ。あんと店の紹介ページにも取扱商品として載っている。",
+          "options": [
+            {
+              "qty_label": "5個入（白い箱）",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1670,
+              "evidence": "フィナンシェ 5peaces: ¥1,520-¥1,670 (tax included)",
+              "source_url": "https://www.je-prends-ca.info/onlinestore"
+            },
+            {
+              "qty_label": "15個入（黒い箱）",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 4830,
+              "evidence": "フィナンシェ 15peaces: ¥4,300-¥4,830 (tax included)",
+              "source_url": "https://www.je-prends-ca.info/onlinestore"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年と思われる（販売期間の記載は見当たらない）",
+          "page_url": "https://www.je-prends-ca.info/journal/original_001",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格は味や商品の違いで幅があり、5個入が1,520〜1,670円、15個入が4,300〜4,830円。どの味がいくらかは未確認（ここでは各価格帯の高い方を載せた）。原材料・賞味期限・個包装は未確認（バターを使う焼き菓子なので、乳化剤や洋酒の有無の確認が必要）。"
+        },
+        {
+          "product_name": "エンガディナ・キャラメル（パティスリーショコラトリー サンニコラ）",
+          "category": "キャラメル",
+          "description": "石川県産の玄米甘糀を使い、丁寧に練り上げたコクのあるキャラメル。",
+          "options": [
+            {
+              "qty_label": "単品（内容量は未確認）",
+              "qty": 1,
+              "unit": "個",
+              "price_tax_incl": 430,
+              "evidence": "エンガディナ・キャラメル 価格：¥430",
+              "source_url": "https://www.je-prends-ca.info/product-page/engadiner-caramel"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "未確認",
+          "page_url": "https://www.je-prends-ca.info/product-page/engadiner-caramel",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "内容量・賞味期限・原材料は未確認。検索結果に「¥430」とだけあり、税込の明記は見当たらない。"
+        },
+        {
+          "product_name": "いもほり長者（ケーキハウス マルフジ）",
+          "category": "焼き菓子",
+          "description": "ケーキハウス マルフジの菓子で、ジュプランサのオンラインストアで扱っている。",
+          "options": [
+            {
+              "qty_label": "単品（内容量は未確認）",
+              "qty": 1,
+              "unit": "個",
+              "price_tax_incl": 360,
+              "evidence": "いもほり長者 価格：¥360",
+              "source_url": "https://www.je-prends-ca.info/product-page/imohoricho-jya"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "未確認",
+          "page_url": "https://www.je-prends-ca.info/product-page/imohoricho-jya",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "内容量・賞味期限・原材料・菓子の種類は未確認。検索結果に「¥360」とだけあり、税込の明記は見当たらない。"
+        },
+        {
+          "product_name": "にゃどれーぬ（NORUMAN）",
+          "category": "焼き菓子",
+          "description": "NORUMANの菓子で、ジュプランサのオンラインストアで扱っている。",
+          "options": [
+            {
+              "qty_label": "単品（内容量は未確認）",
+              "qty": 1,
+              "unit": "個",
+              "price_tax_incl": 290,
+              "evidence": "にゃどれーぬ 価格：¥290",
+              "source_url": "https://www.je-prends-ca.info/product-page/nyadore-nu"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "未確認",
+          "page_url": "https://www.je-prends-ca.info/product-page/nyadore-nu",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "内容量・賞味期限・原材料・菓子の種類は未確認。検索結果に「¥290」とだけあり、税込の明記は見当たらない。"
+        }
+      ],
+      "skipped": [
+        "苺チョコ（je prends ça PREMIUM）: フリーズドライ苺にホワイトチョコを染み込ませたチョコ菓子で、暑い時期に溶けるため。【食い違い】800円と900円が出た",
+        "リキュールアソートチョコレート: リキュール（酒類）を使うため",
+        "のと塩ショコラ・#CTK（キャレ・ド・ショコラ）・苺バウム（いちごチョコがけ、橘香堂）: チョコレート菓子・チョコがけで溶けやすいため",
+        "酒蔵のグラノーラ（福光屋）: 酒蔵の商品で、酒粕など酒類由来の原料を使う可能性があるため（原材料は未確認）"
+      ],
+      "unresolved": [
+        "あんと店の店頭に実際に並ぶブランド・商品（5〜6ブランドで、定期的に入れ替わる）",
+        "各商品の賞味期限と原材料（フィナンシェ、マカロンサブレ、ドゥーブルサブレ、キャラメル）",
+        "五郎島金時フィナンシェの価格（1,570円か1,670円か）、オリジナルフィナンシェの味ごとの価格",
+        "GOOD FOR LIFE「ありがとうボールクッキーまっちゃ」の価格と入数",
+        "あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "しあわせお菓子 ふらんどーる（金沢茶の間 フランドール）",
+      "shop_short": "ふらんどーる",
+      "category": "洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=340",
+      "anto_phone": "076-225-7644",
+      "anto_location": null,
+      "official_site": "http://frandore.jp/",
+      "online_shop": "https://frandore.base.shop/",
+      "in_scope": true,
+      "scope_note": "明治40年創業の金沢の洋菓子店で、あんと店のほか山科本店・ヴァレ店がある。下記の価格・賞味期限・原材料は通販サイトの表示で、あんと店の店頭と同じかは未確認。通販サイト（BASE店、ふらん・どーるのオンラインショップ、銘品市場）で価格が食い違う商品がある。",
+      "products": [
+        {
+          "product_name": "五郎島のおいもやき（山科長者）",
+          "category": "焼き菓子（さつまいも菓子）",
+          "description": "加賀野菜の五郎島金時を使ったふらんどーるの代表菓子。1日に4,000個以上売れた実績があるとされる。",
+          "options": [
+            {
+              "qty_label": "2個入",
+              "qty": 2,
+              "unit": "個",
+              "price_tax_incl": 746,
+              "evidence": "五郎島のおいもやき（山科長者）2個入 ¥746（BASE店の検索結果）",
+              "source_url": "https://frandore.base.shop/items/61009356"
+            },
+            {
+              "qty_label": "5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1809,
+              "evidence": "5個入：¥1,809（BASE店）／別の通販サイトの表示では5個入：¥1,620",
+              "source_url": "https://frandore.base.shop/items/60199687"
+            },
+            {
+              "qty_label": "8個入",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": 2355,
+              "evidence": "8個入：¥2,355（銘品市場／ふらん・どーるのオンラインショップの検索結果。BASE店では確認できず）",
+              "source_url": "https://www.hokurikumeihin.com/frandore/index.html"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 3402,
+              "evidence": "10個入：¥3,402（BASE店）",
+              "source_url": "https://frandore.base.shop/categories/4274612"
+            },
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 3748,
+              "evidence": "12個入：¥3,748（銘品市場／ふらん・どーるのオンラインショップの検索結果）",
+              "source_url": "https://www.hokurikumeihin.com/frandore/index.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": 10,
+          "shelf_life_text": "10日間（冷暗所にて）",
+          "ingredients": "さつまいも、砂糖、バター、生クリーム、牛乳、卵、水飴、小麦粉、塩／トレハロース",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年と思われる（販売期間の記載は見当たらない）",
+          "page_url": "https://frandore.base.shop/categories/4274612",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】5個入は1,620円と1,809円が出た（BASE店は1,809円、銘品市場などの一覧は1,620円）。8個入・12個入はその銘品市場などの一覧にだけ載っていた。5個入は2,000円以内、8個入は2,355円で2,300円を55円超える。賞味期限は10日と短めで、冷暗所保存（要冷蔵ではない）。原材料に乳化剤・ゼラチン・洋酒・みりんの表示はない。個包装かどうかは未確認。紹介記事には「1個281円〜」とあるが、現在の店頭価格かは未確認。"
+        },
+        {
+          "product_name": "加賀棒茶マドレーヌ（金沢茶の間）",
+          "category": "マドレーヌ",
+          "description": "加賀棒茶を使ったマドレーヌ。BASE店の注記から、個包装タイプと読み取れる。",
+          "options": [
+            {
+              "qty_label": "5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": null,
+              "evidence": "加賀棒茶マドレーヌ 5個入（BASE店に商品ページあり。価格は検索結果に出ず）",
+              "source_url": "https://frandore.base.shop/items/61011755"
+            },
+            {
+              "qty_label": "9個入",
+              "qty": 9,
+              "unit": "個",
+              "price_tax_incl": 2641,
+              "evidence": "加賀棒茶マドレーヌ９個入り ¥2,445 (税込 ¥2,641)（BASE店）／別の検索結果では9個入2,495円",
+              "source_url": "https://frandore.base.shop/categories/4274626"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "「資材供給事情により個包装パッケージが一部異なる場合があります」との注記あり",
+          "shelf_life_days": 14,
+          "shelf_life_text": "14日間（冷暗所にて）",
+          "ingredients": "砂糖、小麦粉、卵、バター、アーモンド、生クリーム、黒豆、牛乳、転化糖、棒茶、水あめ、トレハロース、膨張剤",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年と思われる（販売期間の記載は見当たらない）",
+          "page_url": "https://frandore.base.shop/categories/4274626",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】9個入は2,495円と2,641円（税抜2,445円）が出た。どちらでも2,300円を超える。5個入の価格は未確認で、予算内に収まる可能性が高いが確認が必要。原材料に乳化剤・ゼラチン・洋酒・みりんの表示はない（膨張剤は使用）。"
+        },
+        {
+          "product_name": "金沢・茶の間ショコラ（抹茶ショコラ・加賀棒茶ショコラ）",
+          "category": "焼きショコラ",
+          "description": "ホワイトチョコレートをベースにした焼きショコラ。抹茶味と加賀棒茶味がある。",
+          "options": [
+            {
+              "qty_label": "5枚入（抹茶2・加賀棒茶3）",
+              "qty": 5,
+              "unit": "枚",
+              "price_tax_incl": 843,
+              "evidence": "茶の間ショコラ 5枚入843円",
+              "source_url": "https://frandore.base.shop/items/60857512"
+            },
+            {
+              "qty_label": "12枚入（抹茶6・加賀棒茶6）",
+              "qty": 12,
+              "unit": "枚",
+              "price_tax_incl": 2031,
+              "evidence": "茶の間ショコラ 12枚入 2,031円",
+              "source_url": "https://frandore.base.shop/items/61010282"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": null,
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日間（冷暗所にて）",
+          "ingredients": "小麦粉、ココアバター、砂糖、バター、卵白、乳糖、脱脂粉乳、抹茶、棒茶、ダーミルクパウダー、乳化剤（原材料の一部に乳製品、大豆を含む）",
+          "ingredient_flags": [
+            "乳化剤"
+          ],
+          "allergens": "原材料の一部に乳製品、大豆を含む",
+          "seasonal": "通年と思われる（販売期間の記載は見当たらない）",
+          "page_url": "https://frandore.base.shop/items/60857512",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に乳化剤を含むため、豚由来の可能性を排除できない。【食い違い】賞味期限は、BASE店で20日、別の通販サイト（銘品市場の「かがやき」12枚入）で14日と出た。12枚入は2,000円を31円超えるが2,300円以内。"
+        }
+      ],
+      "skipped": [
+        "加賀棒茶マドレーヌと茶の間ショコラのセット（3,564円）: 乳化剤入りの茶の間ショコラを含み、予算も超えるため",
+        "五郎島のおいもやきの16個入以上: 5,000円を超えるため",
+        "金沢茶の間ショコラの24枚入・36枚入: 乳化剤入りで、予算も超えると思われるため"
+      ],
+      "unresolved": [
+        "加賀棒茶マドレーヌ5個入の価格",
+        "じわまん（金沢みるく饅頭）2個入の価格・賞味期限・原材料（小さなセットに含まれる）",
+        "加賀棒茶マドレーヌと季節のマドレーヌ10個入の価格と、季節のマドレーヌの原材料（洋酒の有無）",
+        "五郎島のおいもやきの個包装の有無",
+        "あんと店の店頭価格・取扱品目と、区画番号"
+      ]
+    },
+    {
+      "shop_name": "ル・コタンタン金沢",
+      "shop_short": "ル・コタンタン",
+      "category": "洋菓子（和洋折衷）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=357",
+      "anto_phone": "076-208-4077",
+      "anto_location": null,
+      "official_site": "https://lecotentin-kanazawa.com/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "金沢の和菓子職人のきんつばと、フランス産の発酵バターのビスキィ生地を合わせた「きんつばビスキィ」が看板。下記の価格・日持ちは公式サイトの表示で、あんと店の店頭と同じかは未確認。バター単体の商品は検索結果に出てこなかった。",
+      "products": [
+        {
+          "product_name": "きんつばビスキィ",
+          "category": "焼き菓子（和洋折衷）",
+          "description": "金沢の老舗和菓子店の職人が手作りするきんつばを、フランス・ノルマンディー地方（イズニー）産の発酵バターを使ったビスキィ生地と合わせた和洋折衷の菓子。1個ずつ個包装で、箱は1個箱・2個箱のほか、4個入の1段、8個入の2段などがある。",
+          "options": [
+            {
+              "qty_label": "1個箱（1個入）",
+              "qty": 1,
+              "unit": "個",
+              "price_tax_incl": 450,
+              "evidence": "1個箱（1個入り）450円",
+              "source_url": "https://lecotentin-kanazawa.com/"
+            },
+            {
+              "qty_label": "2個箱（2個入）",
+              "qty": 2,
+              "unit": "個",
+              "price_tax_incl": 850,
+              "evidence": "2個箱（2個入り）850円",
+              "source_url": "https://lecotentin-kanazawa.com/"
+            },
+            {
+              "qty_label": "1段（4個入）",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 1780,
+              "evidence": "きんつばビスキィ１段（4個入り）1780円",
+              "source_url": "https://lecotentin-kanazawa.com/"
+            },
+            {
+              "qty_label": "2段（8個入）",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": 3360,
+              "evidence": "2段（8個入り）3360円",
+              "source_url": "https://lecotentin-kanazawa.com/"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "「一つひとつ個包装になっております」と書かれている",
+          "shelf_life_days": 21,
+          "shelf_life_text": "製造日から常温で約3週間（7〜9月は約2週間）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://lecotentin-kanazawa.com/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "1段（4個入）は2,000円以内で配りやすい。3段（12個入）は5,140円で省略。原材料表示は見つからず、乳化剤・洋酒・みりんなどの有無は未確認（小豆あんと発酵バターのビスキィ生地が主な材料とされる）。賞味期限は10月なので約3週間の想定。公式サイトに、2025年10月に店頭の一部商品で賞味期限を実際より短く誤表記していた件のお詫びが出ている（過去の件）。通販のぐるすぐりには「ミックス 2段8個入り」「箱無し 8個入り」のページがあるが、価格と中身は未確認。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "きんつばビスキィの原材料表示（乳化剤・洋酒・みりん・ゼラチンの有無）",
+        "大納言ウィークエンド（能登の大納言小豆・国産ゆず・イズニーの発酵バター使用、砂糖の代わりに甘酒）の価格・賞味期限・原材料（甘酒の種類、洋酒の有無）",
+        "通販サイト ぐるすぐりの「ミックス 2段8個入り」「箱無し 8個入り」の価格と中身（https://gurusuguri.com/shop/lecotentin-kanazawa/mix008/）",
+        "バター単体の商品の有無（検索結果に出てこなかった）",
+        "あんと店の区画番号と、あんと店で扱うサイズ・店頭価格"
+      ]
+    }
+  ]
+}

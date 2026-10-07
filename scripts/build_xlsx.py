@@ -188,9 +188,11 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
                 break
         tops = [(p, o) for p in products for o in p["options"] if overall_of(p, o) == TOP]
         if tops:
-            names = "、".join(f"{p['shop']}「{p['name'].split(' ')[0] if len(p['name']) > 18 else p['name']}」{o['label'].split('（')[0]}" for p, o in tops)
-            pts.append(f"予算・日持ち・原材料・個包装をすべて満たす「◎」は{len(tops)}件（{names}）で、いずれも前任セッションが公式ページで確認したものです。"
-                       "今回の検索で見つかった商品は、個包装や原材料表示が未確認のため「○」「△」止まりです。")
+            top_products = list(dict.fromkeys(p["id"] for p, o in tops))
+            top_shops = list(dict.fromkeys(p["shop"] for p, o in tops))
+            n_a = len({p["id"] for p, o in tops if o.get("confidence") == "A"})
+            pts.append(f"予算・日持ち・原材料・個包装をすべて満たす「◎」は{len(top_products)}商品（{len(tops)}件）です。確認レベルAは{n_a}商品で、残りは検索結果に基づく"
+                       f"確認レベルBです。◎のある店: {'・'.join(top_shops)}。個包装や原材料表示が未確認の商品は「△」止まりなので、買う前に確認してください。")
         n_yes = sum(1 for s in shops if s.get("in_scope") == "yes")
         n_pend = sum(1 for s in shops if s.get("in_scope") == "yes" and not n_by_shop.get(s["key"]))
         pts.append(f"菓子・食品の土産を扱う店（対象）{n_yes}店のうち、商品と入数別の価格まで調べられたのは{n_yes - n_pend}店です。"
@@ -524,8 +526,9 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
     # ================================================================ 店舗一覧 ===================================
     ws = s_shop
     SH = 3
-    sheads = ["区分", "店名", "通称", "あんと内の場所", "TEL", "あんと公式の店舗ページ", "対象", "判断の理由・メモ", "掲載商品数", "公式サイト", "通販サイト"]
-    sw = [10, 28, 14, 14, 13, 14, 8, 60, 9, 22, 22]
+    sheads = ["区分", "店名", "通称", "あんと内の場所", "TEL", "あんと公式の店舗ページ", "対象", "判断の理由・メモ", "掲載商品数",
+              "原材料が未確認の商品", "個包装が不明の商品", "公式サイト", "通販サイト"]
+    sw = [10, 28, 14, 14, 13, 14, 8, 60, 9, 10, 10, 22, 22]
     ws.merge_range(0, 0, 0, 8, "店舗一覧（あんとの店舗と、対象にしたかどうか）", f_title)
     ws.set_row(0, 28)
     ws.merge_range(1, 0, 1, 9, "対象＝菓子・食品の土産を扱う店。商品まで調べられた店は「掲載商品数」に件数が出ます。あんと店の取扱い・在庫は電話で確認してください。", f_sub)
@@ -554,7 +557,10 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
         cnt = sum(1 for p in products if p["shop_key"] == s["key"])
         cat_shop = f"'候補一覧'!$C${cfirst + 1}:$C${clast + 1}"
         ws.write_formula(R, 8, f'=COUNTIF({cat_shop},C{X})', f_int, cnt)
-        for ci, key in ((9, "official_site"), (10, "online_shop")):
+        mine = [p for p in products if p["shop_key"] == s["key"]]
+        ws.write_number(R, 9, sum(1 for p in mine if p["ingredient_check"] == UNK), f_int)
+        ws.write_number(R, 10, sum(1 for p in mine if p["wrap_level"] is None), f_int)
+        for ci, key in ((11, "official_site"), (12, "online_shop")):
             if s.get(key):
                 ws.write_url(R, ci, s[key], f_link, string=s[key].replace("https://", "").replace("http://", "").rstrip("/")[:28])
             else:
