@@ -116,10 +116,8 @@ def clean_note(t: str | None) -> str:
         sent = sent.strip()
         if not sent:
             continue
-        if "price_tax_incl" in sent:
-            sent = "税別表示のため、税込価格は8%で換算した参考値です。"
-        elif JARGON_SENT.search(sent):
-            continue
+        if JARGON_SENT.search(sent):
+            continue   # 内部のデータ項目名を含む文（換算の注記は入数ごとの注記で出す）
         if (sent.startswith("8%換算の参考値") or "前任調査から引き継いだ" in sent or "本セッションの検索では再確認できていない" in sent
                 or "既知データを転記" in sent or "商品ページURLは未取得" in sent or "前任調査の既知データ" in sent):
             continue

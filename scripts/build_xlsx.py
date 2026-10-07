@@ -411,8 +411,14 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
             ws.write_url(R, 23, url, f_link, string="開く")
         else:
             ws.write(R, 23, "", f_txtc)
-        ws.write(R, 24, p["notes"], f_txt)
-        lines = max(n_lines(p["name"], widths[4]), n_lines(p["notes"], widths[24]), n_lines(p["ingredients"] or "", widths[20]),
+        first_row = o is p["options"][0]
+        opt_note = o.get("note") or ""
+        body = p["notes"] if first_row else ""
+        note_text = opt_note + (" ／" if opt_note and body else "") + body
+        if not note_text and not first_row and p["notes"]:
+            note_text = f"（備考は {p['id']}-1 の行に記載）"
+        ws.write(R, 24, note_text, f_txt)
+        lines = max(n_lines(p["name"], widths[4]), n_lines(note_text, widths[24]), n_lines(p["ingredients"] or "", widths[20]),
                     n_lines(p["wrap_note"], widths[17]))
         ws.set_row(R, min(150, max(24, 13.5 * lines + 4)))
     ws.autofilter(FH, 0, last, len(heads) - 1)
@@ -460,7 +466,7 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
         ws.write_rich_string(R, 4, f_name_b, p["name"], f_name_n, "\n" + desc, f_txt)
         price_lines = []
         for o in p["options"]:
-            price_lines.append(f"{mark_budget(o['price'])} {o['label']}　{yen(o['price'])}")
+            price_lines.append(f"{mark_budget(o['price'])} {o['label']}　{yen(o['price'])}" + ("※" if o.get("note") else ""))
         price_text = "\n".join(price_lines)
         ws.write(R, 5, price_text, f_txt)
         ids = f"'入数別価格'!$B${first + 1}:$B${last + 1}"
@@ -474,8 +480,9 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
             f'IF(COUNTIFS({ids},$A{X},{pr},"{WARN}")>0,"{WARN}","{NG}")))', f_mark, best)
         wl = p["wrap_level"]
         wtxt = f"{WRAP_MARK[wl]} {WRAP_TEXT[wl]}" + (f"\n{p['wrap_note']}" if p["wrap_note"] and wl is not None else "")
-        stext = (p["shelf_life_text"] or (f"{p['shelf_life_days']}日" if p["shelf_life_days"] else "不明（未確認）"))
-        ws.write(R, 8, stext + (f"\n{p['seasonal']}" if p["seasonal"] and p["seasonal"] != "通年" else ""), f_txt)
+        stext = short(p["shelf_life_text"] or (f"{p['shelf_life_days']}日" if p["shelf_life_days"] else "不明（未確認）"), 60)
+        shelf_c = stext + (f"\n{short(p['seasonal'], 40)}" if p["seasonal"] and not p["seasonal"].startswith("通年") else "")
+        ws.write(R, 8, shelf_c, f_txt)
         rem = remaining_days(p["shelf_life_days"])
         am = f"'入数別価格'!$A${first + 1}:$A${last + 1}"
         mm = f"'入数別価格'!$M${first + 1}:$M${last + 1}"
@@ -490,14 +497,17 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
             ws.write_url(R, 15, p["page_url"], f_link, string="開く")
         else:
             ws.write(R, 15, "", f_txtc)
-        note_c = short(p["notes"], 110) + ("（続きは「入数別価格」）" if len(p["notes"]) > 110 else "")
+        opt_notes = list(dict.fromkeys(o["note"] for o in p["options"] if o.get("note")))
+        pre = ("※" + "／".join(opt_notes) + " ／") if opt_notes else ""
+        note_c = short(pre + p["notes"], 130) + ("（続きは「入数別価格」）" if len(pre + p["notes"]) > 130 else "")
         ws.write(R, 16, note_c, f_txt)
         ing_c = short(p["ingredients"], 150) if p["ingredients"] else "（原材料表示を確認できていない）"
         ws.write(R, 10, ing_c, f_txt)
         wtxt_c = wtxt if len(wtxt) <= 70 else short(wtxt, 70)
         ws.write(R, 7, wtxt_c, f_txt)
         lines = max(n_lines(p["name"] + "\n" + desc, cw[4]), n_lines(price_text, cw[5]), n_lines(wtxt_c, cw[7]),
-                    n_lines(ing_c, cw[10]), n_lines(note_c, cw[16]), n_lines("\n".join(p.get("popularity") or []), cw[12]))
+                    n_lines(ing_c, cw[10]), n_lines(note_c, cw[16]), n_lines("\n".join(p.get("popularity") or []), cw[12]),
+                    n_lines(shelf_c, cw[8]), n_lines(ctext, cw[11]))
         ws.set_row(R, min(170, max(min_h, 13.5 * lines + 6)))
     ws.autofilter(CH, 0, clast, len(cheads) - 1)
     ws.freeze_panes(CH + 1, 5)
