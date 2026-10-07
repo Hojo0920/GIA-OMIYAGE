@@ -15,7 +15,10 @@
   "G12",
   "G13",
   "G14",
-  "G15"
+  "G15",
+  "G16",
+  "G17",
+  "G18"
  ],
  "products": [
   {
@@ -107,7 +110,7 @@
    "wrap_note": "商品名に「個包装」とある。1袋あたりの枚数は未確認。",
    "shelf_life_days": 30,
    "shelf_life_text": "常温30日〜（未開封）",
-   "ingredients": "うるち米（石川県白山市産）・植物油脂・米粉（石川県白山市産）・砂糖・カレー粉・食塩・馬鈴薯澱粉（北海道産）・酵母エキス・果汁（パイナップル、マンゴー、パパイア）・粉末トマト・麦芽エキス（※一部に大豆を含む）",
+   "ingredients": "うるち米（石川県白山市産）、植物油脂、米粉（石川県白山市産）、砂糖、カレー粉、食塩、馬鈴薯澱粉（北海道産）、酵母エキス、果汁（パイナップル、マンゴー、パパイア）、粉末トマト、麦芽エキス（一部に大豆を含む）",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -116,7 +119,7 @@
    "page_url": "https://suzume.shop-pro.jp/?pid=133347105",
    "image_key": null,
    "confidence": "B",
-   "notes": "醤油・みりん・酒類は原材料に出てこない。 カレー粉の内訳は不明。 辛さの程度は未確認。 1袋55gと小さく、配るには複数買いが必要。",
+   "notes": "醤油・みりん・酒類は原材料に出てこない。 カレー粉の内訳は不明。 辛さの程度は未確認。 1袋55gと小さく、配るには複数買いが必要。 【今回確認できたこと】原材料の全文を再確認（前回と同じ内容）。 醤油・みりん・乳化剤・酒類・ゼラチンは入っておらず、豚由来成分・アルコールに当たる表示はない。 398円・55g・日持ち30日〜（常温・未開封）も確認。 【注意】カレー粉の内訳は表示されていない。 2026年8月のリニューアルで内容量と価格が変わっているため、それ以前の情報とは価格が食い違うことがある。",
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
@@ -262,12 +265,12 @@
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
-   "allergens": null,
+   "allergens": "原材料に黒大豆（大豆）を含む（アレルゲン欄の表示は未確認）",
    "seasonal": "通年",
    "page_url": "https://suzume.shop-pro.jp/?pid=132739665",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料が3つだけで、豚由来成分・アルコールの心配が少ない。 ただし、そのまま食べるのか焼いて食べるのかは未確認。 黒大豆（大豆）を使う。 通販サイトには「10枚入 4本セット」「10枚入 5本セット」もあるが価格は未確認（1本1,144円なので、セットは予算を大きく超えるとみられる）。",
+   "notes": "原材料が3つだけで、豚由来成分・アルコールの心配が少ない。 ただし、そのまま食べるのか焼いて食べるのかは未確認。 黒大豆（大豆）を使う。 通販サイトには「10枚入 4本セット」「10枚入 5本セット」もあるが価格は未確認（1本1,144円なので、セットは予算を大きく超えるとみられる）。 【今回確認できたこと】10枚入1,144円（税込）・480g・原材料（もち米・黒大豆・食塩の3つだけ）・日持ち（常温60日〜、未開封）を、商品ページの要約で再確認。 豚由来成分・アルコール（乳化剤・みりん・醤油など）に当たる表示はない。 【確認できなかったこと】1枚ずつの個包装かどうか。 食べ方（焼いて食べるのか、そのまま食べられるのか）は、要約の記述があいまいで未確認。 ほかに5枚入、10枚入の4本セット・5本セットの商品ページがあるが、価格は未確認。",
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
@@ -430,7 +433,7 @@
    "wrap_note": "2個入りの小袋が単位で、箱に袋が4〜12袋入る。1個ずつの個包装かどうかは未確認。",
    "shelf_life_days": 20,
    "shelf_life_text": "20〜30日",
-   "ingredients": "砂糖（国内製造）、小豆、小麦粉、米飴（米、大麦）、寒天、還元水飴、餅粉、食塩／トレハロース（一部に小麦を含む）",
+   "ingredients": "砂糖（国内製造）、小豆、小麦粉、米飴（米、大麦）、寒天、還元水飴、餅粉、食塩／トレハロース（一部に小麦成分を含む）",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -439,7 +442,7 @@
    "page_url": "https://www.sakakobo-taro.com/kintsuba.html",
    "image_key": null,
    "confidence": "B",
-   "notes": "6袋入（2,030円）までが予算内（2,000円を少し超える）。 8袋入以上は2,300円超。 確認できた原材料に豚由来成分・アルコールはない。",
+   "notes": "6袋入（2,030円）までが予算内（2,000円を少し超える）。 8袋入以上は2,300円超。 確認できた原材料に豚由来成分・アルコールはない。 【今回確認できたこと】原材料の全文、日持ちが20〜30日であること、1袋（2個入）302円・4袋入1,426円（税込）を、公式サイトのページの要約で再確認。 ゼラチン・乳化剤・酒類・みりんなどの表示はない。 【確認できなかったこと】1袋（2個入）の中で、2個が1個ずつ包装されているか。 【予算】4袋入1,426円は予算内。 6袋入2,030円は2,000円を少し超えるが2,300円以内。",
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
@@ -516,7 +519,7 @@
    "wrap_note": "各種類は個包装で1個45g（公式サイトの検索要約）。「ありがとうギフト」の説明にも個包装とある。",
    "shelf_life_days": 60,
    "shelf_life_text": "60〜90日",
-   "ingredients": "【つぶあん】砂糖（国内製造）、小豆、米飴、寒天／【こしあん】砂糖（国内製造）、小豆、寒天／【こいちゃ】砂糖（国内製造）、手亡豆、抹茶、寒天／【チョコレート】砂糖（国内製造）、小豆、チョコレート、寒天（一部に乳成分・大豆を含む）",
+   "ingredients": "【つぶあん】砂糖（国内製造）、小豆、米飴、寒天／【こしあん】砂糖（国内製造）、小豆、寒天／【こいちゃ】砂糖（国内製造）、手亡豆、抹茶、寒天／【チョコレート】砂糖（国内製造）、小豆、チョコレート、寒天（一部に乳成分・大豆を含む）／※原材料を確認できたのは上の4種のみ。いちご・黒糖きなこ・ロイヤルミルクティー・加賀棒茶・ミルクチョコレート・マカダミアナッツの6種は原材料の全文が未確認",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -525,7 +528,7 @@
    "page_url": "https://www.sakakobo-taro.com/yokan2025.html",
    "image_key": null,
    "confidence": "B",
-   "notes": "ゼラチンではなく寒天を使い、確認できた原材料に豚由来成分・アルコールはない。 5個入が1つの味か詰合せかは未確認。 味の全種類も未確認。 チョコレート味はチョコレートの内訳（乳化剤など）が未確認。 10個入以上は予算超過。",
+   "notes": "ゼラチンではなく寒天を使い、確認できた原材料に豚由来成分・アルコールはない。 5個入が1つの味か詰合せかは未確認。 味の全種類も未確認。 チョコレート味はチョコレートの内訳（乳化剤など）が未確認。 10個入以上は予算超過。 【今回確認できたこと】5個入1,620円・10個入3,240円（税込）は、公式サイトのようかんのページの要約で再確認。 各ようかんは1個ずつ個包装（45g）で、日持ちは60〜90日。 ゼラチンではなく糸寒天を使い、原材料を確認できた4種に豚由来成分・アルコールに当たる表示はない（つぶあん・チョコレートは今回再確認、こしあん・こいちゃは前回の確認分）。 【確認できなかったこと】3個入918円は、今回の要約に価格が出ず再確認できなかった（前回の要約では918円）。 味は全10種あり、原材料の全文を確認できたのは4種のみ。 【注意】チョコレート味の原材料欄は「チョコレート」とだけあり、内訳（乳化剤など）は書かれていない。 ただし大豆を含む表示があるため、チョコレート由来の乳化剤（大豆レシチンなど）が入っている可能性がある。 乳・大豆を含む表示のある味（いちご・ロイヤルミルクティー・加賀棒茶・ミルクチョコレート・マカダミアナッツ）も同様に要確認。 原材料の内訳が確認できているのは、寒天・砂糖・小豆が中心のつぶあん・こしあん・こいちゃ。 3個入は味が決まったセットで、5個入が味を選べるのか決まった組合せなのかは未確認。 5個入1,620円までが予算内で、10個入以上は予算超過。",
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
@@ -2050,6 +2053,59 @@
    "shop": "みのや",
    "shop_full": "菓匠 みのや",
    "phone": "076-260-3781",
+   "name": "金沢羽二重餅（あん入り）",
+   "kind": "羽二重餅",
+   "description": "あん入りの羽二重餅。",
+   "options": [
+    {
+     "label": "12入",
+     "qty": 12,
+     "unit": "個",
+     "price": 1512,
+     "confidence": "B",
+     "source_url": "https://wagashi.sakura.ne.jp/habutae-tochi.html",
+     "evidence": "12入 ￥1,512（税込）、24入 ￥3,024（税込）",
+     "note": "",
+     "id": "P035-1"
+    },
+    {
+     "label": "24入",
+     "qty": 24,
+     "unit": "個",
+     "price": 3024,
+     "confidence": "B",
+     "source_url": "https://wagashi.sakura.ne.jp/habutae-tochi.html",
+     "evidence": "12入 ￥1,512（税込）、24入 ￥3,024（税込）",
+     "note": "",
+     "id": "P035-2"
+    }
+   ],
+   "wrap_level": "individual",
+   "wrap_note": "検索結果の要約に「すべての商品は個包装」とあるが、商品ページの記載そのものは未確認",
+   "shelf_life_days": 14,
+   "shelf_life_text": "2週間（開封後3日）",
+   "ingredients": null,
+   "ingredient_check": "？",
+   "ingredient_hits": [],
+   "ingredient_notes": [],
+   "allergens": null,
+   "seasonal": "通年（季節限定の記載なし）",
+   "page_url": "https://wagashi.sakura.ne.jp/habutae-tochi.html",
+   "image_key": null,
+   "confidence": "B",
+   "notes": "原材料表示は未確認。 ほかの羽二重餅（30日）より賞味期限が短い。",
+   "group": "G8",
+   "shop_category": "和菓子",
+   "popularity": [],
+   "id": "P035",
+   "confidence_min": "B",
+   "confidence_max": "B"
+  },
+  {
+   "shop_key": "みのや",
+   "shop": "みのや",
+   "shop_full": "菓匠 みのや",
+   "phone": "076-260-3781",
    "name": "金沢羽二重餅（プレーン）",
    "kind": "羽二重餅",
    "description": "プレーンの羽二重餅。",
@@ -2063,7 +2119,7 @@
      "source_url": "https://wagashi.sakura.ne.jp/habutae.html",
      "evidence": "12入 ￥810（税込）、20入 ￥1,350（税込）",
      "note": "",
-     "id": "P035-1"
+     "id": "P036-1"
     },
     {
      "label": "20入",
@@ -2074,18 +2130,7 @@
      "source_url": "https://wagashi.sakura.ne.jp/habutae.html",
      "evidence": "12入 ￥810（税込）、20入 ￥1,350（税込）",
      "note": "",
-     "id": "P035-2"
-    },
-    {
-     "label": "24入",
-     "qty": 24,
-     "unit": "個",
-     "price": 3024,
-     "confidence": "B",
-     "source_url": "https://wagashi.sakura.ne.jp/habutae-tochi.html",
-     "evidence": "12入 ￥1,512（税込）、24入 ￥3,024（税込）",
-     "note": "",
-     "id": "P035-3"
+     "id": "P036-2"
     }
    ],
    "wrap_level": "individual",
@@ -2101,11 +2146,11 @@
    "page_url": "https://wagashi.sakura.ne.jp/habutae.html",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料表示は未確認。 同じ羽二重餅の金箔・くるみ・梅柚子は乳化剤（乳由来）を含むため、プレーンも含む可能性がある。 12入の価格が検索結果で2通り（810円／1,512円）・要確認 ／日持ちが資料により異なる（30日／14日） ／ほかの羽二重餅（30日）より賞味期限が短い。",
+   "notes": "原材料表示は未確認。 同じ羽二重餅の金箔・くるみ・梅柚子は乳化剤（乳由来）を含むため、プレーンも含む可能性がある。",
    "group": "G8",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P035",
+   "id": "P036",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2127,7 +2172,7 @@
      "source_url": "https://wagashi.sakura.ne.jp/habutae-yuzen.html",
      "evidence": "友禅紙包装 5入 ￥810（税込）",
      "note": "",
-     "id": "P036-1"
+     "id": "P037-1"
     },
     {
      "label": "9入",
@@ -2138,7 +2183,7 @@
      "source_url": "https://wagashi.sakura.ne.jp/habutae-gold.html",
      "evidence": "9入 ￥1,134 (税込)",
      "note": "",
-     "id": "P036-2"
+     "id": "P037-2"
     },
     {
      "label": "12入",
@@ -2149,7 +2194,7 @@
      "source_url": "https://wagashi.sakura.ne.jp/habutae-gold.html",
      "evidence": "12入 ￥1,458 (税込)",
      "note": "",
-     "id": "P036-3"
+     "id": "P037-3"
     },
     {
      "label": "24入",
@@ -2160,7 +2205,7 @@
      "source_url": "https://wagashi.sakura.ne.jp/habutae-gold.html",
      "evidence": "24入 ￥2,592 (税込)",
      "note": "",
-     "id": "P036-4"
+     "id": "P037-4"
     },
     {
      "label": "36入",
@@ -2171,7 +2216,7 @@
      "source_url": "https://wagashi.sakura.ne.jp/habutae-gold.html",
      "evidence": "36入 ￥3,888 (税込)",
      "note": "",
-     "id": "P036-5"
+     "id": "P037-5"
     }
    ],
    "wrap_level": "individual",
@@ -2193,7 +2238,7 @@
    "group": "G8",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P036",
+   "id": "P037",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2215,7 +2260,7 @@
      "source_url": null,
      "evidence": "うぐいす 6個入 (1,566円)",
      "note": "",
-     "id": "P037-1"
+     "id": "P038-1"
     },
     {
      "label": "10個入（箱）",
@@ -2226,7 +2271,7 @@
      "source_url": null,
      "evidence": "うぐいす 10個入 (2,484円)",
      "note": "",
-     "id": "P037-2"
+     "id": "P038-2"
     },
     {
      "label": "12個入（箱）",
@@ -2237,7 +2282,7 @@
      "source_url": null,
      "evidence": "うぐいす 12個入 (3,132円)",
      "note": "",
-     "id": "P037-3"
+     "id": "P038-3"
     }
    ],
    "wrap_level": "individual",
@@ -2259,7 +2304,7 @@
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 2位"
    ],
-   "id": "P037",
+   "id": "P038",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2281,7 +2326,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P038-1"
+     "id": "P039-1"
     },
     {
      "label": "10個入（箱）",
@@ -2292,7 +2337,7 @@
      "source_url": "https://online.kintuba.co.jp/shopdetail/000000000320/",
      "evidence": "きんつば １０個入 箱: 2,268円（税込）",
      "note": "",
-     "id": "P038-2"
+     "id": "P039-2"
     },
     {
      "label": "12個入（箱）",
@@ -2303,7 +2348,7 @@
      "source_url": "https://online.kintuba.co.jp/shopdetail/000000000327/",
      "evidence": "きんつば １２個入 箱: 2,916円（税込）",
      "note": "",
-     "id": "P038-3"
+     "id": "P039-3"
     }
    ],
    "wrap_level": "individual",
@@ -2327,7 +2372,7 @@
     "商品: 総選挙2026 和菓子部門 1位",
     "商品: MRO 和菓子部門 1位"
    ],
-   "id": "P038",
+   "id": "P039",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -2349,7 +2394,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P039-1"
+     "id": "P040-1"
     },
     {
      "label": "10個入（箱）",
@@ -2360,7 +2405,7 @@
      "source_url": null,
      "evidence": "花かさね 10個入 (2,376円)",
      "note": "",
-     "id": "P039-2"
+     "id": "P040-2"
     },
     {
      "label": "12個入（箱）",
@@ -2371,7 +2416,7 @@
      "source_url": "https://online.kintuba.co.jp/shopdetail/000000000376/",
      "evidence": "花かさね 12個入 (3,024円)",
      "note": "",
-     "id": "P039-3"
+     "id": "P040-3"
     }
    ],
    "wrap_level": "individual",
@@ -2393,7 +2438,7 @@
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 2位"
    ],
-   "id": "P039",
+   "id": "P040",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -2415,7 +2460,7 @@
      "source_url": "https://www.100bangai.co.jp/news/detail.php?id=32008",
      "evidence": "つぶより…1個250円（税込）",
      "note": "",
-     "id": "P040-1"
+     "id": "P041-1"
     }
    ],
    "wrap_level": null,
@@ -2435,7 +2480,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P040",
+   "id": "P041",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2457,7 +2502,7 @@
      "source_url": "https://www.nakagosi.co.jp/set",
      "evidence": "10コ入り2,200円（税込価格）",
      "note": "",
-     "id": "P041-1"
+     "id": "P042-1"
     },
     {
      "label": "15個入",
@@ -2468,7 +2513,7 @@
      "source_url": "https://www.nakagosi.co.jp/set",
      "evidence": "15コ入り3,200円（税込価格）",
      "note": "",
-     "id": "P041-2"
+     "id": "P042-2"
     },
     {
      "label": "20個入",
@@ -2479,7 +2524,7 @@
      "source_url": "https://www.nakagosi.co.jp/set",
      "evidence": "20コ入り4,200円（税込価格）",
      "note": "",
-     "id": "P041-3"
+     "id": "P042-3"
     }
    ],
    "wrap_level": null,
@@ -2499,7 +2544,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P041",
+   "id": "P042",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2521,7 +2566,7 @@
      "source_url": "https://www.nakagosi.co.jp/popular.html",
      "evidence": "5コ入り880円（税込価格）",
      "note": "",
-     "id": "P042-1"
+     "id": "P043-1"
     },
     {
      "label": "10個入",
@@ -2532,7 +2577,7 @@
      "source_url": "https://www.nakagosi.co.jp/popular.html",
      "evidence": "10コ入り1,800円（税込価格）",
      "note": "",
-     "id": "P042-2"
+     "id": "P043-2"
     },
     {
      "label": "20個入",
@@ -2543,7 +2588,7 @@
      "source_url": "https://www.nakagosi.co.jp/popular.html",
      "evidence": "20コ入り3,450円（税込価格）",
      "note": "",
-     "id": "P042-3"
+     "id": "P043-3"
     }
    ],
    "wrap_level": null,
@@ -2565,7 +2610,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P042",
+   "id": "P043",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2587,7 +2632,7 @@
      "source_url": "https://ame-tawaraya.shop/items/641d4eb5a49922002d7bc18e",
      "evidence": "壺入りの価格帯「1,134円〜2,106円」（サイズ別の価格は検索結果に明記なし）",
      "note": "税込か税別かの記載が不明（表示の数字をそのまま採用）",
-     "id": "P043-1"
+     "id": "P044-1"
     },
     {
      "label": "300g",
@@ -2598,7 +2643,7 @@
      "source_url": "https://ame-tawaraya.shop/",
      "evidence": "検索結果の要約:「じろあめ（300g）¥1,674（税込）」",
      "note": "",
-     "id": "P043-2"
+     "id": "P044-2"
     },
     {
      "label": "400g",
@@ -2609,7 +2654,7 @@
      "source_url": "https://ame-tawaraya.shop/items/641d4eb5a49922002d7bc18e",
      "evidence": "壺入りの価格帯「1,134円〜2,106円」（サイズ別の価格は検索結果に明記なし）",
      "note": "税込か税別かの記載が不明（表示の数字をそのまま採用）",
-     "id": "P043-3"
+     "id": "P044-3"
     }
    ],
    "wrap_level": "none",
@@ -2629,9 +2674,62 @@
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P043",
+   "id": "P044",
    "confidence_min": "C",
    "confidence_max": "C"
+  },
+  {
+   "shop_key": "あめの俵屋",
+   "shop": "俵屋",
+   "shop_full": "あめの俵屋",
+   "phone": "076-260-3745",
+   "name": "俵っ子〈しょうが〉",
+   "kind": "飴（しょうが味の粒あめ）",
+   "description": "俵っ子つぶあめのしょうが味。通常サイズ150gと、お徳用200gがある。",
+   "options": [
+    {
+     "label": "150g",
+     "qty": 150,
+     "unit": "g",
+     "price": 1026,
+     "confidence": "B",
+     "source_url": "https://ame-tawaraya.shop/",
+     "evidence": "公式オンラインショップの検索要約:「俵っ子しょうが 150g…1,026円（税込）」",
+     "note": "",
+     "id": "P045-1"
+    },
+    {
+     "label": "200g（お徳用）",
+     "qty": 200,
+     "unit": "g",
+     "price": 1080,
+     "confidence": "B",
+     "source_url": "https://ame-tawaraya.shop/",
+     "evidence": "公式オンラインショップの検索要約:「お徳用200g…1,080円（税込）」",
+     "note": "",
+     "id": "P045-2"
+    }
+   ],
+   "wrap_level": null,
+   "wrap_note": "同じ俵っ子シリーズのつぶあめは個包装との記載があるが、しょうが味の個包装の有無は確認できなかった。",
+   "shelf_life_days": 360,
+   "shelf_life_text": "製造日から360日",
+   "ingredients": null,
+   "ingredient_check": "？",
+   "ingredient_hits": [],
+   "ingredient_notes": [],
+   "allergens": null,
+   "seasonal": "通年",
+   "page_url": "https://ajitowaza.raku-uru.jp/item-detail/1215936",
+   "image_key": null,
+   "confidence": "B",
+   "notes": "原材料表示は検索結果から取れなかった（しょうがを使うと思われるが、ほかの原料は未確認）。 公式オンラインショップ内の個別ページURLは未特定のため、通販サイト「味と技」の150g掲載ページを記載した。",
+   "group": "G10",
+   "shop_category": "和菓子",
+   "popularity": [],
+   "id": "P045",
+   "confidence_min": "B",
+   "confidence_max": "B"
   },
   {
    "shop_key": "あめの俵屋",
@@ -2651,7 +2749,7 @@
      "source_url": "https://ame-tawaraya.shop/items/691eb70f9267566f19efbb66",
      "evidence": "公式オンラインショップの検索要約:「俵っ子つぶあめ 150g…1,026円（税込）」",
      "note": "",
-     "id": "P044-1"
+     "id": "P046-1"
     },
     {
      "label": "200g（お徳用）",
@@ -2662,7 +2760,7 @@
      "source_url": "https://ame-tawaraya.shop/items/691eb70f9267566f19efbb66",
      "evidence": "公式オンラインショップの検索要約:「【お徳用】俵っ子つぶあめ 200g…1,080円（税込）」",
      "note": "",
-     "id": "P044-2"
+     "id": "P046-2"
     }
    ],
    "wrap_level": "individual",
@@ -2678,11 +2776,11 @@
    "page_url": "https://ame-tawaraya.shop/items/691eb70f9267566f19efbb66",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料は検索結果の要約文から読み取った表記で、商品ページ本文での最終確認はしていない。 150g品の個別ページURLは未特定（150gは通販サイト「味と技」にも掲載: https://ajitowaza.raku-uru.jp/item-detail/1208470 ）。 一粒あたりの重さ・粒数は不明。 原材料表示は検索結果から取れなかった（しょうがを使うと思われるが、ほかの原料は未確認）。 公式オンラインショップ内の個別ページURLは未特定のため、通販サイト「味と技」の150g掲載ページを記載した。",
+   "notes": "原材料は検索結果の要約文から読み取った表記で、商品ページ本文での最終確認はしていない。 150g品の個別ページURLは未特定（150gは通販サイト「味と技」にも掲載: https://ajitowaza.raku-uru.jp/item-detail/1208470 ）。 一粒あたりの重さ・粒数は不明。 150gの1,026円は、公式オンラインショップのページと商品一覧の要約の両方で確認。 原材料と賞味期限360日は、同じ商品のお徳用200gのページの表示から読み取った（150gのページ自体の本文は検索で出ず未確認）。 国産の米・もち米・大麦・米粉だけで、豚由来成分・アルコールに当たる表示はない。 個包装は二次情報のみで、公式での確認はできていない。",
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P044",
+   "id": "P046",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2704,7 +2802,7 @@
      "source_url": "https://ame-tawaraya.shop/",
      "evidence": "検索結果の要約:「町家箱2個入りセット ¥2,140（税込）」",
      "note": "",
-     "id": "P045-1"
+     "id": "P047-1"
     },
     {
      "label": "4個入りセット",
@@ -2715,11 +2813,11 @@
      "source_url": "https://ame-tawaraya.shop/",
      "evidence": "検索結果の要約:「町家箱4個入りセット ¥4,434（税込）」",
      "note": "",
-     "id": "P045-2"
+     "id": "P047-2"
     }
    ],
    "wrap_level": null,
-   "wrap_note": "",
+   "wrap_note": "中身が未確認のため、個包装かどうかも不明。",
    "shelf_life_days": null,
    "shelf_life_text": "",
    "ingredients": null,
@@ -2731,13 +2829,66 @@
    "page_url": "https://ame-tawaraya.shop/",
    "image_key": null,
    "confidence": "C",
-   "notes": "価格は公式オンラインショップのトップ付近を要約した文面のみで、個別の商品ページは検索で見つからなかった。 「個」が何を指すか（箱の数か、飴の種類か）、中身、日持ち、原材料、個包装の有無はすべて未確認。 2個入りは2,140円で予算内（2,300円以下）。",
+   "notes": "価格は公式オンラインショップのトップ付近を要約した文面のみで、個別の商品ページは検索で見つからなかった。 「個」が何を指すか（箱の数か、飴の種類か）、中身、日持ち、原材料、個包装の有無はすべて未確認。 2個入りは2,140円で予算内（2,300円以下）。 価格（2個入りセット2,140円・4個入りセット4,434円）は、公式オンラインショップのトップ付近の要約で再確認できた。 ただし町家箱の商品ページは検索で見つからず、中身（どの飴が何個入りか）・「個」が箱の数か飴の数か・日持ち・原材料・個包装の有無はすべて未確認。 2個入りセット2,140円は2,300円以内、4個入りセット4,434円は予算超過。",
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P045",
+   "id": "P047",
    "confidence_min": "C",
    "confidence_max": "C"
+  },
+  {
+   "shop_key": "あめの俵屋",
+   "shop": "俵屋",
+   "shop_full": "あめの俵屋",
+   "phone": "076-260-3745",
+   "name": "飴ん子〈きなこ〉（町家パッケージ）",
+   "kind": "飴（きなこ味のひとくち飴）",
+   "description": "米と大麦の飴にきなこをまぶした飴。130gは町家パッケージ。袋入りのお徳用180gもある。",
+   "options": [
+    {
+     "label": "130g（町家パッケージ）",
+     "qty": 130,
+     "unit": "g",
+     "price": 1026,
+     "confidence": "B",
+     "source_url": "https://ame-tawaraya.shop/items/641d53e0508a1018d48a37f2",
+     "evidence": "公式オンラインショップの検索要約:「飴ん子きなこ 130g…1,026円（税込）」",
+     "note": "",
+     "id": "P048-1"
+    },
+    {
+     "label": "180g（お徳用）",
+     "qty": 180,
+     "unit": "g",
+     "price": 1080,
+     "confidence": "B",
+     "source_url": "https://ame-tawaraya.shop/items/641d53e0508a1018d48a37f2",
+     "evidence": "公式オンラインショップの検索要約:「お徳用180g…1,080円（税込）」",
+     "note": "",
+     "id": "P048-2"
+    }
+   ],
+   "wrap_level": "individual",
+   "wrap_note": "旅行サイト・口コミの要約に「飴ん子は個包装で入っている」とある（公式ページでの確認はできていない）。詰め合わせ「みのり」の説明には「飴ん子きなこ 8粒入」とあり、130gで約8粒とみられる。",
+   "shelf_life_days": 60,
+   "shelf_life_text": "製造日から60日",
+   "ingredients": "米（国産）、大豆（アメリカ産）、もち米（国産）、砂糖、大麦",
+   "ingredient_check": "○",
+   "ingredient_hits": [],
+   "ingredient_notes": [],
+   "allergens": "大豆（原材料に含む）",
+   "seasonal": "通年",
+   "page_url": "https://ame-tawaraya.shop/items/641d53e0508a1018d48a37f2",
+   "image_key": null,
+   "confidence": "B",
+   "notes": "【食い違い】130gの価格は、公式オンラインショップの要約では1,026円（旅行サイトの要約も飴ん子は1,026円）、別の通販の要約では「しろ・きなことも町家パッケージ130gが918円」と読める記述があった。 公式の1,026円を採用。 原材料は検索結果の要約文から読み取ったもので、商品ページ本文での最終確認はしていない。",
+   "group": "G10",
+   "shop_category": "和菓子",
+   "popularity": [],
+   "id": "P048",
+   "confidence_min": "B",
+   "confidence_max": "B"
   },
   {
    "shop_key": "あめの俵屋",
@@ -2752,12 +2903,12 @@
      "label": "130g（町家パッケージ）",
      "qty": 130,
      "unit": "g",
-     "price": 918,
+     "price": 1026,
      "confidence": "B",
      "source_url": "https://ame-tawaraya.shop/items/641d539395624d00788a0c0e",
-     "evidence": "公式オンラインショップの検索要約:「飴ん子しろ 130g…918円（税込）」／別の通販の要約でも「飴ん子〈しろ〉町家パッケージ 130g 918円」",
+     "evidence": "公式オンラインショップの商品ページの検索要約:「飴ん子＜しろ＞ 130g ¥1,026（税込）、賞味期限60日」。ショップの商品一覧の要約にも「飴ん子＜しろ＞ ¥1,026」と出た",
      "note": "",
-     "id": "P046-1"
+     "id": "P049-1"
     },
     {
      "label": "180g（お徳用）",
@@ -2768,27 +2919,27 @@
      "source_url": "https://ame-tawaraya.shop/items/641d539395624d00788a0c0e",
      "evidence": "公式オンラインショップの検索要約:「お徳用180g…1,080円（税込）」",
      "note": "",
-     "id": "P046-2"
+     "id": "P049-2"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "旅行サイト・口コミの要約に「飴ん子は個包装で入っている」とある（公式ページでの確認はできていない）。詰め合わせ「みのり」の説明には「飴ん子しろ 8粒入」とあり、130gで約8粒とみられる。",
    "shelf_life_days": 60,
    "shelf_life_text": "製造日から60日",
-   "ingredients": "米（国産）、大豆（アメリカ産）、もち米（国産）、砂糖、大麦",
+   "ingredients": "米（国産）、もち米（国産）、大麦、米粉",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
-   "allergens": "大豆（原材料に含む）",
+   "allergens": "特定原材料の表示なし",
    "seasonal": "通年",
    "page_url": "https://ame-tawaraya.shop/items/641d539395624d00788a0c0e",
    "image_key": null,
    "confidence": "B",
-   "notes": "【食い違い】130gの価格は、918円（公式オンラインショップの要約、別の通販の要約）と1,026円（ほかの要約2件）が出た。 公式オンラインショップの918円を採用。 日持ちは60日で、俵っ子（360日）より短い。 130g（町家パッケージ）の価格が検索結果で2通り（918円／1,026円）・要確認 ／【食い違い】130gの価格は、公式オンラインショップの要約では1,026円（旅行サイトの要約も飴ん子は1,026円）、別の通販の要約では「しろ・きなことも町家パッケージ130gが918円」と読める記述があった。 公式の1,026円を採用。 原材料は検索結果の要約文から読み取ったもので、商品ページ本文での最終確認はしていない。",
+   "notes": "【食い違い】130gの価格は、918円（公式オンラインショップの要約、別の通販の要約）と1,026円（ほかの要約2件）が出た。 公式オンラインショップの918円を採用。 日持ちは60日で、俵っ子（360日）より短い。 130g（町家パッケージ）の価格を1,026円に更新（裏取りの結果。以前の検索結果は918円） ／【食い違い】130gの価格は1,026円と918円が出た。 今回の公式オンラインショップの商品ページと商品一覧の要約は、どちらも1,026円（税込）。 918円は前回の検索（公式の要約と別の通販）で出たもの。 現在の公式表示の1,026円を採用したが、918円が旧価格か別サイトの価格かは未確認（同じ商品一覧では、飴ん子〈きなこ〉も1,026円と出た）。 賞味期限60日・原材料（国産の米・もち米・大麦・米粉）・特定原材料なしは、公式ページの要約で確認。 豚由来成分・アルコールに当たる表示はない。 日持ちは俵っ子（360日）より短い。 個包装は二次情報のみ。",
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P046",
+   "id": "P049",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2810,7 +2961,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/778001n.html",
      "evidence": "8枚入は¥594（税込）（WebSearch要約。1,500円以下一覧の要約でも 8枚入 ¥594）",
      "note": "",
-     "id": "P047-1"
+     "id": "P050-1"
     },
     {
      "label": "15枚入",
@@ -2821,7 +2972,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/778002n.html",
      "evidence": "15枚入：¥1,026(税込)（複数の検索要約で一致）",
      "note": "",
-     "id": "P047-2"
+     "id": "P050-2"
     },
     {
      "label": "24枚入",
@@ -2832,7 +2983,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/778003n.html",
      "evidence": "24枚入は¥1,620（税込）（WebSearch要約）",
      "note": "",
-     "id": "P047-3"
+     "id": "P050-3"
     }
    ],
    "wrap_level": null,
@@ -2852,7 +3003,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P047",
+   "id": "P050",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -2874,7 +3025,7 @@
      "source_url": "https://kagajinya.com/SHOP/777063n.html",
      "evidence": "6個入：¥1,420（税込）（WebSearch要約。1,500円以下一覧の要約でも 6個入 ¥1,420）",
      "note": "",
-     "id": "P048-1"
+     "id": "P051-1"
     },
     {
      "label": "12個入",
@@ -2885,7 +3036,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/777064n.html",
      "evidence": "12個入：¥2,660（税込）（WebSearch要約）。2,300円超",
      "note": "",
-     "id": "P048-2"
+     "id": "P051-2"
     },
     {
      "label": "20個入",
@@ -2896,7 +3047,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/777065n.html",
      "evidence": "20個入：¥4,280（税込）（WebSearch要約。2回の検索で一致）",
      "note": "",
-     "id": "P048-3"
+     "id": "P051-3"
     }
    ],
    "wrap_level": "individual",
@@ -2918,7 +3069,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P048",
+   "id": "P051",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2940,7 +3091,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/777071n.html",
      "evidence": "加賀のおかきパイ 価格（税込）: ¥240／内容量: 1袋（2枚入）（WebSearch要約）",
      "note": "",
-     "id": "P049-1"
+     "id": "P052-1"
     }
    ],
    "wrap_level": "individual",
@@ -2964,7 +3115,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P049",
+   "id": "P052",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -2986,7 +3137,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/777101n.html",
      "evidence": "加賀のかがやき 上々かすてぃら プレーン Price (Tax included): ¥1,512／常温で製造日より30日間（WebSearch要約）",
      "note": "",
-     "id": "P050-1"
+     "id": "P053-1"
     }
    ],
    "wrap_level": null,
@@ -3006,7 +3157,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P050",
+   "id": "P053",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3028,7 +3179,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/777102n.html",
      "evidence": "加賀のかがやき 上々かすてぃら 抹茶 価格（税込）: ¥1,512／内容量: 抹茶 1箱(11切入)（WebSearch要約）",
      "note": "",
-     "id": "P051-1"
+     "id": "P054-1"
     }
    ],
    "wrap_level": null,
@@ -3048,7 +3199,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P051",
+   "id": "P054",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3070,7 +3221,7 @@
      "source_url": "https://kagajinya.com/SHOP/777099n.html",
      "evidence": "加賀の殿様 6個入の税込価格は¥1,210です（WebSearch要約。1,500円以下一覧の要約でも ¥1,210）",
      "note": "",
-     "id": "P052-1"
+     "id": "P055-1"
     },
     {
      "label": "10個入",
@@ -3081,7 +3232,7 @@
      "source_url": "https://kagajinya.com/SHOP/777041n.html",
      "evidence": "加賀の殿様 10個入 ¥1,770 (税込), shelf life 30日（WebSearch要約。2回の検索で一致）",
      "note": "",
-     "id": "P052-2"
+     "id": "P055-2"
     },
     {
      "label": "15個入",
@@ -3092,7 +3243,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/777042n.html",
      "evidence": "加賀の殿様 15個入 価格（税込）: ¥2,670（WebSearch要約）。2,300円超",
      "note": "",
-     "id": "P052-3"
+     "id": "P055-3"
     }
    ],
    "wrap_level": null,
@@ -3115,7 +3266,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P052",
+   "id": "P055",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3137,7 +3288,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/777093n.html",
      "evidence": "愉経世 ¥735(税込)／内容量 1本（WebSearch要約。1,500円以下一覧の要約でも ¥735）",
      "note": "",
-     "id": "P053-1"
+     "id": "P056-1"
     }
    ],
    "wrap_level": null,
@@ -3157,7 +3308,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P053",
+   "id": "P056",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3179,7 +3330,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/152047/list.html",
      "evidence": "栗春日 6個入：¥1,500(税込)（1,500円以下一覧ページの要約）",
      "note": "",
-     "id": "P054-1"
+     "id": "P057-1"
     },
     {
      "label": "10個入",
@@ -3190,7 +3341,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/777052n.html",
      "evidence": "栗春日 10個入 Price (税込): ¥2,420／14 days from manufacture date at room temperature（WebSearch要約）。2,300円超",
      "note": "",
-     "id": "P054-2"
+     "id": "P057-2"
     }
    ],
    "wrap_level": null,
@@ -3212,7 +3363,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P054",
+   "id": "P057",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3234,7 +3385,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/900007n.html",
      "evidence": "金沢あんころ餅 9個入 価格（税込）: ¥480／賞味期限: 常温で製造日より７日間（WebSearch要約。1,500円以下一覧の要約でも ¥480）",
      "note": "",
-     "id": "P055-1"
+     "id": "P058-1"
     }
    ],
    "wrap_level": null,
@@ -3256,7 +3407,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P055",
+   "id": "P058",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3278,7 +3429,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/900005n.html",
      "evidence": "金沢のまち 12個入 価格：¥1,296（税込）／賞味期限：常温で製造日より50日間（WebSearch要約。1,500円以下一覧の要約でも ¥1,296）",
      "note": "",
-     "id": "P056-1"
+     "id": "P059-1"
     },
     {
      "label": "18個入",
@@ -3289,7 +3440,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/900006n.html",
      "evidence": "金沢のまち 18個入 価格：¥1,728（税込）（検索1・検索4の要約で一致）。別検索の要約では 18個入 ¥1,890 とあり矛盾",
      "note": "",
-     "id": "P056-2"
+     "id": "P059-2"
     }
    ],
    "wrap_level": "individual",
@@ -3311,7 +3462,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P056",
+   "id": "P059",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -3333,7 +3484,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/900003n.html",
      "evidence": "金沢の月プレミアム 12個入 価格：¥1,080（税込）／賞味期限：常温で製造日より30日間（WebSearch要約。複数検索で一致）",
      "note": "",
-     "id": "P057-1"
+     "id": "P060-1"
     },
     {
      "label": "20個入",
@@ -3344,7 +3495,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/900004n.html",
      "evidence": "金沢の月プレミアム 20個入 - ¥1,944 (税込), shelf life of 30 days（検索1の要約）。別検索の要約では 20個入 ¥1,728 とあり矛盾",
      "note": "",
-     "id": "P057-2"
+     "id": "P060-2"
     }
    ],
    "wrap_level": "individual",
@@ -3366,7 +3517,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P057",
+   "id": "P060",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -3388,7 +3539,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/900001n.html",
      "evidence": "金箔羽二重餅 9個入 税込価格: ¥972／賞味期限: 常温で製造日より30日間（WebSearch要約。複数検索で一致）",
      "note": "",
-     "id": "P058-1"
+     "id": "P061-1"
     }
    ],
    "wrap_level": "individual",
@@ -3410,7 +3561,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P058",
+   "id": "P061",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3432,7 +3583,7 @@
      "source_url": "https://www.kagajinya.com/SHOP/900002n.html",
      "evidence": "金箔羽二重餅・金箔黒羽二重餅詰合せ 各9個入 計18個入 価格：¥1,836（税込）（WebSearch要約。複数検索で一致）",
      "note": "",
-     "id": "P059-1"
+     "id": "P062-1"
     }
    ],
    "wrap_level": null,
@@ -3454,7 +3605,7 @@
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P059",
+   "id": "P062",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3476,7 +3627,7 @@
      "source_url": "https://store.suehirodou.jp/products/usukawa-2",
      "evidence": "うすかわまんじゅう：2個入り 280円～（税込）",
      "note": "",
-     "id": "P060-1"
+     "id": "P063-1"
     },
     {
      "label": "5個入",
@@ -3487,7 +3638,7 @@
      "source_url": "https://store.suehirodou.jp/products/usukawa-5",
      "evidence": "5個入り：¥780（税込み）",
      "note": "",
-     "id": "P060-2"
+     "id": "P063-2"
     },
     {
      "label": "6個入",
@@ -3498,7 +3649,7 @@
      "source_url": "https://store.suehirodou.jp/products/usukawa-6",
      "evidence": "6個入り：¥750（税込み）／6個入り: ¥750 (tax included)",
      "note": "",
-     "id": "P060-3"
+     "id": "P063-3"
     },
     {
      "label": "10個入",
@@ -3509,7 +3660,7 @@
      "source_url": "https://store.suehirodou.jp/products/usukawa-10",
      "evidence": "10個入り: ¥1,300 (tax included)",
      "note": "",
-     "id": "P060-4"
+     "id": "P063-4"
     },
     {
      "label": "15個入",
@@ -3520,7 +3671,7 @@
      "source_url": "https://store.suehirodou.jp/products/usukawa-15",
      "evidence": "15個入り: ¥1,800 (tax included)",
      "note": "",
-     "id": "P060-5"
+     "id": "P063-5"
     },
     {
      "label": "20個入",
@@ -3531,7 +3682,7 @@
      "source_url": "https://store.suehirodou.jp/products/usukawa-20",
      "evidence": "20個入り：¥2,400（税込み）",
      "note": "",
-     "id": "P060-6"
+     "id": "P063-6"
     },
     {
      "label": "30個入",
@@ -3542,7 +3693,7 @@
      "source_url": "https://store.suehirodou.jp/products/usukawa-30",
      "evidence": "30個入り：¥3,600（税込み）",
      "note": "",
-     "id": "P060-7"
+     "id": "P063-7"
     }
    ],
    "wrap_level": null,
@@ -3562,7 +3713,7 @@
    "group": "G8",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P060",
+   "id": "P063",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -3584,7 +3735,7 @@
      "source_url": "https://store.suehirodou.jp/products/okashinoheya-4",
      "evidence": "4個入り：¥800、6個入り：¥1,200",
      "note": "",
-     "id": "P061-1"
+     "id": "P064-1"
     },
     {
      "label": "6個入",
@@ -3595,7 +3746,7 @@
      "source_url": "https://store.suehirodou.jp/products/okashinoheya-6",
      "evidence": "4個入り：¥800、6個入り：¥1,200",
      "note": "",
-     "id": "P061-2"
+     "id": "P064-2"
     }
    ],
    "wrap_level": null,
@@ -3617,7 +3768,7 @@
    "group": "G8",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P061",
+   "id": "P064",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3639,7 +3790,7 @@
      "source_url": "https://www.suehirodou.jp/kikunotsuyu.php",
      "evidence": "価格：6ヶ 1,200円(税込)、10ヶ 2,000円(税込)、15ヶ 3,000円(税込)、20ヶ 4,000円(税込)",
      "note": "",
-     "id": "P062-1"
+     "id": "P065-1"
     },
     {
      "label": "10個入",
@@ -3650,7 +3801,7 @@
      "source_url": "https://www.suehirodou.jp/kikunotsuyu.php",
      "evidence": "価格：6ヶ 1,200円(税込)、10ヶ 2,000円(税込)、15ヶ 3,000円(税込)、20ヶ 4,000円(税込)",
      "note": "",
-     "id": "P062-2"
+     "id": "P065-2"
     },
     {
      "label": "15個入",
@@ -3661,7 +3812,7 @@
      "source_url": "https://www.suehirodou.jp/kikunotsuyu.php",
      "evidence": "価格：6ヶ 1,200円(税込)、10ヶ 2,000円(税込)、15ヶ 3,000円(税込)、20ヶ 4,000円(税込)",
      "note": "",
-     "id": "P062-3"
+     "id": "P065-3"
     },
     {
      "label": "20個入",
@@ -3672,7 +3823,7 @@
      "source_url": "https://www.suehirodou.jp/kikunotsuyu.php",
      "evidence": "価格：6ヶ 1,200円(税込)、10ヶ 2,000円(税込)、15ヶ 3,000円(税込)、20ヶ 4,000円(税込)",
      "note": "",
-     "id": "P062-4"
+     "id": "P065-4"
     }
    ],
    "wrap_level": null,
@@ -3692,7 +3843,7 @@
    "group": "G8",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P062",
+   "id": "P065",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3714,7 +3865,7 @@
      "source_url": "https://www.suehirodou.jp/products/kintsuba",
      "evidence": "3個入り: ¥900 (tax included)／きんつば：3個入り 900円～（税込）",
      "note": "",
-     "id": "P063-1"
+     "id": "P066-1"
     },
     {
      "label": "6個入",
@@ -3725,7 +3876,7 @@
      "source_url": "https://store.suehirodou.jp/products/kintsuba-11",
      "evidence": "6個入り: ¥1,800 (tax included)",
      "note": "",
-     "id": "P063-2"
+     "id": "P066-2"
     },
     {
      "label": "10個入",
@@ -3736,7 +3887,7 @@
      "source_url": "https://store.suehirodou.jp/products/kintsuba-11",
      "evidence": "10個入り: ¥3,000 (tax included)",
      "note": "",
-     "id": "P063-3"
+     "id": "P066-3"
     },
     {
      "label": "15個入",
@@ -3747,14 +3898,14 @@
      "source_url": "https://store.suehirodou.jp/products/kintsuba-11",
      "evidence": "15個入り: ¥4,500 (tax included)",
      "note": "",
-     "id": "P063-4"
+     "id": "P066-4"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "検索結果の紹介文に「個包装なので食べやすく、日持ちする」とある",
    "shelf_life_days": 20,
    "shelf_life_text": "20日",
-   "ingredients": "還元麦芽糖水飴（国内製造）、小豆、小麦粉、寒天、塩",
+   "ingredients": "還元麦芽糖水飴（国内製造）、小豆、小麦粉、寒天、塩（一部に小麦を含む）",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -3763,11 +3914,11 @@
    "page_url": "https://www.suehirodou.jp/products/kintsuba",
    "image_key": null,
    "confidence": "B",
-   "notes": "ほかに1個売りと20個入（6,000円）もあるが、1個の価格は未確認。 3個入は900円、6個入は1,800円で1個300円の計算。 商品ページ本文そのものは未閲覧。",
+   "notes": "ほかに1個売りと20個入（6,000円）もあるが、1個の価格は未確認。 3個入は900円、6個入は1,800円で1個300円の計算。 商品ページ本文そのものは未閲覧。 あんと店で扱っているかは、百番街の公式サイトでの紹介と、あんと店の取扱商品として900円と載っていることから、取り扱いありと判断。 原材料に乳化剤・ゼラチン・酒類の表示はない（小麦を含む）。 6個入以上の価格は3個入900円の単純な倍数で整合する。 1個売りと20個入（6,000円）もある。",
    "group": "G8",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P063",
+   "id": "P066",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3784,30 +3935,30 @@
      "label": "6個入",
      "qty": 6,
      "unit": "個",
-     "price": 750,
+     "price": 780,
      "confidence": "B",
-     "source_url": "https://www.suehirodou.jp/hananokanazawa.php",
-     "evidence": "花のかなざわ：6個入り750円（税込）／6個入：750円、10個入：1,200円",
+     "source_url": "https://store.suehirodou.jp/products/hananokanazawa-6",
+     "evidence": "6個入り：780円（税込）／あんと店の取扱商品：花のかなざわ（¥780）",
      "note": "",
-     "id": "P064-1"
+     "id": "P067-1"
     },
     {
      "label": "10個入",
      "qty": 10,
      "unit": "個",
-     "price": 1200,
+     "price": 1300,
      "confidence": "B",
      "source_url": "https://store.suehirodou.jp/products/hananokanazawa-10",
-     "evidence": "6個入：750円、10個入：1,200円",
+     "evidence": "10個入り：1,300円（税込）",
      "note": "",
-     "id": "P064-2"
+     "id": "P067-2"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "検索結果の説明に「商品は個包装」とある（包装の詳しい形は未確認）",
    "shelf_life_days": 30,
    "shelf_life_text": "30日間（常温・直射日光と高温多湿を避ける）",
-   "ingredients": "白餡(国内製造)、砂糖、さつま芋ペースト、上用粉(国産)、蜂蜜、卵、脱脂粉乳/着色料(赤3、106、黄4)",
+   "ingredients": "白餡（国内製造）、砂糖、さつま芋ペースト、上用粉（国産）、蜂蜜、卵、脱脂粉乳／着色料（赤3・赤106・黄4）（一部に卵・乳を含む）",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -3816,11 +3967,11 @@
    "page_url": "https://store.suehirodou.jp/products/hananokanazawa-10",
    "image_key": null,
    "confidence": "B",
-   "notes": "公式通販・公式サイトの検索結果で確認。 着色料（赤3・106・黄4）の表示あり。 ゼラチン・乳化剤・酒類などの表示は見当たらない。 商品ページ本文そのものは未閲覧。",
+   "notes": "公式通販・公式サイトの検索結果で確認。 着色料（赤3・106・黄4）の表示あり。 ゼラチン・乳化剤・酒類などの表示は見当たらない。 商品ページ本文そのものは未閲覧。 6個入の価格を780円に更新（裏取りの結果。以前の検索結果は750円） ／10個入の価格を1,300円に更新（裏取りの結果。以前の検索結果は1,200円） ／【食い違い】6個入750円・10個入1,200円という表示と、6個入780円・10個入1,300円という表示が出た。 公式通販の現行ページとあんと店の取扱商品欄が780円なので、780円・1,300円を採用（750円・1,200円は公式サイトの旧ページの価格とみられる）。 【注意】公式通販のページに「売り切れ」の表示が出ていた（検索結果の要約による）。 あんと店頭の在庫は不明。 着色料（赤3・赤106・黄4）を使用。 乳化剤・ゼラチン・酒類の表示はない。",
    "group": "G8",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P064",
+   "id": "P067",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3842,7 +3993,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/123",
      "evidence": "バラ菓子として販売される25gのわり氷は216円、賞味期限は60日、アレルギーは該当なし",
      "note": "",
-     "id": "P065-1"
+     "id": "P068-1"
     },
     {
      "label": "8入（25g×8袋）",
@@ -3853,7 +4004,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P065-2"
+     "id": "P068-2"
     }
    ],
    "wrap_level": "individual",
@@ -3873,7 +4024,7 @@
    "group": "G0",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P065",
+   "id": "P068",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -3895,7 +4046,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/165",
      "evidence": "わり氷【キューブ】25g×4袋入: 994円 (税込)",
      "note": "",
-     "id": "P066-1"
+     "id": "P069-1"
     }
    ],
    "wrap_level": "individual",
@@ -3915,7 +4066,7 @@
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P066",
+   "id": "P069",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3937,7 +4088,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/175",
      "evidence": "わり氷【スタンドパック】25g×3袋入: 778円 (税込)",
      "note": "",
-     "id": "P067-1"
+     "id": "P070-1"
     }
    ],
    "wrap_level": "individual",
@@ -3957,7 +4108,7 @@
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P067",
+   "id": "P070",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -3979,7 +4130,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/227",
      "evidence": "価格1,566円～9,072円 ／ 6入：1,566円(税込)",
      "note": "",
-     "id": "P068-1"
+     "id": "P071-1"
     },
     {
      "label": "8入（25g×8袋）",
@@ -3990,7 +4141,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/227",
      "evidence": "8入：1,998円(税込)",
      "note": "",
-     "id": "P068-2"
+     "id": "P071-2"
     },
     {
      "label": "24入（25g×24袋）",
@@ -4001,7 +4152,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/227",
      "evidence": "24入で5,616円（税込）",
      "note": "",
-     "id": "P068-3"
+     "id": "P071-3"
     },
     {
      "label": "40入（25g×40袋）",
@@ -4012,7 +4163,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/227",
      "evidence": "40入で9,072円（税込）",
      "note": "",
-     "id": "P068-4"
+     "id": "P071-4"
     }
    ],
    "wrap_level": "individual",
@@ -4032,7 +4183,7 @@
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P068",
+   "id": "P071",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4054,7 +4205,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/240",
      "evidence": "詰合せ〈涼菓〉(1): 2,106円(税込) - わり氷1/金沢ゆずわり氷1/能登塩サイダーわり氷1/加賀棒茶わり氷1/わらび餅3",
      "note": "",
-     "id": "P069-1"
+     "id": "P072-1"
     }
    ],
    "wrap_level": null,
@@ -4074,7 +4225,7 @@
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P069",
+   "id": "P072",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4096,7 +4247,7 @@
      "source_url": "https://www.wagashi-murakami.com/products/detail/231",
      "evidence": "金沢ゆずわり氷は216円～9,072円（税込）、個包装の単品購入から詰め合わせセットまで複数のサイズ",
      "note": "",
-     "id": "P070-1"
+     "id": "P073-1"
     }
    ],
    "wrap_level": "individual",
@@ -4116,7 +4267,7 @@
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P070",
+   "id": "P073",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4138,7 +4289,7 @@
      "source_url": "https://itaya-net.com/catalog/kaburi/",
      "evidence": "1個(バラ売り) 378円（本体価格350円）",
      "note": "",
-     "id": "P071-1"
+     "id": "P074-1"
     },
     {
      "label": "6個入（箱入り）",
@@ -4149,7 +4300,7 @@
      "source_url": "https://itaya-net.com/catalog/kaburi/",
      "evidence": "6個入(箱入り) 2,538円（本体価格2,350円）",
      "note": "",
-     "id": "P071-2"
+     "id": "P074-2"
     },
     {
      "label": "8個入（箱入り）",
@@ -4160,7 +4311,7 @@
      "source_url": "https://itaya-net.com/catalog/kaburi/",
      "evidence": "8個入(箱入り) 3,305円（本体価格3,060円）",
      "note": "",
-     "id": "P071-3"
+     "id": "P074-3"
     },
     {
      "label": "12個入（箱入り）",
@@ -4171,7 +4322,7 @@
      "source_url": "https://itaya-net.com/catalog/kaburi/",
      "evidence": "12個入(箱入り) 4,839円（本体価格4,480円）",
      "note": "",
-     "id": "P071-4"
+     "id": "P074-4"
     }
    ],
    "wrap_level": null,
@@ -4193,7 +4344,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P071",
+   "id": "P074",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4215,7 +4366,7 @@
      "source_url": "https://itaya-net.com/catalog/dorayaki/",
      "evidence": "1個 303円（本体価格280円）",
      "note": "",
-     "id": "P072-1"
+     "id": "P075-1"
     },
     {
      "label": "5個入",
@@ -4226,7 +4377,7 @@
      "source_url": "https://itaya-net.com/catalog/dorayaki/",
      "evidence": "5個入 1,728円（本体価格1,600円）",
      "note": "",
-     "id": "P072-2"
+     "id": "P075-2"
     }
    ],
    "wrap_level": null,
@@ -4246,7 +4397,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P072",
+   "id": "P075",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4268,7 +4419,7 @@
      "source_url": "https://itaya-net.com/catalog/pie/",
      "evidence": "1個 216円（本体価格200円）",
      "note": "",
-     "id": "P073-1"
+     "id": "P076-1"
     },
     {
      "label": "8個入",
@@ -4279,7 +4430,7 @@
      "source_url": "https://itaya-net.com/catalog/pie/",
      "evidence": "8個入 2,009円（本体価格1,860円）",
      "note": "",
-     "id": "P073-2"
+     "id": "P076-2"
     },
     {
      "label": "12個入",
@@ -4290,7 +4441,7 @@
      "source_url": "https://itaya-net.com/catalog/pie/",
      "evidence": "12個入 2,895円（本体価格2,680円）",
      "note": "",
-     "id": "P073-3"
+     "id": "P076-3"
     }
    ],
    "wrap_level": null,
@@ -4310,7 +4461,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P073",
+   "id": "P076",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4332,7 +4483,7 @@
      "source_url": "https://itaya-net.com/catalog/bmc/",
      "evidence": "通常盤: 1,349円（本体価格1,249円）",
      "note": "",
-     "id": "P074-1"
+     "id": "P077-1"
     },
     {
      "label": "特別盤",
@@ -4343,7 +4494,7 @@
      "source_url": "https://itaya-net.com/catalog/bmc/",
      "evidence": "特別盤: 2,538円（本体価格2,350円）",
      "note": "",
-     "id": "P074-2"
+     "id": "P077-2"
     }
    ],
    "wrap_level": null,
@@ -4363,7 +4514,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P074",
+   "id": "P077",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4385,7 +4536,7 @@
      "source_url": "https://itaya-net.com/catalog/oyamanomori/",
      "evidence": "1本 1,502円（本体価格1,390円）",
      "note": "",
-     "id": "P075-1"
+     "id": "P078-1"
     },
     {
      "label": "2本入",
@@ -4396,7 +4547,7 @@
      "source_url": "https://itaya-net.com/catalog/oyamanomori/",
      "evidence": "2本入 3,284円（本体価格3,040円）",
      "note": "",
-     "id": "P075-2"
+     "id": "P078-2"
     },
     {
      "label": "3本入",
@@ -4407,7 +4558,7 @@
      "source_url": "https://itaya-net.com/catalog/oyamanomori/",
      "evidence": "3本入 4,806円（本体価格4,450円）",
      "note": "",
-     "id": "P075-3"
+     "id": "P078-3"
     }
    ],
    "wrap_level": null,
@@ -4429,7 +4580,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P075",
+   "id": "P078",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4451,7 +4602,7 @@
      "source_url": "https://itaya-net.com/catalog/oyama/",
      "evidence": "1箱 1,458円（本体価格1,350円）",
      "note": "",
-     "id": "P076-1"
+     "id": "P079-1"
     }
    ],
    "wrap_level": null,
@@ -4471,7 +4622,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P076",
+   "id": "P079",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4493,7 +4644,7 @@
      "source_url": "https://itaya-net.com/catalog/kumamonaka/",
      "evidence": "1個 195円（本体価格180円）",
      "note": "",
-     "id": "P077-1"
+     "id": "P080-1"
     },
     {
      "label": "10個入",
@@ -4504,7 +4655,7 @@
      "source_url": "https://itaya-net.com/catalog/kumamonaka/",
      "evidence": "10個入 2,247円（本体価格2,080円）",
      "note": "",
-     "id": "P077-2"
+     "id": "P080-2"
     }
    ],
    "wrap_level": null,
@@ -4524,7 +4675,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P077",
+   "id": "P080",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4546,7 +4697,7 @@
      "source_url": "https://itaya-net.com/catalog/yukitsuri/",
      "evidence": "1箱 1,458円（本体価格1,350円）",
      "note": "",
-     "id": "P078-1"
+     "id": "P081-1"
     }
    ],
    "wrap_level": null,
@@ -4566,7 +4717,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P078",
+   "id": "P081",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -4588,7 +4739,7 @@
      "source_url": "https://itaya-net.com/catalog/kourin/",
      "evidence": "1本：1,502円（本体価格1,390円）",
      "note": "",
-     "id": "P079-1"
+     "id": "P082-1"
     },
     {
      "label": "2本入",
@@ -4599,7 +4750,7 @@
      "source_url": "https://itaya-net.com/catalog/kourin/",
      "evidence": "2本入：3,284円（本体価格3,040円）",
      "note": "",
-     "id": "P079-2"
+     "id": "P082-2"
     }
    ],
    "wrap_level": null,
@@ -4619,7 +4770,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P079",
+   "id": "P082",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4641,7 +4792,7 @@
      "source_url": "https://store.shopping.yahoo.co.jp/hokurikuclub/y413-502027.html",
      "evidence": "柴舟10枚(袋入): ¥864 (税込)",
      "note": "",
-     "id": "P080-1"
+     "id": "P083-1"
     },
     {
      "label": "13枚入（箱）",
@@ -4652,7 +4803,7 @@
      "source_url": "https://shopping.jtb.co.jp/item/990005766/",
      "evidence": "柴舟 13枚入箱: 1,080円(税込)",
      "note": "",
-     "id": "P080-2"
+     "id": "P083-2"
     },
     {
      "label": "18枚入（化粧箱）",
@@ -4663,7 +4814,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P080-3"
+     "id": "P083-3"
     },
     {
      "label": "20枚入（化粧缶）",
@@ -4674,7 +4825,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P080-4"
+     "id": "P083-4"
     }
    ],
    "wrap_level": "pack",
@@ -4690,11 +4841,11 @@
    "page_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=554",
    "image_key": "shibafune_koide_20",
    "confidence": "A",
-   "notes": "原材料はWebに記載なし（アレルギー表示は小麦のみ）。 酒精の有無は店頭のラベルで確認が必要 ／20枚入 化粧缶2,160円は2,001〜2,300円の『少し超過』枠。 今回は検索回数の上限に達したためshibafunekoide.co.jpを検索できず、既知データのみ。 原材料に酒精（アルコール）・乳化剤・ゼラチン・ショートニングの記載はない。 『D-ソルビトール』は糖アルコールの一種で飲用アルコールではない。 『膨張剤』は原料の内訳が表示されていない。 原材料は通販サイト（楽天の大和百貨店ページ、18枚化粧箱入）の掲載を検索結果で確認したもので、公式ページ本文の原材料欄は見ていない。 18枚入・20枚入の価格は前回の確認で公式ページ掲載を確認済み。 10枚入・13枚入は通販サイトの掲載価格。",
+   "notes": "原材料はWebに記載なし（アレルギー表示は小麦のみ）。 酒精の有無は店頭のラベルで確認が必要 ／20枚入 化粧缶2,160円は2,001〜2,300円の『少し超過』枠。 今回は検索回数の上限に達したためshibafunekoide.co.jpを検索できず、既知データのみ。 原材料に酒精（アルコール）・乳化剤・ゼラチン・ショートニングの記載はない。 『D-ソルビトール』は糖アルコールの一種で飲用アルコールではない。 『膨張剤』は原料の内訳が表示されていない。 原材料は通販サイト（楽天の大和百貨店ページ、18枚化粧箱入）の掲載を検索結果で確認したもので、公式ページ本文の原材料欄は見ていない。 18枚入・20枚入の価格は前回の確認で公式ページ掲載を確認済み。 10枚入・13枚入は通販サイトの掲載価格。 賞味期限（製造日から100日・常温）は公式ページで確認。 原材料は前回、通販サイト（楽天の大和百貨店ページ・18枚化粧箱入）の掲載を確認したもので、公式ページ本文の原材料欄は見ていない。 酒精・乳化剤・ゼラチン・ショートニングの記載はない。 D-ソルビトールは糖アルコールで飲用アルコールではない。 膨張剤は内訳の表示なし。 18枚入は1,620円で2,000円以内、20枚入は2,160円で「少し超過」（2,001〜2,300円）。 小袋の枚数・個包装かどうかは未確認。",
    "group": "G0",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P080",
+   "id": "P083",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -4716,7 +4867,7 @@
      "source_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=503&on=1",
      "evidence": "柴舟・三作詰合せ19枚入: 1,620円",
      "note": "",
-     "id": "P081-1"
+     "id": "P084-1"
     },
     {
      "label": "26枚入",
@@ -4727,27 +4878,27 @@
      "source_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=503&on=1",
      "evidence": "柴舟・三作詰合せ26枚入: 2,160円",
      "note": "",
-     "id": "P081-2"
+     "id": "P084-2"
     }
    ],
    "wrap_level": null,
    "wrap_note": "記載を確認できていない。",
-   "shelf_life_days": null,
-   "shelf_life_text": "",
+   "shelf_life_days": 60,
+   "shelf_life_text": "製造日から、柴舟は100日・三作は60日（常温）。詰合せ全体では短い方の60日が目安",
    "ingredients": null,
    "ingredient_check": "？",
    "ingredient_hits": [],
    "ingredient_notes": [],
-   "allergens": null,
+   "allergens": "小麦・卵・乳（公式ページの表示）",
    "seasonal": "通年",
    "page_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=503&on=1",
    "image_key": null,
    "confidence": "C",
-   "notes": "価格は検索結果の要約文で見た金額で、税込の明記までは確認できていない（柴舟18枚入・20枚入と同額で、税込価格と整合する）。 三作の中身・原材料・日持ち・個包装は未確認のため、アルコールの有無を判断できない。 50枚入の詰合せもあるが価格は未確認（2,300円を超える見込み）。",
+   "notes": "価格は検索結果の要約文で見た金額で、税込の明記までは確認できていない（柴舟18枚入・20枚入と同額で、税込価格と整合する）。 三作の中身・原材料・日持ち・個包装は未確認のため、アルコールの有無を判断できない。 50枚入の詰合せもあるが価格は未確認（2,300円を超える見込み）。 「三作」は「三作せんべい」のこと（昔ながらの素朴な味の煎餅。 柴舟とは別の煎餅）。 詰合せのアレルギー表示に卵・乳があり、柴舟の表示は小麦のみ（前回確認）のため、卵・乳成分は三作側に使われていると思われる。 三作の原材料の全文は確認できておらず、乳化剤・ゼラチン・ショートニング・洋酒などの有無は判断できない（乳成分の中身が何かも不明）。 柴舟の原材料は「柴舟」の欄を参照。 価格は前回確認した検索結果の金額（税込の明記までは確認できていない）。 19枚入が1,620円、26枚入が2,160円。 50枚入の詰合せもあるが価格は未確認。",
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P081",
+   "id": "P084",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -4769,7 +4920,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/221046/111652/list.html",
      "evidence": "4個入 is ¥972 (tax included)",
      "note": "",
-     "id": "P082-1"
+     "id": "P085-1"
     },
     {
      "label": "6個入",
@@ -4780,7 +4931,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/shiro-6.html",
      "evidence": "6個入 is ¥1,458 (tax included)",
      "note": "",
-     "id": "P082-2"
+     "id": "P085-2"
     },
     {
      "label": "10個入",
@@ -4791,18 +4942,18 @@
      "source_url": "https://morihachi-shop.com/SHOP/shiro-10.html",
      "evidence": "10個入 is ¥2,592 (tax included)",
      "note": "",
-     "id": "P082-3"
+     "id": "P085-3"
     },
     {
      "label": "15個入",
      "qty": 15,
      "unit": "個",
-     "price": 3240,
+     "price": 3888,
      "confidence": "B",
      "source_url": "https://morihachi-shop.com/SHOP/shiro-15.html",
-     "evidence": "15個入 is ¥3,240 (tax included)",
+     "evidence": "お手作り最中 城の石 15個入：¥3,888（税込）",
      "note": "",
-     "id": "P082-4"
+     "id": "P085-4"
     }
    ],
    "wrap_level": "individual",
@@ -4813,16 +4964,16 @@
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
-   "allergens": null,
+   "allergens": "なし",
    "seasonal": "通年",
    "page_url": "https://morihachi-shop.com/SHOP/221046/111652/list.html",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料は検索結果の要約で確認したもの（日本語表記は要約からの復元）。 酒精・乳化剤・ゼラチンの記載はない。 【要確認】10個入2,592円・15個入3,240円は、4個入・6個入の単価（1個243円）と並びが合わない（10個入は1個259円、15個入は1個216円）ため、商品ページで金額を再確認したい。 食べる側が皮に餡を詰める手間がある。",
+   "notes": "原材料は検索結果の要約で確認したもの（日本語表記は要約からの復元）。 酒精・乳化剤・ゼラチンの記載はない。 【要確認】10個入2,592円・15個入3,240円は、4個入・6個入の単価（1個243円）と並びが合わない（10個入は1個259円、15個入は1個216円）ため、商品ページで金額を再確認したい。 食べる側が皮に餡を詰める手間がある。 15個入の価格を3,888円に更新（裏取りの結果。以前の検索結果は3,240円） ／【食い違い】15個入が3,240円と3,888円と出た。 公式通販の15個入ページでは3,888円（10個入2,592円と同じ1個259円の単価）で、こちらを採用。 10個入2,592円・15個入3,888円は2,300円を超える。 4個入972円・6個入1,458円は1個243円で、10個入・15個入（1個259円）より単価が低い（入数が多いほうが割高。 公式ページの表示のまま）。 2,300円以内は6個入1,458円まで。 原材料は公式通販「原材料一覧」ページの要約から復元した内容で、並びや記号は原文と異なる可能性がある（今回の商品ページの要約では、国産小豆の粒あん・北陸産もち米の皮・アレルギー表示なし、とだけ確認できた）。 酒類・乳化剤・ゼラチンの表示はないが、グリシン（アミノ酸系の添加物）を含み、その由来は表示からは分からない。",
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P082",
+   "id": "P085",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4844,7 +4995,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P083-1"
+     "id": "P086-1"
     }
    ],
    "wrap_level": "pack",
@@ -4864,7 +5015,7 @@
    "group": "G0",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P083",
+   "id": "P086",
    "confidence_min": "A",
    "confidence_max": "A"
   },
@@ -4886,7 +5037,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chitose4.html",
      "evidence": "千歳 4個入 is ¥999 (tax included)",
      "note": "",
-     "id": "P084-1"
+     "id": "P087-1"
     },
     {
      "label": "6個入",
@@ -4897,7 +5048,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chitose6.html",
      "evidence": "千歳 6個入 is ¥1,437 (tax included)",
      "note": "",
-     "id": "P084-2"
+     "id": "P087-2"
     },
     {
      "label": "10個入",
@@ -4908,14 +5059,14 @@
      "source_url": "https://morihachi-shop.com/SHOP/chitose10.html",
      "evidence": "千歳 10個入 is ¥2,322 (tax included)",
      "note": "",
-     "id": "P084-3"
+     "id": "P087-3"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "銘菓撰（詰合せ）の説明に『各商品は個包装』とある。千歳単体のページでは確認できていない。",
    "shelf_life_days": 15,
    "shelf_life_text": "約15日",
-   "ingredients": "白: 砂糖（国内製造）、米飴、小豆、もち米粉、でん粉 ／ 赤: 白と同じ原料に紅花色素",
+   "ingredients": "白: 砂糖（国内製造）、米飴、小豆、もち米粉、澱粉 ／ 赤: 砂糖（国内製造）、米飴、小豆、もち米粉、澱粉／紅花赤色素",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -4924,11 +5075,11 @@
    "page_url": "https://morihachi-shop.com/SHOP/221040/111648/list.html",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料は公式通販『原材料一覧』ページの内容を検索結果の要約で確認したもの（日本語表記は要約からの復元）。 酒精・乳化剤・ゼラチンの記載はない。 日持ちは約15日と短め。 10個入は2,300円をわずかに超える。 15個入・20個入・25個入もあるが価格は未確認（2,300円超の見込み）。 仏事用（6個入・10個入・15個入・25個入）も別にある。",
+   "notes": "原材料は公式通販『原材料一覧』ページの内容を検索結果の要約で確認したもの（日本語表記は要約からの復元）。 酒精・乳化剤・ゼラチンの記載はない。 日持ちは約15日と短め。 10個入は2,300円をわずかに超える。 15個入・20個入・25個入もあるが価格は未確認（2,300円超の見込み）。 仏事用（6個入・10個入・15個入・25個入）も別にある。 10個入2,322円を再確認（4個入999円・6個入1,437円も同じ表示）。 赤は紅花赤色素で着色（コチニールではない）。 乳化剤・ゼラチン・酒類の表示はない。 賞味期限は約15日と短め。 仏事用（6個入・10個入・15個入）が別にあり、贈答用ではない。 15個入・20個入のページもある（価格は未確認）。",
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P084",
+   "id": "P087",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -4937,10 +5088,21 @@
    "shop": "森八",
    "shop_full": "加賀藩御用菓子司 森八",
    "phone": "076-260-3757",
-   "name": "四季の羊羹 粋（能登栗）",
+   "name": "四季の羊羹 粋（能登栗ほか季節の味）",
    "kind": "羊羹",
    "description": "能登栗の栗蜜漬を練り込んだ小豆羊羹の小型タイプ。化粧箱入り",
    "options": [
+    {
+     "label": "能登栗・いちじく 5本入",
+     "qty": 5,
+     "unit": "本",
+     "price": 1599,
+     "confidence": "B",
+     "source_url": "https://morihachi-shop.com/SHOP/221041/214564/list.html",
+     "evidence": "能登栗・いちじく 5本入: ¥1,599",
+     "note": "",
+     "id": "P088-1"
+    },
     {
      "label": "5本入",
      "qty": 5,
@@ -4950,7 +5112,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P085-1"
+     "id": "P088-2"
     },
     {
      "label": "いちじく 10本入",
@@ -4961,7 +5123,18 @@
      "source_url": "https://morihachi-shop.com/SHOP/shiki-yokan-ichijiku-10.html",
      "evidence": "いちじく 10本入: ¥2,808",
      "note": "",
-     "id": "P085-2"
+     "id": "P088-3"
+    },
+    {
+     "label": "能登栗 10本入",
+     "qty": 10,
+     "unit": "本",
+     "price": 3456,
+     "confidence": "B",
+     "source_url": "https://morihachi-shop.com/SHOP/221041/214564/list.html",
+     "evidence": "能登栗 10本入: ¥3,456",
+     "note": "",
+     "id": "P088-4"
     }
    ],
    "wrap_level": "individual",
@@ -4977,11 +5150,11 @@
    "page_url": "https://morihachi-shop.com/SHOP/shiki-yokan-kuri-05.html",
    "image_key": "morihachi_shiki_yokan_kuri",
    "confidence": "A",
-   "notes": "季節品で11月中旬まで（10月は販売中の想定）。 他入数の有無は未調査。 検索結果では能登栗・いちじく 5本入が1,599円と出た（前任の確認値1,728円と不一致・要確認） ／能登栗 10本入の価格が検索結果で2通り（2,808円／3,456円）・要確認 ／原材料は前回確認済みで、今回は再確認していない（酒精などの記載の有無は前回の確認結果を参照）。 能登栗5本入1,728円は前回確認済み。 ほかの金額は今回の検索結果の要約で確認（能登栗は10本入が5本入の2倍で整合）。 さくら・よもぎ（春）、夏だより（販売期間5/13〜8/16）は季節外のため対象外。",
+   "notes": "季節品で11月中旬まで（10月は販売中の想定）。 他入数の有無は未調査。 原材料は前回確認済みで、今回は再確認していない（酒精などの記載の有無は前回の確認結果を参照）。 能登栗5本入1,728円は前回確認済み。 ほかの金額は今回の検索結果の要約で確認（能登栗は10本入が5本入の2倍で整合）。 さくら・よもぎ（春）、夏だより（販売期間5/13〜8/16）は季節外のため対象外。",
    "group": "G0",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P085",
+   "id": "P088",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -5003,7 +5176,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/kogatayoukan-03.html",
      "evidence": "3本入: ¥843",
      "note": "",
-     "id": "P086-1"
+     "id": "P089-1"
     },
     {
      "label": "5本入",
@@ -5014,7 +5187,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P086-2"
+     "id": "P089-2"
     },
     {
      "label": "10本入（黒4・黒小倉2・白2・抹茶2）",
@@ -5025,7 +5198,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/kogatayoukan-10.html",
      "evidence": "10本入: ¥2,808 ／ black yokan 4 pieces, black azuki yokan 2 pieces, white yokan 2 pieces, and matcha yokan 2 pieces",
      "note": "",
-     "id": "P086-3"
+     "id": "P089-3"
     }
    ],
    "wrap_level": "individual",
@@ -5045,7 +5218,7 @@
    "group": "G0",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P086",
+   "id": "P089",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -5067,7 +5240,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P087-1"
+     "id": "P090-1"
     },
     {
      "label": "10本入",
@@ -5078,7 +5251,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/nototakara-yokan-shio-10.html",
      "evidence": "10本入: ¥3,240",
      "note": "",
-     "id": "P087-2"
+     "id": "P090-2"
     }
    ],
    "wrap_level": null,
@@ -5094,11 +5267,11 @@
    "page_url": "https://morihachi-shop.com/SHOP/221041/241004/list.html",
    "image_key": null,
    "confidence": "A",
-   "notes": "日持ち日数は表示（2027年5月）から保守的に約210日とした ／賞味期限は日数ではなく『2027年5月』の表示のみ。 他入数の有無は未調査。 【食い違い】5本入の価格が1,620円（前回確認）と1,512円（今回の要約）で出た。 10本入3,240円は1,620円の2倍で前者と整合するため1,620円を採用したが、商品ページで再確認したい。 【食い違い】日持ちも210日（前回確認）と約240日（今回の要約）が出た。 15本入もあるが価格は未確認。 原材料は前回確認済みで、今回は再確認していない。",
+   "notes": "日持ち日数は表示（2027年5月）から保守的に約210日とした ／賞味期限は日数ではなく『2027年5月』の表示のみ。 他入数の有無は未調査。 【食い違い】5本入の価格が1,620円（前回確認）と1,512円（今回の要約）で出た。 10本入3,240円は1,620円の2倍で前者と整合するため1,620円を採用したが、商品ページで再確認したい。 【食い違い】日持ちも210日（前回確認）と約240日（今回の要約）が出た。 15本入もあるが価格は未確認。 原材料は前回確認済みで、今回は再確認していない。 検索結果では5本入が1,512円と出た（前任の確認値1,620円と不一致・要確認） ／【食い違い】5本入が1,620円と1,512円、賞味期限が210日と約240日と出た。 公式通販の5本入ページの要約は、確認できた範囲ですべて1,512円・約240日。 一方、前回の調査と別の情報源の要約（出典ページは不明）は1,620円で、10本入の3,240円（前回確認）は1,620円の2倍と整合する。 どちらが現行かの決め手がなく、公式通販ページの1,512円・約240日を仮に採用した。 どちらでも2,000円以内。 購入前に店頭の表示か公式通販ページで確認したい。 15本入・20本入のページもある（価格は未確認）。 個包装の記載は確認できなかった。 原材料は未確認。",
    "group": "G0",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P087",
+   "id": "P090",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -5120,7 +5293,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/jadama-8.html",
      "evidence": "8個入：¥1,836（税込）",
      "note": "",
-     "id": "P088-1"
+     "id": "P091-1"
     },
     {
      "label": "12個入",
@@ -5131,7 +5304,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/221046/111651/list.html",
      "evidence": "12個入：¥2,754（税込）",
      "note": "",
-     "id": "P088-2"
+     "id": "P091-2"
     },
     {
      "label": "16個入",
@@ -5142,7 +5315,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/jadama-16.html",
      "evidence": "16個入：¥3,672（税込）",
      "note": "",
-     "id": "P088-3"
+     "id": "P091-3"
     },
     {
      "label": "24個入",
@@ -5153,7 +5326,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/jadama-24.html",
      "evidence": "24個入：¥5,508（税込）",
      "note": "",
-     "id": "P088-4"
+     "id": "P091-4"
     }
    ],
    "wrap_level": null,
@@ -5169,11 +5342,11 @@
    "page_url": "https://morihachi-shop.com/SHOP/221046/111651/list.html",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料は検索結果の要約で確認したもの。 酒精・乳化剤・ゼラチンの記載はない。 日持ちは約12日と短めで、10月12日の訪問までの日数に注意。 30個入（6,858円）・32個入（7,290円）もあるが高額。",
+   "notes": "原材料は検索結果の要約で確認したもの。 酒精・乳化剤・ゼラチンの記載はない。 日持ちは約12日と短めで、10月12日の訪問までの日数に注意。 30個入（6,858円）・32個入（7,290円）もあるが高額。 【食い違い】8個入が1,836円と1,404円と出た。 公式通販の8個入ページは1,836円（前回確認の12個入・16個入と同じ1個229.5円で整合）で、公式の価格を採用。 1,404円は別の通販ページの要約（出典ページは不明）で、古い価格の可能性があるが確認できていない。 賞味期限は約12日（夏季は約8日）で、公式通販と別の通販ページの要約が一致。 短いので、買う日と渡す日の間隔に注意。 原材料も別の通販ページの要約で同じ内容を確認（乳化剤・ゼラチン・酒類の表示はない）。 箱入りで、8個入の箱は約255×135×25mmとの記載がある（別の通販ページの要約）。 個包装の記載は確認できなかった。",
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P088",
+   "id": "P091",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5195,7 +5368,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/meikasen-1.html",
      "evidence": "銘菓撰 1号 税込価格：¥2,268",
      "note": "",
-     "id": "P089-1"
+     "id": "P092-1"
     },
     {
      "label": "2号（長生殿小墨6枚＋千歳4＋城の石3＋粋3本）",
@@ -5206,7 +5379,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/meikasen-2.html",
      "evidence": "銘菓撰 2号 税込価格：¥3,240",
      "note": "",
-     "id": "P089-2"
+     "id": "P092-2"
     },
     {
      "label": "3号（長生殿小墨6枚＋千歳8＋城の石3＋粋4本）",
@@ -5217,7 +5390,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/meikasen-3.html",
      "evidence": "銘菓撰 3号 税込価格：¥4,320",
      "note": "",
-     "id": "P089-3"
+     "id": "P092-3"
     }
    ],
    "wrap_level": "individual",
@@ -5237,7 +5410,7 @@
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P089",
+   "id": "P092",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5259,7 +5432,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chousei4.html",
      "evidence": "検索要約（morihachi-shop.com）: 長生殿 4枚入：¥1,210。前任の参考値と一致",
      "note": "",
-     "id": "P090-1"
+     "id": "P093-1"
     },
     {
      "label": "8枚入",
@@ -5270,7 +5443,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chousei8.html",
      "evidence": "検索要約（morihachi-shop.com）: 長生殿 8枚入：¥2,376。前任の参考値と一致",
      "note": "",
-     "id": "P090-2"
+     "id": "P093-2"
     }
    ],
    "wrap_level": "individual",
@@ -5290,7 +5463,7 @@
    "group": "G1",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P090",
+   "id": "P093",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5312,7 +5485,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chousei-s6.html",
      "evidence": "検索要約（morihachi-shop.com）: 6枚入: ¥648 (税込)",
      "note": "",
-     "id": "P091-1"
+     "id": "P094-1"
     },
     {
      "label": "12枚入",
@@ -5323,7 +5496,7 @@
      "source_url": null,
      "evidence": "森八公式通販の検索結果の要約: 長生殿小墨 12枚入 1,296円（税込）",
      "note": "6枚648円・18枚1,944円と1枚108円で揃うため、12枚入は1,296円を採用",
-     "id": "P091-2"
+     "id": "P094-2"
     },
     {
      "label": "18枚入",
@@ -5334,7 +5507,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P091-3"
+     "id": "P094-3"
     },
     {
      "label": "36枚入",
@@ -5345,7 +5518,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chousei-s36.html",
      "evidence": "検索要約（morihachi-shop.com）: 36枚入: ¥3,780 (税込)。前任の参考値と一致",
      "note": "",
-     "id": "P091-4"
+     "id": "P094-4"
     }
    ],
    "wrap_level": "pack",
@@ -5365,7 +5538,7 @@
    "group": "G0",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P091",
+   "id": "P094",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -5387,7 +5560,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chousei-n4.html",
      "evidence": "検索要約（morihachi-shop.com）: 4枚入 ¥1,296 賞味期限約8日。前任の参考値と一致",
      "note": "",
-     "id": "P092-1"
+     "id": "P095-1"
     },
     {
      "label": "8枚入",
@@ -5398,7 +5571,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chousei-n8.html",
      "evidence": "検索要約（morihachi-shop.com）: 8枚入 ¥2,549 賞味期限約8日。前任の参考値と一致",
      "note": "",
-     "id": "P092-2"
+     "id": "P095-2"
     },
     {
      "label": "16枚入",
@@ -5409,7 +5582,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chousei-n16.html",
      "evidence": "検索要約（morihachi-shop.com）: 16枚入 ¥4,990 賞味期限約8日",
      "note": "",
-     "id": "P092-3"
+     "id": "P095-3"
     },
     {
      "label": "24枚桐箱入",
@@ -5420,7 +5593,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/chousei-n24.html",
      "evidence": "検索要約（morihachi-shop.com）: 24枚桐箱入 ¥7,971 賞味期限約8日",
      "note": "",
-     "id": "P092-4"
+     "id": "P095-4"
     }
    ],
    "wrap_level": null,
@@ -5440,7 +5613,7 @@
    "group": "G1",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P092",
+   "id": "P095",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5462,7 +5635,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/shou-1.html",
      "evidence": "「匠」1本: ¥864 (tax included)",
      "note": "",
-     "id": "P093-1"
+     "id": "P096-1"
     },
     {
      "label": "2本入",
@@ -5473,7 +5646,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/221040/111650/list.html",
      "evidence": "「匠」2本入: ¥1,836 (tax included)",
      "note": "",
-     "id": "P093-2"
+     "id": "P096-2"
     },
     {
      "label": "3本入",
@@ -5484,7 +5657,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/221040/111650/list.html",
      "evidence": "「匠」3本入: ¥2,754 (tax included)",
      "note": "",
-     "id": "P093-3"
+     "id": "P096-3"
     },
     {
      "label": "5本入",
@@ -5495,7 +5668,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/shou-5.html",
      "evidence": "「匠」5本入: ¥4,590 (tax included)",
      "note": "",
-     "id": "P093-4"
+     "id": "P096-4"
     }
    ],
    "wrap_level": null,
@@ -5515,7 +5688,7 @@
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P093",
+   "id": "P096",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5537,7 +5710,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/221040/111649/list.html",
      "evidence": "「玄」姫棹 1本: ¥1,188 (tax included)",
      "note": "",
-     "id": "P094-1"
+     "id": "P097-1"
     },
     {
      "label": "小棹 1本",
@@ -5548,7 +5721,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/221040/111649/list.html",
      "evidence": "「玄」小棹 1本: ¥2,052 (tax included)",
      "note": "",
-     "id": "P094-2"
+     "id": "P097-2"
     },
     {
      "label": "中棹 1本",
@@ -5559,7 +5732,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/gen-m1.html",
      "evidence": "「玄」中棹（黒羊羹）1本: ¥3,024 (tax included)",
      "note": "",
-     "id": "P094-3"
+     "id": "P097-3"
     },
     {
      "label": "大棹 1本",
@@ -5570,7 +5743,7 @@
      "source_url": "https://morihachi-shop.com/SHOP/221040/111649/list.html",
      "evidence": "「玄」大棹 1本（黒羊羹）: ¥4,536 (tax included)",
      "note": "",
-     "id": "P094-4"
+     "id": "P097-4"
     }
    ],
    "wrap_level": null,
@@ -5590,7 +5763,7 @@
    "group": "G14",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P094",
+   "id": "P097",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5612,7 +5785,7 @@
      "source_url": "https://www.seika-muromachi.com/products/price/?price_id=b",
      "evidence": "もりのかくれんぼ 3個入り ¥1,080（税込）",
      "note": "",
-     "id": "P095-1"
+     "id": "P098-1"
     }
    ],
    "wrap_level": null,
@@ -5632,7 +5805,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P095",
+   "id": "P098",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -5654,7 +5827,7 @@
      "source_url": "https://www.seika-muromachi.com/products/?products_id=shibafune",
      "evidence": "生しばふね 5個入：¥1,080",
      "note": "",
-     "id": "P096-1"
+     "id": "P099-1"
     }
    ],
    "wrap_level": null,
@@ -5674,7 +5847,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P096",
+   "id": "P099",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5696,27 +5869,27 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=houraku&kind_id=a",
      "evidence": "豊楽は6個入で¥1,458（税込）",
      "note": "",
-     "id": "P097-1"
+     "id": "P100-1"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "1個63gの個包装",
    "shelf_life_days": 30,
    "shelf_life_text": "30日間",
-   "ingredients": "砂糖（国内製造）、白いんげん豆、小麦粉、青梅、卵、ハチミツ、和三盆糖、無塩バター",
+   "ingredients": "砂糖（国内製造）、白いんげん豆、小麦粉、青梅、卵、ハチミツ、和三盆糖、無塩バター／トレハロース、膨張剤",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
-   "allergens": null,
+   "allergens": "卵・乳・小麦",
    "seasonal": "通年",
    "page_url": "https://www.seika-muromachi.com/products/?products_id=houraku",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料は検索結果に出た範囲（添加物の表記が続く可能性は未確認）。 乳化剤・ゼラチン・酒類の記載はない。 6個入以外の入数があるかは未確認。",
+   "notes": "原材料は検索結果に出た範囲（添加物の表記が続く可能性は未確認）。 乳化剤・ゼラチン・酒類の記載はない。 6個入以外の入数があるかは未確認。 原材料は添加物の欄（トレハロース、膨張剤）まで確認でき、乳化剤・ゼラチン・酒類の表示はない（バターは乳成分）。 確認できた入数は6個入のみ。",
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P097",
+   "id": "P100",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5738,7 +5911,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumimanjyu&kind_id=b",
      "evidence": "金沢くるみ万頭 9個入：¥972",
      "note": "",
-     "id": "P098-1"
+     "id": "P101-1"
     }
    ],
    "wrap_level": null,
@@ -5758,7 +5931,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P098",
+   "id": "P101",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5780,7 +5953,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=pistachio&kind_id=a",
      "evidence": "金沢の森ピスタチオ 5個入り ¥1,134（税込）",
      "note": "",
-     "id": "P099-1"
+     "id": "P102-1"
     }
    ],
    "wrap_level": null,
@@ -5800,7 +5973,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P099",
+   "id": "P102",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5822,7 +5995,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=saigetsu&kind_id=a",
      "evidence": "金沢犀月 5個入：¥972",
      "note": "",
-     "id": "P100-1"
+     "id": "P103-1"
     },
     {
      "label": "10個入",
@@ -5833,7 +6006,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=saigetsu&kind_id=b",
      "evidence": "10個入り ¥1,890（税込）",
      "note": "",
-     "id": "P100-2"
+     "id": "P103-2"
     }
    ],
    "wrap_level": null,
@@ -5855,7 +6028,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P100",
+   "id": "P103",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5877,7 +6050,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=komochi&kind_id=a",
      "evidence": "6個入り ¥659（税込）",
      "note": "",
-     "id": "P101-1"
+     "id": "P104-1"
     },
     {
      "label": "10個入",
@@ -5888,7 +6061,7 @@
      "source_url": "https://www.seika-muromachi.com/products/?products_id=komochi",
      "evidence": "10個入り ¥1,080",
      "note": "",
-     "id": "P101-2"
+     "id": "P104-2"
     },
     {
      "label": "15個入",
@@ -5899,7 +6072,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=komochi&kind_id=c",
      "evidence": "15個入り ¥1,620（税込）",
      "note": "",
-     "id": "P101-3"
+     "id": "P104-3"
     }
    ],
    "wrap_level": null,
@@ -5919,7 +6092,7 @@
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P101",
+   "id": "P104",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -5941,7 +6114,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kanazawabunchou&kind_id=e",
      "evidence": "文鳥会議は9個入で¥2,948（税込）",
      "note": "",
-     "id": "P102-1"
+     "id": "P105-1"
     },
     {
      "label": "各味（入数は未確認）",
@@ -5952,7 +6125,7 @@
      "source_url": "https://www.seika-muromachi.com/products/?products_id=kanazawabunchou",
      "evidence": "金澤文鳥 加賀紅茶味は¥1,674（税込）／価格一覧に「金澤文鳥各種（¥1,674）」",
      "note": "",
-     "id": "P102-2"
+     "id": "P105-2"
     },
     {
      "label": "とまり木によりそい文鳥（詰合せ・入数は未確認）",
@@ -5963,14 +6136,14 @@
      "source_url": "https://www.seika-muromachi.com/products/price/?price_id=c",
      "evidence": "金澤文鳥 とまり木によりそい文鳥（¥2,020）",
      "note": "",
-     "id": "P102-3"
+     "id": "P105-3"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "文鳥会議（9個入）は一つ一つ個包装。1個は約50g",
    "shelf_life_days": 30,
    "shelf_life_text": "30日間",
-   "ingredients": "砂糖（国内製造）、白いんげん豆、いちじく、レーズン、ブルーベリー、クランベリー、水飴、加賀紅茶、寒天、植物油脂、トレハロース（加賀紅茶味）",
+   "ingredients": "加賀紅茶味: 砂糖（国内製造）、白いんげん豆、いちじく、レーズン、ブルーベリー、クランベリー、水飴、加賀紅茶、寒天、植物油脂、トレハロース（加賀棒茶味・白い珈琲味の原材料は未確認）",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -5979,11 +6152,11 @@
    "page_url": "https://www.seika-muromachi.com/products/?products_id=kanazawabunchou",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料は加賀紅茶味のもの。 加賀棒茶味・白い珈琲味の原材料は未確認。 植物油脂の記載があるが、由来の詳細は表示からは分からない。 1,674円の入数は確認できなかった（夏限定の加賀紅茶味に5個入のページはあるが、通常の各味が同じ入数かは未確認）。 とまり木によりそい文鳥2,020円は少し超過帯、文鳥会議2,948円は2,300円超。",
+   "notes": "原材料は加賀紅茶味のもの。 加賀棒茶味・白い珈琲味の原材料は未確認。 植物油脂の記載があるが、由来の詳細は表示からは分からない。 1,674円の入数は確認できなかった（夏限定の加賀紅茶味に5個入のページはあるが、通常の各味が同じ入数かは未確認）。 とまり木によりそい文鳥2,020円は少し超過帯、文鳥会議2,948円は2,300円超。 単品は各味5個入1,674円（加賀紅茶味・加賀棒茶味で確認）。 白い珈琲味も価格一覧の「金澤文鳥各種 1,674円」に含まれるとみられるが、白い珈琲味の個別ページでの入数・価格は確認できなかった。 詰合せは6個入2,020円（2,001〜2,300円の少し超過帯）と9個入2,948円（2,300円超）。 原材料は加賀紅茶味のみ確認で、植物油脂の由来は表示からは分からない。 加賀棒茶味・白い珈琲味の原材料は未確認のため、乳化剤・酒類の有無は判断できない。",
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P102",
+   "id": "P105",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -6005,7 +6178,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=a",
      "evidence": "6個入 ¥659",
      "note": "",
-     "id": "P103-1"
+     "id": "P106-1"
     },
     {
      "label": "9個入",
@@ -6016,7 +6189,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=b",
      "evidence": "9個入：¥972(税込)",
      "note": "",
-     "id": "P103-2"
+     "id": "P106-2"
     },
     {
      "label": "10個入",
@@ -6027,7 +6200,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=c",
      "evidence": "10個入 ¥1,080",
      "note": "",
-     "id": "P103-3"
+     "id": "P106-3"
     },
     {
      "label": "15個入",
@@ -6038,7 +6211,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=d",
      "evidence": "15個入：¥1,458(税込)",
      "note": "",
-     "id": "P103-4"
+     "id": "P106-4"
     },
     {
      "label": "20個入",
@@ -6049,7 +6222,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=e",
      "evidence": "20個入：¥2,160(税込)",
      "note": "",
-     "id": "P103-5"
+     "id": "P106-5"
     },
     {
      "label": "30個入",
@@ -6060,7 +6233,7 @@
      "source_url": "https://www.seika-muromachi.com/products/?products_id=kurumi",
      "evidence": "30個入 ¥3,456",
      "note": "",
-     "id": "P103-6"
+     "id": "P106-6"
     },
     {
      "label": "36個入",
@@ -6071,7 +6244,7 @@
      "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=g",
      "evidence": "36個入 ¥4,104",
      "note": "",
-     "id": "P103-7"
+     "id": "P106-7"
     }
    ],
    "wrap_level": "individual",
@@ -6082,16 +6255,16 @@
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
-   "allergens": null,
+   "allergens": "くるみ",
    "seasonal": "通年",
    "page_url": "https://www.seika-muromachi.com/products/?products_id=kurumi",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料に乳化剤・ゼラチン・酒類はない。 くるみを含む（アレルゲン表示の全文は未確認）。 【食い違い】9個入が875円と972円、20個入が1,944円と2,160円と出た。 価格一覧ページと再確認の結果は972円・2,160円で、15個入の1,458円は一致。 30個入・36個入は1回の確認のみ。 2,300円以内は15個入まで、20個入は2,001〜2,300円の少し超過帯。",
+   "notes": "原材料に乳化剤・ゼラチン・酒類はない。 くるみを含む（アレルゲン表示の全文は未確認）。 【食い違い】9個入が875円と972円、20個入が1,944円と2,160円と出た。 価格一覧ページと再確認の結果は972円・2,160円で、15個入の1,458円は一致。 30個入・36個入は1回の確認のみ。 2,300円以内は15個入まで、20個入は2,001〜2,300円の少し超過帯。 【食い違い】9個入が875円と972円、20個入が1,944円と2,160円と出ていたが、公式サイトの9個入・20個入のページでは972円・2,160円で、現行の価格はこちらと判断した（875円・1,944円は公式の商品ページでは見当たらず、改定前の古い価格の可能性）。 2,300円以内は15個入（1,458円）まで。 20個入2,160円は2,000円をわずかに超える帯。 原材料に乳化剤・ゼラチン・酒類の表示はなく、くるみを含む。",
    "group": "G9",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P103",
+   "id": "P106",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -6113,7 +6286,7 @@
      "source_url": "https://shop.umaumatankentai.com/view/item/000000000006",
      "evidence": "「入数：10個、原材料：砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）、賞味期限：20日間、価格：1,188円（税込）」",
      "note": "",
-     "id": "P104-1"
+     "id": "P107-1"
     },
     {
      "label": "20個入",
@@ -6124,7 +6297,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P104-2"
+     "id": "P107-2"
     }
    ],
    "wrap_level": "none",
@@ -6144,7 +6317,7 @@
    "group": "G0",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P104",
+   "id": "P107",
    "confidence_min": "B",
    "confidence_max": "A"
   },
@@ -6166,7 +6339,7 @@
      "source_url": "https://shop.umaumatankentai.com/view/item/000000000033",
      "evidence": "「入数：14～16個入、原材料：砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）、賞味期限：20日間、価格：1,850円（税込）」",
      "note": "",
-     "id": "P105-1"
+     "id": "P108-1"
     }
    ],
    "wrap_level": null,
@@ -6186,7 +6359,7 @@
    "group": "G2",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P105",
+   "id": "P108",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -6208,7 +6381,7 @@
      "source_url": "https://shop.umaumatankentai.com/view/item/000000001274",
      "evidence": "「入数：85g、原材料：砂糖（国内製造）、寒天、香料、カラメル、賞味期限：25日間、価格：900円（税込）」",
      "note": "",
-     "id": "P106-1"
+     "id": "P109-1"
     }
    ],
    "wrap_level": null,
@@ -6228,7 +6401,7 @@
    "group": "G2",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P106",
+   "id": "P109",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -6250,7 +6423,7 @@
      "source_url": "https://shop.umaumatankentai.com/view/item/000000001671",
      "evidence": "「入数：15～20個程度、原材料：砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）香料、賞味期限：20日間、価格：486円（税込）」",
      "note": "",
-     "id": "P107-1"
+     "id": "P110-1"
     }
    ],
    "wrap_level": null,
@@ -6270,7 +6443,7 @@
    "group": "G2",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P107",
+   "id": "P110",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -6292,7 +6465,7 @@
      "source_url": "https://shop.umaumatankentai.com/view/item/000000001635",
      "evidence": "「入数：9個、賞味期限：20日間、原材料：砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）、価格：1,296円（税込）」",
      "note": "",
-     "id": "P108-1"
+     "id": "P111-1"
     }
    ],
    "wrap_level": null,
@@ -6312,7 +6485,7 @@
    "group": "G2",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P108",
+   "id": "P111",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -6334,7 +6507,7 @@
      "source_url": "https://www.fukuusagi.jp/?pid=97425454",
      "evidence": "検索結果の要約:「金の福うさぎ 8ヶ入 価格：1,490円、内容量：8個、賞味期限：お届け日より約20日間」（税込の明記はなし）",
      "note": "",
-     "id": "P109-1"
+     "id": "P112-1"
     }
    ],
    "wrap_level": null,
@@ -6354,7 +6527,7 @@
    "group": "G10",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P109",
+   "id": "P112",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -6376,7 +6549,7 @@
      "source_url": "https://macaro-ni.jp/89323?page=2",
      "evidence": "2個入り378円から販売されており（観光サイト要約）",
      "note": "",
-     "id": "P110-1"
+     "id": "P113-1"
     },
     {
      "label": "4ヶ入",
@@ -6387,7 +6560,7 @@
      "source_url": "https://www.fukuusagi.jp/?pid=89993843",
      "evidence": "公式通販「銘菓 福うさぎ（能登大納言）4ヶ入」の検索要約:「658円」",
      "note": "",
-     "id": "P110-2"
+     "id": "P113-2"
     },
     {
      "label": "5種詰め合わせ 10個入",
@@ -6398,7 +6571,7 @@
      "source_url": "https://macaro-ni.jp/89323?page=2",
      "evidence": "銘菓福うさぎ5種詰め合わせ10個入が1,620円〜（観光サイト要約）",
      "note": "",
-     "id": "P110-3"
+     "id": "P113-3"
     },
     {
      "label": "15ヶ入",
@@ -6409,7 +6582,7 @@
      "source_url": "https://www.fukuusagi.jp/?pid=90652206",
      "evidence": "検索結果の要約:「5種詰め合わせ 15ヶ入：2,430円」",
      "note": "",
-     "id": "P110-4"
+     "id": "P113-4"
     },
     {
      "label": "20ヶ入",
@@ -6420,24 +6593,13 @@
      "source_url": "https://www.fukuusagi.jp/?pid=90652266",
      "evidence": "検索結果の要約:「5種詰め合わせ 20ヶ入：3,240円」",
      "note": "",
-     "id": "P110-5"
-    },
-    {
-     "label": "入数不明",
-     "qty": null,
-     "unit": "",
-     "price": 1080,
-     "confidence": "C",
-     "source_url": "https://www.fukuusagi.jp/?pid=90652389",
-     "evidence": "検索結果の要約:「銘菓 福うさぎ（ひゃくまんさんVer）価格：1,080円」（税込・入数の明記はなし）",
-     "note": "",
-     "id": "P110-6"
+     "id": "P113-5"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "検索結果の要約に「商品は個包装されて」おり、公式通販ページ由来の要約でも個包装とある。",
-   "shelf_life_days": 30,
-   "shelf_life_text": "製造より30日間（観光サイト要約）",
+   "shelf_life_days": 20,
+   "shelf_life_text": "お届け日より約20日間（常温）",
    "ingredients": null,
    "ingredient_check": "？",
    "ingredient_hits": [],
@@ -6447,12 +6609,96 @@
    "page_url": "https://www.fukuusagi.jp/?pid=89993843",
    "image_key": null,
    "confidence": "C",
-   "notes": "二次情報のみ（macaro-ni.jp、co-trip.jp、gltjp.com、mapple.net などの観光記事の要約）。 価格は『から ／〜』表記で、改定されている可能性がある。 税込の明記は要約に無いが、378円・1,620円は 350円・1,500円の8%税込と一致する数字。 source_url は候補の1つで、どの事実がどの記事由来かの対応は未確認。 要約には『販売店舗はかなざわはこまち本店と百番街店』とあるが、この表記の意味（店名・運営会社）は未確認。 原材料は前任調査と同様に未確認。 日持ちが資料により異なる（30日／20日） ／【食い違い】日持ちは「お届け日から約20日」（公式通販）と「製造日から30日」（別資料）が出た。 短い方の20日を採用。 原材料表示（乳化剤・ショートニング・酒類の有無）は検索で取れなかった。 価格は能登大納言4ヶ入で確認済みで、ほかの味の2ヶ入・4ヶ入が同額かは未確認（能登の塩は4ヶ入680円で別価格）。 味ごとのページ: 五郎島金時4ヶ入 ?pid=89993839 ／棒茶4ヶ入 ?pid=89993849 ／棒茶2ヶ入 ?pid=155474053 ／能登産かぼちゃ4ヶ入 ?pid=89993872 ／能登産かぼちゃ2ヶ入 ?pid=155473847 ／五郎島金時2ヶ入 ?pid=155473609（いずれも https://www.fukuusagi.jp/ 配下）。 4ヶ入の価格が検索結果で2通り（658円／680円）・要確認 ／日持ちが資料により異なる（30日／20日） ／価格に税込の明記は検索結果になかったが、他の福うさぎと同じく8%の税込表示とみられる。 味・原材料・アレルゲンは未確認。 日持ちが資料により異なる（30日／20日） ／【食い違い】日持ちは「お届け日から約20日」と「製造日から30日」が出た（短い方を採用）。 15個入は2,430円で、2,300円を少し超える。 10個入が予算内。 各味の個数配分は未確認。 ほかの通販サイト（金澤あるげん蔵 https://www.arugenzo.com/i/0970010010 など）にも10個入・15個入の掲載あり。 原材料表示は未確認。 入数・中身・日持ち・販売期間のいずれも未確認。",
+   "notes": "二次情報のみ（macaro-ni.jp、co-trip.jp、gltjp.com、mapple.net などの観光記事の要約）。 価格は『から ／〜』表記で、改定されている可能性がある。 税込の明記は要約に無いが、378円・1,620円は 350円・1,500円の8%税込と一致する数字。 source_url は候補の1つで、どの事実がどの記事由来かの対応は未確認。 要約には『販売店舗はかなざわはこまち本店と百番街店』とあるが、この表記の意味（店名・運営会社）は未確認。 原材料は前任調査と同様に未確認。 日持ちが資料により異なる（30日／20日） ／【食い違い】日持ちは「お届け日から約20日」（公式通販）と「製造日から30日」（別資料）が出た。 短い方の20日を採用。 原材料表示（乳化剤・ショートニング・酒類の有無）は検索で取れなかった。 価格は能登大納言4ヶ入で確認済みで、ほかの味の2ヶ入・4ヶ入が同額かは未確認（能登の塩は4ヶ入680円で別価格）。 味ごとのページ: 五郎島金時4ヶ入 ?pid=89993839 ／棒茶4ヶ入 ?pid=89993849 ／棒茶2ヶ入 ?pid=155474053 ／能登産かぼちゃ4ヶ入 ?pid=89993872 ／能登産かぼちゃ2ヶ入 ?pid=155473847 ／五郎島金時2ヶ入 ?pid=155473609（いずれも https://www.fukuusagi.jp/ 配下）。 【食い違い】日持ちは「お届け日から約20日」と「製造日から30日」が出た（短い方を採用）。 15個入は2,430円で、2,300円を少し超える。 10個入が予算内。 各味の個数配分は未確認。 ほかの通販サイト（金澤あるげん蔵 https://www.arugenzo.com/i/0970010010 など）にも10個入・15個入の掲載あり。 原材料表示は未確認。 日持ちを20日に更新（裏取りの結果。以前は30日） ／10個入が1,620円で予算内（2,000円以内）、15個入は2,430円で2,300円を少し超える。 原材料の全文（乳化剤・ゼラチン・酒類の有無）は、公式ページにも販売店ページにも表示がなく確認できなかった（アレルギー表示のみ）。 卵・乳成分を使っているが、乳化剤などの有無は不明。 箱・袋の原材料欄での確認が必要。 【食い違い】日持ちは「お届け日より約20日」（公式通販）と「製造日より30日」（別の資料）が出た。 短い方の20日を記載。",
    "group": "G4",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P110",
+   "id": "P113",
    "confidence_min": "C",
+   "confidence_max": "B"
+  },
+  {
+   "shop_key": "福うさぎ",
+   "shop": "福うさぎ",
+   "shop_full": "金澤 福うさぎ",
+   "phone": "076-221-1511",
+   "name": "銘菓 福うさぎ（ひゃくまんさんVer）",
+   "kind": "蒸し饅頭",
+   "description": "石川県のキャラクター「ひゃくまんさん」のバージョンの福うさぎ。入数・中身は確認できていない。",
+   "options": [
+    {
+     "label": "入数不明",
+     "qty": null,
+     "unit": "",
+     "price": 1080,
+     "confidence": "C",
+     "source_url": "https://www.fukuusagi.jp/?pid=90652389",
+     "evidence": "検索結果の要約:「銘菓 福うさぎ（ひゃくまんさんVer）価格：1,080円」（税込・入数の明記はなし）",
+     "note": "",
+     "id": "P114-1"
+    }
+   ],
+   "wrap_level": null,
+   "wrap_note": "",
+   "shelf_life_days": null,
+   "shelf_life_text": "",
+   "ingredients": null,
+   "ingredient_check": "？",
+   "ingredient_hits": [],
+   "ingredient_notes": [],
+   "allergens": null,
+   "seasonal": "不明（限定版の可能性あり）",
+   "page_url": "https://www.fukuusagi.jp/?pid=90652389",
+   "image_key": null,
+   "confidence": "C",
+   "notes": "入数・中身・日持ち・販売期間のいずれも未確認。",
+   "group": "G10",
+   "shop_category": "和菓子",
+   "popularity": [],
+   "id": "P114",
+   "confidence_min": "C",
+   "confidence_max": "C"
+  },
+  {
+   "shop_key": "福うさぎ",
+   "shop": "福うさぎ",
+   "shop_full": "金澤 福うさぎ",
+   "phone": "076-221-1511",
+   "name": "銘菓 福うさぎ（能登の塩）",
+   "kind": "蒸し饅頭",
+   "description": "福うさぎの能登の塩味。4個入。",
+   "options": [
+    {
+     "label": "4ヶ入",
+     "qty": 4,
+     "unit": "個",
+     "price": 680,
+     "confidence": "B",
+     "source_url": "https://www.fukuusagi.jp/?pid=102194705",
+     "evidence": "検索結果の要約:「銘菓 福うさぎ（能登の塩）4ヶ入 価格：680円」（税込の明記はなし）",
+     "note": "",
+     "id": "P115-1"
+    }
+   ],
+   "wrap_level": "individual",
+   "wrap_note": "福うさぎ全般が個包装との記載（この味個別の記載は未確認）。",
+   "shelf_life_days": 20,
+   "shelf_life_text": "公式通販は「お届け日より約20日間」（福うさぎ全般の表記）",
+   "ingredients": null,
+   "ingredient_check": "？",
+   "ingredient_hits": [],
+   "ingredient_notes": [],
+   "allergens": null,
+   "seasonal": "通年とみられる（未確認）",
+   "page_url": "https://www.fukuusagi.jp/?pid=102194705",
+   "image_key": null,
+   "confidence": "B",
+   "notes": "価格に税込の明記は検索結果になかったが、他の福うさぎと同じく8%の税込表示とみられる。 味・原材料・アレルゲンは未確認。",
+   "group": "G10",
+   "shop_category": "和菓子",
+   "popularity": [],
+   "id": "P115",
+   "confidence_min": "B",
    "confidence_max": "B"
   },
   {
@@ -6473,7 +6719,7 @@
      "source_url": "https://moroeya.net/?pid=163564120",
      "evidence": "ネットショップ要約: 12粒入 540円（税込か税別かの記載は要約になし）",
      "note": "税込か税別かの記載が不明（表示の数字をそのまま採用）",
-     "id": "P111-1"
+     "id": "P116-1"
     }
    ],
    "wrap_level": null,
@@ -6493,7 +6739,7 @@
    "group": "G1",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P111",
+   "id": "P116",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -6515,7 +6761,7 @@
      "source_url": "https://moroeya.net/?pid=7217833",
      "evidence": "2個簡易箱入り 300円＋税（税別表記）",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P112-1"
+     "id": "P117-1"
     },
     {
      "label": "6個袋入",
@@ -6526,7 +6772,7 @@
      "source_url": "https://moroeya.net/?pid=7217833",
      "evidence": "ネットショップ要約: 6個袋入り 810円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P112-2"
+     "id": "P117-2"
     },
     {
      "label": "10個箱入",
@@ -6537,7 +6783,7 @@
      "source_url": "https://moroeya.net/?pid=7217833",
      "evidence": "ネットショップ要約: 10個箱入り 1,530円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P112-3"
+     "id": "P117-3"
     },
     {
      "label": "15個箱入",
@@ -6548,7 +6794,7 @@
      "source_url": "https://moroeya.net/?pid=7217833",
      "evidence": "ネットショップ要約: 15個箱入り 2,170円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P112-4"
+     "id": "P117-4"
     },
     {
      "label": "20個箱入",
@@ -6559,7 +6805,7 @@
      "source_url": "https://moroeya.net/?pid=7217833",
      "evidence": "ネットショップ要約: 20個箱入り 3,100円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P112-5"
+     "id": "P117-5"
     },
     {
      "label": "30個箱入",
@@ -6570,7 +6816,7 @@
      "source_url": "https://moroeya.net/?pid=7217833",
      "evidence": "ネットショップ要約: 30個箱入り 4,590円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P112-6"
+     "id": "P117-6"
     }
    ],
    "wrap_level": null,
@@ -6590,7 +6836,7 @@
    "group": "G1",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P112",
+   "id": "P117",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -6612,7 +6858,7 @@
      "source_url": "https://moroeya.net/?pid=7343882",
      "evidence": "ネットショップ要約: 1個（バラ）85円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P113-1"
+     "id": "P118-1"
     },
     {
      "label": "6個ナイロン袋入",
@@ -6623,7 +6869,7 @@
      "source_url": "https://moroeya.net/?pid=7343882",
      "evidence": "ネットショップ要約: 6個ナイロン袋入 560円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P113-2"
+     "id": "P118-2"
     },
     {
      "label": "12個箱入",
@@ -6634,7 +6880,7 @@
      "source_url": "https://moroeya.net/?pid=7343882",
      "evidence": "ネットショップ要約: 12個箱入 1,350円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P113-3"
+     "id": "P118-3"
     },
     {
      "label": "24個箱入",
@@ -6645,7 +6891,7 @@
      "source_url": "https://moroeya.net/?pid=7343882",
      "evidence": "ネットショップ要約: 24個箱入 2,500円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P113-4"
+     "id": "P118-4"
     },
     {
      "label": "36個箱入",
@@ -6656,7 +6902,7 @@
      "source_url": "https://moroeya.net/?pid=7343882",
      "evidence": "ネットショップ要約: 36個箱入 3,700円+税",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P113-5"
+     "id": "P118-5"
     }
    ],
    "wrap_level": "individual",
@@ -6676,7 +6922,7 @@
    "group": "G1",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P113",
+   "id": "P118",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -6698,7 +6944,7 @@
      "source_url": "https://moroeya.net/?pid=7217766",
      "evidence": "ネットショップ要約: 6個袋入り 810円+税（公式サイト要約では540円(税別)で矛盾）",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P114-1"
+     "id": "P119-1"
     },
     {
      "label": "8個箱入",
@@ -6709,7 +6955,7 @@
      "source_url": "https://moroeya.net/?pid=7217766",
      "evidence": "ネットショップ要約: 8個箱入り 1,250円+税（公式サイト要約では800円(税別)で矛盾）",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P114-2"
+     "id": "P119-2"
     },
     {
      "label": "16個箱入",
@@ -6720,7 +6966,7 @@
      "source_url": "https://moroeya.net/?pid=7217766",
      "evidence": "ネットショップ要約: 16個箱入り 2,340円+税（公式サイト要約では1,600円(税別)で矛盾）",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P114-3"
+     "id": "P119-3"
     },
     {
      "label": "24個箱入",
@@ -6731,7 +6977,7 @@
      "source_url": "https://moroeya.net/?pid=7217766",
      "evidence": "ネットショップ要約: 24個箱入り 3,430円+税（公式サイト要約では2,300円(税別)で矛盾）",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P114-4"
+     "id": "P119-4"
     },
     {
      "label": "32個箱入",
@@ -6742,7 +6988,7 @@
      "source_url": "https://moroeya.net/?pid=7217766",
      "evidence": "ネットショップ要約: 32個箱入り 4,530円+税（公式サイト要約では3,100円(税別)で矛盾）",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P114-5"
+     "id": "P119-5"
     }
    ],
    "wrap_level": null,
@@ -6762,7 +7008,7 @@
    "group": "G1",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P114",
+   "id": "P119",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -6784,7 +7030,7 @@
      "source_url": "https://moroeya.net/?pid=184946053",
      "evidence": "ネットショップ要約: 濃淡5種類2本ずつの10本入 1,100円（税別）",
      "note": "税別表示の価格を8%で換算した参考値",
-     "id": "P115-1"
+     "id": "P120-1"
     }
    ],
    "wrap_level": null,
@@ -6804,7 +7050,7 @@
    "group": "G1",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P115",
+   "id": "P120",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -6826,7 +7072,7 @@
      "source_url": "https://kanazawamiyage.jp/?pid=172646582",
      "evidence": "「入数：小豆5個入」「税込1,512円」「賞味期限：25日間」（別の検索でも1,512円・25日間で一致）",
      "note": "",
-     "id": "P116-1"
+     "id": "P121-1"
     }
    ],
    "wrap_level": null,
@@ -6846,7 +7092,7 @@
    "group": "G2",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P116",
+   "id": "P121",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -6868,7 +7114,7 @@
      "source_url": "https://www.koshiyamakanseido.jp/shopping/tunen/post_145.html",
      "evidence": "「6個入 1,188円(税込)」",
      "note": "",
-     "id": "P117-1"
+     "id": "P122-1"
     }
    ],
    "wrap_level": null,
@@ -6888,7 +7134,7 @@
    "group": "G2",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P117",
+   "id": "P122",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -6910,7 +7156,7 @@
      "source_url": "https://www.koshiyamakanseido.jp/shopping/tunen/post_31.html",
      "evidence": "要約文「priced at 260円 (tax included) per individual piece」（越山甘清堂公式の金城巻ページ）",
      "note": "",
-     "id": "P118-1"
+     "id": "P123-1"
     },
     {
      "label": "5個入（COREZO店掲載）",
@@ -6921,7 +7167,7 @@
      "source_url": "https://shopping.corezo.co.jp/koshiyamakanseido/products/detail.php?product_id=11080",
      "evidence": "要約文「5個入り（1,210円）、10個入り（2,916円）、12個入り（3,435円）などが販売されています」。商品ページ題名は『金城巻 5個入|越山甘清堂 COREZO店』。税込表記・本文は未確認（同要約の12個入3,435円は公式の税込額と一致）",
      "note": "",
-     "id": "P118-2"
+     "id": "P123-2"
     },
     {
      "label": "6個入（黒糖餡3＋季節の餡3）",
@@ -6932,7 +7178,7 @@
      "source_url": "https://kanazawamiyage.jp/?pid=125226206",
      "evidence": "「6個入：1,793円(税込)」「6個入：黒糖餡3個、季節の餡3個」",
      "note": "",
-     "id": "P118-3"
+     "id": "P123-3"
     },
     {
      "label": "10個入（COREZO店掲載）",
@@ -6943,7 +7189,7 @@
      "source_url": "https://shopping.corezo.co.jp/koshiyamakanseido/products/detail.php?product_id=11081",
      "evidence": "要約文「10個入り（2,916円）」。商品ページ題名は『金城巻 10個入|越山甘清堂 COREZO店』。税込表記・本文は未確認",
      "note": "",
-     "id": "P118-4"
+     "id": "P123-4"
     },
     {
      "label": "12個入（黒糖餡6＋季節の餡6）",
@@ -6954,7 +7200,7 @@
      "source_url": "https://kanazawamiyage.jp/?pid=125226206",
      "evidence": "「12個入：3,435円(税込)」「12個入：黒糖餡6個、季節の餡6個」",
      "note": "",
-     "id": "P118-5"
+     "id": "P123-5"
     },
     {
      "label": "18個入（黒糖餡9＋季節の餡9）",
@@ -6965,7 +7211,7 @@
      "source_url": "https://kanazawamiyage.jp/?pid=125226206",
      "evidence": "「18個入：5,055円(税込)」「18個入：黒糖餡9個、季節の餡9個」",
      "note": "",
-     "id": "P118-6"
+     "id": "P123-6"
     }
    ],
    "wrap_level": null,
@@ -6987,7 +7233,7 @@
    "group": "G2",
    "shop_category": "和菓子",
    "popularity": [],
-   "id": "P118",
+   "id": "P123",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7009,7 +7255,7 @@
      "source_url": "https://takagiya.base.ec/items/32543887",
      "evidence": "検索要約: あんずパイ 取扱いサイズ 5個入（¥1,404）",
      "note": "",
-     "id": "P119-1"
+     "id": "P124-1"
     },
     {
      "label": "10個入",
@@ -7020,7 +7266,7 @@
      "source_url": "https://takagiya.base.ec/items/32543907",
      "evidence": "検索要約: あんずパイ 10個入（¥2,808）",
      "note": "",
-     "id": "P119-2"
+     "id": "P124-2"
     },
     {
      "label": "12個入",
@@ -7031,7 +7277,7 @@
      "source_url": null,
      "evidence": "検索要約: あんずパイ 12個入（¥3,326）",
      "note": "",
-     "id": "P119-3"
+     "id": "P124-3"
     },
     {
      "label": "15個入",
@@ -7042,7 +7288,7 @@
      "source_url": "https://takagiya.base.ec/items/32543926",
      "evidence": "検索要約: あんずパイ 15個入（¥4,158）",
      "note": "",
-     "id": "P119-4"
+     "id": "P124-4"
     }
    ],
    "wrap_level": null,
@@ -7070,7 +7316,7 @@
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P119",
+   "id": "P124",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7092,7 +7338,7 @@
      "source_url": "https://takagiya.base.ec/items/32543694",
      "evidence": "検索要約: 一口千歳（6個入） ¥842（税込）",
      "note": "",
-     "id": "P120-1"
+     "id": "P125-1"
     },
     {
      "label": "10個入",
@@ -7103,7 +7349,7 @@
      "source_url": "https://takagiya.base.ec/items/32529443",
      "evidence": "検索要約: 一口千歳（10個入） Price ¥1,350 (tax included)。和菓子モール・楽天・Yahoo!の要約も1,350円",
      "note": "",
-     "id": "P120-2"
+     "id": "P125-2"
     },
     {
      "label": "15個入",
@@ -7114,7 +7360,7 @@
      "source_url": null,
      "evidence": "検索要約: 一口千歳 15個入 ¥1,998（BASE限定検索と通販全般検索の2回で一致。個別商品ページは検索結果に出ず未特定）",
      "note": "",
-     "id": "P120-3"
+     "id": "P125-3"
     },
     {
      "label": "20個入",
@@ -7125,7 +7371,7 @@
      "source_url": "https://takagiya.base.ec/items/32543753",
      "evidence": "検索要約: 一口千歳（20個入） ¥2,592（税込）",
      "note": "",
-     "id": "P120-4"
+     "id": "P125-4"
     }
    ],
    "wrap_level": null,
@@ -7143,13 +7389,13 @@
    "page_url": "https://takagiya.base.ec/items/32529443",
    "image_key": null,
    "confidence": "B",
-   "notes": "10個入は検索要約の一部（BASE限定検索2回）で ¥1,188 と出たが、BASE個別ページ要約・和菓子モール・楽天・Yahoo!は ¥1,350 で一致するため1,350を採用（1,188は誤りの可能性が高いが、確定には店頭・個別ページ確認が必要）。 15個入はBASEの定番一覧要約に載らず要確認。 20個入2,592円は2,300円超。 着色料コチニールは昆虫由来。 酒類・ゼラチン・乳化剤・ショートニングの表示なし。 アレルゲン表示は未確認。 着色料にコチニール（昆虫由来の赤色色素）を使用。 豚由来成分・アルコールに当たる表示は見当たらない。 ムスリム向けには色素の由来を気にする人もいるため、渡す相手に応じて判断が必要。 15個入以下は2,000円以内、20個入は2,592円で2,300円超。",
+   "notes": "10個入は検索要約の一部（BASE限定検索2回）で ¥1,188 と出たが、BASE個別ページ要約・和菓子モール・楽天・Yahoo!は ¥1,350 で一致するため1,350を採用（1,188は誤りの可能性が高いが、確定には店頭・個別ページ確認が必要）。 15個入はBASEの定番一覧要約に載らず要確認。 20個入2,592円は2,300円超。 着色料コチニールは昆虫由来。 酒類・ゼラチン・乳化剤・ショートニングの表示なし。 アレルゲン表示は未確認。 着色料にコチニール（昆虫由来の赤色色素）を使用。 豚由来成分・アルコールに当たる表示は見当たらない。 ムスリム向けには色素の由来を気にする人もいるため、渡す相手に応じて判断が必要。 15個入以下は2,000円以内、20個入は2,592円で2,300円超。 豚由来の成分・アルコールに当たる表示は見当たらない。 ムスリムの相手には色素の由来を気にする人もいるため、渡す相手に応じた判断が必要。 原材料は20個入のページの表示（他の入数も同じ品と思われるが、ページごとの確認はしていない）。 個包装かどうかは未確認。",
    "group": "G3",
    "shop_category": "和菓子",
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P120",
+   "id": "P125",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7171,7 +7417,7 @@
      "source_url": "https://takagiya.base.ec/items/32529431",
      "evidence": "検索要約: 大納言もなか（10個入） ¥2,160、日持ち15日間",
      "note": "",
-     "id": "P121-1"
+     "id": "P126-1"
     },
     {
      "label": "12個入",
@@ -7182,7 +7428,7 @@
      "source_url": "https://takagiya.base.ec/items/32529435",
      "evidence": "検索要約: 大納言もなか 12個入 ¥2,548（税込）",
      "note": "",
-     "id": "P121-2"
+     "id": "P126-2"
     },
     {
      "label": "15個入",
@@ -7193,7 +7439,7 @@
      "source_url": "https://takagiya.base.ec/items/32529439",
      "evidence": "検索要約: 大納言もなか 15個入 ¥2,808（税込）",
      "note": "",
-     "id": "P121-3"
+     "id": "P126-3"
     }
    ],
    "wrap_level": null,
@@ -7209,13 +7455,13 @@
    "page_url": "https://takagiya.base.ec/items/32529431",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料に豚由来・アルコールに該当する語なし（ハラール懸念が最も少ない候補）。 2,300円以下は10個入（2,160円）のみ。 12個入・15個入の価格は個別ページ要約。 原材料は砂糖・小豆・最中種（もち米）・還元水飴のみで、豚由来成分・アルコール・着色料の表示は見当たらない（10個入のページの表示）。 アレルゲン表示は検索で出てこなかった。 10個入が2,160円で「少し超過」の範囲（2,001〜2,300円）、12個入以上は2,300円を超える。",
+   "notes": "原材料に豚由来・アルコールに該当する語なし（ハラール懸念が最も少ない候補）。 2,300円以下は10個入（2,160円）のみ。 12個入・15個入の価格は個別ページ要約。 原材料は砂糖・小豆・最中種（もち米）・還元水飴のみで、豚由来成分・アルコール・着色料の表示は見当たらない（10個入のページの表示）。 アレルゲン表示は検索で出てこなかった。 10個入が2,160円で「少し超過」の範囲（2,001〜2,300円）、12個入以上は2,300円を超える。 原材料は砂糖・小豆・最中種（もち米）・還元水飴のみで、豚由来の成分・アルコール・着色料の表示は見当たらない（12個入のページの表示。 10個入のページでも同じ内容を前回確認）。 10個入が2,160円で「少し超過」（2,001〜2,300円）、12個入以上は2,300円超。 個包装かどうかは未確認。",
    "group": "G3",
    "shop_category": "和菓子",
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P121",
+   "id": "P126",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7237,7 +7483,7 @@
      "source_url": "https://takagiya.base.ec/items/32529457",
      "evidence": "検索要約: 大納言パイ 取扱いサイズ 10個入（¥2,160）",
      "note": "",
-     "id": "P122-1"
+     "id": "P127-1"
     },
     {
      "label": "15個入",
@@ -7248,7 +7494,7 @@
      "source_url": null,
      "evidence": "検索要約: 大納言パイ 取扱いサイズ 15個入（¥3,186）",
      "note": "",
-     "id": "P122-2"
+     "id": "P127-2"
     },
     {
      "label": "20個入",
@@ -7259,7 +7505,7 @@
      "source_url": "https://takagiya.base.ec/items/32543631",
      "evidence": "検索要約: 大納言パイ（20個） ¥4,212",
      "note": "",
-     "id": "P122-3"
+     "id": "P127-3"
     }
    ],
    "wrap_level": null,
@@ -7285,7 +7531,7 @@
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P122",
+   "id": "P127",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7307,7 +7553,7 @@
      "source_url": "https://takagiya.base.ec/items/32583317",
      "evidence": "検索要約: 旬味紙ふうせん(9個入)※秋冬限定 ¥810（税込）。楽天（kanazawa-honpo）の9個入要約でも同額",
      "note": "",
-     "id": "P123-1"
+     "id": "P128-1"
     }
    ],
    "wrap_level": null,
@@ -7331,7 +7577,7 @@
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P123",
+   "id": "P128",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7353,7 +7599,7 @@
      "source_url": "https://takagiya.base.ec/items/32240247",
      "evidence": "検索要約: 紙ふうせん（9個入） 価格 ¥810（税込）",
      "note": "",
-     "id": "P124-1"
+     "id": "P129-1"
     },
     {
      "label": "16個入",
@@ -7364,7 +7610,7 @@
      "source_url": "https://takagiya.base.ec/items/32527174",
      "evidence": "検索要約: 紙ふうせん（16個入） 価格 ¥1,404（税込）",
      "note": "",
-     "id": "P124-2"
+     "id": "P129-2"
     },
     {
      "label": "28個入",
@@ -7375,7 +7621,7 @@
      "source_url": "https://takagiya.base.ec/items/32527188",
      "evidence": "検索要約: 紙ふうせん（28個入） 価格 ¥2,160（税込）",
      "note": "",
-     "id": "P124-3"
+     "id": "P129-3"
     }
    ],
    "wrap_level": "none",
@@ -7402,7 +7648,7 @@
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P124",
+   "id": "P129",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7424,7 +7670,7 @@
      "source_url": "https://takagiya.base.ec/items/32544049",
      "evidence": "検索要約: 紙ふうせんプレミアム(3個入) ¥972（税込）、日持ち20日間",
      "note": "",
-     "id": "P125-1"
+     "id": "P130-1"
     }
    ],
    "wrap_level": null,
@@ -7446,7 +7692,7 @@
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P125",
+   "id": "P130",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7468,7 +7714,7 @@
      "source_url": "https://takagiya.base.ec/items/32543268",
      "evidence": "検索要約: 紙ふうせん・千歳（16個入） ¥1,814、日持ち15日間",
      "note": "",
-     "id": "P126-1"
+     "id": "P131-1"
     },
     {
      "label": "28個入",
@@ -7479,7 +7725,7 @@
      "source_url": "https://takagiya.base.ec/items/32543316",
      "evidence": "検索要約: 紙ふうせん・千歳（28個入） ¥2,937、日持ち15日間",
      "note": "",
-     "id": "P126-2"
+     "id": "P131-2"
     }
    ],
    "wrap_level": null,
@@ -7501,7 +7747,7 @@
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P126",
+   "id": "P131",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7523,7 +7769,7 @@
      "source_url": "https://takagiya.base.ec/items/36208034",
      "evidence": "検索要約: 金沢ほっとしるこ（4個袋入） Price ¥1,080、日持ち180日間",
      "note": "",
-     "id": "P127-1"
+     "id": "P132-1"
     },
     {
      "label": "10個入",
@@ -7534,14 +7780,14 @@
      "source_url": "https://takagiya.base.ec/items/36208050",
      "evidence": "検索要約: 金沢ほっとしるこ 10個入 ¥2,808（定番一覧の要約）",
      "note": "",
-     "id": "P127-2"
+     "id": "P132-2"
     }
    ],
    "wrap_level": null,
    "wrap_note": "個包装かどうかの明記は検索結果になし。4個袋入の内訳（4風味を1個ずつか）も未確認",
    "shelf_life_days": 180,
    "shelf_life_text": "日持ち180日間（4個袋入ページの記載。10個入の日持ちは未確認）",
-   "ingredients": "【こし餡】砂糖、還元水飴、小豆晒しあん、和三盆糖、餅米、片栗粉、塩、寒梅粉（もち米加工品）／着色料（赤3、赤102、赤106、青1、黄4）　【さくら・ほうじ茶・抹茶】こし餡と同配合に、それぞれ桜葉パウダー・ほうじ茶パウダー・抹茶パウダーを加える",
+   "ingredients": "【10個入のページ・こし餡】砂糖、還元水飴、小豆晒しあん、和三盆糖、餅米、片栗粉、塩、寒梅粉（もち米加工品）、あおさ／着色料（赤3、赤102、赤106、青1、黄4、ベニコウジ色素、ベニバナ色素、アナトー色素、クチナシ色素）　※さくら・抹茶・ほうじ茶は味ごとに原材料が異なるが、全文は取得できず　／【4個袋入のページ（前回確認）】砂糖、還元水飴、小豆餡、和三盆糖、もち米、でん粉（馬鈴薯）、食塩、寒梅粉、着色料（赤3、赤102、赤106、青1、黄4）。さくらは桜葉粉末、ほうじ茶はほうじ茶粉末、抹茶は抹茶粉末を加える",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -7550,13 +7796,13 @@
    "page_url": "https://takagiya.base.ec/items/36208034",
    "image_key": null,
    "confidence": "B",
-   "notes": "賞味期限が約180日と長く、原材料に豚由来・アルコールに該当する語なし（合成着色料の赤3・赤102等を使用）。 10個入の価格は一覧要約由来。 アレルゲン表示は未確認。 原材料は検索で出た英訳から日本語に戻して記載しており、原文の表記・順序とは異なる可能性がある。 豚由来成分・アルコールに当たる表示は見当たらない。 合成着色料（赤3、赤102、赤106、青1、黄4）を使用している点だけ注意。 日持ちは180日と長い。 4個袋入は1,080円で2,000円以内、10個入は2,808円で2,300円超。",
+   "notes": "賞味期限が約180日と長く、原材料に豚由来・アルコールに該当する語なし（合成着色料の赤3・赤102等を使用）。 10個入の価格は一覧要約由来。 アレルゲン表示は未確認。 原材料は検索で出た英訳から日本語に戻して記載しており、原文の表記・順序とは異なる可能性がある。 豚由来成分・アルコールに当たる表示は見当たらない。 合成着色料（赤3、赤102、赤106、青1、黄4）を使用している点だけ注意。 日持ちは180日と長い。 4個袋入は1,080円で2,000円以内、10個入は2,808円で2,300円超。 豚由来の成分・アルコールに当たる表示は見当たらない。 合成着色料（赤3、赤102、赤106、青1、黄4）を使用し、10個入のページには植物・微生物由来の色素（ベニコウジ、ベニバナ、アナトー、クチナシ）の表示もある。 【食い違い】同じ「金沢ほっとしるこ」でも、10個入のページと4個袋入のページで、あんの表記（小豆晒しあん ／小豆餡）と着色料の種類が異なって出た。 味ごと・入数ごとに表示が違う可能性があるため、買う入数のパッケージで確認が必要。 4個袋入の表示は前回、英訳から日本語に戻して記載したもので、原文と表記が異なる可能性がある。 個包装かどうかは未確認。",
    "group": "G3",
    "shop_category": "和菓子",
    "popularity": [
     "店: 総選挙2024 銘菓＆洋菓子部門 3位"
    ],
-   "id": "P127",
+   "id": "P132",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7578,7 +7824,7 @@
      "source_url": "https://filfilcacao.com/products/mini-chocolate-set",
      "evidence": "ミニチョコセット 5種 ¥2,100（税込）",
      "note": "",
-     "id": "P128-1"
+     "id": "P133-1"
     },
     {
      "label": "5種セット（別ページの表記）",
@@ -7589,7 +7835,7 @@
      "source_url": "https://filfilcacao.com/product/641",
      "evidence": "ミニチョコセット (5種)【贈り物にオススメ】 ¥2,300（税込）",
      "note": "",
-     "id": "P128-2"
+     "id": "P133-2"
     }
    ],
    "wrap_level": null,
@@ -7609,7 +7855,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P128",
+   "id": "P133",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -7631,7 +7877,7 @@
      "source_url": "https://frandore.base.shop/items/61009356",
      "evidence": "五郎島のおいもやき（山科長者）2個入 ¥746（BASE店の検索結果）",
      "note": "",
-     "id": "P129-1"
+     "id": "P134-1"
     },
     {
      "label": "5個入",
@@ -7642,7 +7888,7 @@
      "source_url": "https://frandore.base.shop/items/60199687",
      "evidence": "5個入：¥1,809（BASE店）／別の通販サイトの表示では5個入：¥1,620",
      "note": "",
-     "id": "P129-2"
+     "id": "P134-2"
     },
     {
      "label": "8個入",
@@ -7653,7 +7899,7 @@
      "source_url": "https://www.hokurikumeihin.com/frandore/index.html",
      "evidence": "8個入：¥2,355（銘品市場／ふらん・どーるのオンラインショップの検索結果。BASE店では確認できず）",
      "note": "",
-     "id": "P129-3"
+     "id": "P134-3"
     },
     {
      "label": "10個入",
@@ -7664,7 +7910,7 @@
      "source_url": "https://frandore.base.shop/categories/4274612",
      "evidence": "10個入：¥3,402（BASE店）",
      "note": "",
-     "id": "P129-4"
+     "id": "P134-4"
     },
     {
      "label": "12個入",
@@ -7675,7 +7921,7 @@
      "source_url": "https://www.hokurikumeihin.com/frandore/index.html",
      "evidence": "12個入：¥3,748（銘品市場／ふらん・どーるのオンラインショップの検索結果）",
      "note": "",
-     "id": "P129-5"
+     "id": "P134-5"
     }
    ],
    "wrap_level": null,
@@ -7695,7 +7941,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P129",
+   "id": "P134",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -7717,7 +7963,7 @@
      "source_url": "https://frandore.base.shop/categories/4274626",
      "evidence": "加賀棒茶マドレーヌ９個入り ¥2,445 (税込 ¥2,641)（BASE店）／別の検索結果では9個入2,495円",
      "note": "",
-     "id": "P130-1"
+     "id": "P135-1"
     }
    ],
    "wrap_level": "individual",
@@ -7737,7 +7983,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P130",
+   "id": "P135",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -7759,7 +8005,7 @@
      "source_url": "https://frandore.base.shop/items/60857512",
      "evidence": "茶の間ショコラ 5枚入843円",
      "note": "",
-     "id": "P131-1"
+     "id": "P136-1"
     },
     {
      "label": "12枚入（抹茶6・加賀棒茶6）",
@@ -7770,7 +8016,7 @@
      "source_url": "https://frandore.base.shop/items/61010282",
      "evidence": "茶の間ショコラ 12枚入 2,031円",
      "note": "",
-     "id": "P131-2"
+     "id": "P136-2"
     }
    ],
    "wrap_level": null,
@@ -7792,7 +8038,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P131",
+   "id": "P136",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7814,7 +8060,7 @@
      "source_url": "https://www.budoo-shop.jp/item/BE3.html",
      "evidence": "にゃんこのサブレ 1個195円（税込）",
      "note": "",
-     "id": "P132-1"
+     "id": "P137-1"
     },
     {
      "label": "3個入",
@@ -7825,7 +8071,7 @@
      "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=BE2&bid=all&cat=200400",
      "evidence": "3個入648円（税込）",
      "note": "",
-     "id": "P132-2"
+     "id": "P137-2"
     },
     {
      "label": "5個入",
@@ -7836,7 +8082,7 @@
      "source_url": "https://www.budoo-shop.jp/item/BE3.html",
      "evidence": "5個入1,188円（税込）",
      "note": "",
-     "id": "P132-3"
+     "id": "P137-3"
     }
    ],
    "wrap_level": null,
@@ -7856,7 +8102,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P132",
+   "id": "P137",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7878,7 +8124,7 @@
      "source_url": "https://www.budoo.co.jp/archives/news/35541",
      "evidence": "サブレ・オ・サヴール 1個119円（税込）",
      "note": "",
-     "id": "P133-1"
+     "id": "P138-1"
     },
     {
      "label": "6個入",
@@ -7889,7 +8135,7 @@
      "source_url": "https://www.budoo.co.jp/archives/news/35541",
      "evidence": "6個入983円（税込）",
      "note": "",
-     "id": "P133-2"
+     "id": "P138-2"
     },
     {
      "label": "12個入",
@@ -7900,7 +8146,7 @@
      "source_url": "https://www.budoo.co.jp/archives/news/35541",
      "evidence": "12個入1,858円（税込）",
      "note": "",
-     "id": "P133-3"
+     "id": "P138-3"
     }
    ],
    "wrap_level": null,
@@ -7920,7 +8166,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P133",
+   "id": "P138",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -7942,7 +8188,7 @@
      "source_url": "https://www.budoo.co.jp/cakeshop/item3.html",
      "evidence": "フレーズピスターシュ 1個270円（税込）",
      "note": "",
-     "id": "P134-1"
+     "id": "P139-1"
     },
     {
      "label": "5個入",
@@ -7953,7 +8199,7 @@
      "source_url": "https://www.budoo.co.jp/cakeshop/item3.html",
      "evidence": "5個入1,458円（税込）",
      "note": "",
-     "id": "P134-2"
+     "id": "P139-2"
     },
     {
      "label": "10個入",
@@ -7964,7 +8210,7 @@
      "source_url": "https://www.budoo.co.jp/cakeshop/item3.html",
      "evidence": "10個入2,970円（税込）",
      "note": "",
-     "id": "P134-3"
+     "id": "P139-3"
     }
    ],
    "wrap_level": null,
@@ -7984,7 +8230,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P134",
+   "id": "P139",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8006,7 +8252,7 @@
      "source_url": "https://mominokicafe.com/?pid=183053171",
      "evidence": "クランベリー＆ココナッツのクッキー1枚入り 228円(税込)／チョコ＆クルミのクッキー1枚入り 228円(税込)",
      "note": "",
-     "id": "P135-1"
+     "id": "P140-1"
     }
    ],
    "wrap_level": null,
@@ -8026,7 +8272,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P135",
+   "id": "P140",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8048,7 +8294,7 @@
      "source_url": "https://mominokicafe.com/?pid=159873007",
      "evidence": "プレーンは349円(税込)で販売",
      "note": "",
-     "id": "P136-1"
+     "id": "P141-1"
     }
    ],
    "wrap_level": null,
@@ -8068,7 +8314,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P136",
+   "id": "P141",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8090,7 +8336,7 @@
      "source_url": "https://mominokicafe.com/?pid=167894995",
      "evidence": "人気10個詰め合わせセット：4,092円",
      "note": "",
-     "id": "P137-1"
+     "id": "P142-1"
     }
    ],
    "wrap_level": "individual",
@@ -8110,7 +8356,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P137",
+   "id": "P142",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8132,7 +8378,7 @@
      "source_url": "https://mominokicafe.com/?pid=159871598",
      "evidence": "人気3種詰め合わせセット：1,083円",
      "note": "",
-     "id": "P138-1"
+     "id": "P143-1"
     }
    ],
    "wrap_level": "individual",
@@ -8152,7 +8398,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P138",
+   "id": "P143",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8174,7 +8420,7 @@
      "source_url": "https://mominokicafe.com/?pid=159871802",
      "evidence": "全6種入詰め合わせセット：2,620円",
      "note": "",
-     "id": "P139-1"
+     "id": "P144-1"
     }
    ],
    "wrap_level": "individual",
@@ -8194,7 +8440,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P139",
+   "id": "P144",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8216,7 +8462,7 @@
      "source_url": "https://www.je-prends-ca.info/product-page/imohoricho-jya",
      "evidence": "いもほり長者 価格：¥360",
      "note": "",
-     "id": "P140-1"
+     "id": "P145-1"
     }
    ],
    "wrap_level": null,
@@ -8236,7 +8482,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P140",
+   "id": "P145",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8258,7 +8504,7 @@
      "source_url": "https://www.je-prends-ca.info/product-page/nyadore-nu",
      "evidence": "にゃどれーぬ 価格：¥290",
      "note": "",
-     "id": "P141-1"
+     "id": "P146-1"
     }
    ],
    "wrap_level": null,
@@ -8278,7 +8524,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P141",
+   "id": "P146",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8300,7 +8546,7 @@
      "source_url": "https://www.je-prends-ca.info/product-page/engadiner-caramel",
      "evidence": "エンガディナ・キャラメル 価格：¥430",
      "note": "",
-     "id": "P142-1"
+     "id": "P147-1"
     }
    ],
    "wrap_level": null,
@@ -8320,7 +8566,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P142",
+   "id": "P147",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8342,7 +8588,7 @@
      "source_url": "https://www.je-prends-ca.info/onlinestore",
      "evidence": "フィナンシェ 5peaces: ¥1,520-¥1,670 (tax included)",
      "note": "",
-     "id": "P143-1"
+     "id": "P148-1"
     },
     {
      "label": "15個入（黒い箱）",
@@ -8353,7 +8599,7 @@
      "source_url": "https://www.je-prends-ca.info/onlinestore",
      "evidence": "フィナンシェ 15peaces: ¥4,300-¥4,830 (tax included)",
      "note": "",
-     "id": "P143-2"
+     "id": "P148-2"
     }
    ],
    "wrap_level": null,
@@ -8373,7 +8619,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P143",
+   "id": "P148",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8395,7 +8641,7 @@
      "source_url": "https://www.je-prends-ca.info/product-page/doublesable-20peaces",
      "evidence": "ドゥーブルサブレ ... 詰め合わせで、価格は¥2,200",
      "note": "",
-     "id": "P144-1"
+     "id": "P149-1"
     }
    ],
    "wrap_level": null,
@@ -8415,7 +8661,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P144",
+   "id": "P149",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8437,7 +8683,7 @@
      "source_url": "https://www.je-prends-ca.info/product-page/financier-sweetpotato-5peaces",
      "evidence": "五郎島金時フィナンシェ 5peaces ¥1,570（税込）／別の検索結果では フィナンシェ 5peaces の価格は￥1,670",
      "note": "",
-     "id": "P145-1"
+     "id": "P150-1"
     }
    ],
    "wrap_level": null,
@@ -8457,7 +8703,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P145",
+   "id": "P150",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -8479,7 +8725,7 @@
      "source_url": "https://www.je-prends-ca.info/product-page/matcha-macaron-sable-kintugi",
      "evidence": "抹茶のマカロンサブレ KINTSUGI 価格は税込 1,620円（6個入り）",
      "note": "",
-     "id": "P146-1"
+     "id": "P151-1"
     }
    ],
    "wrap_level": null,
@@ -8499,7 +8745,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P146",
+   "id": "P151",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8521,7 +8767,7 @@
      "source_url": "https://www.je-prends-ca.info/product-page/notomilk-cookie-can",
      "evidence": "能登ミルククッキー缶 価格：¥2,100（税込） 内容量：10袋入（1枚ずつ袋に個包装された状態で缶に入っております）",
      "note": "",
-     "id": "P147-1"
+     "id": "P152-1"
     }
    ],
    "wrap_level": "individual",
@@ -8541,7 +8787,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P147",
+   "id": "P152",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8563,7 +8809,7 @@
      "source_url": "https://yukizuri.com/yukizuri/1139/",
      "evidence": "YUKIZURI ローズ [10本入] ￥2,160 / [6本入] ￥1,350（公式サイト検索要約。オンラインショップ要約でも6本入1,350円・10本入2,160円）",
      "note": "",
-     "id": "P148-1"
+     "id": "P153-1"
     },
     {
      "label": "10本入",
@@ -8574,7 +8820,7 @@
      "source_url": "https://yukizuri.com/yukizuri/1139/",
      "evidence": "同上",
      "note": "",
-     "id": "P148-2"
+     "id": "P153-2"
     }
    ],
    "wrap_level": "individual",
@@ -8594,7 +8840,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P148",
+   "id": "P153",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8616,7 +8862,7 @@
      "source_url": "https://yukizuri.com/yukizuri/37/",
      "evidence": "YUKIZURI 北陸三都物語 [15本入（3種×5本）] 2,430円（税込）",
      "note": "",
-     "id": "P149-1"
+     "id": "P154-1"
     }
    ],
    "wrap_level": "individual",
@@ -8636,7 +8882,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P149",
+   "id": "P154",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8658,7 +8904,7 @@
      "source_url": "https://yukizuri.com/yukizuri/35/",
      "evidence": "YUKIZURI 富山 [6本入] 1,026円（税込）",
      "note": "",
-     "id": "P150-1"
+     "id": "P155-1"
     },
     {
      "label": "10本入",
@@ -8669,7 +8915,7 @@
      "source_url": "https://yukizuri.com/yukizuri/35/",
      "evidence": "[10本入] 1,620円（税込）",
      "note": "",
-     "id": "P150-2"
+     "id": "P155-2"
     }
    ],
    "wrap_level": "individual",
@@ -8689,7 +8935,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P150",
+   "id": "P155",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8711,7 +8957,7 @@
      "source_url": "https://yukizuri.com/yukizuri/1037/",
      "evidence": "YUKIZURI 昆布トリュフ [10本入] 2,160円（税込）",
      "note": "",
-     "id": "P151-1"
+     "id": "P156-1"
     }
    ],
    "wrap_level": "individual",
@@ -8731,7 +8977,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P151",
+   "id": "P156",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8753,7 +8999,7 @@
      "source_url": "https://yukizuri.com/yukizuri/36/",
      "evidence": "YUKIZURI 福井 [6本入] 1,026円（税込）",
      "note": "",
-     "id": "P152-1"
+     "id": "P157-1"
     },
     {
      "label": "10本入",
@@ -8764,7 +9010,7 @@
      "source_url": "https://yukizuri.com/yukizuri/36/",
      "evidence": "[10本入] 1,620円（税込）",
      "note": "",
-     "id": "P152-2"
+     "id": "P157-2"
     }
    ],
    "wrap_level": "individual",
@@ -8784,7 +9030,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P152",
+   "id": "P157",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8806,7 +9052,7 @@
      "source_url": "https://yukizuri.com/yukizuri/1317/",
      "evidence": "YUKIZURI 能登の灯 [6本入] 1,350円（税込）",
      "note": "",
-     "id": "P153-1"
+     "id": "P158-1"
     },
     {
      "label": "10本入",
@@ -8817,7 +9063,7 @@
      "source_url": "https://yukizuri.com/yukizuri/1317/",
      "evidence": "YUKIZURI 能登の灯 10本入 2,160円（税込）／賞味期限 発送日から49日（オンラインショップの検索要約）",
      "note": "",
-     "id": "P153-2"
+     "id": "P158-2"
     }
    ],
    "wrap_level": "individual",
@@ -8837,7 +9083,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P153",
+   "id": "P158",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8859,7 +9105,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html",
      "evidence": "YUKIZURI 金箔 [10本入] ￥2,430 / [6本入] ￥1,458（公式サイト商品ページの検索要約）",
      "note": "",
-     "id": "P154-1"
+     "id": "P159-1"
     },
     {
      "label": "10本入",
@@ -8870,7 +9116,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html",
      "evidence": "同上",
      "note": "",
-     "id": "P154-2"
+     "id": "P159-2"
     }
    ],
    "wrap_level": "individual",
@@ -8890,7 +9136,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P154",
+   "id": "P159",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -8898,49 +9144,49 @@
    "shop_key": "ルミュゼドゥアッシュ",
    "shop": "ル ミュゼ ドゥ アッシュ",
    "shop_full": "ル ミュゼ ドゥ アッシュ 金沢駅百番街店",
-   "phone": "076-234-1600",
-   "name": "YUKIZURI（ゆきづり）",
-   "kind": "焼菓子（パイ・米粉の焼菓子）",
-   "description": "パイと石川県産米粉の焼菓子に、能登産梅酒を使ったグラス（砂糖衣）をあしらった辻口博啓氏の看板商品。兼六園の雪吊りをイメージし、フランス伝統菓子サクリスタンに着想を得たとされる。",
+   "phone": "076-234-1600／076-234-1660",
+   "name": "YUKIZURI（定番）",
+   "kind": "焼菓子（スティック状）",
+   "description": "兼六園の雪吊りをイメージした細長い焼菓子。前田家の家紋（梅鉢）にちなみ、石川県産の梅酒・卵・米粉を使い、フランスの伝統菓子サクリスタンをヒントに焼き上げたとの説明。能登のセイアグリー健康卵、揚げ浜塩田の塩、北陸産の米粉を使うとの記載もある。",
    "options": [
     {
      "label": "6本入",
      "qty": 6,
      "unit": "本",
      "price": 1026,
-     "confidence": "C",
-     "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html",
-     "evidence": "YUKIZURI [10本入] ￥1,620 / [22本入] ￥3,240 / [6本入] ￥1,026（公式サイト商品ページの検索要約）",
+     "confidence": "B",
+     "source_url": "https://yukizuri.com/yukizuri/19/",
+     "evidence": "YUKIZURI [6本入] 1,026円（税込）",
      "note": "",
-     "id": "P155-1"
+     "id": "P160-1"
     },
     {
      "label": "10本入",
      "qty": 10,
      "unit": "本",
      "price": 1620,
-     "confidence": "C",
-     "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html",
-     "evidence": "同上。百選横丁の検索要約でも10本入1,620円",
+     "confidence": "B",
+     "source_url": "https://yukizuri.com/yukizuri/19/",
+     "evidence": "[10本入] 1,620円（税込）",
      "note": "",
-     "id": "P155-2"
+     "id": "P160-2"
     },
     {
      "label": "22本入",
      "qty": 22,
      "unit": "本",
      "price": 3240,
-     "confidence": "C",
-     "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html",
-     "evidence": "同上。百選横丁の検索要約でも22本入3,240円",
+     "confidence": "B",
+     "source_url": "https://yukizuri.com/yukizuri/19/",
+     "evidence": "[22本入] 3,240円（税込）",
      "note": "",
-     "id": "P155-3"
+     "id": "P160-3"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "公式オンラインショップの要約に「すべて個包装」とある（1本ずつかは未確認）",
    "shelf_life_days": 49,
-   "shelf_life_text": "製造日より49日（百選横丁掲載）。常温保存（金澤あるげん蔵掲載）",
+   "shelf_life_text": "発送日から49日（オンラインショップの表記）",
    "ingredients": "小麦粉、砂糖、マーガリン、米粉(石川県産)、バター、グラニュー糖、鶏卵、アーモンドパウダー、梅酒、チョコレート、ショートニング、塩/香料、クエン酸、乳清ミネラル(乳由来)、乳化剤、着色料(カロチノイド色素)、調味料(アミノ酸)、(原材料の一部に乳、大豆を含む)",
    "ingredient_check": "×",
    "ingredient_hits": [
@@ -8950,18 +9196,18 @@
     "清酒・酒"
    ],
    "ingredient_notes": [],
-   "allergens": "原材料の一部に乳、大豆を含む（百選横丁掲載の表示。小麦・卵・アーモンドは原材料欄に記載）",
-   "seasonal": "通年（季節商品の表記なし）",
-   "page_url": "https://le-musee-de-h.jp/sweets/yukizuri.html",
+   "allergens": "小麦・卵・乳成分・アーモンド・大豆",
+   "seasonal": "通年（公式の通年商品として掲載との要約）",
+   "page_url": "https://yukizuri.com/yukizuri/19/",
    "image_key": null,
-   "confidence": "C",
-   "notes": "梅酒（アルコール）を生地側・グラス側とも使用し、マーガリン・ショートニング・乳化剤も含むため、ムスリム向けには不適。 原材料は百選横丁（https://www.hyakuyoko.com/shopdetail/027002000056/）の検索要約文より。 【食い違い】6本入の価格は公式要約で1,026円、百選横丁の要約では1,620円（10本入と同額で要約の誤りの可能性が高い。 同価格帯の派生品・富山やいちごも6本入1,026円/10本入1,620円で公式の1,026円と整合。 ただし再検索できず未解決のため確認レベルCに下げた）。 10本入・22本入は両者一致。 あんと店頭の価格・賞味期限は未確認。 原材料にチョコレートを含むが溶けやすさの記載は未確認。 金沢らしさのある看板商品だが、梅酒（梅のリキュール）を使うとの説明があるため、アルコールを避ける相手には不向き。 原材料表示の全文は未確認で、乳化剤・ゼラチンの有無は不明。 大豆を含むが、乳化剤など大豆由来の原料かは未確認。 あんと店の取り扱いも未確認。",
-   "group": "G6",
+   "confidence": "B",
+   "notes": "金沢らしさのある看板商品だが、梅酒（梅のリキュール）を使うとの説明があるため、アルコールを避ける相手には不向き。 原材料表示の全文は未確認で、乳化剤・ゼラチンの有無は不明。 大豆を含むが、乳化剤など大豆由来の原料かは未確認。 あんと店の取り扱いも未確認。 梅酒（アルコール）を生地側・グラス側とも使用し、マーガリン・ショートニング・乳化剤も含むため、ムスリム向けには不適。 原材料は百選横丁（https://www.hyakuyoko.com/shopdetail/027002000056/）の検索要約文より。 【食い違い】6本入の価格は公式要約で1,026円、百選横丁の要約では1,620円（10本入と同額で要約の誤りの可能性が高い。 同価格帯の派生品・富山やいちごも6本入1,026円/10本入1,620円で公式の1,026円と整合。 ただし再検索できず未解決のため確認レベルCに下げた）。 10本入・22本入は両者一致。 あんと店頭の価格・賞味期限は未確認。 原材料にチョコレートを含むが溶けやすさの記載は未確認。",
+   "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P155",
-   "confidence_min": "C",
-   "confidence_max": "C"
+   "id": "P160",
+   "confidence_min": "B",
+   "confidence_max": "B"
   },
   {
    "shop_key": "ルミュゼドゥアッシュ",
@@ -8981,7 +9227,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
      "evidence": "ガレット玄米：￥243（公式サイト「焼菓子・ドーナツ」ページの検索要約）",
      "note": "",
-     "id": "P156-1"
+     "id": "P161-1"
     }
    ],
    "wrap_level": null,
@@ -9001,7 +9247,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P156",
+   "id": "P161",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9023,7 +9269,7 @@
      "source_url": "https://yukizuri.com/individuals/assort.html",
      "evidence": "サブレ 2種詰合せ：702円（2種×各3枚、6枚入）",
      "note": "",
-     "id": "P157-1"
+     "id": "P162-1"
     }
    ],
    "wrap_level": null,
@@ -9043,7 +9289,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P157",
+   "id": "P162",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -9065,7 +9311,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
      "evidence": "サブレブール各種：￥189（公式サイト「焼菓子・ドーナツ」ページの検索要約）",
      "note": "",
-     "id": "P158-1"
+     "id": "P163-1"
     }
    ],
    "wrap_level": null,
@@ -9085,7 +9331,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P158",
+   "id": "P163",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9107,7 +9353,7 @@
      "source_url": "https://yukizuri.com/individuals/assort.html",
      "evidence": "サブレ缶 サレ：2,160円（税込）",
      "note": "",
-     "id": "P159-1"
+     "id": "P164-1"
     }
    ],
    "wrap_level": null,
@@ -9127,7 +9373,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P159",
+   "id": "P164",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -9149,7 +9395,7 @@
      "source_url": "https://yukizuri.com/baum/804/",
      "evidence": "スライスバウム15個入（3種×各5個）4,698円（税込）／賞味期限28日（オンラインショップの検索要約）",
      "note": "",
-     "id": "P160-1"
+     "id": "P165-1"
     }
    ],
    "wrap_level": null,
@@ -9169,7 +9415,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P160",
+   "id": "P165",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9191,7 +9437,7 @@
      "source_url": "https://yukizuri.com/baum/129/",
      "evidence": "スライス大麦バウム 1,620円（税込）／賞味期限 発送日から28日間（オンラインショップの検索要約）。入数は要約が「6個入」と記す一方、公式バウムページの要約は「スライスバウム5個入セットあり」と記し食い違う",
      "note": "",
-     "id": "P161-1"
+     "id": "P166-1"
     }
    ],
    "wrap_level": null,
@@ -9211,7 +9457,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P161",
+   "id": "P166",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -9233,7 +9479,7 @@
      "source_url": "https://yukizuri.com/baum/136/",
      "evidence": "スライス能登金時バウム 価格1,620円（税込）（オンラインショップの検索要約。入数の記載なし）",
      "note": "",
-     "id": "P162-1"
+     "id": "P167-1"
     }
    ],
    "wrap_level": null,
@@ -9253,7 +9499,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P162",
+   "id": "P167",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -9275,7 +9521,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
      "evidence": "ネージュ（フレーズ、中島菜）：￥243（2個）（公式サイト「焼菓子・ドーナツ」ページの検索要約）",
      "note": "",
-     "id": "P163-1"
+     "id": "P168-1"
     }
    ],
    "wrap_level": null,
@@ -9295,7 +9541,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P163",
+   "id": "P168",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9317,7 +9563,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
      "evidence": "単品の焼菓子では…フィナンシェ ショコラ（351円）",
      "note": "",
-     "id": "P164-1"
+     "id": "P169-1"
     }
    ],
    "wrap_level": null,
@@ -9337,7 +9583,7 @@
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P164",
+   "id": "P169",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -9359,7 +9605,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
      "evidence": "単品の焼菓子では…フィナンシェ ノア（351円）",
      "note": "",
-     "id": "P165-1"
+     "id": "P170-1"
     },
     {
      "label": "3個入",
@@ -9370,7 +9616,7 @@
      "source_url": "https://yukizuri.com/assort/572/",
      "evidence": "フィナンシェ ノア３個入 販売価格702円（税込）、賞味期限21日、常温保管（夏期は冷蔵便でお届け）",
      "note": "",
-     "id": "P165-2"
+     "id": "P170-2"
     }
    ],
    "wrap_level": null,
@@ -9386,53 +9632,11 @@
    "page_url": "https://yukizuri.com/assort/572/",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料表示・アレルギー表示は未確認。 1個351円は税込表記と明記されていないが、8%税込の端数と一致する。",
+   "notes": "原材料表示・アレルギー表示は未確認。 1個351円は税込表記と明記されていないが、8%税込の端数と一致する。 個数・原材料（洋酒・乳化剤等の有無）・賞味期限・個包装は未確認。",
    "group": "G12",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P165",
-   "confidence_min": "B",
-   "confidence_max": "B"
-  },
-  {
-   "shop_key": "ルミュゼドゥアッシュ",
-   "shop": "ル ミュゼ ドゥ アッシュ",
-   "shop_full": "ル ミュゼ ドゥ アッシュ 金沢駅百番街店",
-   "phone": "076-234-1600",
-   "name": "フィナンシェ（ノア・ショコラ）",
-   "kind": "焼菓子",
-   "description": "ル ミュゼ ドゥ アッシュの焼菓子ラインの単品（ノア、ショコラの2種）。詳細は検索結果になし。",
-   "options": [
-    {
-     "label": "単品（個数の記載なし）",
-     "qty": null,
-     "unit": "個",
-     "price": 351,
-     "confidence": "B",
-     "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
-     "evidence": "フィナンシェ（ノア、ショコラ）：￥351（公式サイト「焼菓子・ドーナツ」ページの検索要約）",
-     "note": "",
-     "id": "P166-1"
-    }
-   ],
-   "wrap_level": null,
-   "wrap_note": "個包装の記載なし（未確認）",
-   "shelf_life_days": null,
-   "shelf_life_text": "",
-   "ingredients": null,
-   "ingredient_check": "？",
-   "ingredient_hits": [],
-   "ingredient_notes": [],
-   "allergens": null,
-   "seasonal": "不明",
-   "page_url": "https://le-musee-de-h.jp/sweets/baked.html",
-   "image_key": null,
-   "confidence": "B",
-   "notes": "個数・原材料（洋酒・乳化剤等の有無）・賞味期限・個包装は未確認。",
-   "group": "G6",
-   "shop_category": "洋菓子",
-   "popularity": [],
-   "id": "P166",
+   "id": "P170",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9454,7 +9658,7 @@
      "source_url": "https://yukizuri.com/assort/569/",
      "evidence": "マドレーヌ 3個入 販売価格621円（税込）、賞味期限21日、常温保管（夏期は冷蔵便でお届け）",
      "note": "",
-     "id": "P167-1"
+     "id": "P171-1"
     },
     {
      "label": "単品（個数の記載なし）",
@@ -9465,7 +9669,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
      "evidence": "マドレーヌ：￥216（公式サイト「焼菓子・ドーナツ」ページの検索要約）",
      "note": "",
-     "id": "P167-2"
+     "id": "P171-2"
     }
    ],
    "wrap_level": null,
@@ -9485,7 +9689,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P167",
+   "id": "P171",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9507,7 +9711,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
      "evidence": "マドレーヌショコラ：￥216（公式サイト「焼菓子・ドーナツ」ページの検索要約）",
      "note": "",
-     "id": "P168-1"
+     "id": "P172-1"
     }
    ],
    "wrap_level": null,
@@ -9527,7 +9731,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P168",
+   "id": "P172",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9549,7 +9753,7 @@
      "source_url": "https://le-musee-de-h.jp/sweets/baked.html",
      "evidence": "リーフパイ：￥297（公式サイト「焼菓子・ドーナツ」ページの検索要約）",
      "note": "",
-     "id": "P169-1"
+     "id": "P173-1"
     }
    ],
    "wrap_level": null,
@@ -9569,7 +9773,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P169",
+   "id": "P173",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9591,7 +9795,7 @@
      "source_url": "https://yukizuri.com/baum/56/",
      "evidence": "大麦バウム（S）2,268円（税込）、（M）2,700円（税込）／賞味期限28日（オンラインショップの検索要約）",
      "note": "",
-     "id": "P170-1"
+     "id": "P174-1"
     },
     {
      "label": "Mサイズ",
@@ -9602,7 +9806,7 @@
      "source_url": "https://yukizuri.com/baum/56/",
      "evidence": "同上",
      "note": "",
-     "id": "P170-2"
+     "id": "P174-2"
     }
    ],
    "wrap_level": null,
@@ -9622,7 +9826,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P170",
+   "id": "P174",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9644,7 +9848,7 @@
      "source_url": "https://yukizuri.com/baum/1040/",
      "evidence": "能登金時バウム（S）2,268円（税込）（オンラインショップの検索要約）",
      "note": "",
-     "id": "P171-1"
+     "id": "P175-1"
     }
    ],
    "wrap_level": null,
@@ -9664,7 +9868,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P171",
+   "id": "P175",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9686,7 +9890,7 @@
      "source_url": "https://yukizuri.com/baum/14/",
      "evidence": "金のバウム（M）3,780円（税込）／賞味期限 発送日から35日間（オンラインショップの検索要約）",
      "note": "",
-     "id": "P172-1"
+     "id": "P176-1"
     }
    ],
    "wrap_level": null,
@@ -9706,7 +9910,7 @@
    "group": "G6",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P172",
+   "id": "P176",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9728,7 +9932,7 @@
      "source_url": "https://lecotentin-kanazawa.com/",
      "evidence": "1個箱（1個入り）450円",
      "note": "",
-     "id": "P173-1"
+     "id": "P177-1"
     },
     {
      "label": "2個箱（2個入）",
@@ -9739,7 +9943,7 @@
      "source_url": "https://lecotentin-kanazawa.com/",
      "evidence": "2個箱（2個入り）850円",
      "note": "",
-     "id": "P173-2"
+     "id": "P177-2"
     },
     {
      "label": "1段（4個入）",
@@ -9750,7 +9954,7 @@
      "source_url": "https://lecotentin-kanazawa.com/",
      "evidence": "きんつばビスキィ１段（4個入り）1780円",
      "note": "",
-     "id": "P173-3"
+     "id": "P177-3"
     },
     {
      "label": "2段（8個入）",
@@ -9761,7 +9965,7 @@
      "source_url": "https://lecotentin-kanazawa.com/",
      "evidence": "2段（8個入り）3360円",
      "note": "",
-     "id": "P173-4"
+     "id": "P177-4"
     }
    ],
    "wrap_level": "individual",
@@ -9781,7 +9985,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P173",
+   "id": "P177",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9803,7 +10007,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/30/02ca-0305pmk",
      "evidence": "烏骨鶏かすていら個包装 3色 5個入りは販売価格¥1,533税込（30g×5個入）",
      "note": "",
-     "id": "P174-1"
+     "id": "P178-1"
     },
     {
      "label": "12個入（30g×12：プレーン×6、抹茶×3、黒糖×3）",
@@ -9814,7 +10018,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/30/02ca-03121pmk",
      "evidence": "烏骨鶏かすていら個包装 3色 12個入りは販売価格¥3,628税込",
      "note": "",
-     "id": "P174-2"
+     "id": "P178-2"
     },
     {
      "label": "20個入",
@@ -9825,27 +10029,29 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/30",
      "evidence": "3色20個入りは販売価格¥5,940税込もあります",
      "note": "",
-     "id": "P174-3"
+     "id": "P178-3"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "30gの個包装、プレーン・抹茶・黒糖の3種",
    "shelf_life_days": 25,
    "shelf_life_text": "発送日から約25日（常温、直射日光・高温多湿を避ける）",
-   "ingredients": "烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜（原材料の一部に大豆を含む）（プレーンの表示と思われる）",
-   "ingredient_check": "○",
-   "ingredient_hits": [],
+   "ingredients": "【プレーン】烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜（原材料の一部に大豆を含む）／【抹茶】烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜、抹茶、みりん（原材料の一部に大豆を含む）／【黒糖】烏骨鶏卵、砂糖、小麦粉、黒糖、植物油脂、水飴、蜂蜜、カラメル色素（原材料の一部に大豆を含む）",
+   "ingredient_check": "×",
+   "ingredient_hits": [
+    "みりん"
+   ],
    "ingredient_notes": [],
-   "allergens": null,
+   "allergens": "卵・小麦（原材料の一部に大豆を含む）",
    "seasonal": "通年",
    "page_url": "https://www.ukokkei.co.jp/c/16/30/02ca-0305pmk",
    "image_key": null,
    "confidence": "B",
-   "notes": "5個入（1,533円）は予算内で、分けて配りやすい。 12個入は3,628円で予算を超える。 原材料は検索結果の要約に出た表示で、どの商品の表示かは明記がなく、抹茶・黒糖の分の表示は未確認。 植物油脂は種類の記載なし。 乳化剤・ゼラチン・洋酒・みりんの表示は見当たらなかった。",
+   "notes": "5個入（1,533円）は予算内で、分けて配りやすい。 12個入は3,628円で予算を超える。 原材料は検索結果の要約に出た表示で、どの商品の表示かは明記がなく、抹茶・黒糖の分の表示は未確認。 植物油脂は種類の記載なし。 乳化剤・ゼラチン・洋酒・みりんの表示は見当たらなかった。 【重要】3色のうち抹茶味の原材料に「みりん」が入っている（楽天市場の烏鶏庵の【抹茶】2号のページの表示にも同じく「みりん」とあり、別のページでも確認）。 プレーンと黒糖の表示には、乳化剤・ゼラチン・洋酒・みりんの記載は見当たらない。 5個入は3色の詰合せなので、アルコールを避けたい相手には抹茶味を抜く必要がある（1個除いて渡す運用なら可）。 原材料は検索結果の要約に出た表示で、商品ページ本文での直接確認はできていない。 植物油脂は油の種類の記載なし。 【食い違い】賞味期限は「発送日から約25日」（公式通販）と「製造日より30日」（ほかの販売ページの要約）が出た。 店頭で買ったときの残り日数は未確認。 12個入（3,628円）・20個入（5,940円）は予算を超える。",
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P174",
+   "id": "P178",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9867,7 +10073,7 @@
      "source_url": "https://ukokkei.co.jp/fs/ukeian/17",
      "evidence": "烏骨鶏かすていら【抹茶】（2号）: ¥1,674 税込",
      "note": "",
-     "id": "P175-1"
+     "id": "P179-1"
     },
     {
      "label": "【黒糖】2号",
@@ -9878,7 +10084,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/32",
      "evidence": "烏骨鶏かすていら【黒糖】（2号）: ¥1,674 税込",
      "note": "",
-     "id": "P175-2"
+     "id": "P179-2"
     },
     {
      "label": "【プレーン・抹茶】2号 2本セット",
@@ -9889,27 +10095,29 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/33",
      "evidence": "烏骨鶏かすていら【プレーン・抹茶】（2号）2本セットは3,412円（税込）",
      "note": "",
-     "id": "P175-3"
+     "id": "P179-3"
     }
    ],
    "wrap_level": "none",
    "wrap_note": "1本を切り分けて食べる形。個包装ではない（「切れ分」の表記からの判断）。",
    "shelf_life_days": 25,
    "shelf_life_text": "未確認（プレーンと同じ約25日の可能性があるが、検索結果には明記なし）",
-   "ingredients": null,
-   "ingredient_check": "？",
-   "ingredient_hits": [],
+   "ingredients": "【抹茶】烏骨鶏卵（石川県産）、砂糖、小麦粉、植物油脂（大豆を含む）、水飴、蜂蜜、抹茶、みりん　／【黒糖】2号の表示は未確認（個包装3色の黒糖味の表示は「烏骨鶏卵、砂糖、小麦粉、黒糖、植物油脂、水飴、蜂蜜、カラメル色素（原材料の一部に大豆を含む）」）",
+   "ingredient_check": "×",
+   "ingredient_hits": [
+    "みりん"
+   ],
    "ingredient_notes": [],
    "allergens": null,
    "seasonal": "通年",
    "page_url": "https://ukokkei.co.jp/fs/ukeian/17",
    "image_key": null,
    "confidence": "C",
-   "notes": "価格は検索結果の要約で確認したもので、商品ページ本文は見ていない。 抹茶・黒糖味の原材料表示と賞味期限は未確認（プレーンの原材料に抹茶・黒糖が加わるだけとは限らない）。",
+   "notes": "価格は検索結果の要約で確認したもので、商品ページ本文は見ていない。 抹茶・黒糖味の原材料表示と賞味期限は未確認（プレーンの原材料に抹茶・黒糖が加わるだけとは限らない）。 【重要】【抹茶】（2号）の原材料に「みりん」が入っている（楽天市場の烏鶏庵の【抹茶】2号の商品ページの表示を検索結果で確認）。 アルコールを避ける条件では【抹茶】は不可。 【黒糖】2号の原材料は2号のページでは確認できておらず、個包装3色の黒糖味の表示にはみりん・乳化剤の記載がない。",
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P175",
+   "id": "P179",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -9931,7 +10139,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/34/228",
      "evidence": "【金箔】（2号）は販売価格 ¥2,160 税込",
      "note": "",
-     "id": "P176-1"
+     "id": "P180-1"
     },
     {
      "label": "3号（約300g・7〜8切れ分）",
@@ -9942,7 +10150,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/34/02ca-300gn",
      "evidence": "【金箔】（3号）は販売価格 ¥2,732 税込",
      "note": "",
-     "id": "P176-2"
+     "id": "P180-2"
     },
     {
      "label": "【プレーン・金箔】2号 2本セット",
@@ -9953,7 +10161,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/33/02ca-2002gpn",
      "evidence": "【プレーン・金箔】（2号）2本セットは販売価格 ¥3,844 税込（箱 縦14.5×横7.5×高8.5cm）",
      "note": "",
-     "id": "P176-3"
+     "id": "P180-3"
     }
    ],
    "wrap_level": "none",
@@ -9973,7 +10181,7 @@
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P176",
+   "id": "P180",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -9995,7 +10203,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/32/179",
      "evidence": "「TV等で話題」烏骨鶏かすていら（2号）は1,555円（税込）",
      "note": "",
-     "id": "P177-1"
+     "id": "P181-1"
     },
     {
      "label": "3号（約300g）",
@@ -10006,7 +10214,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/32/02ca-300n",
      "evidence": "烏骨鶏かすていら（3号）約300g: ¥2,322 税込",
      "note": "",
-     "id": "P177-2"
+     "id": "P181-2"
     },
     {
      "label": "4号（約400g）",
@@ -10017,7 +10225,7 @@
      "source_url": "https://www.ukokkei.co.jp/c/16/32/16",
      "evidence": "烏骨鶏かすていら（4号）はプレーン約400gで2,959円（税込）",
      "note": "",
-     "id": "P177-3"
+     "id": "P181-3"
     }
    ],
    "wrap_level": "none",
@@ -10028,16 +10236,16 @@
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
-   "allergens": null,
+   "allergens": "卵・小麦（原材料の一部に大豆を含む）",
    "seasonal": "通年",
    "page_url": "https://www.ukokkei.co.jp/c/16/32/179",
    "image_key": null,
    "confidence": "B",
-   "notes": "2号（1,555円）は予算内で、金箔なしの最も手頃なサイズ。 3号は2,322円で2,300円を22円超える。 原材料は検索結果の要約に出た表示で、商品ページ本文では直接確認できていない。 植物油脂は種類の記載なし。 乳化剤・ゼラチン・洋酒・みりんの表示は見当たらなかった。 賞味期限は、プレーンの商品ページでは確認できていない。",
+   "notes": "2号（1,555円）は予算内で、金箔なしの最も手頃なサイズ。 3号は2,322円で2,300円を22円超える。 原材料は検索結果の要約に出た表示で、商品ページ本文では直接確認できていない。 植物油脂は種類の記載なし。 乳化剤・ゼラチン・洋酒・みりんの表示は見当たらなかった。 賞味期限は、プレーンの商品ページでは確認できていない。 原材料は、楽天市場の烏鶏庵の2号（2本入りセットのページとみられる）の表示を検索結果で確認したもので、個包装3色セットのプレーン味の表示とも一致する。 公式通販の2号1本のページ本文では直接確認できていない。 乳化剤・ゼラチン・洋酒・みりんの記載は見当たらない。 植物油脂は油の種類の記載なし。 2号は1,555円で予算内、3号は2,322円、4号は2,959円。 箱の寸法は 14.5×7.5×8.5cm。 同じ2号でも【抹茶】はみりんを使うため、プレーンを選ぶのが無難。",
    "group": "G11",
    "shop_category": "洋菓子",
    "popularity": [],
-   "id": "P177",
+   "id": "P181",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10059,7 +10267,7 @@
      "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000005/",
      "evidence": "えび恋し 袋入[15枚] 648円（税込）",
      "note": "",
-     "id": "P178-1"
+     "id": "P182-1"
     },
     {
      "label": "金沢駅限定パッケージ 28枚入",
@@ -10070,7 +10278,7 @@
      "source_url": "https://www.kanazawabiyori.com/products/sasaraya.html",
      "evidence": "えび恋し 金沢駅限定パッケージは28枚で1,512円（税込）",
      "note": "",
-     "id": "P178-2"
+     "id": "P182-2"
     }
    ],
    "wrap_level": null,
@@ -10090,7 +10298,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P178",
+   "id": "P182",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10112,7 +10320,7 @@
      "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000305/",
      "evidence": "ごち海老 袋入(5枚) 648円（税込）",
      "note": "",
-     "id": "P179-1"
+     "id": "P183-1"
     },
     {
      "label": "10枚入（数量限定）",
@@ -10123,7 +10331,7 @@
      "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000306/",
      "evidence": "ごち海老（10枚入）は税込1296円（紹介記事の記載）",
      "note": "",
-     "id": "P179-2"
+     "id": "P183-2"
     }
    ],
    "wrap_level": null,
@@ -10146,7 +10354,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P179",
+   "id": "P183",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10168,7 +10376,7 @@
      "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000023/",
      "evidence": "しろえび撰 9枚 648円（税込）／しろえび撰[9枚袋入]は1枚ずつ個包装",
      "note": "",
-     "id": "P180-1"
+     "id": "P184-1"
     },
     {
      "label": "15枚入",
@@ -10179,7 +10387,7 @@
      "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000024/",
      "evidence": "しろえび撰 15枚 1,296円（税込）",
      "note": "",
-     "id": "P180-2"
+     "id": "P184-2"
     },
     {
      "label": "22枚入",
@@ -10190,7 +10398,7 @@
      "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000025/",
      "evidence": "しろえび撰 22枚 1,782円（税込）",
      "note": "",
-     "id": "P180-3"
+     "id": "P184-3"
     },
     {
      "label": "30枚入",
@@ -10201,7 +10409,7 @@
      "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000026/",
      "evidence": "しろえび撰 30枚 2,592円（税込）",
      "note": "",
-     "id": "P180-4"
+     "id": "P184-4"
     },
     {
      "label": "48枚入",
@@ -10212,7 +10420,7 @@
      "source_url": "https://www.sasaraya-kakibei.com/shopdetail/000000000027/",
      "evidence": "しろえび撰 48枚 3,780円（税込）",
      "note": "",
-     "id": "P180-5"
+     "id": "P184-5"
     }
    ],
    "wrap_level": "individual",
@@ -10234,7 +10442,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P180",
+   "id": "P184",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10256,7 +10464,7 @@
      "source_url": "https://www.fumuroya.co.jp/products/kanmi/",
      "evidence": "通常の味・カレー味・チーズ味はいずれも778円（税込）／キューブ型の3箱セットで販売（紹介記事）",
      "note": "",
-     "id": "P181-1"
+     "id": "P185-1"
     }
    ],
    "wrap_level": "individual",
@@ -10276,7 +10484,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P181",
+   "id": "P185",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -10298,7 +10506,7 @@
      "source_url": "https://www.kanazawalabo.net/shop/shop.shtml?s=1592",
      "evidence": "マカダミアナッツ ほうじ茶ラテ ¥648",
      "note": "",
-     "id": "P182-1"
+     "id": "P186-1"
     }
    ],
    "wrap_level": null,
@@ -10318,7 +10526,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P182",
+   "id": "P186",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -10340,7 +10548,7 @@
      "source_url": "https://www.weekend-kanazawa.com/entry/omiyage_anto_amakunai-omiyage",
      "evidence": "賞味期限は80日間で、3個入（842円）",
      "note": "",
-     "id": "P183-1"
+     "id": "P187-1"
     },
     {
      "label": "6個入",
@@ -10351,7 +10559,7 @@
      "source_url": "https://www.weekend-kanazawa.com/entry/omiyage_anto_amakunai-omiyage",
      "evidence": "6個入（1,836円）",
      "note": "",
-     "id": "P183-2"
+     "id": "P187-2"
     },
     {
      "label": "8個入",
@@ -10362,7 +10570,7 @@
      "source_url": "https://www.weekend-kanazawa.com/entry/omiyage_anto_amakunai-omiyage",
      "evidence": "8個入（2,484円）",
      "note": "",
-     "id": "P183-3"
+     "id": "P187-3"
     }
    ],
    "wrap_level": "individual",
@@ -10382,7 +10590,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P183",
+   "id": "P187",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -10404,7 +10612,7 @@
      "source_url": "https://oohata.jp/products/kurumi-brown-sugar-cranberry-papaya",
      "evidence": "クルミのおやつ2種 クランベリーパパイヤと黒糖カラメル 1,890円（税込）",
      "note": "",
-     "id": "P184-1"
+     "id": "P188-1"
     }
    ],
    "wrap_level": null,
@@ -10424,7 +10632,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P184",
+   "id": "P188",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10446,7 +10654,7 @@
      "source_url": "https://oohata.jp/products/kurumi-4a",
      "evidence": "クルミのおやつ4種A 3,672円（税込）",
      "note": "",
-     "id": "P185-1"
+     "id": "P189-1"
     }
    ],
    "wrap_level": null,
@@ -10466,7 +10674,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P185",
+   "id": "P189",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10488,7 +10696,7 @@
      "source_url": "https://oohata.jp/products/cranberry-papaya-50g",
      "evidence": "クランベリー＆パパイヤ 50g 価格：864円（税込）",
      "note": "",
-     "id": "P186-1"
+     "id": "P190-1"
     }
    ],
    "wrap_level": null,
@@ -10508,7 +10716,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P186",
+   "id": "P190",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10530,11 +10738,11 @@
      "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
      "evidence": "シナモン 50g 918円（税込）",
      "note": "",
-     "id": "P187-1"
+     "id": "P191-1"
     }
    ],
-   "wrap_level": null,
-   "wrap_note": "生姜カラメル・シナモンの2缶セットは小分けパック入りと確認済み。この単品缶も同様かは未確認",
+   "wrap_level": "individual",
+   "wrap_note": "缶の中は小分けパック。生姜カラメル・シナモンの2缶セットで前回確認済み（このセットにシナモンの缶が含まれる）。50g単品缶の商品ページ本文での明記は未確認。",
    "shelf_life_days": 60,
    "shelf_life_text": "60日間（同シリーズの表示）",
    "ingredients": null,
@@ -10546,11 +10754,11 @@
    "page_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料表示は未確認。",
+   "notes": "原材料表示は未確認。 原材料の表示は今回も検索結果に出てこず、確認できなかったため、豚由来・アルコールの有無は判断できない。 主原料がクルミのため、クルミアレルギーに注意。",
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P187",
+   "id": "P191",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10572,7 +10780,7 @@
      "source_url": "https://oohata.jp/products/banana-chip-40g",
      "evidence": "バナナチップ 40g：864円（税込）",
      "note": "",
-     "id": "P188-1"
+     "id": "P192-1"
     }
    ],
    "wrap_level": null,
@@ -10592,7 +10800,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P188",
+   "id": "P192",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10614,7 +10822,7 @@
      "source_url": "https://oohata.jp/products/maple-50g",
      "evidence": "メープル 50g：864円（税込）",
      "note": "",
-     "id": "P189-1"
+     "id": "P193-1"
     },
     {
      "label": "120g缶",
@@ -10625,7 +10833,7 @@
      "source_url": "https://oohata.jp/products/maple-120g",
      "evidence": "メープル 120g：1,080円",
      "note": "",
-     "id": "P189-2"
+     "id": "P193-2"
     }
    ],
    "wrap_level": null,
@@ -10645,7 +10853,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P189",
+   "id": "P193",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10667,7 +10875,7 @@
      "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu/products/oono-shoyu-50g",
      "evidence": "大野醤油 50g：810円",
      "note": "",
-     "id": "P190-1"
+     "id": "P194-1"
     },
     {
      "label": "120g缶",
@@ -10678,7 +10886,7 @@
      "source_url": "https://oohata.jp/products/oono-shoyu-120g",
      "evidence": "大野醤油 120g：1,080円",
      "note": "",
-     "id": "P190-2"
+     "id": "P194-2"
     }
    ],
    "wrap_level": null,
@@ -10700,7 +10908,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P190",
+   "id": "P194",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10717,19 +10925,19 @@
      "label": "50g缶",
      "qty": 50,
      "unit": "g",
-     "price": 810,
+     "price": 864,
      "confidence": "B",
      "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
-     "evidence": "クルミのおやつ 生姜カラメル 50g: 810円（税込）",
+     "evidence": "公式オンラインストアの検索結果:「クルミのおやつ 生姜カラメル 50g」864円（税込）（2回の検索で同じ金額。前回は810円（税込）とも出た）",
      "note": "",
-     "id": "P191-1"
+     "id": "P195-1"
     }
    ],
    "wrap_level": "individual",
    "wrap_note": "缶の中は小分けパック（2缶セットの前回調査で確認済み）",
    "shelf_life_days": 60,
    "shelf_life_text": "60日間",
-   "ingredients": "ローストクルミ（クルミ（アメリカ産））、砂糖、おろししょうが（生姜、食塩）／カラメル色素",
+   "ingredients": "ローストクルミ（クルミ（アメリカ産））、砂糖、おろししょうが（生姜、食塩）、食塩／カラメル色素",
    "ingredient_check": "○",
    "ingredient_hits": [],
    "ingredient_notes": [],
@@ -10738,11 +10946,11 @@
    "page_url": "https://oohata.jp/products/shoga-caramel-120g",
    "image_key": null,
    "confidence": "B",
-   "notes": "原材料に豚由来・アルコールに当たる成分はない。 50g缶の価格は検索結果の要約のみで確認し、商品ページ本文は未確認。",
+   "notes": "原材料に豚由来・アルコールに当たる成分はない。 50g缶の価格は検索結果の要約のみで確認し、商品ページ本文は未確認。 50g缶の価格を864円に更新（裏取りの結果。以前の検索結果は810円） ／【食い違い】50g缶の価格が810円と864円で分かれた。 直近の2回の検索はどちらも864円。 原材料には豚由来・アルコールに当たる成分はない（クルミ、砂糖、生姜、食塩、カラメル色素）。 主原料がクルミのため、クルミアレルギーに注意。 【食い違い】前回確認の表示は「おろししょうが（生姜、食塩） ／カラメル色素」で、今回の検索結果には単独の「食塩」も並んでいた（どちらも問題となる成分ではない）。 50g缶の商品ページ単独のURLは検索結果に出なかった。",
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P191",
+   "id": "P195",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10764,7 +10972,7 @@
      "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
      "evidence": "黒糖カラメル50g：864円（税込）／別の検索結果では 黒糖カラメル 50g: 810円（税込）",
      "note": "",
-     "id": "P192-1"
+     "id": "P196-1"
     }
    ],
    "wrap_level": null,
@@ -10784,7 +10992,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P192",
+   "id": "P196",
    "confidence_min": "C",
    "confidence_max": "C"
   },
@@ -10806,7 +11014,7 @@
      "source_url": null,
      "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
      "note": "",
-     "id": "P193-1"
+     "id": "P197-1"
     }
    ],
    "wrap_level": "pack",
@@ -10822,11 +11030,11 @@
    "page_url": "https://oohata.jp/collections/recommend-item/products/%E3%82%AF%E3%83%AB%E3%83%9F%E3%81%AE%E3%81%8A%E3%82%84%E3%81%A42%E7%A8%AE-%E7%94%9F%E5%A7%9C%E3%82%AB%E3%83%A9%E3%83%A1%E3%83%AB%E3%81%A8%E3%82%B7%E3%83%8A%E3%83%A2%E3%83%B3",
    "image_key": "oohata_walnut2",
    "confidence": "A",
-   "notes": "クルミを含む（ナッツアレルギーに注意） ／原材料に指定の豚由来・アルコール関連語（ゼラチン・乳化剤・ショートニング・ラード・酒類・みりん・醤油など）は見当たらない。 ほかのクルミのおやつ（単品缶・別の味・入数違い）は未調査。 生姜カラメル味の原材料には、豚由来・アルコールに当たる成分はない。 シナモン味の原材料表示は確認できていないため、セット全体としては要確認。 主原料がクルミのため、クルミアレルギーに注意。 この商品単独のページURLは検索結果に出なかった。",
+   "notes": "クルミを含む（ナッツアレルギーに注意） ／原材料に指定の豚由来・アルコール関連語（ゼラチン・乳化剤・ショートニング・ラード・酒類・みりん・醤油など）は見当たらない。 ほかのクルミのおやつ（単品缶・別の味・入数違い）は未調査。 生姜カラメル味の原材料には、豚由来・アルコールに当たる成分はない。 シナモン味の原材料表示は確認できていないため、セット全体としては要確認。 主原料がクルミのため、クルミアレルギーに注意。 この商品単独のページURLは検索結果に出なかった。 生姜カラメル味の原材料には豚由来・アルコールに当たる成分はない。 1,998円で2,000円以内。",
    "group": "G0",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P193",
+   "id": "P197",
    "confidence_min": "A",
    "confidence_max": "A"
   },
@@ -10848,7 +11056,7 @@
      "source_url": "https://sakaidafruits.com/hyakuemon/rubyroman02/",
      "evidence": "ルビーロマン ラングドシャ（12個） ¥1,350円（税込）",
      "note": "",
-     "id": "P194-1"
+     "id": "P198-1"
     }
    ],
    "wrap_level": "individual",
@@ -10868,7 +11076,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P194",
+   "id": "P198",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10890,7 +11098,7 @@
      "source_url": "https://sakaidafruits.com/hyakuemon/renkon/",
      "evidence": "加賀れんこんチップス ¥850円（税込）／40g袋入り",
      "note": "",
-     "id": "P195-1"
+     "id": "P199-1"
     }
    ],
    "wrap_level": null,
@@ -10910,7 +11118,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P195",
+   "id": "P199",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10932,7 +11140,7 @@
      "source_url": "https://sakaidafruits.shop/products/ageimon_amaama",
      "evidence": "石川揚芋門 甘々の乱 ¥750円（税込） 五郎島さつまいも",
      "note": "",
-     "id": "P196-1"
+     "id": "P200-1"
     }
    ],
    "wrap_level": null,
@@ -10952,7 +11160,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P196",
+   "id": "P200",
    "confidence_min": "B",
    "confidence_max": "B"
   },
@@ -10974,7 +11182,7 @@
      "source_url": "https://sakaidafruits.com/hyakuemon/korogaki02/",
      "evidence": "能登柿之助 バターの乱（3個） ¥2,592円（税込）",
      "note": "",
-     "id": "P197-1"
+     "id": "P201-1"
     }
    ],
    "wrap_level": null,
@@ -10994,7 +11202,7 @@
    "group": "G13",
    "shop_category": "食品・海産物",
    "popularity": [],
-   "id": "P197",
+   "id": "P201",
    "confidence_min": "B",
    "confidence_max": "B"
   }

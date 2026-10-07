@@ -1,0 +1,486 @@
+{
+  "group": "G17",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "清香室町",
+      "shop_short": "清香室町",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=320",
+      "anto_phone": "076-260-0131",
+      "anto_location": null,
+      "official_site": "https://www.seika-muromachi.com",
+      "online_shop": "https://www.seika-muromachi.com/products/list?category_id=all",
+      "in_scope": true,
+      "scope_note": "銘菓くるみ・豊楽・金澤文鳥はいずれも常温で賞味期限30日、1個ずつの個包装で、対象。公式オンラインショップの商品ページで確認した内容で、あんと店頭に同じ品・同じ価格で並ぶかは未確認。",
+      "products": [
+        {
+          "product_name": "銘菓くるみ",
+          "category": "最中",
+          "description": "くるみを使った、ころんと一口サイズの最中。甘さ控えめの餡と大粒のくるみを閉じ込めた銘菓で、全国菓子博覧会で名誉総裁賞を受賞。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 659,
+              "evidence": "6個入 ¥659（前回確認）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=a"
+            },
+            {
+              "qty_label": "9個入",
+              "qty": 9,
+              "unit": "個",
+              "price_tax_incl": 972,
+              "evidence": "銘菓くるみ 9個入：¥972（税込）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=b"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1080,
+              "evidence": "10個入 ¥1,080（前回確認）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=c"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 1458,
+              "evidence": "15個入：¥1,458（税込）（前回確認）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=d"
+            },
+            {
+              "qty_label": "20個入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 2160,
+              "evidence": "銘菓くるみ 20個入：¥2,160（税込）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=e"
+            },
+            {
+              "qty_label": "30個入",
+              "qty": 30,
+              "unit": "個",
+              "price_tax_incl": 3456,
+              "evidence": "30個入 ¥3,456（前回確認）",
+              "source_url": "https://www.seika-muromachi.com/products/?products_id=kurumi"
+            },
+            {
+              "qty_label": "36個入",
+              "qty": 36,
+              "unit": "個",
+              "price_tax_incl": 4104,
+              "evidence": "36個入 ¥4,104（前回確認）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kurumi&kind_id=g"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "全サイズ個包装（一口サイズを1個ずつ包装）。職場で配りやすい。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間",
+          "ingredients": "砂糖（国内製造）、小豆、くるみ、水飴、もち米／トレハロース",
+          "ingredient_flags": [],
+          "allergens": "くるみ",
+          "seasonal": "通年",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=kurumi",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【食い違い】9個入が875円と972円、20個入が1,944円と2,160円と出ていたが、公式サイトの9個入・20個入のページでは972円・2,160円で、現行の価格はこちらと判断した（875円・1,944円は公式の商品ページでは見当たらず、改定前の古い価格の可能性）。2,300円以内は15個入（1,458円）まで。20個入2,160円は2,000円をわずかに超える帯。原材料に乳化剤・ゼラチン・酒類の表示はなく、くるみを含む。"
+        },
+        {
+          "product_name": "豊楽（ほうらく）",
+          "category": "和菓子（蜜漬け青梅の白餡包み）",
+          "description": "蜜漬けの青梅をしっとりした白餡で包んだ和菓子。梅の甘酸っぱさと白餡のやさしい甘さが特徴で、縁起物の梅としてお祝い事にも向くと紹介されている。1個63g。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1458,
+              "evidence": "豊楽 6個入 ¥1,458（税込）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=houraku&kind_id=a"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "1個63gの個包装",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間",
+          "ingredients": "砂糖（国内製造）、白いんげん豆、小麦粉、青梅、卵、ハチミツ、和三盆糖、無塩バター／トレハロース、膨張剤",
+          "ingredient_flags": [],
+          "allergens": "卵・乳・小麦",
+          "seasonal": "通年",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=houraku",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は添加物の欄（トレハロース、膨張剤）まで確認でき、乳化剤・ゼラチン・酒類の表示はない（バターは乳成分）。確認できた入数は6個入のみ。"
+        },
+        {
+          "product_name": "金澤文鳥（羊羹）",
+          "category": "羊羹",
+          "description": "こだわり素材の意外な組み合わせで作る新感覚の羊羹。加賀紅茶味（いちじく・レーズン・ブルーベリー・クランベリー入り）、加賀棒茶味（アーモンド・ピスタチオ入り）、白い珈琲味の3種。1個約50g。",
+          "options": [
+            {
+              "qty_label": "5個入（加賀紅茶味）",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1674,
+              "evidence": "金澤文鳥 加賀紅茶味 5個入は¥1,674（税込）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kanazawabunchou&kind_id=a"
+            },
+            {
+              "qty_label": "5個入（加賀棒茶味）",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1674,
+              "evidence": "金澤文鳥 加賀棒茶味 5個入も¥1,674（税込）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kanazawabunchou&kind_id=b"
+            },
+            {
+              "qty_label": "とまり木によりそい文鳥 6個入（3味×各2個）",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 2020,
+              "evidence": "金澤文鳥 とまり木によりそい文鳥（6個入）…加賀紅茶味・加賀棒茶味・白い珈琲味が各2個、¥2,020（税込）",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kanazawabunchou&kind_id=d"
+            },
+            {
+              "qty_label": "文鳥会議 9個入（3味×各3個）",
+              "qty": 9,
+              "unit": "個",
+              "price_tax_incl": 2948,
+              "evidence": "金澤文鳥 文鳥会議（9個入）は¥2,948（税込）、加賀紅茶味・加賀棒茶味・白い珈琲味が各3個",
+              "source_url": "https://www.seika-muromachi.com/products/detail/?products_id=kanazawabunchou&kind_id=e"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "各商品は個別包装（1個約50g）。文鳥会議は一つ一つ個包装。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日間（加賀紅茶味・加賀棒茶味）",
+          "ingredients": "加賀紅茶味: 砂糖（国内製造）、白いんげん豆、いちじく、レーズン、ブルーベリー、クランベリー、水飴、加賀紅茶、寒天、植物油脂、トレハロース（加賀棒茶味・白い珈琲味の原材料は未確認）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（夏限定の加賀紅茶味もある）",
+          "page_url": "https://www.seika-muromachi.com/products/?products_id=kanazawabunchou",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "単品は各味5個入1,674円（加賀紅茶味・加賀棒茶味で確認）。白い珈琲味も価格一覧の「金澤文鳥各種 1,674円」に含まれるとみられるが、白い珈琲味の個別ページでの入数・価格は確認できなかった。詰合せは6個入2,020円（2,001〜2,300円の少し超過帯）と9個入2,948円（2,300円超）。原材料は加賀紅茶味のみ確認で、植物油脂の由来は表示からは分からない。加賀棒茶味・白い珈琲味の原材料は未確認のため、乳化剤・酒類の有無は判断できない。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "金澤文鳥 加賀棒茶味・白い珈琲味の原材料（乳化剤・酒類などの有無）と、白い珈琲味の個別ページでの入数・価格",
+        "あんと店頭で銘菓くるみ・豊楽・金澤文鳥が買えるか、店頭価格が公式オンラインショップと同じか"
+      ]
+    },
+    {
+      "shop_name": "和菓子 末広堂",
+      "shop_short": "末広堂",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=304",
+      "anto_phone": "076-260-3784",
+      "anto_location": null,
+      "official_site": "https://www.suehirodou.jp/",
+      "online_shop": "https://store.suehirodou.jp/",
+      "in_scope": true,
+      "scope_note": "百番街の店舗ページの紹介文は上生菓子・朝生菓子が中心だが、同じ百番街の公式サイトで、末広堂の「砂糖を使わない糖類ゼロのきんつば」が石川県観光連盟おすすめのお土産として紹介されている。検索結果の要約にも、あんと店の取扱商品として「砂糖を使わないきんつば 900円・うすかわまんじゅう 300円・花のかなざわ 780円」が挙がっていた。きんつば（賞味期限20日）と花のかなざわ（同30日）は常温の日持ち品で対象。ただし、店頭の在庫と価格は購入前に店へ確認したほうがよい。",
+      "products": [
+        {
+          "product_name": "砂糖を使わないきんつば",
+          "category": "きんつば",
+          "description": "北海道産大納言小豆を使い、砂糖を使わず還元麦芽糖水飴で仕上げた、糖類ゼロの手焼ききんつば。第二十五回全国菓子大博覧会で栄誉大賞を受賞。石川県観光連盟おすすめのお土産としても紹介されている。",
+          "options": [
+            {
+              "qty_label": "3個入",
+              "qty": 3,
+              "unit": "個",
+              "price_tax_incl": 900,
+              "evidence": "砂糖を使わないきんつば（¥900）／税込価格 ¥900〜",
+              "source_url": "https://www.suehirodou.jp/kintuba.php"
+            },
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1800,
+              "evidence": "6個入り: ¥1,800 (tax included)（前回確認）",
+              "source_url": "https://store.suehirodou.jp/products/kintsuba-11"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 3000,
+              "evidence": "10個入り: ¥3,000 (tax included)（前回確認）",
+              "source_url": "https://store.suehirodou.jp/products/kintsuba-11"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 4500,
+              "evidence": "15個入り: ¥4,500 (tax included)（前回確認）",
+              "source_url": "https://store.suehirodou.jp/products/kintsuba-16"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "公式の紹介文に「個包装なので食べやすい」とある",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日",
+          "ingredients": "還元麦芽糖水飴（国内製造）、小豆、小麦粉、寒天、塩（一部に小麦を含む）",
+          "ingredient_flags": [],
+          "allergens": "一部に小麦を含む",
+          "seasonal": "通年",
+          "page_url": "https://www.suehirodou.jp/kintuba.php",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "あんと店で扱っているかは、百番街の公式サイトでの紹介と、あんと店の取扱商品として900円と載っていることから、取り扱いありと判断。原材料に乳化剤・ゼラチン・酒類の表示はない（小麦を含む）。6個入以上の価格は3個入900円の単純な倍数で整合する。1個売りと20個入（6,000円）もある。"
+        },
+        {
+          "product_name": "花のかなざわ（黄味しぐれ）",
+          "category": "黄味しぐれ（焼き菓子）",
+          "description": "金沢ブランド芋「五郎島金時」の餡を、なめらかな黄味あんで包んで焼き上げた、ふんわり溶けるような口どけの菓子。公式ページの説明には「上生菓子」とあるが、賞味期限は30日で常温保存。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 780,
+              "evidence": "6個入り：780円（税込）／あんと店の取扱商品：花のかなざわ（¥780）",
+              "source_url": "https://store.suehirodou.jp/products/hananokanazawa-6"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1300,
+              "evidence": "10個入り：1,300円（税込）",
+              "source_url": "https://store.suehirodou.jp/products/hananokanazawa-10"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "前回の検索結果の説明に「商品は個包装」とある。今回の確認では個包装の記載は再確認できなかった。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "30日（常温。直射日光・高温多湿を避ける）",
+          "ingredients": "白餡（国内製造）、砂糖、さつま芋ペースト、上用粉（国産）、蜂蜜、卵、脱脂粉乳／着色料（赤3・赤106・黄4）（一部に卵・乳を含む）",
+          "ingredient_flags": [],
+          "allergens": "一部に卵・乳を含む",
+          "seasonal": "通年（季節限定の記載なし）",
+          "page_url": "https://store.suehirodou.jp/products/hananokanazawa-10",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【食い違い】6個入750円・10個入1,200円という表示と、6個入780円・10個入1,300円という表示が出た。公式通販の現行ページとあんと店の取扱商品欄が780円なので、780円・1,300円を採用（750円・1,200円は公式サイトの旧ページの価格とみられる）。【注意】公式通販のページに「売り切れ」の表示が出ていた（検索結果の要約による）。あんと店頭の在庫は不明。着色料（赤3・赤106・黄4）を使用。乳化剤・ゼラチン・酒類の表示はない。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "あんと店頭での花のかなざわの在庫（公式通販では売り切れ表示）と、あんと店頭の価格が公式通販と同じか",
+        "うすかわまんじゅう・憩菊の露などほかの商品の現行価格（花のかなざわが旧価格から改定されているため、前回の調査の価格が古い可能性）",
+        "あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "加賀藩御用菓子司 森八",
+      "shop_short": "森八",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=353",
+      "anto_phone": "076-260-3757",
+      "anto_location": null,
+      "official_site": "https://www.morihachi.co.jp/",
+      "online_shop": "https://morihachi-shop.com/",
+      "in_scope": true,
+      "scope_note": "寛永2年（1625年）創業。落雁・羊羹・最中など日持ちする菓子が中心。今回確認した4品（城の石・千歳・能登の宝の塩羊羹・蛇玉もなか）はいずれも常温品だが、千歳（約15日）と蛇玉もなか（約12日、夏季は約8日）は日持ちが短め。公式通販に全商品の「原材料一覧」ページ（https://morihachi-shop.com/contents/ingredients/）がある。",
+      "products": [
+        {
+          "product_name": "お手作り最中 城の石",
+          "category": "最中（皮と餡が別々の組立式）",
+          "description": "皮と専用のつぶあんを別添えにした手作り最中。食べる直前に自分で合わせるので、焼きたてのようなサクッとした皮の食感が楽しめる。",
+          "options": [
+            {
+              "qty_label": "4個入",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 972,
+              "evidence": "4個入 ¥972（税込）（前回確認）",
+              "source_url": "https://morihachi-shop.com/SHOP/221046/111652/list.html"
+            },
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1458,
+              "evidence": "6個入 ¥1,458（税込）（前回確認）",
+              "source_url": "https://morihachi-shop.com/SHOP/shiro-6.html"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 2592,
+              "evidence": "お手作り最中 城の石 10個入：¥2,592（税込）",
+              "source_url": "https://morihachi-shop.com/SHOP/shiro-10.html"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 3888,
+              "evidence": "お手作り最中 城の石 15個入：¥3,888（税込）",
+              "source_url": "https://morihachi-shop.com/SHOP/shiro-15.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "検索結果の要約に「各商品は個包装」とある。皮と専用つぶあんが別添えの組立式。",
+          "shelf_life_days": 30,
+          "shelf_life_text": "約30日",
+          "ingredients": "餡: 砂糖（国内製造）、小豆（国産100%）、還元水飴、寒天／トレハロース、グリシン ／ 皮: もち米",
+          "ingredient_flags": [],
+          "allergens": "なし",
+          "seasonal": "通年",
+          "page_url": "https://morihachi-shop.com/SHOP/221046/111652/list.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【食い違い】15個入が3,240円と3,888円と出た。公式通販の15個入ページでは3,888円（10個入2,592円と同じ1個259円の単価）で、こちらを採用。10個入2,592円・15個入3,888円は2,300円を超える。4個入972円・6個入1,458円は1個243円で、10個入・15個入（1個259円）より単価が低い（入数が多いほうが割高。公式ページの表示のまま）。2,300円以内は6個入1,458円まで。原材料は公式通販「原材料一覧」ページの要約から復元した内容で、並びや記号は原文と異なる可能性がある（今回の商品ページの要約では、国産小豆の粒あん・北陸産もち米の皮・アレルギー表示なし、とだけ確認できた）。酒類・乳化剤・ゼラチンの表示はないが、グリシン（アミノ酸系の添加物）を含み、その由来は表示からは分からない。食べる側が皮に餡を詰める手間がある。"
+        },
+        {
+          "product_name": "千歳",
+          "category": "伝統名菓（白・赤）",
+          "description": "飴炊きのこし餡を求肥で包んで富士山の形に整え、紅白に染め分けた和三盆糖をまとわせた森八の伝統名菓。白と赤の2色。",
+          "options": [
+            {
+              "qty_label": "4個入",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 999,
+              "evidence": "千歳 4個入：¥999",
+              "source_url": "https://morihachi-shop.com/SHOP/chitose4.html"
+            },
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1437,
+              "evidence": "千歳 6個入：¥1,437",
+              "source_url": "https://morihachi-shop.com/SHOP/chitose6.html"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 2322,
+              "evidence": "千歳 10個入：¥2,322",
+              "source_url": "https://morihachi-shop.com/SHOP/chitose10.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "公式通販の情報として「個包装で紅白両色」と要約にある（銘菓撰の説明にも「各商品は個包装」）",
+          "shelf_life_days": 15,
+          "shelf_life_text": "約15日",
+          "ingredients": "白: 砂糖（国内製造）、米飴、小豆、もち米粉、澱粉 ／ 赤: 砂糖（国内製造）、米飴、小豆、もち米粉、澱粉／紅花赤色素",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://morihachi-shop.com/SHOP/221040/111648/list.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "10個入2,322円を再確認（4個入999円・6個入1,437円も同じ表示）。10個入は2,300円をわずかに超える。赤は紅花赤色素で着色（コチニールではない）。乳化剤・ゼラチン・酒類の表示はない。賞味期限は約15日と短め。仏事用（6個入・10個入・15個入）が別にあり、贈答用ではない。15個入・20個入のページもある（価格は未確認）。"
+        },
+        {
+          "product_name": "能登の宝の塩羊羹",
+          "category": "羊羹（小型・塩味）",
+          "description": "創業400年記念の商品で、能登大納言小豆と能登の粗塩を使った塩羊羹。塩分補給をうたう。",
+          "options": [
+            {
+              "qty_label": "5本入",
+              "qty": 5,
+              "unit": "本",
+              "price_tax_incl": 1512,
+              "evidence": "能登の宝の塩羊羹 5本入 税込価格：¥1,512（公式通販の5本入ページの要約。別の要約・前回の調査では¥1,620）",
+              "source_url": "https://morihachi-shop.com/SHOP/nototakara-yokan-shio-05.html"
+            },
+            {
+              "qty_label": "10本入",
+              "qty": 10,
+              "unit": "本",
+              "price_tax_incl": 3240,
+              "evidence": "10本入: ¥3,240（前回確認）",
+              "source_url": "https://morihachi-shop.com/SHOP/nototakara-yokan-shio-10.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載は確認できなかった。",
+          "shelf_life_days": 240,
+          "shelf_life_text": "約240日",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://morihachi-shop.com/SHOP/221041/241004/list.html",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】5本入が1,620円と1,512円、賞味期限が210日と約240日と出た。公式通販の5本入ページの要約は、確認できた範囲ですべて1,512円・約240日。一方、前回の調査と別の情報源の要約（出典ページは不明）は1,620円で、10本入の3,240円（前回確認）は1,620円の2倍と整合する。どちらが現行かの決め手がなく、公式通販ページの1,512円・約240日を仮に採用した。どちらでも2,000円以内。購入前に店頭の表示か公式通販ページで確認したい。15本入・20本入のページもある（価格は未確認）。個包装の記載は確認できなかった。原材料は未確認。"
+        },
+        {
+          "product_name": "蛇玉もなか",
+          "category": "最中",
+          "description": "最中種（もち米）に小豆餡を詰めた森八の最中。",
+          "options": [
+            {
+              "qty_label": "8個入",
+              "qty": 8,
+              "unit": "個",
+              "price_tax_incl": 1836,
+              "evidence": "蛇玉もなか 8個入 税込価格：¥1,836",
+              "source_url": "https://morihachi-shop.com/SHOP/jadama-8.html"
+            },
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 2754,
+              "evidence": "12個入：¥2,754（税込）（前回確認）",
+              "source_url": "https://morihachi-shop.com/SHOP/221046/111651/list.html"
+            },
+            {
+              "qty_label": "16個入",
+              "qty": 16,
+              "unit": "個",
+              "price_tax_incl": 3672,
+              "evidence": "16個入：¥3,672（税込）（前回確認）",
+              "source_url": "https://morihachi-shop.com/SHOP/jadama-16.html"
+            },
+            {
+              "qty_label": "24個入",
+              "qty": 24,
+              "unit": "個",
+              "price_tax_incl": 5508,
+              "evidence": "24個入：¥5,508（税込）（前回確認）",
+              "source_url": "https://morihachi-shop.com/SHOP/jadama-24.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載は確認できなかった。",
+          "shelf_life_days": 12,
+          "shelf_life_text": "約12日（夏季は約8日）",
+          "ingredients": "砂糖（国内製造）、小豆（国産100%）、最中種（もち米、もち米粉）、米飴、寒天",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://morihachi-shop.com/SHOP/221046/111651/list.html",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】8個入が1,836円と1,404円と出た。公式通販の8個入ページは1,836円（前回確認の12個入・16個入と同じ1個229.5円で整合）で、公式の価格を採用。1,404円は別の通販ページの要約（出典ページは不明）で、古い価格の可能性があるが確認できていない。賞味期限は約12日（夏季は約8日）で、公式通販と別の通販ページの要約が一致。短いので、買う日と渡す日の間隔に注意。原材料も別の通販ページの要約で同じ内容を確認（乳化剤・ゼラチン・酒類の表示はない）。箱入りで、8個入の箱は約255×135×25mmとの記載がある（別の通販ページの要約）。個包装の記載は確認できなかった。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "能登の宝の塩羊羹・蛇玉もなかが1本ずつ・1個ずつの個包装かどうか（公式通販・別の通販ページの要約のどちらにも記載が出なかった）",
+        "能登の宝の塩羊羹5本入の現行価格（公式通販の要約は1,512円、別の要約と前回の調査は1,620円）と、10本入・15本入・20本入の価格（10本入は3,240円と出たが、1,512円の2倍の3,024円とは合わない）",
+        "蛇玉もなか8個入の現行価格（公式通販は1,836円、別の通販ページの要約は1,404円）。あんと店頭の表示で確認したい",
+        "公式サイトに「しば舟」「城の石」の販売再開のお知らせがあるが、日付と内容は未確認（あんと店頭での在庫は購入前に要確認）",
+        "「お手作り最中 城の石プレミアム」の販売開始のお知らせがあるが、内容・価格は未確認"
+      ]
+    }
+  ]
+}

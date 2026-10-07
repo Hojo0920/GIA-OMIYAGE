@@ -24,6 +24,7 @@ import unicodedata
 from collections import defaultdict
 
 CONF_RANK = {"A": 3, "B": 2, "C": 1}
+VERIFY_GROUPS = {"G16", "G17", "G18"}   # 上位候補の裏取り（公式ページを狙った確認）。前のグループのB/Cの値より優先する。前任のA値は動かさない
 CATEGORY_ORDER = ["和菓子", "洋菓子", "食品・海産物", "酒", "茶", "惣菜・弁当・寿司", "工芸・雑貨", "その他"]
 SHOP_PREFIXES = ["加賀藩御用菓子司", "歳時和菓子", "兼六園本舗", "和菓子処", "和菓子", "菓匠", "落雁", "きんつば", "金沢", "金澤",
                  "洋菓子工房", "茶菓工房", "加賀棒茶"]
@@ -69,7 +70,8 @@ def shop_key(name: str) -> str:
 
 
 QTY_SUFFIX = re.compile(r"[（(]?\s*\d+\s*(?:入り?|個入り?|枚入り?|本入り?|袋入り?|粒入り?|缶入り?|切入り?)\s*[）)]?")
-BRACKETS = re.compile(r"[（(〈][^）)〉]*[）)〉]")   # 丸括弧の中（季節・入数など）だけ除く。［黒豆］のような味の違いは残す
+# 括弧の中が入数・容量・季節・包装などの注記のときだけ除く。（能登栗）（いちじく）［黒豆］のような味・種類の違いは残す
+BRACKETS = re.compile(r"[（(〈][^）)〉]*(?:入|個|枚|本|袋|缶|切|[gｇ]|ml|限定|通年|季節|秋冬|夏|冬|春|秋|詰合|詰め合わせ|セット|パッケージ|化粧|箱|バラ|税|公式|単品)[^）)〉]*[）)〉]")
 
 
 def base_name(s: str | None) -> str:
@@ -113,6 +115,8 @@ JARGON_SENT = re.compile(r"ingredient_flags|ingredients・flags|flagsは|\bflags
 def join_notes(a: str, b: str) -> str:
     if not a:
         return b
+    if b and b in a:
+        return a
     return a + ("" if not b else (" " if a.endswith("。") else " ／") + b)
 
 
@@ -236,8 +240,14 @@ def price_from_evidence(ev: str | None):
 
 
 def qty_key(o: dict):
-    q = o.get("qty")
-    return (to_int(q), (o.get("unit") or "").strip()) if to_int(q) else (None, norm(o.get("qty_label")))
+    """入数オプションの同一判定キー。入数と単位に加え、数字の前にある味の表記（「能登栗 5本入」の「能登栗」）も区別する"""
+    q = to_int(o.get("qty"))
+    label = unicodedata.normalize("NFKC", o.get("label") or o.get("qty_label") or "")   # 統合後は label、生データは qty_label
+    if not q:
+        return (None, norm(label))
+    m = re.search(r"\d", label)
+    prefix = norm(label[: m.start()]) if m else ""
+    return (q, (o.get("unit") or "").strip(), prefix)
 
 
 def load_group(path: pathlib.Path) -> dict | None:
@@ -301,15 +311,29 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
 
     def absorb(existing: dict, prod: dict) -> None:
         """同じ商品の情報を統合する。同じ入数・同じ価格は先の値を優先し、食い違いは備考へ。別の入数は追加、空欄は埋める"""
-        have_qty = {qty_key(o): o for o in existing["options"]}
-        have_price = {o["price"] for o in existing["options"]}
-        for o in prod["options"]:
+        verify = prod.get("group") in VERIFY_GROUPS
+
+        def find_match(o: dict):
+            """同じ入数の既存オプション。同じキーが複数あるときはラベルで見分け、見分けられなければ一致扱いにしない"""
             kk = qty_key(o)
-            if kk in have_qty:
-                a = have_qty[kk]
+            cands = [x for x in existing["options"] if qty_key(x) == kk]
+            same_label = [x for x in cands if norm(x["label"]) == norm(o["label"])]
+            if same_label:
+                return same_label[0]
+            return cands[0] if len(cands) == 1 else None
+
+        for o in prod["options"]:
+            a = find_match(o)
+            have_price = {x["price"] for x in existing["options"]}
+            if a is not None:
                 if a["price"] != o["price"]:
                     if a["confidence"] == "A":
                         msg = f"検索結果では{o['label']}が{o['price']:,}円と出た（前任の確認値{a['price']:,}円と不一致・要確認）"
+                    elif verify:
+                        msg = f"{o['label']}の価格を{o['price']:,}円に更新（裏取りの結果。以前の検索結果は{a['price']:,}円）"
+                        a["price"] = o["price"]
+                        a["evidence"] = o.get("evidence") or a.get("evidence")
+                        a["source_url"] = o.get("source_url") or a.get("source_url")
                     else:
                         msg = f"{o['label']}の価格が検索結果で2通り（{a['price']:,}円／{o['price']:,}円）・要確認"
                     existing["notes"] = join_notes(existing["notes"], msg)
@@ -317,8 +341,6 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
                 continue
             else:
                 existing["options"].append(o)
-                have_qty[kk] = o
-                have_price.add(o["price"])
         for fld in ("description", "kind", "shelf_life_text", "seasonal", "page_url", "wrap_note", "allergens"):
             if not existing.get(fld) and prod.get(fld):
                 existing[fld] = prod[fld]
@@ -326,10 +348,16 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
             existing["shelf_life_days"] = prod["shelf_life_days"]
         elif (existing.get("shelf_life_days") and prod.get("shelf_life_days")
               and abs(existing["shelf_life_days"] - prod["shelf_life_days"]) > 0.2 * existing["shelf_life_days"]):
-            existing["notes"] = join_notes(existing["notes"], f"日持ちが資料により異なる（{existing['shelf_life_days']}日／{prod['shelf_life_days']}日）")
+            if verify and existing["group"] != "G0":
+                existing["notes"] = join_notes(existing["notes"], f"日持ちを{prod['shelf_life_days']}日に更新（裏取りの結果。以前は{existing['shelf_life_days']}日）")
+                existing["shelf_life_days"] = prod["shelf_life_days"]
+                if prod.get("shelf_life_text"):
+                    existing["shelf_life_text"] = prod["shelf_life_text"]
+            else:
+                existing["notes"] = join_notes(existing["notes"], f"日持ちが資料により異なる（{existing['shelf_life_days']}日／{prod['shelf_life_days']}日）")
         # 原材料: 空なら新しい方、両方あるときは長い（より完全な）方
         a_ing, b_ing = existing.get("ingredients"), prod.get("ingredients")
-        if b_ing and (not a_ing or (existing["group"] != "G0" and len(b_ing) > len(a_ing) * 1.3)):
+        if b_ing and (not a_ing or (existing["group"] != "G0" and (verify or len(b_ing) > len(a_ing) * 1.3))):
             existing["ingredients"] = b_ing
             existing["ingredient_check"], existing["ingredient_hits"], existing["ingredient_notes"] = ingredient_check(b_ing, None)
         if existing.get("wrap_level") is None and prod.get("wrap_level") is not None:
@@ -337,7 +365,13 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
             if prod.get("wrap_note"):
                 existing["wrap_note"] = prod["wrap_note"]
         elif prod.get("wrap_level") is not None and prod["wrap_level"] != existing.get("wrap_level") and existing["group"] != "G0":
-            existing["notes"] = join_notes(existing["notes"], f"個包装の有無が資料により異なる（{existing['wrap_level']}／{prod['wrap_level']}）")
+            if verify:
+                existing["wrap_level"] = prod["wrap_level"]
+                if prod.get("wrap_note"):
+                    existing["wrap_note"] = prod["wrap_note"]
+                existing["notes"] = join_notes(existing["notes"], "個包装の有無を裏取りの結果に更新")
+            else:
+                existing["notes"] = join_notes(existing["notes"], f"個包装の有無が資料により異なる（{existing['wrap_level']}／{prod['wrap_level']}）")
         for sent in re.split(r"(?<=。)\s*|\s*／\s*", prod.get("notes") or ""):
             sent = sent.strip()
             if sent and sent not in existing["notes"]:
@@ -478,11 +512,17 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
                                                 "note": rule.get("reason", "")})
                         applied.append(rule)
         for rule in ov.get("merge_products", []):
-            keep = next((q for q in products if shop_key(rule["shop"]) == q["shop_key"] and name_hit(rule["keep"], q["name"])), None)
-            gone = next((q for q in products if shop_key(rule["shop"]) == q["shop_key"] and q is not keep and name_hit(rule["absorb"], q["name"])), None)
+            def find(name, exclude=None):
+                cands = [q for q in products if shop_key(rule["shop"]) == q["shop_key"] and q is not exclude]
+                exact = next((q for q in cands if norm(q["name"]) == norm(name)), None)       # まず完全一致
+                return exact or next((q for q in cands if name_hit(name, q["name"])), None)   # 次に部分一致
+            keep = find(rule["keep"])
+            gone = find(rule["absorb"], exclude=keep)
             if keep and gone:
                 absorb(keep, gone)
                 products.remove(gone)
+                if rule.get("rename"):
+                    keep["name"] = rule["rename"]
                 applied.append(rule)
         for rule in ov.get("set_notes", []):
             for prod in products:

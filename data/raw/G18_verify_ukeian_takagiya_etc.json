@@ -1,0 +1,527 @@
+{
+  "group": "G18",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "烏鶏庵",
+      "shop_short": "烏鶏庵",
+      "category": "洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=355",
+      "anto_phone": "076-222-2755",
+      "anto_location": null,
+      "official_site": "https://www.ukokkei.co.jp",
+      "online_shop": "https://www.ukokkei.co.jp/c/16",
+      "in_scope": true,
+      "scope_note": "金沢郊外の自社農場で育てた烏骨鶏の卵で作るかすていらが看板。以下の価格・賞味期限は公式通販サイトの表示、原材料は楽天市場など販売ページの検索結果の表示。あんと店の店頭で同じ商品・同じ価格で売っているかは確認できていない。",
+      "products": [
+        {
+          "product_name": "烏骨鶏かすていら 個包装 3色",
+          "category": "かすていら",
+          "description": "30gに個包装した烏骨鶏かすていらの詰合せ。プレーン・抹茶・黒糖の3種で、5個入はプレーン3個・抹茶1個・黒糖1個。",
+          "options": [
+            {
+              "qty_label": "5個入（30g×5：プレーン3・抹茶1・黒糖1）",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1533,
+              "evidence": "公式通販の検索結果:「烏骨鶏かすていら個包装 3色 5個入り」販売価格 ¥1,533（税込）、30g×5個（プレーン3・抹茶1・黒糖1）",
+              "source_url": "https://www.ukokkei.co.jp/c/16/30/02ca-0305pmk"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "1個30gずつ個包装。5個入の内訳はプレーン3・抹茶1・黒糖1。",
+          "shelf_life_days": 25,
+          "shelf_life_text": "公式通販は「発送日から約25日」（常温、直射日光・高温多湿を避ける）。ほかの販売ページの検索結果の要約には「製造日より30日」とある。",
+          "ingredients": "【プレーン】烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜（原材料の一部に大豆を含む）／【抹茶】烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜、抹茶、みりん（原材料の一部に大豆を含む）／【黒糖】烏骨鶏卵、砂糖、小麦粉、黒糖、植物油脂、水飴、蜂蜜、カラメル色素（原材料の一部に大豆を含む）",
+          "ingredient_flags": [
+            "みりん"
+          ],
+          "allergens": "卵・小麦（原材料の一部に大豆を含む）",
+          "seasonal": "通年",
+          "page_url": "https://www.ukokkei.co.jp/c/16/30/02ca-0305pmk",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【重要】3色のうち抹茶味の原材料に「みりん」が入っている（楽天市場の烏鶏庵の【抹茶】2号のページの表示にも同じく「みりん」とあり、別のページでも確認）。プレーンと黒糖の表示には、乳化剤・ゼラチン・洋酒・みりんの記載は見当たらない。5個入は3色の詰合せなので、アルコールを避けたい相手には抹茶味を抜く必要がある（1個除いて渡す運用なら可）。原材料は検索結果の要約に出た表示で、商品ページ本文での直接確認はできていない。植物油脂は油の種類の記載なし。【食い違い】賞味期限は「発送日から約25日」（公式通販）と「製造日より30日」（ほかの販売ページの要約）が出た。店頭で買ったときの残り日数は未確認。12個入（3,628円）・20個入（5,940円）は予算を超える。"
+        },
+        {
+          "product_name": "烏骨鶏かすていら（プレーン）",
+          "category": "かすていら",
+          "description": "自社農場の烏骨鶏の卵で焼いた、1本（2号は約200g、5〜6切れ分）のかすていら。",
+          "options": [
+            {
+              "qty_label": "2号（約200g）",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 1555,
+              "evidence": "公式通販の検索結果:「TV等で話題」烏骨鶏かすていら（2号）販売価格 ¥1,555（税込）、内容量約200g",
+              "source_url": "https://www.ukokkei.co.jp/c/16/32/179"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1本（約200g）単位の商品。1切れずつ個包装とする記載は見つからなかった。配る場合は切り分けが必要になる可能性が高い（個包装が良ければ「個包装 3色」を参照）。",
+          "shelf_life_days": 25,
+          "shelf_life_text": "発送日から約25日（公式通販と楽天市場の烏鶏庵の表示が一致。常温、直射日光・高温多湿を避ける）",
+          "ingredients": "烏骨鶏卵、砂糖、小麦粉、植物油脂、水飴、蜂蜜（原材料の一部に大豆を含む）",
+          "ingredient_flags": [],
+          "allergens": "卵・小麦（原材料の一部に大豆を含む）",
+          "seasonal": "通年",
+          "page_url": "https://www.ukokkei.co.jp/c/16/32/179",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は、楽天市場の烏鶏庵の2号（2本入りセットのページとみられる）の表示を検索結果で確認したもので、個包装3色セットのプレーン味の表示とも一致する。公式通販の2号1本のページ本文では直接確認できていない。乳化剤・ゼラチン・洋酒・みりんの記載は見当たらない。植物油脂は油の種類の記載なし。2号は1,555円で予算内、3号は2,322円、4号は2,959円。箱の寸法は 14.5×7.5×8.5cm。同じ2号でも【抹茶】はみりんを使うため、プレーンを選ぶのが無難。"
+        },
+        {
+          "product_name": "烏骨鶏かすていら【抹茶】【黒糖】（2号）",
+          "category": "かすていら",
+          "description": "烏骨鶏かすていらの2号（約200g）の抹茶味と黒糖味。",
+          "options": [
+            {
+              "qty_label": "【抹茶】2号（約200g）",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 1674,
+              "evidence": "前回までの確認値（今回は再確認していない）。烏骨鶏かすていら【抹茶】（2号）: ¥1,674 税込",
+              "source_url": "https://www.ukokkei.co.jp/c/16/32/17"
+            },
+            {
+              "qty_label": "【黒糖】2号",
+              "qty": 1,
+              "unit": "本",
+              "price_tax_incl": 1674,
+              "evidence": "前回までの確認値（今回は再確認していない）。烏骨鶏かすていら【黒糖】（2号）: ¥1,674 税込",
+              "source_url": "https://www.ukokkei.co.jp/c/16/32"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1本（約200g）単位の商品。1切れずつ個包装とする記載は見つからなかった。",
+          "shelf_life_days": 25,
+          "shelf_life_text": "抹茶は発送日から約25日（楽天市場の烏鶏庵の表示）。黒糖は未確認",
+          "ingredients": "【抹茶】烏骨鶏卵（石川県産）、砂糖、小麦粉、植物油脂（大豆を含む）、水飴、蜂蜜、抹茶、みりん　／【黒糖】2号の表示は未確認（個包装3色の黒糖味の表示は「烏骨鶏卵、砂糖、小麦粉、黒糖、植物油脂、水飴、蜂蜜、カラメル色素（原材料の一部に大豆を含む）」）",
+          "ingredient_flags": [
+            "みりん"
+          ],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://www.ukokkei.co.jp/c/16/32/17",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【重要】【抹茶】（2号）の原材料に「みりん」が入っている（楽天市場の烏鶏庵の【抹茶】2号の商品ページの表示を検索結果で確認）。アルコールを避ける条件では【抹茶】は不可。【黒糖】2号の原材料は2号のページでは確認できておらず、個包装3色の黒糖味の表示にはみりん・乳化剤の記載がない。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "あんと店で、個包装3色・プレーン2号が実際に並んでいるか、店頭価格が公式通販と同じか（公式サイト・検索結果からは確認できず）",
+        "店頭で買う場合の賞味期限の残り日数",
+        "プレーンだけの個包装セットの入数と価格（楽天市場の烏鶏庵に「個包装プレーン20個セット」の掲載あり。三越伊勢丹のオンラインに「個包装10個入」「個包装15個入」の掲載あり。味の内訳は未確認）",
+        "【黒糖】2号の原材料表示"
+      ]
+    },
+    {
+      "shop_name": "菓匠 高木屋",
+      "shop_short": "高木屋",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=347",
+      "anto_phone": "076-260-3777",
+      "anto_location": null,
+      "official_site": "http://www.takagiya.jp/",
+      "online_shop": "https://takagiya.base.ec/",
+      "in_scope": true,
+      "scope_note": "以下の原材料・日持ちは公式通販（takagiya.base.ec）の各商品ページの表示。あんと店の店頭で同じ商品が並ぶかは確認できていない。",
+      "products": [
+        {
+          "product_name": "一口千歳",
+          "category": "求肥菓子（餡入り）",
+          "description": "加賀産の米飴を入れた特製の黒煉餡を薄い求肥で包み、紅白の阿波特産の純和三盆で仕上げた、加賀に古くから伝わる伝統銘菓。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 842,
+              "evidence": "前回までの確認値（今回は再確認していない）",
+              "source_url": "https://takagiya.base.ec/items/32543694"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1350,
+              "evidence": "前回までの確認値（今回は再確認していない）",
+              "source_url": "https://takagiya.base.ec/items/32529443"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 1998,
+              "evidence": "前回までの確認値（今回は再確認していない）",
+              "source_url": null
+            },
+            {
+              "qty_label": "20個入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 2592,
+              "evidence": "前回までの確認値（今回は再確認していない）。今回の検索でも「一口千歳（20個入）」のページと日持ち15日間を確認",
+              "source_url": "https://takagiya.base.ec/items/32543753"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "公式通販の商品ページ・販売店の説明のいずれにも、1個ずつの個包装かどうかの記載が見つからなかった。店頭での確認が必要。",
+          "shelf_life_days": 15,
+          "shelf_life_text": "日持ち15日間（常温）",
+          "ingredients": "砂糖（国内製造）、小豆、餅粉、水飴、米飴、和三盆糖／加工デンプン、着色料（コチニール）",
+          "ingredient_flags": [
+            "コチニール"
+          ],
+          "allergens": "アレルギー：無し（前回の確認）",
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32543753",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "着色料にコチニール（昆虫由来の赤色色素）を使用。豚由来の成分・アルコールに当たる表示は見当たらない。ムスリムの相手には色素の由来を気にする人もいるため、渡す相手に応じた判断が必要。原材料は20個入のページの表示（他の入数も同じ品と思われるが、ページごとの確認はしていない）。15個入以下は2,000円以内、20個入は2,592円で2,300円超。個包装かどうかは未確認。"
+        },
+        {
+          "product_name": "大納言もなか",
+          "category": "最中",
+          "description": "高木屋の代表銘菓のひとつ。小豆と砂糖、もち米の最中種で作る最中。",
+          "options": [
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 2160,
+              "evidence": "前回までの確認値（今回は再確認していない）",
+              "source_url": "https://takagiya.base.ec/items/32529431"
+            },
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 2548,
+              "evidence": "前回までの確認値（今回は再確認していない）。今回の検索でも「大納言もなか（12個入）」のページを確認",
+              "source_url": "https://takagiya.base.ec/items/32529435"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 2808,
+              "evidence": "前回までの確認値（今回は再確認していない）",
+              "source_url": "https://takagiya.base.ec/items/32529439"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "公式通販の商品ページ・販売店の説明のいずれにも、1個ずつの個包装かどうかの記載が見つからなかった。店頭での確認が必要。",
+          "shelf_life_days": 15,
+          "shelf_life_text": "日持ち15日間（前回の確認）",
+          "ingredients": "砂糖（国内製造）、小豆、最中種（もち米）、還元水飴",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32529435",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料は砂糖・小豆・最中種（もち米）・還元水飴のみで、豚由来の成分・アルコール・着色料の表示は見当たらない（12個入のページの表示。10個入のページでも同じ内容を前回確認）。10個入が2,160円で「少し超過」（2,001〜2,300円）、12個入以上は2,300円超。個包装かどうかは未確認。"
+        },
+        {
+          "product_name": "金沢ほっとしるこ",
+          "category": "しるこ",
+          "description": "こし餡・さくら・抹茶・ほうじ茶の味がある、金沢の汁粉。日持ちが180日と長い。",
+          "options": [
+            {
+              "qty_label": "4個袋入",
+              "qty": 4,
+              "unit": "個",
+              "price_tax_incl": 1080,
+              "evidence": "前回までの確認値（今回は再確認していない）。今回の検索でも「金沢ほっとしるこ（4個袋入）」のページを確認",
+              "source_url": "https://takagiya.base.ec/items/36208034"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 2808,
+              "evidence": "前回までの確認値（今回は再確認していない）。今回の検索でも「金沢ほっとしるこ（10個入）」のページを確認",
+              "source_url": "https://takagiya.base.ec/items/36208050"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "公式通販の商品ページ・販売店の説明のいずれにも、1個ずつの個包装かどうかの記載が見つからなかった。「4個袋入」の表記はあるが、1個ずつ包装されているかは未確認。",
+          "shelf_life_days": 180,
+          "shelf_life_text": "日持ち180日間",
+          "ingredients": "【10個入のページ・こし餡】砂糖、還元水飴、小豆晒しあん、和三盆糖、餅米、片栗粉、塩、寒梅粉（もち米加工品）、あおさ／着色料（赤3、赤102、赤106、青1、黄4、ベニコウジ色素、ベニバナ色素、アナトー色素、クチナシ色素）　※さくら・抹茶・ほうじ茶は味ごとに原材料が異なるが、全文は取得できず　／【4個袋入のページ（前回確認）】砂糖、還元水飴、小豆餡、和三盆糖、もち米、でん粉（馬鈴薯）、食塩、寒梅粉、着色料（赤3、赤102、赤106、青1、黄4）。さくらは桜葉粉末、ほうじ茶はほうじ茶粉末、抹茶は抹茶粉末を加える",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/36208034",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "豚由来の成分・アルコールに当たる表示は見当たらない。合成着色料（赤3、赤102、赤106、青1、黄4）を使用し、10個入のページには植物・微生物由来の色素（ベニコウジ、ベニバナ、アナトー、クチナシ）の表示もある。【食い違い】同じ「金沢ほっとしるこ」でも、10個入のページと4個袋入のページで、あんの表記（小豆晒しあん／小豆餡）と着色料の種類が異なって出た。味ごと・入数ごとに表示が違う可能性があるため、買う入数のパッケージで確認が必要。4個袋入の表示は前回、英訳から日本語に戻して記載したもので、原文と表記が異なる可能性がある。4個袋入は1,080円で2,000円以内、10個入は2,808円で2,300円超。個包装かどうかは未確認。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "一口千歳・大納言もなか・金沢ほっとしるこが1個ずつ個包装かどうか（公式通販・販売店・観光サイトの説明に記載なし。店頭確認が必要）",
+        "金沢ほっとしるこの、さくら・抹茶・ほうじ茶それぞれの原材料全文",
+        "あんと店頭での取扱いと店頭価格（上記は公式通販の掲載品）"
+      ]
+    },
+    {
+      "shop_name": "柴舟小出",
+      "shop_short": "柴舟小出",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=323",
+      "anto_phone": "076-260-3754",
+      "anto_location": null,
+      "official_site": "https://www.shibafunekoide.co.jp/",
+      "online_shop": "https://www.shibafunekoide.co.jp/online/",
+      "in_scope": true,
+      "scope_note": "大正6年創業。生姜蜜をぬった煎餅「柴舟」が主力。常温で日持ちし、箱入りで配りやすい。",
+      "products": [
+        {
+          "product_name": "柴舟",
+          "category": "煎餅（生姜蜜がけ）",
+          "description": "生姜蜜をぬった、生姜の風味がピリッときいた金沢の煎餅。",
+          "options": [
+            {
+              "qty_label": "18枚入（化粧箱）",
+              "qty": 18,
+              "unit": "枚",
+              "price_tax_incl": 1620,
+              "evidence": "前回までの確認値（今回は再確認していない）。柴舟の18枚箱は1,620円（税込）",
+              "source_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=502&on=1"
+            },
+            {
+              "qty_label": "20枚入（化粧缶）",
+              "qty": 20,
+              "unit": "枚",
+              "price_tax_incl": 2160,
+              "evidence": "前回までの確認値（今回は再確認していない）。柴舟の20枚化粧缶入は2,160円（税込）",
+              "source_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=502&on=1"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "小分けパック入り（前回確認）。公式サイトの商品ページ・商品案内には、18枚入の小袋に何枚ずつ入るか、1枚ずつの個包装かどうかの記載が見つからなかった。",
+          "shelf_life_days": 100,
+          "shelf_life_text": "製造日から100日（常温）",
+          "ingredients": "砂糖、小麦粉、生姜、D-ソルビトール、膨張剤",
+          "ingredient_flags": [],
+          "allergens": "小麦",
+          "seasonal": "通年",
+          "page_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=502&on=1",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "賞味期限（製造日から100日・常温）は公式ページで確認。原材料は前回、通販サイト（楽天の大和百貨店ページ・18枚化粧箱入）の掲載を確認したもので、公式ページ本文の原材料欄は見ていない。酒精・乳化剤・ゼラチン・ショートニングの記載はない。D-ソルビトールは糖アルコールで飲用アルコールではない。膨張剤は内訳の表示なし。18枚入は1,620円で2,000円以内、20枚入は2,160円で「少し超過」（2,001〜2,300円）。小袋の枚数・個包装かどうかは未確認。"
+        },
+        {
+          "product_name": "柴舟・三作 詰合",
+          "category": "煎餅詰合せ",
+          "description": "生姜の風味がピリッときいた金沢銘菓「柴舟」と、昔ながらの素朴な味の「三作せんべい」の詰合せ。",
+          "options": [
+            {
+              "qty_label": "19枚入（柴舟10枚＋三作9枚とみられる）",
+              "qty": 19,
+              "unit": "枚",
+              "price_tax_incl": 1620,
+              "evidence": "前回までの確認値（今回は再確認していない）。柴舟・三作詰合せ19枚入: 1,620円",
+              "source_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=503&on=1"
+            },
+            {
+              "qty_label": "26枚入",
+              "qty": 26,
+              "unit": "枚",
+              "price_tax_incl": 2160,
+              "evidence": "前回までの確認値（今回は再確認していない）。柴舟・三作詰合せ26枚入: 2,160円",
+              "source_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=503&on=1"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "公式の商品ページに、個包装かどうか・小袋の入数の記載が見つからなかった。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "製造日から、柴舟は100日・三作は60日（常温）。詰合せ全体では短い方の60日が目安",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦・卵・乳（公式ページの表示）",
+          "seasonal": "通年",
+          "page_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=503&on=1",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "「三作」は「三作せんべい」のこと（昔ながらの素朴な味の煎餅。柴舟とは別の煎餅）。詰合せのアレルギー表示に卵・乳があり、柴舟の表示は小麦のみ（前回確認）のため、卵・乳成分は三作側に使われていると思われる。三作の原材料の全文は確認できておらず、乳化剤・ゼラチン・ショートニング・洋酒などの有無は判断できない（乳成分の中身が何かも不明）。柴舟の原材料は「柴舟」の欄を参照。価格は前回確認した検索結果の金額（税込の明記までは確認できていない）。19枚入が1,620円、26枚入が2,160円。50枚入の詰合せもあるが価格は未確認。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "柴舟18枚入（化粧箱）の小袋に何枚ずつ入るか、1枚ずつの個包装か（公式サイトに記載なし）",
+        "三作せんべいの原材料表示の全文（乳化剤・ゼラチン・ショートニング・洋酒・酒精の有無）と、個包装かどうか",
+        "柴舟の原材料表示を公式ページ本文で直接確認すること（現在は通販サイトの掲載による）"
+      ]
+    },
+    {
+      "shop_name": "金澤 福うさぎ",
+      "shop_short": "福うさぎ",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=329",
+      "anto_phone": "076-221-1511",
+      "anto_location": null,
+      "official_site": "https://www.fukuusagi.jp/",
+      "online_shop": "https://www.fukuusagi.jp/",
+      "in_scope": true,
+      "scope_note": "うさぎの形の小さな蒸し饅頭。常温で、日持ちは約20日。以下は公式オンラインショップ（fukuusagi.jp）の表示で、あんと店の店頭価格・取扱品目は確認できていない。",
+      "products": [
+        {
+          "product_name": "銘菓 福うさぎ",
+          "category": "蒸し饅頭",
+          "description": "うさぎの形をした小さな蒸し饅頭。5種詰め合わせは、五郎島金時・能登大納言・棒茶・能登産かぼちゃ・石川県産ゆずの5種を2個ずつ詰める。",
+          "options": [
+            {
+              "qty_label": "5種詰め合わせ 10ヶ入（5種×各2個）",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1620,
+              "evidence": "公式通販の検索結果:「銘菓 福うさぎ（5種詰め合わせ）10ヶ入」価格 1,620円（税込）、5種を各2個、商品番号 F-0145、箱 W13.9×L31.7×H3.6cm",
+              "source_url": "https://www.fukuusagi.jp/?pid=90652146"
+            },
+            {
+              "qty_label": "5種詰め合わせ 15ヶ入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 2430,
+              "evidence": "前回までの確認値（今回は再確認していない）。5種詰め合わせ 15ヶ入：2,430円",
+              "source_url": "https://www.fukuusagi.jp/?pid=90652206"
+            },
+            {
+              "qty_label": "5種詰め合わせ 20ヶ入",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 3240,
+              "evidence": "前回までの確認値（今回は再確認していない）。5種詰め合わせ 20ヶ入：3,240円",
+              "source_url": "https://www.fukuusagi.jp/?pid=90652266"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "前回の確認で、公式通販ページ由来の検索要約に個包装とあった（今回の検索では、その記載を再確認できなかった）。",
+          "shelf_life_days": 20,
+          "shelf_life_text": "お届け日より約20日間（常温）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦・卵・乳成分・大豆・やまいも（5種詰め合わせ全体の表示）",
+          "seasonal": "通年",
+          "page_url": "https://www.fukuusagi.jp/?pid=90652146",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "10個入が1,620円で予算内（2,000円以内）、15個入は2,430円で2,300円を少し超える。原材料の全文（乳化剤・ゼラチン・酒類の有無）は、公式ページにも販売店ページにも表示がなく確認できなかった（アレルギー表示のみ）。卵・乳成分を使っているが、乳化剤などの有無は不明。箱・袋の原材料欄での確認が必要。【食い違い】日持ちは「お届け日より約20日」（公式通販）と「製造日より30日」（別の資料）が出た。短い方の20日を記載。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "福うさぎの原材料表示の全文（乳化剤・ゼラチン・ショートニング・酒類の有無）。公式ページ・販売店ページに記載なし",
+        "個包装の記載の再確認（前回は検索要約に個包装とあったが、今回は確認できず）",
+        "日持ちの基準（公式通販は届け日から約20日、別の資料は製造日から30日）",
+        "あんと店頭での取扱い・価格"
+      ]
+    },
+    {
+      "shop_name": "大畑食品",
+      "shop_short": "大畑食品",
+      "category": "食品・海産物",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=373",
+      "anto_phone": "076-208-3328",
+      "anto_location": null,
+      "official_site": "https://oohata.jp/",
+      "online_shop": "https://oohata.jp/collections/kurumi-no-oyatsu",
+      "in_scope": true,
+      "scope_note": "あんとでの店名は「クルミのおやつ」（創業1936年の佃煮屋・大畑食品が手がけるクルミ菓子）。対象はクルミのおやつのみで、佃煮は対象外。価格は公式オンラインストア（oohata.jp）の表示で、あんと店で実際に並ぶ味・サイズは確認できていない。",
+      "products": [
+        {
+          "product_name": "クルミのおやつ 生姜カラメル",
+          "category": "クルミ菓子（単品缶）",
+          "description": "大粒のクルミを鍋で煎り、カラメル色になるまで仕上げた佃煮づくりの製法のクルミ菓子。生姜カラメル味の50g缶。",
+          "options": [
+            {
+              "qty_label": "50g缶",
+              "qty": 50,
+              "unit": "g",
+              "price_tax_incl": 864,
+              "evidence": "公式オンラインストアの検索結果:「クルミのおやつ 生姜カラメル 50g」864円（税込）（2回の検索で同じ金額。前回は810円（税込）とも出た）",
+              "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "缶の中は小分けパック。生姜カラメル・シナモンの2缶セットで前回確認済みで、今回の検索結果の要約にも小分けの個包装とある。50g単品缶の商品ページ本文での明記は未確認。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（前回確認）",
+          "ingredients": "ローストクルミ（クルミ（アメリカ産））、砂糖、おろししょうが（生姜、食塩）、食塩／カラメル色素",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【食い違い】50g缶の価格が810円と864円で分かれた。直近の2回の検索はどちらも864円。原材料には豚由来・アルコールに当たる成分はない（クルミ、砂糖、生姜、食塩、カラメル色素）。主原料がクルミのため、クルミアレルギーに注意。【食い違い】前回確認の表示は「おろししょうが（生姜、食塩）／カラメル色素」で、今回の検索結果には単独の「食塩」も並んでいた（どちらも問題となる成分ではない）。50g缶の商品ページ単独のURLは検索結果に出なかった。"
+        },
+        {
+          "product_name": "クルミのおやつ シナモン",
+          "category": "クルミ菓子（単品缶）",
+          "description": "クルミのおやつのシナモン味の50g缶。",
+          "options": [
+            {
+              "qty_label": "50g缶",
+              "qty": 50,
+              "unit": "g",
+              "price_tax_incl": 918,
+              "evidence": "公式オンラインストアの検索結果:「クルミのおやつ シナモン 50g」918円（税込）（前回の確認とも一致）",
+              "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "缶の中は小分けパック。生姜カラメル・シナモンの2缶セットで前回確認済み（このセットにシナモンの缶が含まれる）。50g単品缶の商品ページ本文での明記は未確認。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（同シリーズの表示。前回確認）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料の表示は今回も検索結果に出てこず、確認できなかったため、豚由来・アルコールの有無は判断できない。主原料がクルミのため、クルミアレルギーに注意。"
+        },
+        {
+          "product_name": "クルミのおやつ 2種（生姜カラメル・シナモン）",
+          "category": "クルミ菓子（詰合せ）",
+          "description": "生姜カラメル味とシナモン味の50g缶を1缶ずつ詰めた2缶セット。",
+          "options": [
+            {
+              "qty_label": "2缶入（各50g）",
+              "qty": 2,
+              "unit": "缶",
+              "price_tax_incl": 1998,
+              "evidence": "公式オンラインストアの検索結果:「クルミのおやつ2種 生姜カラメルとシナモン」1,998円（税込）",
+              "source_url": "https://oohata.jp/collections/kurumi-no-oyatsu"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "缶の中は小分けパック（前回確認済み）。",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日間（前回確認）",
+          "ingredients": "生姜カラメル味: ローストクルミ（クルミ（アメリカ産））、砂糖、おろししょうが（生姜、食塩）、食塩／カラメル色素（シナモン味の原材料表示は未確認）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://oohata.jp/collections/kurumi-no-oyatsu",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "生姜カラメル味の原材料には豚由来・アルコールに当たる成分はない。シナモン味の原材料表示は確認できていないため、セット全体としては要確認。主原料がクルミのため、クルミアレルギーに注意。1,998円で2,000円以内。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "シナモン50g缶の原材料表示の全文",
+        "生姜カラメル50g缶の価格（810円か864円か）。商品ページ本文での確認",
+        "50g単品缶の小分けパックの記載を商品ページ本文で確認すること",
+        "あんと店で実際に並んでいる味・サイズと店頭価格"
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 |---|---|
 | 洗い出せた店舗（あんと・あんと西・Rinto） | 157店 |
 | うち菓子・食品の土産を扱う店（対象） | 39店（Rintoの店はあんと外のため対象外に分類） |
-| 商品・入数別の価格まで調べられた店 | 34店（197商品・432入数） |
+| 商品・入数別の価格まで調べられた店 | 34店（201商品・439入数） |
 | 未調査の対象店 | 5店（`python3 scripts/list_backlog.py --scope yes` で一覧） |
 | 確認レベルA（公式ページを直接確認）の商品 | 12商品 |
 <!-- status:end -->
@@ -63,7 +63,7 @@ xlsx の判定（○△×）は数式で、「はじめに」シートの黄色�
 ## 続きの調査の進め方
 
 1. `python3 scripts/list_backlog.py` で未調査の店を確認する。
-2. `docs/research_instructions.md` を読ませて、店を数店ずつのグループに分けて調査担当に割り当てる（出力は `data/raw/Gn_*.json`）。
+2. `docs/research_instructions.md`（基本ルール）と `docs/research_instructions_round2.md`（追加ルール）を読ませて、店を数店ずつのグループに分けて調査担当に割り当てる（出力は `data/raw/Gn_*.json`）。担当ごとに `python3 scripts/gap_report.py --shops "店名,店名"` で既知データと未確認項目の資料を作って渡すと、穴を狙って調べられる。上位候補の裏取りだけを行うグループは、`scripts/merge_research.py` の `VERIFY_GROUPS` に番号を足すと、前のグループの価格・原材料・個包装より優先される。
 3. `python3 scripts/merge_research.py` で統合し、`python3 scripts/build_xlsx.py` で作り直す。
 4. 検索の回数上限に達したら、次のターンで続ける。店舗サイトへ直接アクセスできる環境なら、公式の商品ページ本文を読んで確認レベルAに上げ、写真も取得できる（`private/images/<image_key>.jpg` に 240px 四方で置くと、完成版に入る）。
 5. 食い違いは `data/overrides.json` に理由つきで残す。
