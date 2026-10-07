@@ -54,6 +54,7 @@ REVIEW_BELOW = 0.8           # この確からしさ未満は「要確認」に�
 
 HARD_BAD_URL = re.compile(r"(logo|favicon|apple-touch|sprite|spacer|blank|no[-_]?image|no[-_]?photo|loading|/icons?/|icon[-_.]|btn[-_.]|button|arrow|banner|bnr[-_.]|\.(svg|gif|ico|webm|mp4)(\?|$))", re.I)
 GENERIC_STEM = re.compile(r"^(ogp|og|og[-_]?image|ogimage|default|share|sns|site|main[-_]?visual)$", re.I)
+LIST_URL = re.compile(r"(/list\.html|/category/|/categories/|/collections/[^/?#]+/?$|/sweets/?$|/products/?$|/items/?$)", re.I)
 DETAIL_URL = re.compile(r"(/items?/\d|/products?/|/product-page/|/goods/|/shop/g/|/SHOP/\d|[?&](pid|product_id|products_id|item_id|goods_id|id)=|ProductDetail|/view/item/|/detail/|/fs/[^/]+/\d)", re.I)
 
 _BRACKETS = re.compile(r"[（(\[［【〈<《].*?[）)\]］】〉>》]")
@@ -241,7 +242,7 @@ def parse_page(html: str) -> PageParser:
 def meta_content(page: PageParser, *keys: str) -> str:
     for k in keys:
         for m in page.metas:
-            if (m.get("property", "").lower() == k or m.get("name", "").lower() == k) and m.get("content", "").strip():
+            if k in (m.get("property", "").lower(), m.get("name", "").lower(), m.get("itemprop", "").lower()) and m.get("content", "").strip():
                 return m["content"].strip()
     return ""
 
@@ -350,17 +351,19 @@ def select_candidates(prod: dict, page: PageParser, page_url: str, group: list[d
     ld = jsonld_product_images(page)
     og_type = meta_content(page, "og:type").lower()
     strong = title_score >= 0.7
-    product_like = strong or bool(DETAIL_URL.search(page_url)) or og_type.startswith("product")
+    listy = bool(LIST_URL.search(page_url))
+    product_like = strong or (bool(DETAIL_URL.search(page_url)) and not listy) or og_type.startswith("product")
     info = {"title_score": round(title_score, 2), "product_like": product_like, "page_title": (page.title or "")[:60]}
 
     cands: list[dict] = []
     if len(group) > 1:
         cands += listing_candidates(prod, page, group, absolutize)
     elif product_like:
-        k = 1.0 if strong else 0.8
+        k = 1.0 if (strong and not listy) else 0.8
         for u in ld:
             cands.append({"url": absolutize(u), "method": "jsonld", "conf": 0.95 * k})
-        for key, method, conf in (("og:image", "og", 0.9), ("og:image:secure_url", "og", 0.9), ("twitter:image", "twitter", 0.85)):
+        for key, method, conf in (("og:image", "og", 0.9), ("og:image:secure_url", "og", 0.9), ("twitter:image", "twitter", 0.85),
+                                  ("image", "meta", 0.75)):
             v = meta_content(page, key)
             if v:
                 cands.append({"url": absolutize(v), "method": method, "conf": conf * k})

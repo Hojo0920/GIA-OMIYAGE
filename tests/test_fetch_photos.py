@@ -99,10 +99,15 @@ class FetchPhotosTest(unittest.TestCase):
         sjis = "<!doctype html><html><head><meta charset='Shift_JIS'><title>金沢羽二重餅 | みのや</title><meta property='og:image' content='/img/p1.jpg'></head><body></body></html>".encode("cp932")
         R["/items/7"] = (200, "text/html", sjis)
         R["/items/8"] = (200, h, page('<meta property="og:image" content="/img/alpha.png">', "", "透過PNGの商品"))
+        # カテゴリの一覧ページ（題名が商品名と合わない）→ og:image は使わない
+        R["/category/sweets/"] = (200, h, page('<meta property="og:image" content="/img/p1.jpg">', "", "和菓子一覧 | 森八"))
+        # itemprop="image" の meta
+        R["/items/10"] = (200, h, page('<meta itemprop="image" content="/img/p2.jpg">', "", "能登大納言甘納豆 | まめや"))
 
     @classmethod
     def tearDownClass(cls):
         cls.server.shutdown()
+        cls.server.server_close()
 
     def setUp(self):
         self.tmp = pathlib.Path(tempfile.mkdtemp())
@@ -171,6 +176,14 @@ class FetchPhotosTest(unittest.TestCase):
         self.assertEqual(rec["status"], "ok", rec)
         im = self.thumb("P10")
         self.assertEqual(im.getpixel((2, 2)), (255, 255, 255))      # 透明部分は白
+
+    def test_category_url_with_unrelated_title_is_not_a_product_page(self):
+        rec, _ = self.run_one("P14", "小型羊羹", "/category/sweets/")
+        self.assertEqual(rec["status"], "fail", rec)
+
+    def test_itemprop_image_meta(self):
+        rec, _ = self.run_one("P15", "能登大納言甘納豆", "/items/10")
+        self.assertEqual((rec["status"], rec["method"]), ("ok", "meta"), rec)
 
     # --- 一覧ページ
     def test_listing_page_assigns_each_product_its_own_image(self):
