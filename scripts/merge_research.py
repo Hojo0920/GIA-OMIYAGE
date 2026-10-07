@@ -528,6 +528,10 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
             for prod in products:
                 if shop_key(rule["shop"]) == prod["shop_key"] and name_hit(rule["product"], prod["name"]):
                     prod["notes"] = rule["notes"]
+        for rule in ov.get("set_page_url", []):      # 商品ページのURLの訂正（商品名は完全一致で指定する）
+            for prod in products:
+                if shop_key(rule["shop"]) == prod["shop_key"] and norm(rule["product"]) == norm(prod["name"]):
+                    prod["page_url"] = rule["page_url"]
         for rule in ov.get("append_notes", []):
             for prod in products:
                 if shop_key(rule["shop"]) == prod["shop_key"] and name_hit(rule["product"], prod["name"]):

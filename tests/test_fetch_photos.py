@@ -25,6 +25,27 @@ def jpeg(w=400, h=400, color=(200, 80, 60)) -> bytes:
     return out.getvalue()
 
 
+def icon_png(w=400, h=400) -> bytes:
+    """白地に黒い図形だけのアイコン風の画像。"""
+    out = io.BytesIO()
+    im = Image.new("RGB", (w, h), "white")
+    im.paste((0, 0, 0), (150, 150, 250, 250))
+    im.save(out, "PNG")
+    return out.getvalue()
+
+
+def icon_antialiased_png() -> bytes:
+    """アンチエイリアスのかかった白黒の線画（色数は多いが彩度がない）。"""
+    from PIL import ImageDraw
+    big = Image.new("RGB", (1600, 1600), "white")
+    d = ImageDraw.Draw(big)
+    d.ellipse((300, 300, 1300, 1300), outline="black", width=60)
+    d.line((300, 800, 1300, 800), fill="black", width=50)
+    out = io.BytesIO()
+    big.resize((400, 400), Image.LANCZOS).save(out, "PNG")
+    return out.getvalue()
+
+
 def png_rgba(w=400, h=400) -> bytes:
     out = io.BytesIO()
     im = Image.new("RGBA", (w, h), (0, 0, 0, 0))
@@ -42,6 +63,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
     def do_GET(self):
         r = self.routes.get(self.path.split("#")[0])
+        if callable(r):
+            r = r()
         if r is None:
             self.send_response(404)
             self.end_headers()
@@ -55,6 +78,13 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
     def log_message(self, *a):
         pass
+
+
+def serve(routes: dict):
+    """試験ごとに別のサーバを立てる（トップページの og:image など、他の試験に影響する経路を分けたいとき）。"""
+    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), type("H", (Handler,), {"routes": routes}))
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    return srv, f"http://127.0.0.1:{srv.server_address[1]}"
 
 
 class FetchPhotosTest(unittest.TestCase):
@@ -73,6 +103,8 @@ class FetchPhotosTest(unittest.TestCase):
         R["/img/tiny.jpg"] = (200, "image/jpeg", jpeg(60, 60))
         R["/img/wide.jpg"] = (200, "image/jpeg", jpeg(1200, 200))
         R["/img/logo.png"] = (200, "image/png", png_rgba())
+        R["/img/heart.png"] = (200, "image/png", icon_png())
+        R["/img/hands.png"] = (200, "image/png", icon_antialiased_png())
         R["/img/ogp.png"] = (200, "image/png", png_rgba())
         R["/img/alpha.png"] = (200, "image/png", png_rgba())
         R["/robots.txt"] = (200, "text/plain", b"User-agent: *\nDisallow: /secret/\n")
@@ -151,6 +183,19 @@ class FetchPhotosTest(unittest.TestCase):
         rec, _ = self.run_one("P5", "長生殿小墨", "/items/4")
         self.assertEqual((rec["status"], rec["method"]), ("ok", "twitter"), rec)
 
+    def test_icon_like_image_is_rejected(self):
+        R = Handler.routes
+        R["/items/20"] = (200, "text/html; charset=utf-8", page('<meta property="og:image" content="/img/heart.png">', "", "ありがとうギフト"))
+        rec, _ = self.run_one("P17", "ありがとうギフト", "/items/20")
+        self.assertEqual(rec["status"], "fail", rec)
+        self.assertIn("アイコン", rec["reason"])
+
+    def test_antialiased_monochrome_line_art_is_rejected(self):
+        Handler.routes["/items/21"] = (200, "text/html; charset=utf-8", page('<meta property="og:image" content="/img/hands.png">', "", "握手のギフト"))
+        rec, _ = self.run_one("P18", "握手のギフト", "/items/21")
+        self.assertEqual(rec["status"], "fail", rec)
+        self.assertIn("アイコン", rec["reason"])
+
     def test_banner_aspect_is_rejected(self):
         rec, _ = self.run_one("P6", "俵っ子", "/items/5")
         self.assertEqual(rec["status"], "fail", rec)
@@ -184,6 +229,33 @@ class FetchPhotosTest(unittest.TestCase):
     def test_itemprop_image_meta(self):
         rec, _ = self.run_one("P15", "能登大納言甘納豆", "/items/10")
         self.assertEqual((rec["status"], rec["method"]), ("ok", "meta"), rec)
+
+    def test_og_same_as_site_top_page_is_rejected(self):
+        routes = {"/img/shop.jpg": (200, "image/jpeg", jpeg()),
+                  "/": (200, "text/html", page('<meta property="og:image" content="/img/shop.jpg">', "", "店のトップ")),
+                  "/items/1": (200, "text/html", page('<meta property="og:image" content="/img/shop.jpg">', "", "加賀八幡 起上もなか"))}
+        srv, base = serve(routes)
+        self.addCleanup(srv.server_close)
+        self.addCleanup(srv.shutdown)
+        prod = {"id": "P16", "shop": "試験店", "name": "加賀八幡 起上もなか", "page_url": base + "/items/1", "options": []}
+        self.ctx["by_page"] = {prod["page_url"]: [prod]}
+        rec = fp.process(prod, self.ctx)
+        self.assertEqual(rec["status"], "fail", rec)
+        self.assertIn("共通画像", rec["reason"])
+
+    def test_429_is_retried_after_backing_off(self):
+        calls = {"n": 0}
+
+        def flaky():
+            calls["n"] += 1
+            return (429, "text/plain", b"slow down") if calls["n"] == 1 else (200, "text/plain", b"ok")
+
+        srv, base = serve({"/x": flaky})
+        self.addCleanup(srv.server_close)
+        self.addCleanup(srv.shutdown)
+        self.net.backoff, self.net.gate.slow_base = 0.05, 0.01
+        body, r = self.net.get(base + "/x", None, "*/*", 1024)
+        self.assertEqual((body, calls["n"]), (b"ok", 2))
 
     # --- 一覧ページ
     def test_listing_page_assigns_each_product_its_own_image(self):

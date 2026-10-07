@@ -55,5 +55,43 @@
    "rename": "四季の羊羹 粋（能登栗ほか季節の味）",
    "reason": "同じ商品ラインを、系列全体とフレーバー別の2つの名前で拾っていたため統合"
   }
+ ],
+ "set_page_url": [
+  {
+   "shop": "ル ミュゼ ドゥ アッシュ",
+   "product": "能登金時バウム（S）",
+   "page_url": "https://yukizuri.com/baum/57/",
+   "reason": "元のURLは「とみつ金時バウム」のページだった（公式の一覧で商品名が一致するページに訂正）"
+  },
+  {
+   "shop": "森八",
+   "product": "しば舟",
+   "page_url": "https://morihachi-shop.com/SHOP/shiba-12.html",
+   "reason": "商品ページのURLが未登録だった（12枚入のページ）"
+  },
+  {
+   "shop": "森八",
+   "product": "小型羊羹 粋",
+   "page_url": "https://morihachi-shop.com/SHOP/kogatayoukan-05.html",
+   "reason": "元のURLは羊羹の一覧ページだった（5本入の商品ページに訂正）"
+  },
+  {
+   "shop": "佃の佃煮",
+   "product": "一人ひとり（食べきりサイズの佃煮）",
+   "page_url": "https://www.tukudani.co.jp/products/products-399/",
+   "reason": "元のURLは地域情報サイトの店舗ページだった（公式サイトの商品ページに訂正）"
+  },
+  {
+   "shop": "大畑食品",
+   "product": "クルミのおやつ シナモン",
+   "page_url": "https://oohata.jp/products/cinnamon-50g",
+   "reason": "元のURLは商品の一覧ページだった（シナモン50gの商品ページに訂正）"
+  },
+  {
+   "shop": "清香室町",
+   "product": "もりのかくれんぼ",
+   "page_url": "https://www.seika-muromachi.com/products/?products_id=morinokakurenbo",
+   "reason": "元のURLは価格別の一覧ページだった（商品ページに訂正）"
+  }
  ]
 }

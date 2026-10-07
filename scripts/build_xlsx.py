@@ -136,6 +136,23 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
                 return img_dir / f"{key}.jpg"
         return None
 
+    photo_log = {}
+    if use_photos and (private_dir / "photo_log.json").exists():
+        photo_log = json.loads((private_dir / "photo_log.json").read_text(encoding="utf-8")).get("items", {})
+
+    def no_photo_label(p):
+        """写真がない商品のセルに出す文言。scripts/fetch_photos.py の取得記録（photo_log.json）の理由から選ぶ。"""
+        reason = (photo_log.get(p["id"]) or {}).get("reason", "")
+        if any(k in reason for k in ("削除", "404", "見当たらない", "一覧にない")):
+            why = "商品ページが見つからない"
+        elif any(k in reason for k in ("拒否", "403")):
+            why = "サイトが自動取得を拒否"
+        elif "接続" in reason or "応答なし" in reason:
+            why = "サイトに接続できない"
+        else:
+            why = "商品ページ参照"
+        return f"写真なし\n（{why}）"
+
     # 並べ替え（既定の前提での総合評価が高い順 → 確認レベルが高い順 → 店の並び順）
     def best_overall(p):
         ranks = {TOP: 0, OK: 1, WARN: 2, NG: 3}
@@ -467,7 +484,7 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
             ws.insert_image(R, 1, str(photo), {"x_scale": sc, "y_scale": sc, "x_offset": 8, "y_offset": 4, "object_position": 1,
                                                "description": f"{p['shop']} {p['name']}"})
         else:
-            ws.write(R, 1, "写真なし\n（商品ページ参照）" if use_photos else "", f(text_wrap=True, align="center", font_color=C["sub"], border=1, border_color=C["line"], font_size=9))
+            ws.write(R, 1, no_photo_label(p) if use_photos else "", f(text_wrap=True, align="center", font_color=C["sub"], border=1, border_color=C["line"], font_size=9))
         ws.write(R, 2, p["shop"], f_txt)
         ws.write(R, 3, p["shop_category"], f_txtc)
         desc = short((p["kind"] + "｜" if p["kind"] else "") + (p["description"] or ""), 90)
@@ -507,6 +524,9 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
             ws.write(R, 15, "", f_txtc)
         opt_notes = list(dict.fromkeys(o["note"] for o in p["options"] if o.get("note")))
         pre = ("※" + "／".join(opt_notes) + " ／") if opt_notes else ""
+        approx = (photo_log.get(p["id"]) or {}).get("approx")
+        if approx and photo_of(p):
+            pre = f"※写真は{approx} ／" + pre
         note_c = short(pre + p["notes"], 130) + ("（続きは「入数別価格」）" if len(pre + p["notes"]) > 130 else "")
         ws.write(R, 16, note_c, f_txt)
         ing_c = short(p["ingredients"], 150) if p["ingredients"] else "（原材料表示を確認できていない）"
@@ -662,7 +682,9 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
         "確認レベルAのデータ（12商品）は、前任のセッション（Claude Desktop＋Claude in Chrome）が各店の公式の商品ページを直接開いて確認し、写真もそのときの公式写真です。",
         "それ以外（確認レベルB・C）は、公式ドメインに絞った検索（WebSearch）の結果に載っていた価格・入数・賞味期限・原材料です。検索結果は要約であり、商品ページ本文を直接見ていないため、買う前に店舗か公式ページで確認してください。",
         (f"写真は、確認レベルAの商品は前任が公式ページで取得したもの、それ以外は各店の商品ページ（公式・通販）から取得したものです。{sum(1 for p in products if photo_of(p))}／{len(products)}商品に付いています。"
-         "商品名と写真が合っているかは目視で確認していますが、通販ページの写真は入数や詰め合わせの内容と一致しないことがあります。"
+         "商品名と写真が合っているかは一覧画像で目視確認していますが、通販ページの写真は入数や詰め合わせの内容と一致しないことがあります。"
+         "同じ商品の写真が見つからず、近い商品・シリーズの写真を使ったものは、「候補一覧」の備考に「※写真は…」と書いています。"
+         "商品ページが削除されている・サイトが自動取得を拒否している商品は、写真なしとして理由をセルに書いています。"
          if use_photos and sum(1 for p in products if photo_of(p)) > 12 else
          "今回の環境では、金沢百番街の公式サイトと各店の公式・通販サイトに直接アクセスできませんでした（実行環境の通信制限）。このため、写真はAレベルの商品にしか付いていません。"),
         "検索の回数に上限があり、調べきれなかった店・商品は「除外・要確認」と「店舗一覧」に未調査として残しています。",
@@ -780,7 +802,7 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
                     ws.write_blank(r, 1, None, f_txtc)
                     ws.insert_image(r, 1, str(photo), {"x_scale": sc, "y_scale": sc, "x_offset": 8, "y_offset": 4, "object_position": 1})
                 else:
-                    ws.write(r, 1, "写真なし" if use_photos else "", f(align="center", font_color=C["sub"], border=1, border_color=C["line"], font_size=9))
+                    ws.write(r, 1, no_photo_label(p) if use_photos else "", f(align="center", font_color=C["sub"], border=1, border_color=C["line"], font_size=9))
                 ws.write_rich_string(r, 2, f_name_b, p["name"], f_name_n, "\n" + (p["description"] or ""), f_txt)
                 ws.write(r, 3, p["shop"], f_txt)
                 ws.write(r, 4, o["label"], f_txt)

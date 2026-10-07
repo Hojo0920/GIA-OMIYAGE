@@ -46,8 +46,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 UA = "Mozilla/5.0 (compatible; omiyage-photo-fetch/1.0)"
 ROBOTS_TOKEN = "omiyage-photo-fetch"
 OUT_PX = 240                 # 出力画像の一辺（build_xlsx.py の IMG_SRC_PX と同じ）
-MIN_SIDE = 120               # これより小さい画像はアイコンとみなして使わない
-MAX_ASPECT = 2.6             # 縦横比がこれより極端な画像（バナー）は使わない
+MIN_LONG, MIN_SHORT = 160, 40   # 長辺が160px未満、または短辺が40px未満の画像はアイコン・ボタンとみなして使わない
+MAX_ASPECT = 3.0             # 縦横比がこれより極端な画像（バナー）は使わない
 IMG_MAX_BYTES = 12 * 1024 * 1024
 HTML_MAX_BYTES = 3 * 1024 * 1024
 REVIEW_BELOW = 0.8           # この確からしさ未満は「要確認」にする
@@ -285,6 +285,12 @@ def usable_url(u: str) -> bool:
     return not GENERIC_STEM.match(stem)
 
 
+def plain_url(u: str) -> str:
+    """クエリ・フラグメントを除いたURL（同じ画像かどうかの比較用）。"""
+    pu = urllib.parse.urlparse(u)
+    return f"{pu.scheme}://{pu.netloc}{pu.path}"
+
+
 def ctx_text(img: dict) -> str:
     n = img.get("ctx")
     return " ".join(n["parts"])[:300] if n else ""
@@ -383,31 +389,39 @@ def select_candidates(prod: dict, page: PageParser, page_url: str, group: list[d
 
 # ---------------------------------------------------------------- 通信 ---------------------------------------------
 class Gate:
-    """同じホストへの通信の間隔をあける（礼儀）。"""
+    """同じホストへの通信の間隔をあける（礼儀）。429（アクセス過多）が返ったホストは間隔を広げる。"""
 
     def __init__(self, delay: float):
         self.delay = delay
         self._guard = threading.Lock()
         self._locks: dict[str, threading.Lock] = defaultdict(threading.Lock)
         self._last: dict[str, float] = {}
+        self._delay_for: dict[str, float] = {}
+        self.slow_base = 1.0
 
     def wait(self, host: str):
         with self._guard:
             lock = self._locks[host]
         with lock:
-            gap = self._last.get(host, 0.0) + self.delay - time.monotonic()
+            gap = self._last.get(host, 0.0) + self._delay_for.get(host, self.delay) - time.monotonic()
             if gap > 0:
                 time.sleep(gap)
             self._last[host] = time.monotonic()
+
+    def slow_down(self, host: str):
+        with self._guard:
+            self._delay_for[host] = min(max(self._delay_for.get(host, self.delay), self.slow_base) * 2, 10.0)
 
 
 class Net:
     def __init__(self, delay: float):
         self.gate = Gate(delay)
+        self.backoff = 5.0        # 429 のときの待ち秒（Retry-After があればそれ）
         self.blocked: set[str] = set()
         self._tl = threading.local()
         self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
         self._rlock = threading.Lock()
+        self._site: dict[str, set[str]] = {}
 
     def session(self) -> requests.Session:
         if not hasattr(self._tl, "s"):
@@ -419,15 +433,22 @@ class Net:
     def get(self, url: str, referer: str | None, accept: str, max_bytes: int) -> tuple[bytes, requests.Response]:
         host = urllib.parse.urlparse(url).netloc
         last: FetchError | None = None
-        for attempt in range(2):
+        for attempt in range(3):
             self.gate.wait(host)
+            pause = 0.0
             try:
                 headers = {"Accept": accept}
                 if referer:
                     headers["Referer"] = referer
                 with self.session().get(url, headers=headers, timeout=(10, 30), stream=True, allow_redirects=True) as r:
-                    if r.status_code in (429, 500, 502, 503, 504) and attempt == 0:
+                    if r.status_code == 429 and attempt < 2:
+                        last = FetchError("http", "HTTP 429")
+                        self.gate.slow_down(host)
+                        ra = r.headers.get("Retry-After", "")
+                        pause = min(float(ra), 20.0) if ra.isdigit() else self.backoff
+                    elif r.status_code in (500, 502, 503, 504) and attempt == 0:
                         last = FetchError("http", f"HTTP {r.status_code}")
+                        pause = 2.0
                     elif r.status_code != 200:
                         raise FetchError("http", f"HTTP {r.status_code}")
                     else:
@@ -437,7 +458,7 @@ class Net:
                             if len(buf) > max_bytes:
                                 raise FetchError("size", "大きすぎる")
                         return bytes(buf), r
-                time.sleep(2.0)   # 一時的なエラーは1回だけ待ってやり直す
+                time.sleep(pause)   # 一時的なエラー・アクセス過多は待ってやり直す
             except requests.exceptions.ProxyError:
                 self.blocked.add(host)
                 raise FetchError("egress", f"ネットワーク設定で接続を拒否された: {host}")
@@ -448,6 +469,28 @@ class Net:
             except requests.exceptions.RequestException as e:
                 last = FetchError("net", f"{type(e).__name__}: {str(e)[:80]}")
         raise last or FetchError("net", "通信に失敗")
+
+    def site_images(self, page_url: str) -> set[str]:
+        """そのサイトのトップページの og:image / twitter:image（＝店共通の画像）。商品ページの og:image がこれと同じなら商品写真ではない。"""
+        pu = urllib.parse.urlparse(page_url)
+        origin = f"{pu.scheme}://{pu.netloc}"
+        with self._rlock:
+            if origin in self._site:
+                return self._site[origin]
+        imgs: set[str] = set()
+        try:
+            body, r = self.get(origin + "/", None, "text/html,application/xhtml+xml;q=0.9,*/*;q=0.5", HTML_MAX_BYTES)
+            page = parse_page(decode_html(body, r.encoding))
+            for key in ("og:image", "og:image:secure_url", "twitter:image"):
+                v = meta_content(page, key)
+                if v:
+                    imgs.add(plain_url(urllib.parse.urljoin(page.base or r.url or origin, v)))
+        except FetchError as e:
+            if e.kind == "egress":
+                raise
+        with self._rlock:
+            self._site[origin] = imgs
+        return imgs
 
     def robots_ok(self, url: str) -> bool:
         pu = urllib.parse.urlparse(url)
@@ -470,8 +513,24 @@ class Net:
         return rp is None or rp.can_fetch(ROBOTS_TOKEN, url)
 
 
-def to_thumb(raw: bytes) -> tuple[bytes, tuple[int, int]]:
-    """画像を OUT_PX 四方・白背景のJPEGにする。小さすぎる・縦横比が極端な画像は FetchError。"""
+def looks_like_icon(im: Image.Image) -> bool:
+    """線画のアイコン（ハート・握手・買い物かごなど）は白地がほとんどで、色数が少ないか、白黒（彩度がない）だけでできている。
+    商品写真は陰影・JPEGの階調で色数が多く、どこかに色（彩度）がある。"""
+    small = im.convert("RGB").resize((64, 64), Image.LANCZOS)
+    n_colors = len(small.getcolors(maxcolors=5000) or range(5000))
+    data = small.tobytes()
+    white = colorful = 0
+    for i in range(0, len(data), 3):
+        r, g, b = data[i], data[i + 1], data[i + 2]
+        white += r > 240 and g > 240 and b > 240
+        colorful += max(r, g, b) - min(r, g, b) > 40
+    total = len(data) // 3
+    return white / total >= 0.8 and (n_colors <= 250 or colorful / total < 0.005)
+
+
+def to_thumb(raw: bytes, relax: bool = False) -> tuple[bytes, tuple[int, int]]:
+    """画像を OUT_PX 四方・白背景のJPEGにする。小さすぎる・縦横比が極端・アイコンらしい画像は FetchError。
+    relax=True（手動で選んだ画像）のときは、これらの判定を省く。"""
     try:
         im = Image.open(io.BytesIO(raw))
         im.load()
@@ -479,10 +538,11 @@ def to_thumb(raw: bytes) -> tuple[bytes, tuple[int, int]]:
         raise FetchError("image", "画像として読めない")
     im = ImageOps.exif_transpose(im)
     w, h = im.size
-    if min(w, h) < MIN_SIDE:
-        raise FetchError("image", f"小さすぎる（{w}x{h}）")
-    if max(w, h) / min(w, h) > MAX_ASPECT:
-        raise FetchError("image", f"縦横比が極端（{w}x{h}）")
+    if not relax:
+        if max(w, h) < MIN_LONG or min(w, h) < MIN_SHORT:
+            raise FetchError("image", f"小さすぎる（{w}x{h}）")
+        if max(w, h) / min(w, h) > MAX_ASPECT:
+            raise FetchError("image", f"縦横比が極端（{w}x{h}）")
     if im.mode in ("RGBA", "LA", "P"):
         im = im.convert("RGBA")
         bg = Image.new("RGB", im.size, "white")
@@ -490,6 +550,8 @@ def to_thumb(raw: bytes) -> tuple[bytes, tuple[int, int]]:
         im = bg
     else:
         im = im.convert("RGB")
+    if not relax and looks_like_icon(im):
+        raise FetchError("image", "アイコンのような画像（色数が少なく白地）")
     im = ImageOps.contain(im, (OUT_PX, OUT_PX), Image.LANCZOS)
     canvas = Image.new("RGB", (OUT_PX, OUT_PX), "white")
     canvas.paste(im, ((OUT_PX - im.width) // 2, (OUT_PX - im.height) // 2))
@@ -514,6 +576,8 @@ def process(prod: dict, ctx: dict) -> dict:
     rec = {"id": prod["id"], "shop": prod["shop"], "name": prod["name"], "status": "fail", "reason": "", "page_url": None,
            "image_url": None, "method": None, "conf": 0.0, "review": False, "title_score": None, "size": None}
     ov = ctx["overrides"].get(prod["id"], {})
+    if ov.get("approx"):
+        rec["approx"] = ov["approx"]       # 同じ商品ではなく近い商品・シリーズの写真であることのメモ（build_xlsx.py が備考に出す）
     if ov.get("skip"):
         rec.update(status="skip", reason=ov.get("reason", "手動でスキップ"))
         return rec
@@ -522,8 +586,8 @@ def process(prod: dict, ctx: dict) -> dict:
         rec["reason"] = "商品ページのURLがない"
         return rec
 
-    def save(raw: bytes, url: str, method: str, conf: float, page_url: str | None, info: dict | None = None) -> dict:
-        data, size = to_thumb(raw)
+    def save(raw: bytes, url: str, method: str, conf: float, page_url: str | None, info: dict | None = None, relax: bool = False) -> dict:
+        data, size = to_thumb(raw, relax)
         (img_dir / f"{prod['id']}.jpg").write_bytes(data)
         rec.update(status="ok", reason="", image_url=url, method=method, conf=round(conf, 2), page_url=page_url, size=list(size),
                    review=conf < REVIEW_BELOW, title_score=(info or {}).get("title_score"))
@@ -531,10 +595,10 @@ def process(prod: dict, ctx: dict) -> dict:
 
     try:
         if ov.get("file"):
-            return save(pathlib.Path(ov["file"]).expanduser().read_bytes(), ov["file"], "manual", 1.0, None)
+            return save(pathlib.Path(ov["file"]).expanduser().read_bytes(), ov["file"], "manual", 1.0, None, relax=True)
         if ov.get("image_url"):
             raw, _ = net.get(ov["image_url"], pages[0] if pages else None, "image/jpeg,image/png,image/webp,image/*;q=0.8", IMG_MAX_BYTES)
-            return save(raw, ov["image_url"], "manual", 1.0, pages[0] if pages else None)
+            return save(raw, ov["image_url"], "manual", 1.0, pages[0] if pages else None, relax=True)
     except FetchError as e:
         rec["reason"] = f"手動指定の画像が使えない: {e.msg}"
         return rec
@@ -552,6 +616,15 @@ def process(prod: dict, ctx: dict) -> dict:
         page = parse_page(decode_html(body, r.encoding))
         group = ctx["by_page"].get(page_url) or [prod]
         cands, info = select_candidates(prod, page, r.url or page_url, group)
+        if urllib.parse.urlparse(page_url).path.strip("/") or urllib.parse.urlparse(page_url).query:   # トップページ自体は比較しない
+            try:
+                common = net.site_images(page_url)
+            except FetchError:
+                common = set()
+            dropped = [c for c in cands if c["method"] in ("og", "twitter", "meta", "link") and plain_url(c["url"]) in common]
+            if dropped:
+                reasons.append("og:image が店のトップページと同じ共通画像のため不採用")
+            cands = [c for c in cands if c not in dropped]
         if not cands:
             reasons.append(f"写真の候補がない（題名「{info['page_title']}」、商品名との一致 {info['title_score']}）")
             continue
@@ -751,7 +824,7 @@ def main() -> int:
     by_hash: dict[str, list[str]] = defaultdict(list)
     for p in products:
         f = img_dir / f"{p['id']}.jpg"
-        if f.exists() and not p.get("image_key"):
+        if f.exists() and not p.get("image_key") and log["items"].get(p["id"], {}).get("method") != "manual":
             by_hash[hashlib.sha1(f.read_bytes()).hexdigest()].append(p["id"])
     for ids in by_hash.values():
         pages = {next(q["page_url"] for q in products if q["id"] == i) for i in ids}
