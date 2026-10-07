@@ -1,0 +1,328 @@
+{
+  "group": "G3",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "菓匠 高木屋",
+      "shop_short": "高木屋",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=347",
+      "anto_phone": "076-260-3777",
+      "anto_location": null,
+      "official_site": "http://www.takagiya.jp/",
+      "online_shop": "https://takagiya.base.ec/",
+      "in_scope": true,
+      "scope_note": "備考: 創業大正14年。あんと10周年企画「おみやげ総選挙」(2024年7月)の銘菓＆洋菓子部門で全体3位（1位まめや金澤萬久、2位きんつば中田屋）、10代では1位（検索要約。https://www.100bangai.co.jp/event/detail.php?id=27389）。第2回(2026年8月、総投票51,359票)の結果ページ(https://www.100bangai.co.jp/event/detail.php?id=35352)は存在するが、和菓子部門の順位は検索要約から読み取れず未確認。以下の価格・賞味期限・原材料は公式通販(BASE: takagiya.base.ec)の掲載値で、あんと店頭の取扱商品・店頭価格と一致するかは未確認。電話はあんと店(100bangai店舗ページ)の番号で、営業8:30〜20:00。",
+      "products": [
+        {
+          "product_name": "紙ふうせん",
+          "category": "最中ゼリー（最中＋錦玉）",
+          "description": "まるい最中種に和風ゼリー（錦玉）を詰めた高木屋の看板菓子。9個入は赤（ぶどう）・黄（レモン）・白（白ワイン）味、16個入・28個入は黒糖味も入る（原材料に黒糖あり）。",
+          "options": [
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 810, "evidence": "検索要約: 紙ふうせん（9個入） 価格 ¥810（税込）", "source_url": "https://takagiya.base.ec/items/32240247"},
+            {"qty_label": "16個入", "qty": 16, "unit": "個", "price_tax_incl": 1404, "evidence": "検索要約: 紙ふうせん（16個入） 価格 ¥1,404（税込）", "source_url": "https://takagiya.base.ec/items/32527174"},
+            {"qty_label": "28個入", "qty": 28, "unit": "個", "price_tax_incl": 2160, "evidence": "検索要約: 紙ふうせん（28個入） 価格 ¥2,160（税込）", "source_url": "https://takagiya.base.ec/items/32527188"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は検索結果になし（未確認）",
+          "shelf_life_days": 25,
+          "shelf_life_text": "25日（二次情報の要約による。同シリーズの涼味・旬味は公式通販で「日持ち25日間」表記）",
+          "ingredients": "【9個入】砂糖（国内製造）、最中種（もち米）、寒天、水飴、洋酒、白ワイン／香料、コチニール色素、クチナシ色素、酸化防止剤（亜硫酸塩）　【16個入・28個入】砂糖（国内製造）、最中種（もち米）、寒天、水飴、黒糖、洋酒、白ワイン／香料、コチニール色素、クチナシ色素、酸化防止剤（亜硫酸塩）",
+          "ingredient_flags": ["洋酒", "白ワイン", "コチニール"],
+          "allergens": null,
+          "seasonal": "通年（夏季限定の涼味紙ふうせん・紙ふうせんスイカ、秋冬限定の旬味紙ふうせんなど季節版あり）",
+          "page_url": "https://takagiya.base.ec/items/32240247",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に洋酒・白ワインを含むため、アルコール不可の条件に抵触（ムスリム向けは不可）。価格は公式通販(BASE)の税込。JTB・大和オンライン等の要約では16個入1,458円・28個入2,332円と食い違う（販売サイトの価格差か改定の可能性。あんと店頭価格は未確認）。アレルゲン表示は未確認。"
+        },
+        {
+          "product_name": "旬味紙ふうせん（秋冬限定）",
+          "category": "最中ゼリー（最中＋琥珀糖）",
+          "description": "紙ふうせんの秋冬限定版。みかん味（橙）といちご味（白）の琥珀糖ゼリーを最中種に詰めた菓子で、折り紙5枚が付く。",
+          "options": [
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 810, "evidence": "検索要約: 旬味紙ふうせん(9個入)※秋冬限定 ¥810（税込）。楽天（kanazawa-honpo）の9個入要約でも同額", "source_url": "https://takagiya.base.ec/items/32583317"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は検索結果になし（未確認）",
+          "shelf_life_days": 25,
+          "shelf_life_text": "製造日から25日",
+          "ingredients": "砂糖、最中種（もち米）、寒天、水飴、香料、コチニール色素、クチナシ色素（楽天ページの検索要約が英語表記だったため日本語に復元。原文の並び・表記・（国内製造）等の有無は未確認）",
+          "ingredient_flags": ["コチニール"],
+          "allergens": null,
+          "seasonal": "秋冬限定（10月〜2月末頃。2026年の販売開始日は未確認）",
+          "page_url": "https://takagiya.base.ec/items/32583317",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "洋酒・白ワイン入りの通常版紙ふうせんと違い、原材料に酒類・豚由来成分の表示なし（要・原文確認）。ある検索要約に旬味16個入1,458円とあったが、旬味に16個入があるか確認できず不採用（通常版16個入の価格との混同の可能性）。あんと店頭で10/12時点に販売中かは未確認。着色料コチニールは昆虫由来。"
+        },
+        {
+          "product_name": "一口千歳",
+          "category": "求肥菓子（和三盆）",
+          "description": "加賀産米飴入りの特製黒練あんを柔らかい求肥で包み、紅白の和三盆糖をまぶした加賀の銘菓。白は鶴、紅は旭日を表し、金沢の慶事に用いられる。第21回全国菓子大博覧会 無鑑査賞受賞。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 842, "evidence": "検索要約: 一口千歳（6個入） ¥842（税込）", "source_url": "https://takagiya.base.ec/items/32543694"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 1350, "evidence": "検索要約: 一口千歳（10個入） Price ¥1,350 (tax included)。和菓子モール・楽天・Yahoo!の要約も1,350円", "source_url": "https://takagiya.base.ec/items/32529443"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 1998, "evidence": "検索要約: 一口千歳 15個入 ¥1,998（BASE限定検索と通販全般検索の2回で一致。個別商品ページは検索結果に出ず未特定）", "source_url": null},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 2592, "evidence": "検索要約: 一口千歳（20個入） ¥2,592（税込）", "source_url": "https://takagiya.base.ec/items/32543753"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は検索結果になし（未確認）",
+          "shelf_life_days": 15,
+          "shelf_life_text": "常温15日間",
+          "ingredients": "砂糖（国内製造）、小豆、餅粉、水飴、米飴、和三盆糖／加工デンプン、着色料（コチニール）",
+          "ingredient_flags": ["コチニール"],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32529443",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "10個入は検索要約の一部（BASE限定検索2回）で ¥1,188 と出たが、BASE個別ページ要約・和菓子モール・楽天・Yahoo!は ¥1,350 で一致するため1,350を採用（1,188は誤りの可能性が高いが、確定には店頭・個別ページ確認が必要）。15個入はBASEの定番一覧要約に載らず要確認。20個入2,592円は2,300円超。着色料コチニールは昆虫由来。酒類・ゼラチン・乳化剤・ショートニングの表示なし。アレルゲン表示は未確認。"
+        },
+        {
+          "product_name": "大納言もなか",
+          "category": "最中",
+          "description": "大納言小豆を焚き上げた粒あんを、パリパリの最中種にたっぷり詰めた最中。",
+          "options": [
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2160, "evidence": "検索要約: 大納言もなか（10個入） ¥2,160、日持ち15日間", "source_url": "https://takagiya.base.ec/items/32529431"},
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 2548, "evidence": "検索要約: 大納言もなか 12個入 ¥2,548（税込）", "source_url": "https://takagiya.base.ec/items/32529435"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 2808, "evidence": "検索要約: 大納言もなか 15個入 ¥2,808（税込）", "source_url": "https://takagiya.base.ec/items/32529439"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "検索要約は個包装と推測していたが、ページの明記ではなく未確認",
+          "shelf_life_days": 15,
+          "shelf_life_text": "日持ち15日間",
+          "ingredients": "砂糖（国内製造）、小豆、最中種（もち米）、還元水飴",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32529431",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "原材料に豚由来・アルコールに該当する語なし（ハラール懸念が最も少ない候補）。2,300円以下は10個入（2,160円）のみ。12個入・15個入の価格は個別ページ要約。アレルゲン欄は「表示なし」と読める要約だったが原文未確認のため null。"
+        },
+        {
+          "product_name": "大納言パイ",
+          "category": "パイ",
+          "description": "あっさりとした粒よりの大納言小豆あんをパイ生地で包み、こんがり焼き上げた焼菓子。",
+          "options": [
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2160, "evidence": "検索要約: 大納言パイ 取扱いサイズ 10個入（¥2,160）", "source_url": "https://takagiya.base.ec/items/32529457"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 3186, "evidence": "検索要約: 大納言パイ 取扱いサイズ 15個入（¥3,186）", "source_url": null},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 4212, "evidence": "検索要約: 大納言パイ（20個） ¥4,212", "source_url": "https://takagiya.base.ec/items/32543631"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は検索結果になし（未確認）",
+          "shelf_life_days": 30,
+          "shelf_life_text": "日持ち30日間",
+          "ingredients": "小麦粉（国内製造）、小豆、砂糖、マーガリン、ショートニング、卵、水飴、食塩／香料、乳化剤、酸化防止剤（V.E）、着色料（アナトー）",
+          "ingredient_flags": ["マーガリン", "ショートニング", "乳化剤"],
+          "allergens": "小麦粉、卵、乳（検索要約の表記のまま）",
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32529457",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "マーガリン・ショートニング・乳化剤を含み、豚由来の可能性がある成分の条件に抵触。2,300円以下は10個入（2,160円）のみ。15個入は個別ページ未特定（一覧要約由来）。"
+        },
+        {
+          "product_name": "あんずパイ",
+          "category": "パイ",
+          "description": "「あんず餅」で人気の蜜漬けあんずを、上品な甘さの白餡といっしょにパイ生地で包み、こんがり焼き上げた焼菓子。",
+          "options": [
+            {"qty_label": "5個入", "qty": 5, "unit": "個", "price_tax_incl": 1404, "evidence": "検索要約: あんずパイ 取扱いサイズ 5個入（¥1,404）", "source_url": "https://takagiya.base.ec/items/32543887"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2808, "evidence": "検索要約: あんずパイ 10個入（¥2,808）", "source_url": "https://takagiya.base.ec/items/32543907"},
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 3326, "evidence": "検索要約: あんずパイ 12個入（¥3,326）", "source_url": null},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 4158, "evidence": "検索要約: あんずパイ 15個入（¥4,158）", "source_url": "https://takagiya.base.ec/items/32543926"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は検索結果になし（5個入ページ要約でも未記載）",
+          "shelf_life_days": 20,
+          "shelf_life_text": "日持ち20日間（5個入ページの記載。他の入数も同じかは未確認）",
+          "ingredients": "あんずシロップ漬（国内製造）、小麦粉、砂糖、白あん、マーガリン、ショートニング、卵、還元水飴、食塩／乳化剤、香料、酸味料、酸化防止剤（Ｖ．Ｅ）、安定剤（ペクチン）、着色料（アナトー、クチナシ、ラック）",
+          "ingredient_flags": ["マーガリン", "ショートニング", "乳化剤", "ラック（昆虫由来色素）"],
+          "allergens": "小麦、卵、乳",
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32543887",
+          "image_url": null,
+          "confidence": "A",
+          "notes": "マーガリン・ショートニング・乳化剤を含み、豚由来の可能性がある成分の条件に抵触。2,300円以下は5個入（1,404円）のみ。原材料・日持ちは5個入ページの要約値。"
+        },
+        {
+          "product_name": "金沢ほっとしるこ",
+          "category": "最中種のおしるこ（即席）",
+          "description": "最中種のおしるこを割ってカップに入れ、お湯を注ぐと温かいおしるこになる。冷水や牛乳を注ぐと冷製しるこやラテにもなる。さくら・抹茶・ほうじ茶・こし餡の4風味がある。",
+          "options": [
+            {"qty_label": "4個袋入", "qty": 4, "unit": "個", "price_tax_incl": 1080, "evidence": "検索要約: 金沢ほっとしるこ（4個袋入） Price ¥1,080、日持ち180日間", "source_url": "https://takagiya.base.ec/items/36208034"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2808, "evidence": "検索要約: 金沢ほっとしるこ 10個入 ¥2,808（定番一覧の要約）", "source_url": "https://takagiya.base.ec/items/36208050"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は検索結果になし。4個袋入の内訳（4風味を1個ずつか）も未確認",
+          "shelf_life_days": 180,
+          "shelf_life_text": "日持ち180日間（4個袋入ページの記載。10個入の日持ちは未確認）",
+          "ingredients": "【こし餡】砂糖、還元水飴、小豆晒しあん、和三盆糖、餅米、片栗粉、塩、寒梅粉（もち米加工品）／着色料（赤3、赤102、赤106、青1、黄4）　【さくら・ほうじ茶・抹茶】こし餡と同配合に、それぞれ桜葉パウダー・ほうじ茶パウダー・抹茶パウダーを加える",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（BASEの定番のお菓子に掲載。季節限定の記載は確認できず）",
+          "page_url": "https://takagiya.base.ec/items/36208034",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "賞味期限が約180日と長く、原材料に豚由来・アルコールに該当する語なし（合成着色料の赤3・赤102等を使用）。10個入の価格は一覧要約由来。アレルゲン表示は未確認。"
+        },
+        {
+          "product_name": "紙ふうせん・千歳（詰合せ）",
+          "category": "詰合せ（紙ふうせん＋一口千歳）",
+          "description": "紙ふうせんと一口千歳の詰合せ。16個入は紙ふうせん8個＋千歳8個、28個入は紙ふうせん16個＋千歳12個。",
+          "options": [
+            {"qty_label": "16個入", "qty": 16, "unit": "個", "price_tax_incl": 1814, "evidence": "検索要約: 紙ふうせん・千歳（16個入） ¥1,814、日持ち15日間", "source_url": "https://takagiya.base.ec/items/32543268"},
+            {"qty_label": "28個入", "qty": 28, "unit": "個", "price_tax_incl": 2937, "evidence": "検索要約: 紙ふうせん・千歳（28個入） ¥2,937、日持ち15日間", "source_url": "https://takagiya.base.ec/items/32543316"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は検索結果になし（未確認）",
+          "shelf_life_days": 15,
+          "shelf_life_text": "日持ち15日間",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年",
+          "page_url": "https://takagiya.base.ec/items/32543268",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "この詰合せ自体の原材料表示は未取得。構成品の紙ふうせん（通常版）は洋酒・白ワインを含むため、アルコール不可の条件に抵触する可能性が高い。9個入（https://takagiya.base.ec/items/32543168）のページもあるが価格未確認。2,300円以下は16個入（1,814円）のみ。"
+        },
+        {
+          "product_name": "紙ふうせんプレミアム",
+          "category": "最中ゼリー（紙ふうせんの上位版）",
+          "description": "紙ふうせんのプレミアム版（内容・味・原材料は検索結果で未確認）。",
+          "options": [
+            {"qty_label": "3個入", "qty": 3, "unit": "個", "price_tax_incl": 972, "evidence": "検索要約: 紙ふうせんプレミアム(3個入) ¥972（税込）、日持ち20日間", "source_url": "https://takagiya.base.ec/items/32544049"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの明記は検索結果になし（未確認）",
+          "shelf_life_days": 20,
+          "shelf_life_text": "日持ち20日間",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年（要確認）",
+          "page_url": "https://takagiya.base.ec/items/32544049",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格と日持ちのみ確認。原材料（洋酒・白ワインの有無）が未確認のため酒類可否は判定不可。6個入（https://takagiya.base.ec/items/34579596）のページもあるが価格未確認。"
+        }
+      ],
+      "skipped": [
+        "あんず餅（4個入1,404円・8個入2,656円）: 個別カップ入りの保冷箱入りで、要冷蔵・短期賞味の可能性が高く日持ち未確認のため除外",
+        "加賀伝統菓子「福梅」（10個入2,052円・20個入4,104円、日持ち30日）: 11月下旬〜1月上旬の季節品で、10月は販売期間外",
+        "涼味紙ふうせん・涼味紙ふうせん詰合せ・紙ふうせんスイカ・あんず羹: 夏季限定品のため10月は対象外",
+        "紙ふうせん初春詰合せ: 新春向けの季節品のため10月は対象外",
+        "紙ふうせん詰合せ1（紙ふうせん9個＋あんずパイ2個＋大納言パイ2個＋凪の月4個、日持ち20日間）: 2,624円で上限超過。洋酒入りの紙ふうせんを含む",
+        "上生菓子（季節の生菓子）: 生菓子のため"
+      ],
+      "unresolved": [
+        "あんと店頭の取扱商品・店頭価格（本データは公式通販BASEの税込掲載値）",
+        "個包装の有無（全商品とも検索結果に明記なし）",
+        "アレルゲン表示（一口千歳・紙ふうせん・旬味・大納言もなか・ほっとしるこ）",
+        "一口千歳15個入1,998円の個別商品ページ、同10個入が1,350円か1,188円かの最終確認",
+        "旬味紙ふうせんの2026年の販売開始日と、あんと店頭での10/12時点の販売有無",
+        "銘菓撰加賀1（8個入）・銘菓撰加賀4（15個入）・パイ詰合せ（15個入）・紙ふうせん詰合せ2・紙ふうせん・千歳（9個入）・あんずどら（5個サービス箱入）の価格・内容・日持ち・原材料",
+        "第2回あんとおみやげ総選挙（2026年8月）の和菓子部門の順位",
+        "WebSearchの共有上限（200回/ターン）に達したため、上記の追加確認は打ち切り"
+      ]
+    },
+    {
+      "shop_name": "菓匠 みのや",
+      "shop_short": "みのや",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=348",
+      "anto_phone": "076-260-3781",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "商品は未調査（WebSearchの共有上限に達したため、あんと店舗ページの検索要約までしか確認できず）。要約より: 古都金沢・兼六園などをテーマにした独創的な創作和菓子の店。カテゴリ和菓子・おみやげ、営業8:30〜20:00、予約不可。対象可否は未判定。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "公式サイト・通販サイトのドメイン（あんと店舗ページの関連サイト欄は検索要約に出ず）",
+        "商品ライン、入数別の税込価格、個包装、賞味期限、原材料のすべて",
+        "あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "菓匠 まつ井",
+      "shop_short": "まつ井",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=349",
+      "anto_phone": "076-260-3778",
+      "anto_location": null,
+      "official_site": "http://www.wagashi-matsui.co.jp/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "商品は未調査（WebSearchの共有上限に達したため、あんと店舗ページの検索要約までしか確認できず）。要約より: 加賀の文化・芸術を取り入れた和菓子の店。カテゴリ和菓子・おみやげ、営業8:30〜20:00、予約不可。関連サイトは http://www.wagashi-matsui.co.jp/ 。対象可否は未判定。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "通販サイトの有無・ドメイン",
+        "商品ライン、入数別の税込価格、個包装、賞味期限、原材料のすべて",
+        "あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "和菓子処 中越",
+      "shop_short": "中越",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=303",
+      "anto_phone": "076-260-3770",
+      "anto_location": null,
+      "official_site": "http://nakagoshi.shop/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "商品は未調査（WebSearchの共有上限に達したため、あんと店舗ページの検索要約までしか確認できず）。要約より: 手作り和菓子の店で、営業8:30〜20:00。紹介されていた商品は、丸ごとみかん大福（テレビ紹介）、黄金金時（五郎島金時など加賀野菜を使用）、つぶより（栗を自家製の卵黄あんで包んだロングセラー）。Instagram は https://www.instagram.com/nakagoshi.shop/ 。対象可否は未判定。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "通販サイトの有無・ドメイン（公式サイトは nakagoshi.shop のみ確認）",
+        "つぶより・黄金金時・その他の箱入り日持ち品の入数別税込価格、個包装、賞味期限、原材料",
+        "丸ごとみかん大福の賞味期限・要冷蔵の別（生菓子なら対象外の見込み。未確認）",
+        "あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "板屋",
+      "shop_short": "板屋",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=337",
+      "anto_phone": "076-260-3780",
+      "anto_location": null,
+      "official_site": "http://www.itaya-net.com/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "商品は未調査（WebSearchの共有上限に達したため、あんと店舗ページの検索要約までしか確認できず）。要約より: 現代風の蒸しカステラ「香林」と、個性的な意匠の「こもかぶり」を紹介。カテゴリ和菓子・おみやげ、営業8:30〜20:00、予約不可。対象可否は未判定。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "通販サイトの有無・ドメイン（公式サイトは itaya-net.com のみ確認）",
+        "香林・こもかぶりほか箱入り日持ち品の入数別税込価格、個包装、賞味期限、原材料（洋酒・乳化剤等の有無を含む）",
+        "あんと店の区画番号"
+      ]
+    },
+    {
+      "shop_name": "清香室町",
+      "shop_short": "清香室町",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=320",
+      "anto_phone": "076-260-0131",
+      "anto_location": null,
+      "official_site": "https://www.seika-muromachi.com",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "商品は未調査（WebSearchの共有上限に達したため、あんと店舗ページの検索要約までしか確認できず）。要約より: 全国菓子博覧会で名誉総裁賞を受賞した「銘菓くるみ」を始め、良質の素材を使った季節の和菓子を販売。営業8:30〜20:00。関連サイトは https://www.seika-muromachi.com 。対象可否は未判定。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "通販サイトの有無・ドメイン（公式サイトは seika-muromachi.com のみ確認）",
+        "銘菓くるみほか箱入り日持ち品の入数別税込価格、個包装、賞味期限、原材料",
+        "あんと店の区画番号"
+      ]
+    }
+  ]
+}

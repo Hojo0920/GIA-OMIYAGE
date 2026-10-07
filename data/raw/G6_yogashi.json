@@ -1,0 +1,553 @@
+{
+  "group": "G6",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "ル ミュゼ ドゥ アッシュ 金沢駅百番街店",
+      "shop_short": "ル ミュゼ ドゥ アッシュ",
+      "category": "洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=360",
+      "anto_phone": "076-234-1600",
+      "anto_location": null,
+      "official_site": "https://le-musee-de-h.jp/",
+      "online_shop": "https://yukizuri.com/",
+      "in_scope": true,
+      "scope_note": null,
+      "products": [
+        {
+          "product_name": "YUKIZURI（ゆきづり）",
+          "category": "焼菓子（パイ・米粉の焼菓子）",
+          "description": "パイと石川県産米粉の焼菓子に、能登産梅酒を使ったグラス（砂糖衣）をあしらった辻口博啓氏の看板商品。兼六園の雪吊りをイメージし、フランス伝統菓子サクリスタンに着想を得たとされる。",
+          "options": [
+            {"qty_label": "6本入", "qty": 6, "unit": "本", "price_tax_incl": 1026, "evidence": "YUKIZURI [10本入] ￥1,620 / [22本入] ￥3,240 / [6本入] ￥1,026（公式サイト商品ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html"},
+            {"qty_label": "10本入", "qty": 10, "unit": "本", "price_tax_incl": 1620, "evidence": "同上。百選横丁の検索要約でも10本入1,620円", "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html"},
+            {"qty_label": "22本入", "qty": 22, "unit": "本", "price_tax_incl": 3240, "evidence": "同上。百選横丁の検索要約でも22本入3,240円", "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載は検索結果になし（未確認）",
+          "shelf_life_days": 49,
+          "shelf_life_text": "製造日より49日（百選横丁掲載）。常温保存（金澤あるげん蔵掲載）",
+          "ingredients": "小麦粉、砂糖、マーガリン、米粉(石川県産)、バター、グラニュー糖、鶏卵、アーモンドパウダー、梅酒、チョコレート、ショートニング、塩/香料、クエン酸、乳清ミネラル(乳由来)、乳化剤、着色料(カロチノイド色素)、調味料(アミノ酸)、(原材料の一部に乳、大豆を含む)",
+          "ingredient_flags": ["マーガリン", "梅酒", "ショートニング", "乳化剤"],
+          "allergens": "原材料の一部に乳、大豆を含む（百選横丁掲載の表示。小麦・卵・アーモンドは原材料欄に記載）",
+          "seasonal": "通年（季節商品の表記なし）",
+          "page_url": "https://le-musee-de-h.jp/sweets/yukizuri.html",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "梅酒（アルコール）を生地側・グラス側とも使用し、マーガリン・ショートニング・乳化剤も含むため、ムスリム向けには不適。原材料は百選横丁（https://www.hyakuyoko.com/shopdetail/027002000056/）の検索要約文より。【矛盾】6本入の価格は公式要約で1,026円、百選横丁の要約では1,620円（10本入と同額で要約の誤りの可能性が高い。同価格帯の派生品・富山やいちごも6本入1,026円/10本入1,620円で公式の1,026円と整合。ただし再検索できず未解決のためconfidenceをCに下げた）。10本入・22本入は両者一致。あんと店頭の価格・賞味期限は未確認。原材料にチョコレートを含むが溶けやすさの記載は未確認。"
+        },
+        {
+          "product_name": "YUKIZURI 金箔",
+          "category": "焼菓子（パイ・米粉の焼菓子）",
+          "description": "YUKIZURIの金箔入りバージョン。能登梅酒の爽やかな酸味が特徴と紹介されている。",
+          "options": [
+            {"qty_label": "6本入", "qty": 6, "unit": "本", "price_tax_incl": 1458, "evidence": "YUKIZURI 金箔 [10本入] ￥2,430 / [6本入] ￥1,458（公式サイト商品ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html"},
+            {"qty_label": "10本入", "qty": 10, "unit": "本", "price_tax_incl": 2430, "evidence": "同上", "source_url": "https://le-musee-de-h.jp/sweets/yukizuri.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載は検索結果になし（未確認）",
+          "shelf_life_days": 49,
+          "shelf_life_text": "発送日から49日（オンラインショップ表記）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦・卵・乳・アーモンド・大豆（オンラインショップ表記の検索要約）",
+          "seasonal": "不明（通年かは未確認）",
+          "page_url": "https://yukizuri.com/yukizuri/33/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "商品説明に能登梅酒の使用あり（アルコール）。原材料表示の本文は未確認のためingredient_flagsはnull（標準品はマーガリン・ショートニング・乳化剤も使用）。10本入2,430円は2,300円超。あんと店での取扱は未確認。"
+        },
+        {
+          "product_name": "YUKIZURI ローズ",
+          "category": "焼菓子（パイ・米粉の焼菓子）",
+          "description": "YUKIZURIのローズ風味バージョン。",
+          "options": [
+            {"qty_label": "6本入", "qty": 6, "unit": "本", "price_tax_incl": 1350, "evidence": "YUKIZURI ローズ [10本入] ￥2,160 / [6本入] ￥1,350（公式サイト検索要約。オンラインショップ要約でも6本入1,350円・10本入2,160円）", "source_url": "https://yukizuri.com/yukizuri/1139/"},
+            {"qty_label": "10本入", "qty": 10, "unit": "本", "price_tax_incl": 2160, "evidence": "同上", "source_url": "https://yukizuri.com/yukizuri/1139/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載は検索結果になし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明（通年かは未確認）",
+          "page_url": "https://yukizuri.com/yukizuri/1139/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料・賞味期限・アレルゲンは未確認。標準品は梅酒・マーガリン・ショートニング・乳化剤を使用しており、派生品も同様の可能性があるが未確認。10本入2,160円は2,000円超（少し超過帯）。あんと店での取扱は未確認。"
+        },
+        {
+          "product_name": "YUKIZURI 能登の灯",
+          "category": "焼菓子（パイ・ミルフイユ）",
+          "description": "能登の栗と塩を使ったアーモンドクリームをミルフイユ仕立てにし、能登梅と梅酒で作った砂糖を重ねたと説明されるYUKIZURIシリーズの商品（商品説明の要約）。",
+          "options": [
+            {"qty_label": "10本入", "qty": 10, "unit": "本", "price_tax_incl": 2160, "evidence": "YUKIZURI 能登の灯 10本入 2,160円（税込）／賞味期限 発送日から49日（オンラインショップの検索要約）", "source_url": "https://yukizuri.com/yukizuri/1317/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載は検索結果になし（未確認）",
+          "shelf_life_days": 49,
+          "shelf_life_text": "発送日から49日（オンラインショップ表記）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦・卵・乳・アーモンド・大豆（オンラインショップ表記の検索要約）",
+          "seasonal": "不明（通年かは未確認）",
+          "page_url": "https://yukizuri.com/yukizuri/1317/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "商品説明に梅酒使用の記載あり（アルコール）。原材料表示の本文は未確認のためingredient_flagsはnull。百選横丁の商品名に「6本入/10本入」とあり6本入も存在するようだが価格は未確認。10本入2,160円は少し超過帯。あんと店での取扱は未確認。"
+        },
+        {
+          "product_name": "大麦バウム（S/M）",
+          "category": "バウムクーヘン",
+          "description": "小松産大麦を使い、一層一層ふんわり焼き上げたバウムクーヘン。",
+          "options": [
+            {"qty_label": "Sサイズ", "qty": 1, "unit": "個", "price_tax_incl": 2268, "evidence": "大麦バウム（S）2,268円（税込）、（M）2,700円（税込）／賞味期限28日（オンラインショップの検索要約）", "source_url": "https://yukizuri.com/baum/56/"},
+            {"qty_label": "Mサイズ", "qty": 1, "unit": "個", "price_tax_incl": 2700, "evidence": "同上", "source_url": "https://yukizuri.com/baum/56/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "ホールのバウムクーヘン。個包装かは記載なし（未確認）",
+          "shelf_life_days": 28,
+          "shelf_life_text": "28日（オンラインショップ表記。起算日は未確認）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明（公式の百番街店ページの取扱商品欄に記載あり。通年かは未確認）",
+          "page_url": "https://yukizuri.com/baum/56/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "S 2,268円は2,000円超（少し超過帯）、M 2,700円は2,300円超。価格はオンラインショップ表記で、あんと店頭価格は未確認。本体の原材料表示は未確認で、乳化剤・ショートニング・洋酒の有無は不明（スライス版のアレルゲンは小麦・卵・乳成分・アーモンド・大豆）。"
+        },
+        {
+          "product_name": "能登金時バウム（S）",
+          "category": "バウムクーヘン",
+          "description": "能登で育ったサツマイモ（能登金時）を生地に練り込み、風味豊かに焼き上げたバウムクーヘン。",
+          "options": [
+            {"qty_label": "Sサイズ", "qty": 1, "unit": "個", "price_tax_incl": 2268, "evidence": "能登金時バウム（S）2,268円（税込）（オンラインショップの検索要約）", "source_url": "https://yukizuri.com/baum/1040/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "ホールのバウムクーヘン。個包装かは記載なし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明（公式の百番街店ページの取扱商品欄に記載あり。通年かは未確認）",
+          "page_url": "https://yukizuri.com/baum/1040/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "オンラインショップでは「とみつ金時バウム」の表記もあり（公式サイトの「能登金時バウム」と同一商品かは未確認。URLはとみつ金時バウムのページ）。2,268円は少し超過帯。賞味期限・原材料は未確認。あんと店頭価格は未確認。"
+        },
+        {
+          "product_name": "金のバウム（M）",
+          "category": "バウムクーヘン",
+          "description": "能登のセイアグリー卵と金沢のはちみつを使い、金箔をあしらった華やかなバウムクーヘン。",
+          "options": [
+            {"qty_label": "Mサイズ", "qty": 1, "unit": "個", "price_tax_incl": 3780, "evidence": "金のバウム（M）3,780円（税込）／賞味期限 発送日から35日間（オンラインショップの検索要約）", "source_url": "https://yukizuri.com/baum/14/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "ホールのバウムクーヘン。個包装かは記載なし（未確認）",
+          "shelf_life_days": 35,
+          "shelf_life_text": "発送日から35日間（オンラインショップ表記）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明（公式の百番街店ページの取扱商品欄に記載あり。通年かは未確認）",
+          "page_url": "https://yukizuri.com/baum/14/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "3,780円は2,300円超だが5,000円以下のため収録。原材料表示は未確認（乳化剤・洋酒の有無は不明）。あんと店頭価格は未確認。"
+        },
+        {
+          "product_name": "スライス大麦バウム",
+          "category": "バウムクーヘン（スライス）",
+          "description": "小松産大麦を使ったバウムクーヘンをスライスした商品。",
+          "options": [
+            {"qty_label": "スライス（入数未確定：5個入または6個入）", "qty": null, "unit": "個", "price_tax_incl": 1620, "evidence": "スライス大麦バウム 1,620円（税込）／賞味期限 発送日から28日間（オンラインショップの検索要約）。入数は要約が「6個入」と記す一方、公式バウムページの要約は「スライスバウム5個入セットあり」と記し食い違う", "source_url": "https://yukizuri.com/baum/129/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "スライス品。個包装かは記載なし（未確認）",
+          "shelf_life_days": 28,
+          "shelf_life_text": "発送日から28日間（オンラインショップ表記）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦・卵・乳成分・アーモンド・大豆（オンラインショップ表記の検索要約）",
+          "seasonal": "不明（通年かは未確認）",
+          "page_url": "https://yukizuri.com/baum/129/",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "【矛盾】入数が5個入か6個入か未確定（再検索できず未解決）。参考：15個入が3種×各5個で4,698円であることから1種5個入の可能性が高いが、これは推測。価格1,620円は税込（オンラインショップ表記）。原材料表示は未確認。あんと店頭の取扱・価格は未確認。"
+        },
+        {
+          "product_name": "スライス能登金時バウム",
+          "category": "バウムクーヘン（スライス）",
+          "description": "能登のサツマイモを生地に練り込んで焼いたバウムクーヘンをスライスした商品。",
+          "options": [
+            {"qty_label": "スライス（入数未確定：5個入または6個入の可能性。スライス大麦バウムと同様）", "qty": null, "unit": "個", "price_tax_incl": 1620, "evidence": "スライス能登金時バウム 価格1,620円（税込）（オンラインショップの検索要約。入数の記載なし）", "source_url": "https://yukizuri.com/baum/136/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "スライス品。個包装かは記載なし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認（15個入セットは28日の記載あり）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明（通年かは未確認）",
+          "page_url": "https://yukizuri.com/baum/136/",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "入数が検索結果から確定できず（スライス大麦バウムの5個入/6個入の食い違いと同じ問題）。原材料・アレルゲンは未確認。あんと店頭の取扱・価格は未確認。"
+        },
+        {
+          "product_name": "スライスバウム15個入（3種×各5個）",
+          "category": "バウムクーヘン（スライス）",
+          "description": "スライス大麦バウム・スライス黒のバウム・スライス能登金時バウムの3種を各5個ずつ詰め合わせたセット。",
+          "options": [
+            {"qty_label": "15個入（3種×各5個）", "qty": 15, "unit": "個", "price_tax_incl": 4698, "evidence": "スライスバウム15個入（3種×各5個）4,698円（税込）／賞味期限28日（オンラインショップの検索要約）", "source_url": "https://yukizuri.com/baum/804/"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "スライス品の詰め合わせ。個包装かは記載なし（未確認）",
+          "shelf_life_days": 28,
+          "shelf_life_text": "28日（オンラインショップ表記。起算日は未確認）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明（通年かは未確認）",
+          "page_url": "https://yukizuri.com/baum/804/",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "4,698円は2,300円超だが5,000円以下のため収録。原材料表示は未確認。あんと店頭の取扱・価格は未確認。"
+        },
+        {
+          "product_name": "マドレーヌ",
+          "category": "焼菓子",
+          "description": "ル ミュゼ ドゥ アッシュの焼菓子ラインの単品。詳細は検索結果になし。",
+          "options": [
+            {"qty_label": "単品（個数の記載なし）", "qty": null, "unit": "個", "price_tax_incl": 216, "evidence": "マドレーヌ：￥216（公式サイト「焼菓子・ドーナツ」ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/baked.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載なし。焼菓子アソート（詰め合わせ）があるが入数・価格は未確認",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明",
+          "page_url": "https://le-musee-de-h.jp/sweets/baked.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "個数・原材料（乳化剤・洋酒等の有無）・賞味期限・個包装はいずれも未確認。1回の検索要約のみで確認。"
+        },
+        {
+          "product_name": "マドレーヌショコラ",
+          "category": "焼菓子",
+          "description": "ル ミュゼ ドゥ アッシュの焼菓子ラインの単品。詳細は検索結果になし。",
+          "options": [
+            {"qty_label": "単品（個数の記載なし）", "qty": null, "unit": "個", "price_tax_incl": 216, "evidence": "マドレーヌショコラ：￥216（公式サイト「焼菓子・ドーナツ」ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/baked.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載なし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明",
+          "page_url": "https://le-musee-de-h.jp/sweets/baked.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "個数・原材料・賞味期限・個包装・溶けやすさ（ショコラ）はいずれも未確認。"
+        },
+        {
+          "product_name": "フィナンシェ（ノア・ショコラ）",
+          "category": "焼菓子",
+          "description": "ル ミュゼ ドゥ アッシュの焼菓子ラインの単品（ノア、ショコラの2種）。詳細は検索結果になし。",
+          "options": [
+            {"qty_label": "単品（個数の記載なし）", "qty": null, "unit": "個", "price_tax_incl": 351, "evidence": "フィナンシェ（ノア、ショコラ）：￥351（公式サイト「焼菓子・ドーナツ」ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/baked.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載なし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明",
+          "page_url": "https://le-musee-de-h.jp/sweets/baked.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "個数・原材料（洋酒・乳化剤等の有無）・賞味期限・個包装は未確認。"
+        },
+        {
+          "product_name": "リーフパイ",
+          "category": "焼菓子",
+          "description": "ル ミュゼ ドゥ アッシュの焼菓子ラインの単品。詳細は検索結果になし。",
+          "options": [
+            {"qty_label": "単品（個数の記載なし）", "qty": null, "unit": "個", "price_tax_incl": 297, "evidence": "リーフパイ：￥297（公式サイト「焼菓子・ドーナツ」ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/baked.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載なし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明",
+          "page_url": "https://le-musee-de-h.jp/sweets/baked.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "個数・原材料（マーガリン・ショートニング・乳化剤等の有無）・賞味期限・個包装は未確認。"
+        },
+        {
+          "product_name": "ネージュ（フレーズ・中島菜）",
+          "category": "焼菓子",
+          "description": "ル ミュゼ ドゥ アッシュの焼菓子ラインの単品（フレーズ、中島菜の2種）。詳細は検索結果になし。",
+          "options": [
+            {"qty_label": "2個", "qty": 2, "unit": "個", "price_tax_incl": 243, "evidence": "ネージュ（フレーズ、中島菜）：￥243（2個）（公式サイト「焼菓子・ドーナツ」ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/baked.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載なし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明",
+          "page_url": "https://le-musee-de-h.jp/sweets/baked.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "「（2個）」の表記を2個入と解釈したが、要約文のみで曖昧。原材料・賞味期限・個包装は未確認。"
+        },
+        {
+          "product_name": "ガレット玄米",
+          "category": "焼菓子",
+          "description": "ル ミュゼ ドゥ アッシュの焼菓子ラインの単品。詳細は検索結果になし。",
+          "options": [
+            {"qty_label": "単品（個数の記載なし）", "qty": null, "unit": "個", "price_tax_incl": 243, "evidence": "ガレット玄米：￥243（公式サイト「焼菓子・ドーナツ」ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/baked.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載なし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明",
+          "page_url": "https://le-musee-de-h.jp/sweets/baked.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "個数・原材料・賞味期限・個包装は未確認。"
+        },
+        {
+          "product_name": "サブレブール（各種）",
+          "category": "焼菓子",
+          "description": "ル ミュゼ ドゥ アッシュの焼菓子ラインの単品（各種）。詳細は検索結果になし。",
+          "options": [
+            {"qty_label": "単品（個数の記載なし）", "qty": null, "unit": "個", "price_tax_incl": 189, "evidence": "サブレブール各種：￥189（公式サイト「焼菓子・ドーナツ」ページの検索要約）", "source_url": "https://le-musee-de-h.jp/sweets/baked.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載なし（未確認）",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明",
+          "page_url": "https://le-musee-de-h.jp/sweets/baked.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "種類ごとの内容・個数・原材料・賞味期限・個包装は未確認。"
+        }
+      ],
+      "skipped": [
+        "季節のシュークリーム: 生菓子のため"
+      ],
+      "unresolved": [
+        "公式サイトの百番街店ページ（https://le-musee-de-h.jp/shops/hyakubangai.html）の取扱商品に、金のバウム・大麦バウム・能登金時バウムなどのバウム、YUKIZURI、季節のシュークリーム、マカロンの記載あり。このページと百番街公式の本ページ（id=360）が同一店舗と思われるが、公式ページに電話番号の記載を確認できておらず突合せは未了",
+        "電話番号は百番街公式の店舗ページの検索要約文から採用（ページ本文は未閲覧）",
+        "バウム・派生YUKIZURIの価格・賞味期限はオンラインショップ（yukizuri.com）の表記で、あんと店頭の価格・賞味期限・取扱の有無は未確認。掲載日も不明",
+        "焼菓子（マドレーヌ・フィナンシェ等）の原材料・賞味期限・個包装・個数、および焼菓子アソート（詰め合わせ）の入数別価格",
+        "スライスバウムの入数（5個入か6個入か）と個包装の有無",
+        "バウム各種の原材料表示（乳化剤・ショートニング・洋酒の有無）",
+        "YUKIZURI 6本入の価格（公式1,026円 対 百選横丁の要約1,620円）の最終確認",
+        "YUKIZURI派生品の10月の販売状況とあんと取扱の有無：いちご（6本入1,026円/10本入1,620円）、ゆず・ブルーベリー・福井（各10本入1,620円の要約あり）、富山（6本入1,026円/10本入1,620円）、さくら、ルビーロマン、ショコラ、北陸三都物語、昆布トリュフ（10本入2,160円。アレルゲン表示にゼラチン・鶏肉）。いずれも梅酒使用の記載あり、またはその可能性が高い",
+        "スライス黒のバウム・黒のバウム（S）・とみつ金時バウム・白山コシヒカリとゆずのバウムの価格",
+        "マカロンの価格・保存条件・賞味期限",
+        "和甘ドーナツ（メープル胡桃・マカダミア苺・ショコラきなこ、各351円）: 揚げ菓子で日持ちが未確認のため未収録"
+      ]
+    },
+    {
+      "shop_name": "ル ミュゼ ドゥ アッシュ フレ",
+      "shop_short": "ル ミュゼ ドゥ アッシュ フレ",
+      "category": "洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=356",
+      "anto_phone": "076-234-1660",
+      "anto_location": null,
+      "official_site": "https://le-musee-de-h.jp/",
+      "online_shop": "https://yukizuri.com/",
+      "in_scope": true,
+      "scope_note": null,
+      "products": [],
+      "skipped": [
+        "セゾンドガトー（シャインマスカット）: 生菓子（ケーキ）のため"
+      ],
+      "unresolved": [
+        "【商品別の収録なし】公式店舗ページ（https://le-musee-de-h.jp/shops/frais.html）の取扱商品に焼菓子詰め合わせ・セゾンドガトー・マカロンの記載を確認。焼菓子詰め合わせの内容・入数別価格・賞味期限・原材料は未確認",
+        "ブランド共通の商品（YUKIZURI・バウム・焼菓子単品）は「ル ミュゼ ドゥ アッシュ 金沢駅百番街店」の欄にまとめた。フレ店での取扱の有無は未確認",
+        "マカロンの価格・保存条件・賞味期限は未確認",
+        "電話番号076-234-1660は百番街公式の検索要約と公式サイト店舗ページの検索要約で一致（ページ本文は未閲覧）"
+      ]
+    },
+    {
+      "shop_name": "洋菓子工房ぶどうの森",
+      "shop_short": "ぶどうの森",
+      "category": "洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=384",
+      "anto_phone": "076-222-1818",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": null,
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "【商品調査は未実施】WebSearchの1ターン上限（200回・全エージェント共有）に達したため、商品ラインナップ・入数別価格・賞味期限・原材料・個包装は調べられていない",
+        "百番街公式の紹介：金沢市を中心に8店舗ある「洋菓子工房ぶどうの森」の中で、人気商品「金沢にゃんこトラ」商品を中心に扱うスピンオフショップ。にゃんこトラの商品・価格・賞味期限・原材料は未確認",
+        "公式サイト・通販ドメインは未特定。電話番号は百番街公式の店舗ページの検索要約文から採用（ページ本文は未閲覧）",
+        "別店舗「カフェぶどうの森ファーム」（https://www.100bangai.co.jp/shop/detail.php?id=390）が百番街公式に存在するが、飲食店と思われ担当外のため未調査"
+      ]
+    },
+    {
+      "shop_name": "FILFIL CACAO FACTORY by FIL D'OR（フィルフィルカカオファクトリーバイフィルドール）",
+      "shop_short": "FILFIL CACAO FACTORY",
+      "category": "洋菓子（チョコレート）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=379",
+      "anto_phone": "080-7898-6927",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": null,
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "【商品調査は未実施】WebSearchの1ターン上限（200回・全エージェント共有）に達したため、商品ラインナップ・入数別価格・賞味期限・原材料・個包装・溶けやすさは調べられていない",
+        "百番街公式の紹介：フレンチレストラン「フィルドール」が手がけるクラフトチョコレートのブランド。石川の食材や地元アーティストとのコラボあり。担当指示にあるBLUE MOONは検索で未確認",
+        "チョコレート菓子は暑さで溶けやすい点（常温での持ち運び可否）と、洋酒・乳化剤の使用有無の確認が必要",
+        "公式サイト・通販ドメインは未特定。電話番号は百番街公式の店舗ページの検索要約文から採用（ページ本文は未閲覧）"
+      ]
+    },
+    {
+      "shop_name": "PiSO by respiración（ピソバイレスピラシオン）",
+      "shop_short": "PiSO",
+      "category": "洋菓子（チーズケーキ）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=376",
+      "anto_phone": "076-201-8234",
+      "anto_location": null,
+      "official_site": "http://piso.jp/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": null,
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "【商品調査は未実施】WebSearchの1ターン上限（200回・全エージェント共有）に達したため、商品ラインナップ・入数別価格・賞味期限・原材料・個包装は調べられていない",
+        "百番街公式の紹介：予約の絶えない金澤モダンスパニッシュレストラン「レスピラシオン」が手がけるチーズケーキ専門店。星付きレストランが手がけた「しあわせチーズ」を扱う。保存方法（常温か冷蔵・冷凍か）と賞味期限が未確認で、生菓子に該当する可能性があり",
+        "公式サイトのURLは百番街公式の検索要約文の記載で、未アクセス。電話番号も同要約文から採用（ページ本文は未閲覧）"
+      ]
+    },
+    {
+      "shop_name": "もみの木カフェ",
+      "shop_short": "もみの木カフェ",
+      "category": "洋菓子（ベルギーワッフル）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=358",
+      "anto_phone": "076-254-5664",
+      "anto_location": "あんと 19-1（検索要約文の記載。区画番号かは未確認）",
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": null,
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "【商品調査は未実施】WebSearchの1ターン上限（200回・全エージェント共有）に達したため、商品ラインナップ・入数別価格・賞味期限・原材料・個包装は調べられていない",
+        "百番街公式の紹介：津幡町で行列の絶えないベルギー人店主と、ベルギー・フランスで修業した日本人パティシエの妻によるベルギーワッフル専門店。毎日手作りの豊富なフレーバーのワッフルとスムージーを提供。土産向けの日持ちする箱入り・個包装商品があるかは未確認",
+        "公式サイト・通販ドメインは未特定。百番街公式の店舗詳細ページ（https://www.100bangai.co.jp/tenantinfo/mominokicafe/）も別にある。電話番号は検索要約文から採用（ページ本文は未閲覧）"
+      ]
+    },
+    {
+      "shop_name": "ジュプランサ",
+      "shop_short": "ジュプランサ",
+      "category": "洋菓子（北陸の菓子セレクトショップ）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=378",
+      "anto_phone": "080-5223-4741",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": null,
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "【商品調査は未実施】WebSearchの1ターン上限（200回・全エージェント共有）に達したため、取扱商品・入数別価格・賞味期限・原材料・個包装は調べられていない",
+        "百番街公式の紹介：北陸のお菓子を集めたセレクトショップで、店名はフランス語で「これください」の意。複数メーカーの商品を扱うため、他店（G1〜G5等）の商品と重複する可能性あり",
+        "公式サイト・通販ドメインは未特定。電話番号は百番街公式の店舗ページの検索要約文から採用（ページ本文は未閲覧）。百番街施設全体の代表番号076-260-3700は店舗番号として使っていない"
+      ]
+    },
+    {
+      "shop_name": "しあわせお菓子 ふらんどーる",
+      "shop_short": "ふらんどーる",
+      "category": "洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=340",
+      "anto_phone": "076-225-7644",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": null,
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "【商品調査は未実施】WebSearchの1ターン上限（200回・全エージェント共有）に達したため、商品ラインナップ・入数別価格・賞味期限・原材料・個包装は調べられていない",
+        "百番街公式の紹介：明治40年創業。家族や大切な人とのつながりと幸せなひとときを願ってお菓子をつくる。金沢駅を含め3店舗を展開（カテゴリは洋菓子・おみやげ）",
+        "公式サイト・通販ドメインは未特定。電話番号は百番街公式の店舗ページの検索要約文から採用（ページ本文は未閲覧）"
+      ]
+    },
+    {
+      "shop_name": "ル・コタンタン金沢",
+      "shop_short": "ル・コタンタン",
+      "category": "和菓子・洋菓子（バターときんつば）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=357",
+      "anto_phone": "076-208-4077",
+      "anto_location": null,
+      "official_site": "https://lecotentin-kanazawa.com/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": null,
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "【商品調査は未実施】WebSearchの1ターン上限（200回・全エージェント共有）に達したため、商品ラインナップ・入数別価格・賞味期限・原材料・個包装は調べられていない",
+        "百番街公式の紹介：フランス産のクリーミーで香り豊かな手作りバターと、金沢で愛されてきた和菓子「きんつば」との出会い（カテゴリは和菓子・洋菓子・おみやげ）。具体的な商品名・価格・日持ち・バター以外の原材料は未確認",
+        "公式サイトのURLは百番街公式の検索要約文の記載で、未アクセス。電話番号も同要約文から採用（ページ本文は未閲覧）"
+      ]
+    },
+    {
+      "shop_name": "オリエンタル金沢蒸溜所",
+      "shop_short": "オリエンタル金沢蒸溜所",
+      "category": "酒",
+      "anto_page_url": null,
+      "anto_phone": null,
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": false,
+      "scope_note": "酒類（蒸溜所）のため対象外。指示により調査していない",
+      "products": [],
+      "skipped": [],
+      "unresolved": []
+    }
+  ]
+}

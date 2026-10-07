@@ -1,0 +1,515 @@
+{
+ "group": "G0",
+ "label": "前任セッションで公式ページ本文を確認したデータ（Aレベル）",
+ "researched_at": "2026-10-07",
+ "shops": [
+  {
+   "shop_name": "加賀藩御用菓子司 森八",
+   "shop_short": "森八",
+   "category": "和菓子",
+   "anto_page_url": null,
+   "anto_phone": "076-260-3757",
+   "anto_location": null,
+   "official_site": "https://www.morihachi.co.jp/",
+   "online_shop": "https://morihachi-shop.com/",
+   "in_scope": true,
+   "scope_note": "寛永2年（1625年）創業。落雁・羊羹などの日持ちする干菓子が中心",
+   "products": [
+    {
+     "product_name": "四季の羊羹 粋（能登栗）",
+     "category": "羊羹",
+     "description": "能登栗の栗蜜漬を練り込んだ小豆羊羹の小型タイプ。化粧箱入り",
+     "options": [
+      {
+       "qty_label": "5本入",
+       "qty": 5,
+       "unit": "本",
+       "price_tax_incl": 1728,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "individual",
+     "wrap_note": "1本ずつ包装、化粧箱入り",
+     "shelf_life_days": 240,
+     "shelf_life_text": "約240日",
+     "ingredients": "氷砂糖（てんさい）、栗蜜漬（能登栗、砂糖）、小豆、寒天",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "季節限定（11月中旬まで販売予定）",
+     "page_url": "https://morihachi-shop.com/SHOP/shiki-yokan-kuri-05.html",
+     "image_url": null,
+     "confidence": "A",
+     "notes": "",
+     "image_key": "morihachi_shiki_yokan_kuri"
+    },
+    {
+     "product_name": "小型羊羹 粋",
+     "category": "羊羹",
+     "description": "1本ずつ包装された小型羊羹（黒・黒小倉・白・抹茶の詰合せ）",
+     "options": [
+      {
+       "qty_label": "5本入",
+       "qty": 5,
+       "unit": "本",
+       "price_tax_incl": 1404,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "individual",
+     "wrap_note": "1本ずつ包装（黒2・黒小倉・白・抹茶）",
+     "shelf_life_days": 240,
+     "shelf_life_text": "約240日",
+     "ingredients": "氷砂糖・小豆・寒天（米飴・抹茶）",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "通年",
+     "page_url": null,
+     "image_url": null,
+     "confidence": "A",
+     "notes": "",
+     "image_key": null
+    },
+    {
+     "product_name": "長生殿小墨",
+     "category": "落雁",
+     "description": "和三盆糖の落雁。加賀藩3代藩主・前田利常の考案、小堀遠州の命名と伝わる。森八は「日本三名菓の随一」と説明",
+     "options": [
+      {
+       "qty_label": "18枚入",
+       "qty": 18,
+       "unit": "枚",
+       "price_tax_incl": 1944,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "pack",
+     "wrap_note": "6枚ずつ3パック（1枚ずつの個包装ではない）",
+     "shelf_life_days": 40,
+     "shelf_life_text": "約40日",
+     "ingredients": "和三盆糖、もち米粉、水飴／紅花赤色素、澱粉",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "通年",
+     "page_url": "https://morihachi-shop.com/SHOP/chousei-s18.html",
+     "image_url": null,
+     "confidence": "A",
+     "notes": "",
+     "image_key": "morihachi_chouseiden_kozumi18"
+    },
+    {
+     "product_name": "しば舟",
+     "category": "煎餅（生姜）",
+     "description": "生姜を効かせた薄焼きの煎餅",
+     "options": [
+      {
+       "qty_label": "12枚入",
+       "qty": 12,
+       "unit": "枚",
+       "price_tax_incl": 1080,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "pack",
+     "wrap_note": "小袋入り（1袋あたりの枚数は未確認）",
+     "shelf_life_days": 40,
+     "shelf_life_text": "約40日",
+     "ingredients": "砂糖・小麦粉・生姜／膨張剤",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "通年",
+     "page_url": null,
+     "image_url": null,
+     "confidence": "A",
+     "notes": "",
+     "image_key": null
+    },
+    {
+     "product_name": "能登の宝の塩羊羹",
+     "category": "羊羹",
+     "description": "能登の塩を使った小型の羊羹",
+     "options": [
+      {
+       "qty_label": "5本入",
+       "qty": 5,
+       "unit": "本",
+       "price_tax_incl": 1620,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": null,
+     "wrap_note": "5本入り（1本ずつの包装かは未確認）",
+     "shelf_life_days": 210,
+     "shelf_life_text": "賞味期限の表示は2027年5月（購入時点で約7か月）",
+     "ingredients": "氷砂糖・小豆・和三盆糖・寒天・塩",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "通年",
+     "page_url": null,
+     "image_url": null,
+     "confidence": "A",
+     "notes": "日持ち日数は表示（2027年5月）から保守的に約210日とした",
+     "image_key": null
+    }
+   ],
+   "skipped": [
+    "甘えびせんべい: 粉末醤油・乳化剤・香料を含むため対象外"
+   ],
+   "unresolved": []
+  },
+  {
+   "shop_name": "柴舟小出",
+   "shop_short": "柴舟小出",
+   "category": "和菓子",
+   "anto_page_url": null,
+   "anto_phone": "076-260-3754",
+   "anto_location": null,
+   "official_site": "https://www.shibafunekoide.co.jp/",
+   "online_shop": "https://www.shibafunekoide.co.jp/",
+   "in_scope": true,
+   "scope_note": "大正6年（1917年）創業。生姜蜜を刷毛で塗った煎餅「柴舟」が主力",
+   "products": [
+    {
+     "product_name": "柴舟",
+     "category": "煎餅（生姜蜜）",
+     "description": "生姜の蜜を職人が一枚ずつ刷毛で塗った煎餅",
+     "options": [
+      {
+       "qty_label": "18枚入（化粧箱）",
+       "qty": 18,
+       "unit": "枚",
+       "price_tax_incl": 1620,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      },
+      {
+       "qty_label": "20枚入（化粧缶）",
+       "qty": 20,
+       "unit": "枚",
+       "price_tax_incl": 2160,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "pack",
+     "wrap_note": "18枚入は小袋6袋、20枚入は5枚ずつ4袋（公式の写真で確認）",
+     "shelf_life_days": 100,
+     "shelf_life_text": "製造日から100日",
+     "ingredients": null,
+     "ingredient_flags": null,
+     "allergens": "小麦（表示）",
+     "seasonal": "通年",
+     "page_url": "https://www.shibafunekoide.co.jp/products/detail.php?product_id=554",
+     "image_url": null,
+     "confidence": "A",
+     "notes": "原材料はWebに記載なし（アレルギー表示は小麦のみ）。酒精の有無は店頭のラベルで確認が必要",
+     "image_key": "shibafune_koide_20"
+    }
+   ],
+   "skipped": [],
+   "unresolved": [
+    "原材料（酒精の有無）をWebで確認できない"
+   ]
+  },
+  {
+   "shop_name": "きんつば 中田屋",
+   "shop_short": "中田屋",
+   "category": "和菓子",
+   "anto_page_url": null,
+   "anto_phone": "076-260-6069",
+   "anto_location": null,
+   "official_site": "https://www.kintuba.co.jp/",
+   "online_shop": "https://online.kintuba.co.jp/",
+   "in_scope": true,
+   "scope_note": "きんつばの専門店。1個ずつ包装",
+   "products": [
+    {
+     "product_name": "花かさね",
+     "category": "きんつば・うぐいす詰合せ",
+     "description": "きんつば3個と、青えんどう豆で作った緑色の「うぐいす」3個の詰合せ",
+     "options": [
+      {
+       "qty_label": "6個入",
+       "qty": 6,
+       "unit": "個",
+       "price_tax_incl": 1512,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "individual",
+     "wrap_note": "1個ずつ包装",
+     "shelf_life_days": 14,
+     "shelf_life_text": "製造日から14日（10〜5月）、10日（6〜9月）",
+     "ingredients": "きんつば：砂糖、小豆、小麦粉、寒天、塩。うぐいす：砂糖、青えんどう豆、還元澱粉糖化物、小麦粉、寒天、塩／トレハロース、膨張剤",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "期間限定（9月初旬〜5月下旬）",
+     "page_url": "https://online.kintuba.co.jp/shopdetail/000000000375/002/X/page1/recommend/",
+     "image_url": null,
+     "confidence": "A",
+     "notes": "あんと店に在庫があるかは電話で確認が必要",
+     "image_key": "nakataya_hanakasane6"
+    },
+    {
+     "product_name": "きんつば",
+     "category": "きんつば",
+     "description": "大納言小豆のきんつば",
+     "options": [
+      {
+       "qty_label": "6個入",
+       "qty": 6,
+       "unit": "個",
+       "price_tax_incl": 1458,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "individual",
+     "wrap_note": "1個ずつ包装",
+     "shelf_life_days": 14,
+     "shelf_life_text": "製造日から14日（10〜5月）、10日（6〜9月）",
+     "ingredients": "砂糖、小豆、小麦粉、寒天、塩",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "通年",
+     "page_url": null,
+     "image_url": null,
+     "confidence": "A",
+     "notes": "2,000円以内で買える箱は6個入まで",
+     "image_key": null
+    }
+   ],
+   "skipped": [],
+   "unresolved": []
+  },
+  {
+   "shop_name": "和菓子 村上",
+   "shop_short": "村上",
+   "category": "和菓子",
+   "anto_page_url": null,
+   "anto_phone": "076-260-3761",
+   "anto_location": null,
+   "official_site": "https://www.wagashi-murakami.com/",
+   "online_shop": "https://shop.wagashi-murakami.com/",
+   "in_scope": true,
+   "scope_note": "1911年創業。寒天の干菓子「わり氷」が主力",
+   "products": [
+    {
+     "product_name": "わり氷",
+     "category": "干菓子（寒天）",
+     "description": "寒天を6日間乾燥させ、職人が手で割る半透明の干菓子",
+     "options": [
+      {
+       "qty_label": "8入（25g×8袋）",
+       "qty": 8,
+       "unit": "袋",
+       "price_tax_incl": 1998,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "individual",
+     "wrap_note": "25gの袋が8つ",
+     "shelf_life_days": 60,
+     "shelf_life_text": "製造後60日",
+     "ingredients": "寒天、砂糖、白山の伏流水",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "通年",
+     "page_url": "https://www.wagashi-murakami.com/products/detail/228",
+     "image_url": null,
+     "confidence": "A",
+     "notes": "",
+     "image_key": "murakami_warigori8"
+    }
+   ],
+   "skipped": [],
+   "unresolved": []
+  },
+  {
+   "shop_name": "金沢うら田",
+   "shop_short": "うら田",
+   "category": "和菓子",
+   "anto_page_url": null,
+   "anto_phone": "076-260-3774",
+   "anto_location": null,
+   "official_site": "https://urata-k-store.shop-pro.jp/",
+   "online_shop": "https://urata-k-store.shop-pro.jp/",
+   "in_scope": true,
+   "scope_note": "金沢の郷土玩具「加賀八幡起上り」を模した最中が代表",
+   "products": [
+    {
+     "product_name": "加賀八幡 起上もなか",
+     "category": "最中",
+     "description": "金沢の郷土玩具「加賀八幡起上り」を模した最中。1個ずつ起上り人形の絵柄の紙で包装",
+     "options": [
+      {
+       "qty_label": "7個入",
+       "qty": 7,
+       "unit": "個",
+       "price_tax_incl": 1577,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      },
+      {
+       "qty_label": "10個入",
+       "qty": 10,
+       "unit": "個",
+       "price_tax_incl": 2214,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "individual",
+     "wrap_note": "1個ずつ起上り人形の絵柄の紙で包装",
+     "shelf_life_days": 10,
+     "shelf_life_text": "約10日（公式の表示は到着日からの目安）",
+     "ingredients": "砂糖、小豆、最中種（もち米）、水飴、還元水飴、寒天／トレハロース",
+     "ingredient_flags": [],
+     "allergens": null,
+     "seasonal": "通年",
+     "page_url": "https://urata-k-store.shop-pro.jp/?pid=139047274",
+     "image_url": null,
+     "confidence": "A",
+     "notes": "日持ちが短いため、買う日と渡す日の間隔に注意",
+     "image_key": "urata_okiagari_monaka"
+    }
+   ],
+   "skipped": [
+    "愛香菓: ショートニング・乳化剤を含むため対象外"
+   ],
+   "unresolved": []
+  },
+  {
+   "shop_name": "石川屋本舗",
+   "shop_short": "石川屋本舗",
+   "category": "和菓子",
+   "anto_page_url": null,
+   "anto_phone": "076-260-3768",
+   "anto_location": null,
+   "official_site": "https://shop.umaumatankentai.com/",
+   "online_shop": "https://shop.umaumatankentai.com/",
+   "in_scope": true,
+   "scope_note": "琥珀糖「かいちん」（金沢の言葉でおはじき）が代表",
+   "products": [
+    {
+     "product_name": "琥珀糖 かいちん いろいろ",
+     "category": "琥珀糖",
+     "description": "寒天と砂糖を自然乾燥させた色とりどりの琥珀糖。味は砂糖と寒天の甘さで淡い",
+     "options": [
+      {
+       "qty_label": "20個入",
+       "qty": 20,
+       "unit": "個",
+       "price_tax_incl": 1944,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "none",
+     "wrap_note": "箱入り（1個ずつの包装はない）",
+     "shelf_life_days": 20,
+     "shelf_life_text": "20日間",
+     "ingredients": "砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）",
+     "ingredient_flags": [],
+     "allergens": "卵",
+     "seasonal": "通年",
+     "page_url": "https://shop.umaumatankentai.com/view/item/000000000030",
+     "image_url": null,
+     "confidence": "A",
+     "notes": "",
+     "image_key": "ishikawaya_kaichin"
+    }
+   ],
+   "skipped": [],
+   "unresolved": []
+  },
+  {
+   "shop_name": "大畑食品",
+   "shop_short": "大畑食品",
+   "category": "食品・佃煮",
+   "anto_page_url": null,
+   "anto_phone": "076-208-3328",
+   "anto_location": null,
+   "official_site": "https://oohata.jp/",
+   "online_shop": "https://oohata.jp/",
+   "in_scope": true,
+   "scope_note": "金沢市大野町の佃煮店。クルミのおやつが菓子系の土産",
+   "products": [
+    {
+     "product_name": "クルミのおやつ2種 生姜カラメル・シナモン",
+     "category": "木の実（缶入り）",
+     "description": "佃煮と同じ釜炊きの工程で仕上げた胡桃。生姜カラメルと黒糖シナモンの2種",
+     "options": [
+      {
+       "qty_label": "2缶入（各50g）",
+       "qty": 2,
+       "unit": "缶",
+       "price_tax_incl": 1998,
+       "evidence": "前任セッション（Claude in Chrome）で公式の商品ページ本文を確認（2026-10-06〜07）",
+       "source_url": null
+      }
+     ],
+     "wrap_level": "pack",
+     "wrap_note": "50g缶×2、箱入り（185×100×50mm）。缶ごとで個包装ではない",
+     "shelf_life_days": 60,
+     "shelf_life_text": "60日",
+     "ingredients": "生姜カラメル：ローストクルミ、砂糖、おろししょうが（生姜、食塩）、食塩／カラメル色素。シナモン：ローストクルミ、黒砂糖、シナモン",
+     "ingredient_flags": [],
+     "allergens": "くるみ",
+     "seasonal": "通年",
+     "page_url": "https://oohata.jp/collections/recommend-item/products/%E3%82%AF%E3%83%AB%E3%83%9F%E3%81%AE%E3%81%8A%E3%82%84%E3%81%A42%E7%A8%AE-%E7%94%9F%E5%A7%9C%E3%82%AB%E3%83%A9%E3%83%A1%E3%83%AB%E3%81%A8%E3%82%B7%E3%83%8A%E3%83%A2%E3%83%B3",
+     "image_url": null,
+     "confidence": "A",
+     "notes": "クルミを含む（ナッツアレルギーに注意）",
+     "image_key": "oohata_walnut2"
+    }
+   ],
+   "skipped": [],
+   "unresolved": []
+  }
+ ],
+ "excluded": [
+  {
+   "shop": "森八",
+   "item": "甘えびせんべい",
+   "reason": "粉末醤油・乳化剤・香料を含む（醤油はアルコールを含む）",
+   "level": "A"
+  },
+  {
+   "shop": "金沢うら田",
+   "item": "愛香菓",
+   "reason": "ショートニングと乳化剤を含む（豚由来の可能性）",
+   "level": "A"
+  },
+  {
+   "shop": "茶菓工房たろう",
+   "item": "窓（キューブ型の最中）",
+   "reason": "日持ちが4〜6日と短く、バターを含む",
+   "level": "A"
+  },
+  {
+   "shop": "まめや金澤萬久",
+   "item": "チョコがけが中心の豆菓子",
+   "reason": "移動中に溶ける",
+   "level": "A"
+  },
+  {
+   "shop": "（食品・お茶の店）",
+   "item": "加賀棒茶・吸い物・出汁",
+   "reason": "出汁とお茶は先方がよく受け取るため不要との社内の意見",
+   "level": "A"
+  },
+  {
+   "shop": "（金箔の店・金箔入り菓子）",
+   "item": "金箔入りの菓子",
+   "reason": "食べることを禁じる明確な根拠は見つからなかったが、慎重な見方もあるためムスリムの方が多い渡し先には使わない",
+   "level": "A"
+  }
+ ]
+}

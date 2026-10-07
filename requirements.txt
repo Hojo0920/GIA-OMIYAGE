@@ -1,0 +1,3 @@
+XlsxWriter>=3.1
+# 検証スクリプト（scripts/verify_xlsx.py）だけで使う
+openpyxl>=3.1

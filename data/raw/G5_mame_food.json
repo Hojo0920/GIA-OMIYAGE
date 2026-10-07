@@ -1,0 +1,462 @@
+{
+  "group": "G5",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "まめや 金澤萬久",
+      "shop_short": "まめや金澤萬久",
+      "category": "豆菓子・和洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=362",
+      "anto_phone": "076-260-1080",
+      "anto_location": null,
+      "official_site": "https://www.mameya-bankyu.com/",
+      "online_shop": "https://www.budoo-shop.jp/DefaultBrandTop.aspx?bid=bankyu",
+      "in_scope": true,
+      "scope_note": "あんと店は和菓子・おみやげ店で営業時間8:30〜20:00。金沢百番街の記載では2026年2月21日に春のリニューアル第1弾として新装オープン。以下の商品は公式サイト／公式オンラインショップ（ぶどうの森）の掲載品で、あんと店頭での取扱い・在庫・店頭価格は検索では確認できていない。検索結果に出た本店(076-258-3366)・通販窓口(076-207-3620)の電話番号はあんと店のものではないため使っていない。",
+      "products": [
+        {
+          "product_name": "有機大豆の炒り豆 能登塩キャラメル（豆箱入り）",
+          "category": "豆菓子（炒り豆）",
+          "description": "有機大豆の炒り豆に濃厚なキャラメルペーストとキャラメルパウダーをまとわせ、能登塩を加えて深みのある味わいに仕上げた豆菓子。手描きの豆箱（縦9×横13×高4.5cm）入り。",
+          "options": [
+            {
+              "qty_label": "30g×2袋（豆箱入り）",
+              "qty": 2,
+              "unit": "袋",
+              "price_tax_incl": 1080,
+              "evidence": "価格（税込）¥1,080／内容量30g×2袋／賞味期限90日（検索結果要約。公式オンラインショップ商品ページ）",
+              "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC468&bid=bankyu&cat=200200005"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "30g×2袋の小袋入り。個包装に関する記載は未確認",
+          "shelf_life_days": 90,
+          "shelf_life_text": "賞味期限90日（発送日を含め30日以上のものをお届け）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "乳成分、大豆（製品には蜂蜜を使用。1歳未満の乳児には食べさせないこと）",
+          "seasonal": "販売期間の限定記載なし（通年かは未確認）",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC468&bid=bankyu&cat=200200005",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料名欄は検索結果から得られず未確認（キャラメルペースト等の副原料に乳化剤などが含まれるかは不明）。ページは『絵柄：うさぎ』表示で、絵柄違いが別ページになっている可能性あり。保存方法は直射日光・高温多湿を避ける。あんと店頭での取扱いは未確認。"
+        },
+        {
+          "product_name": "有機大豆の炒り豆 紅白豆（豆箱入り）",
+          "category": "豆菓子（炒り豆）",
+          "description": "国産の有機大豆を炒り豆にした紅白の豆。能登の塩を使った『しおみつ』と『梅』の2種類の味の詰め合わせ。手描きの豆箱（縦9×横13×高4.5cm）入り。",
+          "options": [
+            {
+              "qty_label": "30g×2袋（豆箱入り）",
+              "qty": 2,
+              "unit": "袋",
+              "price_tax_incl": 1080,
+              "evidence": "価格（税込）¥1,080／内容量30g×2袋／賞味期限90日（発送日を含め30日以上）／大豆・蜂蜜使用の表示（検索結果要約。公式オンラインショップ商品ページ）",
+              "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC419&bid=bankyu&cat=200200"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "30g×2袋の小袋入り（しおみつ・梅の2味）。個包装に関する記載は未確認",
+          "shelf_life_days": 90,
+          "shelf_life_text": "賞味期限90日（発送日を含め30日以上のものをお届け）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "大豆（製品には蜂蜜を使用して仕上げています）",
+          "seasonal": "販売期間の限定記載なし（通年かは未確認）",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC419&bid=bankyu&cat=200200",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料名欄は未確認（『梅』味などの副原料は不明）。同じ商品が別ページ（pid=MC2、絵柄：招き猫）にも掲載されている。あんと店頭での取扱いは未確認。"
+        },
+        {
+          "product_name": "有機大豆の炒り豆・みたらし豆（豆箱入り）",
+          "category": "豆菓子（炒り豆）",
+          "description": "国産の有機大豆の炒り豆を、金沢大野の醤油・砂糖・唐辛子でみたらしのたれの味に仕上げた豆菓子。手描きの豆箱（外寸約13×9×4.5cm）入り。",
+          "options": [
+            {
+              "qty_label": "30g×2袋（豆箱入り）",
+              "qty": 2,
+              "unit": "袋",
+              "price_tax_incl": 972,
+              "evidence": "価格¥972（税込）／内容量30g×2袋／賞味期間は出荷日より約30日（検索結果要約。公式サイト商品ページ /SHOP/3010.html）",
+              "source_url": "https://www.mameya-bankyu.com/SHOP/3010.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "30g×2袋の小袋入り。個包装に関する記載は未確認",
+          "shelf_life_days": 30,
+          "shelf_life_text": "出荷日より約30日（公式サイトの旧形式ページの表記）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦、大豆、ごま",
+          "seasonal": "販売期間の限定記載なし（通年かは未確認）",
+          "page_url": "https://www.mameya-bankyu.com/SHOP/3010.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【要注意】商品説明に『金沢大野の醤油』を使用と明記されており、醤油不可の条件では除外候補。原材料表示欄そのものは見ていないため ingredient_flags は null のままにしている。賞味期間は公式サイト旧ページで約30日だが、オンラインショップの他の炒り豆は90日表記のため食い違いの可能性あり（オンラインショップの同商品ページ pid=MC418 の賞味期限は未確認）。"
+        },
+        {
+          "product_name": "能登大納言甘納豆（豆箱入り）",
+          "category": "豆菓子（甘納豆）",
+          "description": "能登大納言小豆を甘く煮てしっとり仕上げた甘納豆。手描きの豆箱（縦9×横13×高4.5cm）入りで、常温便で届く商品。",
+          "options": [
+            {
+              "qty_label": "55g×2袋（豆箱入り）",
+              "qty": 2,
+              "unit": "袋",
+              "price_tax_incl": 972,
+              "evidence": "価格¥972（税込）／内容量55g×2袋／賞味期間28日（発送日を含め14日以上）／アレルギー表示：無し（検索結果要約。公式オンラインショップ商品ページ）",
+              "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC101&bid=bankyu&cat=200200"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "55g×2袋の小袋入り。個包装に関する記載は未確認",
+          "shelf_life_days": 28,
+          "shelf_life_text": "賞味期間28日（発送日を含め14日以上のものをお届け）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "無し（アレルギー表示：無し）",
+          "seasonal": "販売期間の限定記載なし（通年かは未確認）",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MC101&bid=bankyu&cat=200200",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料名欄は検索結果から得られず未確認。ページは『絵柄：猫』表示。姉妹品の『能登の黒豆甘納豆（豆箱入り）』（絵柄：犬、pid=MC100）は価格・賞味期限・原材料とも未確認。あんと店頭での取扱いは未確認。"
+        },
+        {
+          "product_name": "金かすてら・プレーン",
+          "category": "カステラ（洋菓子）",
+          "description": "金沢らしい金箔をあしらったカステラ。職人が手焼きし、卵の黄身と白身を一緒に泡立てる共立て法で作り、小麦粉は増田製粉所『特宝笠』を選んで使用。",
+          "options": [
+            {
+              "qty_label": "5カット（1本）",
+              "qty": 5,
+              "unit": "カット",
+              "price_tax_incl": 1404,
+              "evidence": "価格¥1,404（税込）／1本（5カット）／賞味期限21日（発送日を含め14日以上）（検索結果要約。公式オンラインショップ商品ページ）",
+              "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=ME20&bid=bankyu&cat=200200"
+            },
+            {
+              "qty_label": "大 8カット（1本）",
+              "qty": 8,
+              "unit": "カット",
+              "price_tax_incl": 2160,
+              "evidence": "価格¥2,160（税込）／1本（8カット）／賞味期限21日（発送日を含め10日以上）／箱外寸27.5×7×7cm（検索結果要約。公式オンラインショップ商品ページ）",
+              "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=ME21&bid=all&cat=200200"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1本をカットした形態（5カット／8カット）。カットごとの個包装かどうかは記載を確認できず",
+          "shelf_life_days": 21,
+          "shelf_life_text": "賞味期限21日（5カットは発送日を含め14日以上、8カットは同10日以上のものをお届け）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "小麦、卵",
+          "seasonal": "プレーンは販売期間の限定記載なし（干支・ハート等のデザイン版は別商品）",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=ME20&bid=bankyu&cat=200200",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "8カットの2,160円は2,001〜2,300円の『少し超過』枠。原材料名欄は未確認（カステラの副原料に水あめ・みりん等が使われるかは不明）。同名の別ページあり（5カット: pid=ME26／ME35、8カット: pid=ME27）。あんと店頭での取扱いは未確認（2023年12月の公式記事タイトルに『金沢駅で買える』金箔菓子との記載があり、金沢駅の店舗で扱う可能性はある）。"
+        },
+        {
+          "product_name": "わらび餅のバウム［黒豆］",
+          "category": "バウムクーヘン×わらび餅（和洋菓子）",
+          "description": "オレンジピューレを練り込んだ生地を何層も重ねたバウムクーヘンに、丹波黒豆入りの透明なわらび餅をのせた和洋菓子。1個ずつ個包装で、食べやすいよう半分に切り目が入っている。",
+          "options": [
+            {
+              "qty_label": "5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1512,
+              "evidence": "『●わらび餅のバウム［黒豆］（５個入り）は¥1,512（税込）』（検索結果要約。公式オンラインショップのわらび餅のバウム一覧）",
+              "source_url": "https://www.budoo-shop.jp/Form/Product/ProductList.aspx?bid=bankyu&cat=200200004"
+            },
+            {
+              "qty_label": "10個入（旧公式サイトページの表示・現行価格と食い違う可能性大）",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 2214,
+              "evidence": "10個入り価格¥2,214（税込）／賞味期間は出荷日より約14日／個包装（検索結果要約。公式サイト旧形式ページ /SHOP/1123.html）",
+              "source_url": "https://www.mameya-bankyu.com/SHOP/1123.html"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "1個ずつ個包装。食べやすいよう中央に半分に切れる切り目入り",
+          "shelf_life_days": 35,
+          "shelf_life_text": "賞味期限35日（発送日を含め28日以上のものをお届け）。ただし旧公式サイトページでは『出荷日より約14日』と表記",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": "卵、乳成分、小麦、大豆、オレンジ（旧公式サイト10個入りページの表示）",
+          "seasonal": "販売期間の限定記載なし（通年かは未確認）",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductList.aspx?bid=bankyu&cat=200200004",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "資料間で価格・賞味期間が食い違うため confidence C。5個入は別の旧ページ（pid=MF50）では¥1,134・賞味35日と表示される一方、［黒豆］（5個入り）の表示は¥1,512で、後者を現行と判断した。10個入は旧公式サイトの¥2,214・賞味約14日しか確認できておらず、オンラインショップの他フレーバー10個入が¥3,078〜3,186であることから、現行の10個入は2,300円超の可能性が高い。原材料名欄は未確認（バウム生地の乳化剤・マーガリン等の有無は不明）。あんと店頭での取扱いは未確認。"
+        },
+        {
+          "product_name": "わらび餅のバウム［能登大納言×抹茶］",
+          "category": "バウムクーヘン×わらび餅（和洋菓子）",
+          "description": "わらび餅をのせたバウムクーヘン『わらび餅のバウム』シリーズの［能登大納言×抹茶］味。シリーズ共通の説明として、1個ずつ個包装で中央に切り目が入っている。",
+          "options": [
+            {
+              "qty_label": "5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1512,
+              "evidence": "検索結果要約の価格一覧に『わらび餅のバウム［能登大納言×抹茶］（5個入り）: ¥1,512』",
+              "source_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MF79&bid=bankyu&cat=200200"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "シリーズ共通の説明（1個ずつ個包装、半分に切り目入り）からの読み取り。この味の商品ページ本文では未確認",
+          "shelf_life_days": 35,
+          "shelf_life_text": "シリーズ共通表記『賞味期限35日（発送日を含め28日以上のものをお届け）』からの読み取り",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "未確認",
+          "page_url": "https://www.budoo-shop.jp/Form/Product/ProductDetail.aspx?shop=0&pid=MF79&bid=bankyu&cat=200200",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格はシリーズ一覧の要約表記のみで、商品ページ本文での確認はできていない。賞味期限・個包装はシリーズ共通表記から読み取った値。10個入の価格、原材料、アレルゲンは未確認。同名の別ページあり（pid=MF57）。あんと店頭での取扱いは未確認。"
+        }
+      ],
+      "skipped": [
+        "黒豆しょこら（豆箱入り）1,080円: チョコレートがけ中心で移動中に溶けるため（前任方針）",
+        "かりっとちょこ豆（ホワイト＆いちご／ビター＆抹茶）豆箱入り 972〜1,080円: チョコレートがけのため（前任方針）",
+        "しみみ・焙じ茶チョコ（お徳用）1,620円・約30日: おかきにチョコレートをしみ込ませた菓子でチョコレートを含むため（前任方針）",
+        "わらび餅のバウム［ラムレーズン×珈琲］5個入 1,566円: 商品名にラムレーズンがありアルコール（ラム酒）使用の可能性。原材料表示は未確認",
+        "わらび餅のバウム［オレンジ×加賀棒茶］5個入 1,620円・10個入 3,186円: 販売期間が2026/4/10〜8/31で終了しており10月は販売なし",
+        "萬久の炒り豆 黒豆大野醤油＆マルゲリータ（豆箱入り）: 商品名のとおり大野醤油を使用し醤油不可の条件に抵触。価格・賞味期限も未確認"
+      ],
+      "unresolved": [
+        "全商品について原材料名欄（原材料表示）を検索結果から取得できなかった",
+        "あんと店頭での取扱い品目・在庫・店頭価格（掲載商品はいずれも公式サイト／オンラインショップの表示）",
+        "有機大豆の炒り豆: 山椒七味＆磯海苔（絵柄：パンダ、pid=MC420）、イタリアン（袋タイプ）の価格・賞味期限・原材料",
+        "能登の黒豆甘納豆（豆箱入り、pid=MC100）の価格・賞味期限・原材料",
+        "わらび餅のバウム マロン（5個入り、pid=MF53）・桜（5個入り／15個入り）、バウム詰合せ（10個入り）【黒豆＆マロン】、金箔バウム［まねきねこ］の現行価格・販売時期",
+        "萬久の贈り物【1】【2】【5】など詰合せセットの内容と価格",
+        "豆箱入り商品の個包装の有無（小袋入りと読めるが記載は確認できず）",
+        "WebSearch の上限（1ターン200回・全エージェント共有）に到達したため、以上の追加確認は実施できていない"
+      ]
+    },
+    {
+      "shop_name": "クルミのおやつ（大畑食品）",
+      "shop_short": "大畑食品",
+      "category": "ナッツ菓子（クルミ）／佃煮",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=373",
+      "anto_phone": "076-208-3328",
+      "anto_location": null,
+      "official_site": "https://oohata.jp/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "金沢百番街での店舗名は『クルミのおやつ』（創業1936年の佃煮屋・大畑食品が手掛けるスイーツ）。営業時間8:30〜20:00、住所は金沢市木ノ新保町1-1。対象はクルミのおやつのみで、佃煮は対象外。商品データは前任調査から引き継いだ値で、本セッションでは WebSearch の上限到達により再検証できていない。",
+      "products": [
+        {
+          "product_name": "クルミのおやつ2種 生姜カラメル・シナモン",
+          "category": "ナッツ菓子（ローストクルミ）",
+          "description": "ローストクルミを使った生姜カラメル味（50g缶）とシナモン味（50g缶）の2缶を箱に詰めた詰合せ。",
+          "options": [
+            {
+              "qty_label": "2種（各50g缶）箱入り",
+              "qty": 2,
+              "unit": "缶",
+              "price_tax_incl": 1998,
+              "evidence": "前任調査の既知データ: 1,998円（生姜カラメル50g缶＋シナモン50g缶の箱入り）。本セッションの検索では未再確認",
+              "source_url": "https://oohata.jp/"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "50g缶×2缶の箱入り（缶ごとに分けられる）。個包装の記載は未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "60日（前任調査）",
+          "ingredients": "生姜カラメル: ローストクルミ・砂糖・おろししょうが（生姜・食塩）・食塩／カラメル色素。シナモン: ローストクルミ・黒砂糖・シナモン（前任調査の表示）",
+          "ingredient_flags": [],
+          "allergens": "クルミ（前任調査）",
+          "seasonal": "未確認",
+          "page_url": "https://oohata.jp/",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "前任調査から引き継いだ値で、本セッションの検索では再確認できていない（confidence は引き継ぎ値のため C）。原材料に指定の豚由来・アルコール関連語（ゼラチン・乳化剤・ショートニング・ラード・酒類・みりん・醤油など）は見当たらない。ほかのクルミのおやつ（単品缶・別の味・入数違い）は未調査。"
+        }
+      ],
+      "skipped": [
+        "佃煮各種: 担当指示により対象外（クルミのおやつのみ対象）"
+      ],
+      "unresolved": [
+        "クルミのおやつの単品缶・他の味・入数違いの価格／賞味期限／原材料",
+        "佃煮以外の菓子系商品の有無",
+        "個包装の有無（缶入りの内訳）、季節品・通年品の別",
+        "前任データ（1,998円・60日・原材料）の本セッションでの再確認（WebSearch の上限到達のため未実施）"
+      ]
+    },
+    {
+      "shop_name": "不室屋",
+      "shop_short": "不室屋",
+      "category": "加賀麩",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=351",
+      "anto_phone": "076-260-3753",
+      "anto_location": null,
+      "official_site": "https://www.fumuroya.co.jp/",
+      "online_shop": null,
+      "in_scope": null,
+      "scope_note": "金沢百番街の説明では慶応元年創業の麩の専門店で、営業時間8:30〜20:00。電話番号076-260-3753は金沢百番街の店舗ページ由来の検索結果で確認できた（前任調査の『未確認』を解消）。麩を使った菓子・スナック・汁物以外の土産があるかは、WebSearch の上限到達で商品調査に入れず未確認のため in_scope は未判定（null）。『不室屋オリジナルグッズ』の販売開始ニュース（金沢百番街 news id=16322）があるが、食品かどうかは未確認。",
+      "products": [],
+      "skipped": [
+        "不室屋カフェ（あんと西店・id=391・076-235-2322）: カフェ（飲食）のため"
+      ],
+      "unresolved": [
+        "麩を使った菓子・スナック類、汁物以外の常温土産の有無と、入数別の税込価格・個包装・賞味期限・原材料（公式 https://www.fumuroya.co.jp/ で絞って再検索が必要）",
+        "『不室屋オリジナルグッズ』が食品か雑貨か",
+        "あんと店の区画番号",
+        "WebSearch の上限（1ターン200回・全エージェント共有）に到達したため商品調査は未実施"
+      ]
+    },
+    {
+      "shop_name": "石川百右衛門",
+      "shop_short": "石川百右衛門",
+      "category": "フルーツ・野菜の加工土産／洋菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=424",
+      "anto_phone": "076-208-6133",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "金沢百番街の説明では、創業77年の金沢の老舗八百屋『サカイダフルーツ』直営ショップで、加賀野菜や県内外の希少なフルーツ・野菜のほか、それらを加工したお土産品やオリジナルスイーツを扱う（カテゴリ: 洋菓子・おみやげ、営業時間8:30〜20:00、予約不可）。菓子・食品土産を扱うため対象としたが、個別の商品名・価格・賞味期限・原材料は WebSearch の上限到達で未調査。生鮮のフルーツ・野菜は土産対象外。",
+      "products": [],
+      "skipped": [
+        "生鮮のフルーツ・野菜（加賀野菜など）: 生鮮品のため"
+      ],
+      "unresolved": [
+        "加工土産品・オリジナルスイーツの商品名、入数別の税込価格、個包装、賞味期限、原材料",
+        "公式サイト・通販サイトのURL（検索結果に出ていない。運営はサカイダフルーツ）",
+        "あんと店の区画番号",
+        "WebSearch の上限（1ターン200回・全エージェント共有）に到達したため商品調査は未実施"
+      ]
+    },
+    {
+      "shop_name": "すずめ",
+      "shop_short": "すずめ",
+      "category": "和菓子・おみやげ（物販＋食堂）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=369",
+      "anto_phone": "076-221-5011",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": "https://suzume.shop-pro.jp/",
+      "in_scope": true,
+      "scope_note": "金沢百番街の記載ではカテゴリは和菓子・おみやげで、物販は8:30〜20:00、食堂は11:00〜20:00（L.O.19:30・終日全席禁煙）。関連サイトとして https://suzume.shop-pro.jp/ が掲載されている。物販の菓子を対象としたが、個別の商品名・価格・賞味期限・原材料は WebSearch の上限到達で未調査。食堂（飲食）は対象外。",
+      "products": [],
+      "skipped": [
+        "食堂メニュー: 飲食（イートイン）のため"
+      ],
+      "unresolved": [
+        "物販の和菓子・おみやげの商品名、入数別の税込価格、個包装、賞味期限、原材料（https://suzume.shop-pro.jp/ で絞って再検索が必要）",
+        "あんと店の区画番号",
+        "WebSearch の上限（1ターン200回・全エージェント共有）に到達したため商品調査は未実施"
+      ]
+    },
+    {
+      "shop_name": "烏鶏庵",
+      "shop_short": "烏鶏庵",
+      "category": "洋菓子・おみやげ（烏骨鶏の卵を使った菓子）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=355",
+      "anto_phone": "076-222-2755",
+      "anto_location": null,
+      "official_site": "https://www.ukokkei.co.jp",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "金沢百番街の記載ではカテゴリは洋菓子・おみやげ、営業時間8:30〜20:00。金沢郊外の直営農場で烏骨鶏を飼育し、その卵や肉から商品を作る店で、看板商品は『烏骨鶏かすていら 金箔』。菓子を扱うため対象としたが、商品の価格・賞味期限・原材料は WebSearch の上限到達で未調査。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "看板商品『烏骨鶏かすていら 金箔』をはじめ、常温の箱入り菓子の入数別税込価格・個包装・賞味期限・原材料（公式 https://www.ukokkei.co.jp で絞って再検索が必要）",
+        "要冷蔵・生菓子系の商品は対象外としてよいが、どの商品が該当するか未確認",
+        "あんと店の区画番号",
+        "WebSearch の上限（1ターン200回・全エージェント共有）に到達したため商品調査は未実施"
+      ]
+    },
+    {
+      "shop_name": "おみやげ処",
+      "shop_short": "おみやげ処",
+      "category": "複数ブランドの土産店（和菓子・洋菓子・おみやげ・コンビニエンスストア）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=258",
+      "anto_phone": "076-233-6088",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "金沢百番街の説明では、金沢・北陸の銘菓や珍味に加えて駅弁も取り揃える土産店で、新幹線改札口の目の前。営業時間7:00〜21:00。検索結果の要約では所属施設が『Rinto』と表示されており、『あんと』ではない可能性がある（金沢百番街内でどちらも金沢駅直結だが、あんと店として扱ってよいか要確認）。扱う菓子ブランドと代表商品は WebSearch の上限到達で未調査。",
+      "products": [],
+      "skipped": [
+        "駅弁: 弁当のため",
+        "珍味類: 本調査の対象（箱入り・個包装の菓子・食品土産）として個別確認できていない"
+      ],
+      "unresolved": [
+        "取り扱う菓子ブランドと代表商品、入数別の税込価格・個包装・賞味期限・原材料",
+        "所属施設（検索結果要約では Rinto）と区画番号",
+        "金沢百番街のイベントページ『金沢百番街あんと 人気のおみやげをご紹介！』（https://www.100bangai.co.jp/event/detail.php?id=27389）が検索で出たが中身は未確認",
+        "WebSearch の上限（1ターン200回・全エージェント共有）に到達したため商品調査は未実施"
+      ]
+    },
+    {
+      "shop_name": "魚菜屋",
+      "shop_short": "魚菜屋",
+      "category": "海鮮丼・寿司の飲食店",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=345",
+      "anto_phone": "076-233-2217",
+      "anto_location": "あんと 68",
+      "official_site": "http://www.tentoten.co.jp/",
+      "online_shop": null,
+      "in_scope": false,
+      "scope_note": "金沢百番街の店舗ページでは『海鮮丼＆ちょいSushi 魚菜屋』、カテゴリは和食・海鮮の飲食店（営業時間11:00〜21:30、L.O.21:00、予約可）。菓子・食品土産の物販の記載がないため対象外。",
+      "products": [],
+      "skipped": [
+        "海鮮丼・ちょいSushi: 飲食（イートイン）・寿司のため"
+      ],
+      "unresolved": [
+        "持ち帰り用の土産品の有無（店舗ページの説明には記載なし）"
+      ]
+    },
+    {
+      "shop_name": "加賀屋",
+      "shop_short": "加賀屋",
+      "category": "和食レストラン（会席・加賀料理）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=354",
+      "anto_phone": "076-263-2221",
+      "anto_location": "あんと 75",
+      "official_site": "http://www.kagaya.co.jp/shoku/shop/shop.php?shop=kanazawa",
+      "online_shop": null,
+      "in_scope": false,
+      "scope_note": "金沢百番街の店舗ページでは『和倉温泉・加賀屋の和食レストラン』で、産地直送の材料を使った会席・加賀料理を提供する飲食店（平日11:00〜15:00・17:00〜21:00、土日祝11:00〜21:00、予約可、終日全席禁煙）。菓子・食品土産の物販の記載がないため対象外。",
+      "products": [],
+      "skipped": [
+        "会席・加賀料理: 飲食（イートイン）のため"
+      ],
+      "unresolved": [
+        "持ち帰り用の土産品の有無（店舗ページの説明には記載なし）"
+      ]
+    },
+    {
+      "shop_name": "加賀棒茶 丸八製茶場",
+      "shop_short": "丸八製茶場",
+      "category": "茶（加賀棒茶）",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=352",
+      "anto_phone": "076-222-6950",
+      "anto_location": null,
+      "official_site": "https://www.kagaboucha.co.jp/",
+      "online_shop": null,
+      "in_scope": null,
+      "scope_note": "金沢百番街の説明では、一番摘みの茎を浅く焙じた献上加賀棒茶や季節限定のほうじ茶など、ほうじ茶（茶葉）が中心の店（営業時間8:30〜20:00、予約不可）。茶葉は対象外。菓子・茶葉以外の土産の有無は WebSearch の上限到達で確認できていないため in_scope は未判定（null）。金沢百番街のニュースに『焙じ茶餡入り羽二重餅 友禅ころも【加賀棒茶】』（id=19461）があり、菓子の取扱いがある可能性はあるが、この店が売る商品かは未確認。",
+      "products": [],
+      "skipped": [
+        "茶葉各種（献上加賀棒茶・季節限定ほうじ茶など）: 茶葉のため対象外",
+        "ティーバッグ: 茶（茶葉）に準じるものとして対象外とした。ただし商品自体は未確認"
+      ],
+      "unresolved": [
+        "菓子（焙じ茶餡入り羽二重餅 友禅ころも【加賀棒茶】など）の取扱い有無と、入数別の税込価格・個包装・賞味期限・原材料（公式 https://www.kagaboucha.co.jp/ で絞って再検索が必要）",
+        "金沢百番街ニュース https://www.100bangai.co.jp/news/detail.php?id=19461 の中身",
+        "あんと店の区画番号",
+        "WebSearch の上限（1ターン200回・全エージェント共有）に到達したため商品調査は未実施"
+      ]
+    }
+  ]
+}

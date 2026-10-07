@@ -1,0 +1,515 @@
+{
+  "group": "G2",
+  "researched_at": "2026-10-07",
+  "shops": [
+    {
+      "shop_name": "歳時和菓子 越山甘清堂",
+      "shop_short": "越山甘清堂",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=326",
+      "anto_phone": "076-231-3703",
+      "anto_location": null,
+      "official_site": "https://www.koshiyamakanseido.jp/",
+      "online_shop": "https://kanazawamiyage.jp/",
+      "in_scope": true,
+      "scope_note": "対象。電話番号は100bangai.co.jpの店舗ページ(id=326)の記載で、番号を含めない検索で取得し再検索でも同一（営業時間8:30～20:00、要約に『予約は不可』の記載あり）。公式サイト・通販サイトの検索要約に出る別番号（076-221-0336、0120-548414）とは異なるので、あんと店の番号として使わないこと。",
+      "products": [
+        {
+          "product_name": "金城巻（黒糖餡＆季節の餡〈2026年10月はりんご餡〉）",
+          "category": "焼菓子（餡入り）",
+          "description": "金沢城の天守閣や兜をイメージした三角形の焼き菓子。やわらかな生地で、沖縄産の薄味の黒糖餡と季節の餡の2種類を包む。箱入りは黒糖餡と季節の餡が半数ずつ。",
+          "options": [
+            {
+              "qty_label": "1個（個売り）",
+              "qty": 1,
+              "unit": "個",
+              "price_tax_incl": 260,
+              "evidence": "要約文「priced at 260円 (tax included) per individual piece」（越山甘清堂公式の金城巻ページ）",
+              "source_url": "https://www.koshiyamakanseido.jp/shopping/tunen/post_31.html"
+            },
+            {
+              "qty_label": "5個入（COREZO店掲載）",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1210,
+              "evidence": "要約文「5個入り（1,210円）、10個入り（2,916円）、12個入り（3,435円）などが販売されています」。商品ページ題名は『金城巻 5個入|越山甘清堂 COREZO店』。税込表記・本文は未確認（同要約の12個入3,435円は公式の税込額と一致）",
+              "source_url": "https://shopping.corezo.co.jp/koshiyamakanseido/products/detail.php?product_id=11080"
+            },
+            {
+              "qty_label": "6個入（黒糖餡3＋季節の餡3）",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1793,
+              "evidence": "「6個入：1,793円(税込)」「6個入：黒糖餡3個、季節の餡3個」",
+              "source_url": "https://kanazawamiyage.jp/?pid=125226206"
+            },
+            {
+              "qty_label": "10個入（COREZO店掲載）",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 2916,
+              "evidence": "要約文「10個入り（2,916円）」。商品ページ題名は『金城巻 10個入|越山甘清堂 COREZO店』。税込表記・本文は未確認",
+              "source_url": "https://shopping.corezo.co.jp/koshiyamakanseido/products/detail.php?product_id=11081"
+            },
+            {
+              "qty_label": "12個入（黒糖餡6＋季節の餡6）",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 3435,
+              "evidence": "「12個入：3,435円(税込)」「12個入：黒糖餡6個、季節の餡6個」",
+              "source_url": "https://kanazawamiyage.jp/?pid=125226206"
+            },
+            {
+              "qty_label": "18個入（黒糖餡9＋季節の餡9）",
+              "qty": 18,
+              "unit": "個",
+              "price_tax_incl": 5055,
+              "evidence": "「18個入：5,055円(税込)」「18個入：黒糖餡9個、季節の餡9個」",
+              "source_url": "https://kanazawamiyage.jp/?pid=125226206"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装かどうかの記載は検索結果になし（未確認）。1個売り（260円）はある。",
+          "shelf_life_days": 14,
+          "shelf_life_text": "冬期（10月〜5月）14日間／夏期（6月〜9月）10日間（いずれも製造日・発送日を含む）。2026年10月は冬期扱いで14日間",
+          "ingredients": "砂糖（国内製造）、小麦粉、はちみつ、小豆、卵、餅粉、手亡豆、隠元豆、ヨーグルト（乳成分を含む）、黒砂糖、伊予柑、大和芋（やまいもを含む）／膨張剤、グリシン、乳化剤",
+          "ingredient_flags": ["乳化剤"],
+          "allergens": "小麦、乳成分、卵（原材料欄に『大和芋（やまいもを含む）』の表示あり）",
+          "seasonal": "通年（入れ替わるのは季節の餡のみ。春2〜5月=伊予柑、夏5〜9月=レモン、秋冬9〜2月=りんご。2026年10月は黒糖餡＋りんご餡）",
+          "page_url": "https://kanazawamiyage.jp/?pid=125226206",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "【上長の関心事への回答】入数: 公式通販は6個入・12個入・18個入（黒糖餡と季節の餡が半数ずつ）と1個売り260円。小さい箱は、COREZO店ページ題名に『5個入』『10個入』があり（要約上1,210円・2,916円）、5個入が該当しうるが本文未確認。季節餡: 春(2〜5月)=伊予柑、夏(5〜9月)=レモン、秋冬(9〜2月)=りんご（観光サイトでは夏が5〜8月とあり食い違い）。2026年10月は黒糖餡＋りんご餡（公式通販ページ題名『黒糖餡＆りんご餡』）。賞味期限は夏期(6〜9月)10日・冬期(10〜5月)14日で製造日・発送日を含む。原材料は第三者通販ページ（うまうま探検隊、ほくりく倶楽部等）の表示で、伊予柑餡の時期のもの。りんご餡版の表示は未確認。乳化剤を含む（グリシンも含むが由来は表示から不明）。個包装は未確認。conflict: ①前任データの『夏限定3種 1,404/2,657/3,888円』は今回の検索で確認できず別レコードに保持。②6個入は公式1,793円、ほくりく倶楽部の要約は1,792円（本体1,660円。端数処理差と思われる）。③ほくりく倶楽部（大和百貨店）に『金城巻(黒糖)6個入』（黒糖風味×6）の掲載あり。あんと店頭の入数・季節餡・在庫は未確認。"
+        },
+        {
+          "product_name": "金城巻 夏限定3種（レモン・黒糖・伊予柑）【前任データ・今回未確認】",
+          "category": "焼菓子（餡入り）",
+          "description": "前任データによる『金城巻 夏限定3種（レモン・黒糖・伊予柑）』。今回の検索では該当商品を確認できなかった。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1404,
+              "evidence": "前任の既知データ（1,404円）。今回の検索では出典を確認できず",
+              "source_url": null
+            },
+            {
+              "qty_label": "12個入",
+              "qty": 12,
+              "unit": "個",
+              "price_tax_incl": 2657,
+              "evidence": "前任の既知データ（2,657円）。今回の検索では出典を確認できず",
+              "source_url": null
+            },
+            {
+              "qty_label": "18個入",
+              "qty": 18,
+              "unit": "個",
+              "price_tax_incl": 3888,
+              "evidence": "前任の既知データ（3,888円）。今回の検索では出典を確認できず",
+              "source_url": null
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "未確認",
+          "shelf_life_days": null,
+          "shelf_life_text": "未確認（通常の金城巻は夏期10日間）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "夏限定（前任データ。期間は未確認）",
+          "page_url": null,
+          "image_url": null,
+          "confidence": "C",
+          "notes": "conflict: 前任の既知データ。『金城巻 レモン 黒糖 伊予柑 3種 夏限定 1,404円 2,657円 3,888円』の検索では該当商品・価格が見つからず、要約も『具体的な情報は検索結果に含まれていない』とした。公式の季節餡は夏=レモン、春=伊予柑で『3種』とは整合しない。価格が通常の金城巻（6個入1,793円）より安く、別商品の可能性がある。夏限定のため10月は販売終了の可能性が高い（要確認）。"
+        },
+        {
+          "product_name": "犀星 杏っ子",
+          "category": "最中（皮と杏餡を自分で詰めるタイプ）",
+          "description": "犀星が愛した杏を餡にして、最中の皮に自分で詰めて食べる菓子。甘酸っぱい杏の上品な味が特徴。",
+          "options": [
+            {
+              "qty_label": "6個入",
+              "qty": 6,
+              "unit": "個",
+              "price_tax_incl": 1188,
+              "evidence": "「6個入 1,188円(税込)」",
+              "source_url": "https://www.koshiyamakanseido.jp/shopping/tunen/post_145.html"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "未確認。皮と杏餡を自分で詰める形式と読み取れるが、包装形態の記載は検索結果になし",
+          "shelf_life_days": null,
+          "shelf_life_text": null,
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "不明（『新・金沢お土産』として掲載。期間限定の記載は検索結果になし）",
+          "page_url": "https://www.koshiyamakanseido.jp/shopping/tunen/post_145.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "賞味期限・原材料は検索結果に記載なし（未確認）。検索要約に『一部の通販サイトで在庫切れ』とあるが、対象サイト・商品は不明。他の入数は未確認。あんと店頭の取扱い未確認。"
+        },
+        {
+          "product_name": "幸せの鈴もなか",
+          "category": "最中",
+          "description": "鈴の形をした小さな最中が1個の中に2つ入った、小倉あん入りの最中。鈴は厄を払い幸せを呼ぶとされる。",
+          "options": [
+            {
+              "qty_label": "小豆5個入",
+              "qty": 5,
+              "unit": "個",
+              "price_tax_incl": 1512,
+              "evidence": "「入数：小豆5個入」「税込1,512円」「賞味期限：25日間」（別の検索でも1,512円・25日間で一致）",
+              "source_url": "https://kanazawamiyage.jp/?pid=172646582"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1個の中に鈴もなかが2つ入る構成。袋・箱の包装形態は未確認",
+          "shelf_life_days": 25,
+          "shelf_life_text": "25日間",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年品の可能性（『通年のお菓子』カテゴリの検索結果に同時に出現。個別ページ上の記載は未確認）",
+          "page_url": "https://kanazawamiyage.jp/?pid=172646582",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "検索要約の『原材料: 小倉あん』は餡の説明で、原材料表示の全文ではないと思われる。乳化剤・酒類の有無は未確認。『小豆』は味の区分で、他の味・入数がある可能性。あんと店頭の取扱い未確認。"
+        }
+      ],
+      "skipped": [
+        "焼きまん: 賞味期間3日間のため（小3個入／小6個入、1,847円の表示）",
+        "福々上用万頭: 賞味期間が夏3日・冬4日のため（8個入2,398円／10個入3,003円／15個入4,482円の表示）",
+        "加賀三彩（2）3,500円・（幸）4,796円: 2,300円超の詰合せ（金城巻・れんこん餅・栗の里）。（1）（3）は価格未確認",
+        "金沢・涼: 3,510円で2,300円超の涼菓詰合せ（賞味期間10日、葛もち・竹水羊羹・金城巻2個など）",
+        "氷室万頭: 冷凍商品（冷凍パッククール）のため",
+        "金沢あいすくりーむ詰め合わせ 6個入: 商品名からアイス菓子（冷凍）と推定して対象外。詳細は未確認",
+        "加賀五色生菓子・青白上用万頭（弔事用）: 生菓子のため",
+        "お赤飯: 赤飯のため（菓子ではない。賞味期限は未確認）",
+        "金花糖: 雛菓子（季節品）のため10月は対象外",
+        "珠姫てまり: 百万石まつり期間限定品のため10月は対象外"
+      ],
+      "unresolved": [
+        "検索予算上限（1ターン200回・全エージェント共有）に達したため、以降の確認検索を実行できなかった。本ファイルは上限到達時点までの結果",
+        "金城巻のりんご餡版の原材料表示（記載の原材料は伊予柑餡の時期のもの。乳化剤の有無も要確認）、個包装の有無",
+        "金城巻 COREZO店の5個入・10個入の価格（税込表記）・本文、およびあんと店・公式通販で買えるか",
+        "金城巻 夏限定3種（前任データ）の出典と価格",
+        "あんと店頭の入数ラインナップ・在庫・季節餡（今回は通販ページの情報のみ）、100bangaiの区画番号",
+        "犀星 杏っ子の賞味期限・原材料・個包装・在庫",
+        "鼓もち（https://kanazawamiyage.jp/?pid=137336032）: 賞味期間は冬期20日・夏期14日、小豆餡と黄粉餡の2種。検索時点でSOLD OUT表示。価格・入数は未確認",
+        "どら焼きサンド（https://kanazawamiyage.jp/?pid=147879442）: 賞味期間7日間。検索時点でSOLD OUT表示。価格・入数は未確認",
+        "価格・日持ち・原材料が未確認の商品（kanazawamiyage.jp）: ひとひら５個入（?pid=125602594）、羽二重 加賀れんこん餠（?pid=125163067）、粒どら焼（?pid=125661480）、発酵あんの栗ふくさ（?pid=145620132）、葛もち詰合せ（１）（?pid=162288886）、福梅（?pid=125598537、12/29までのお届けの季節品）、加賀三彩（1）（3）の価格、ゆるりゆらり（検索結果に出ず）",
+        "幸せの鈴もなかの5個入以外の入数と原材料表示の全文"
+      ]
+    },
+    {
+      "shop_name": "和菓子 村上",
+      "shop_short": "村上",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=305",
+      "anto_phone": "076-260-3761",
+      "anto_location": null,
+      "official_site": "https://www.wagashi-murakami.com/",
+      "online_shop": "https://www.wagashi-murakami.com/products/list",
+      "in_scope": true,
+      "scope_note": "対象（わり氷など日持ちする干菓子）。電話番号は前任データで、今回は100bangai id=305の本文を確認できていない（URLのみ検索結果で確認）。旧ドメインの https://shop.wagashi-murakami.com/ も検索結果に出る。",
+      "products": [
+        {
+          "product_name": "わり氷（8入）",
+          "category": "干菓子（寒天菓子）",
+          "description": "淡く透きとおった色彩の繊細な干菓子。寒天を六日間かけて乾燥させる伝統製法で、外はカリッと中はしっとり。",
+          "options": [
+            {
+              "qty_label": "8入（25g×8袋）",
+              "qty": 8,
+              "unit": "袋",
+              "price_tax_incl": 1998,
+              "evidence": "「価格（税込）: 1,998円」「賞味期限（日保ち）: 製造後60日」（25g×8袋は前任データ）",
+              "source_url": "https://www.wagashi-murakami.com/products/detail/228"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "25g入りの小袋×8袋（前任データ）。1袋内の粒数や粒ごとの包装は未確認",
+          "shelf_life_days": 60,
+          "shelf_life_text": "製造後60日（目安。到着後、各商品の賞味期限を確認するよう記載あり）",
+          "ingredients": "寒天とお砂糖、そして白山の伏流水。基本原料はこの３つだけ（商品説明文の記載で、正式な原材料表示ではない可能性）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（季節限定の記載は検索結果になし）",
+          "page_url": "https://www.wagashi-murakami.com/products/detail/228",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格・賞味期限・原材料は前任データと一致。検索要約は『わり氷』ページ（detail/228）から8入=1,998円を返したが、同ページに他の入数がある可能性は未確認。『基本原料は3つだけ』の記載で、着色料・香料の有無（淡い色彩の由来）は未確認。1,998円は2,000円以内だがほぼ上限。あんと店頭の取扱い未確認。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "検索予算上限（1ターン200回・全エージェント共有）に達したため、以降の確認検索を実行できなかった。本ファイルは上限到達時点までの結果",
+        "商品ページURLのみ把握で、価格・入数・賞味期限・原材料・包装が未確認のわり氷系商品: わり氷（25g）単品（https://www.wagashi-murakami.com/products/detail/160）、わり氷（25g）４種詰合せ（.../detail/227）、金沢ゆずわり氷（25g）（.../detail/231）、能登塩サイダーわり氷（25g）（.../detail/229、前任データにない商品）、わり氷【キューブ】25g×4袋入（.../detail/165、同）、詰合せ〈涼菓〉（.../detail/240）",
+        "加賀棒茶わり氷は今回の検索結果に出ず（前任データのみ）",
+        "ゆず・能登塩サイダー等の味付きわり氷の着色料・香料の有無（アルコール溶剤の有無を含む）",
+        "『村上のお菓子』カテゴリ（https://www.wagashi-murakami.com/products/list?category_id=1&pageno=2）ほか、わり氷以外の商品は未調査",
+        "あんと店頭の取扱い品目・区画番号、電話番号（076-260-3761は前任データ）の再確認"
+      ]
+    },
+    {
+      "shop_name": "金沢 うら田",
+      "shop_short": "うら田",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=343",
+      "anto_phone": "076-260-3774",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": "https://urata-k-store.shop-pro.jp/",
+      "in_scope": true,
+      "scope_note": "対象（起上もなか）。愛香菓はショートニング・乳化剤入りのため対象外。電話番号は前任データで、今回は100bangai id=343の本文を確認できていない（URLのみ検索結果で確認）。公式サイトURLは未確認。",
+      "products": [
+        {
+          "product_name": "加賀八幡 起上もなか",
+          "category": "最中",
+          "description": "金沢の郷土玩具『加賀八幡起上り』をモチーフにした最中。縁起のよい土産として紹介される。",
+          "options": [
+            {
+              "qty_label": "7個入",
+              "qty": 7,
+              "unit": "個",
+              "price_tax_incl": 1577,
+              "evidence": "「7個入：1,577円（税込）」（公式通販の検索要約。前任データも1,577円。別検索では1,576円）",
+              "source_url": "https://urata-k-store.shop-pro.jp/?pid=139047274"
+            },
+            {
+              "qty_label": "10個入",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 2214,
+              "evidence": "「10個入：2,214円（税込）」（公式通販と大和百貨店系の検索要約で一致）",
+              "source_url": "https://urata-k-store.shop-pro.jp/?pid=139047274"
+            },
+            {
+              "qty_label": "15個入",
+              "qty": 15,
+              "unit": "個",
+              "price_tax_incl": 3294,
+              "evidence": "「15個入：3,294円（税込）」（公式通販の検索要約）",
+              "source_url": "https://urata-k-store.shop-pro.jp/?pid=139047274"
+            }
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "1個ずつ起上り人形の絵柄の紙で包装（前任データ）。公式通販ページの今回の検索要約には個包装の記載なし",
+          "shelf_life_days": 10,
+          "shelf_life_text": "約10日（公式通販の表示。conflict: 大和百貨店系を含む別検索の要約では『製造日より15日間』）",
+          "ingredients": "砂糖（国内製造）、小豆、最中種（もち米）、水飴、還元水飴、寒天／トレハロース",
+          "ingredient_flags": [],
+          "allergens": "なし（公式通販の検索要約に『アレルギー：なし』）",
+          "seasonal": "通年",
+          "page_url": "https://urata-k-store.shop-pro.jp/?pid=139047274",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "conflict: ①賞味期限は公式通販『約10日』（前任データも約10日）に対し、別検索（大和百貨店系ページを含む）の要約は『製造日より15日間』。②7個入は公式通販・前任データが1,577円、別検索が1,576円（1円差。端数処理差の可能性があるが未確認）。confidenceは矛盾のためCにしたが、価格・入数・原材料は公式と一致している。20個入・30個入・1個入も存在するが価格は未確認（15個入が3,294円のため2,300円超と思われる）。10個入2,214円は『少し超過』帯（2,001〜2,300円）。1個あたり116kcal、保存は高温多湿を避ける（公式要約）。あんと店頭の入数は未確認。"
+        }
+      ],
+      "skipped": [
+        "愛香菓: ショートニング・乳化剤を含むため対象外（前任データ。https://urata-k-store.shop-pro.jp/?pid=139128245）"
+      ],
+      "unresolved": [
+        "検索予算上限（1ターン200回・全エージェント共有）に達したため、以降の確認検索を実行できなかった。本ファイルは上限到達時点までの結果",
+        "起上もなかの賞味期限の食い違い（10日 vs 15日）の確定、7個入の1,576円/1,577円の確定、20個入・30個入・1個入の価格",
+        "価格・日持ち・原材料が未確認の商品（urata-k-store.shop-pro.jp）: あいそらしモナカ 八幡さま（?pid=165458911）、郷菓撰（?pid=139274519、?pid=139274543）、創菓撰（?pid=139274451）、葛草子（抹茶）（?pid=142819876）、夏の涼 3号（?pid=143477687）",
+        "公式サイトURL、あんと店の区画番号、電話番号（076-260-3774は前任データ）の再確認",
+        "あんと店頭の取扱い入数・在庫"
+      ]
+    },
+    {
+      "shop_name": "石川屋本舗",
+      "shop_short": "石川屋本舗",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=319",
+      "anto_phone": "076-260-3768",
+      "anto_location": null,
+      "official_site": "https://ishikawaya-honpo.co.jp/",
+      "online_shop": "https://shop.umaumatankentai.com/",
+      "in_scope": true,
+      "scope_note": "対象（琥珀糖『かいちん』ほか）。電話番号は前任データと一致するが、今回の確認検索はクエリに番号を含めたため独立した確認ではない（営業時間8:30～20:00）。通販サイトは石川屋本舗・彩霞堂・山中石川屋・越山甘清堂など複数ブランドの商品を載せるモール型。",
+      "products": [
+        {
+          "product_name": "琥珀糖 かいちん いろいろ",
+          "category": "琥珀糖（干菓子）",
+          "description": "寒天と砂糖を自然乾燥させた、宝石のようにきらめく琥珀糖の詰合せ。中身は季節で入れ替わる（観光サイトの記載）。",
+          "options": [
+            {
+              "qty_label": "10個入り",
+              "qty": 10,
+              "unit": "個",
+              "price_tax_incl": 1188,
+              "evidence": "「入数：10個、原材料：砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）、賞味期限：20日間、価格：1,188円（税込）」",
+              "source_url": "https://shop.umaumatankentai.com/view/item/000000000006"
+            },
+            {
+              "qty_label": "20個入り",
+              "qty": 20,
+              "unit": "個",
+              "price_tax_incl": 1944,
+              "evidence": "前任の既知データ（1,944円）。今回の検索では20個入りの商品ページを確認できず",
+              "source_url": null
+            }
+          ],
+          "individually_wrapped": false,
+          "wrap_note": "個包装なし（前任データ。今回の検索結果には包装の記載なし）",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日間",
+          "ingredients": "砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（詰合せの中身は季節で入れ替わる）",
+          "page_url": "https://shop.umaumatankentai.com/view/item/000000000006",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "10個入り1,188円は今回の検索で確認。20個入り1,944円は前任データのままで再確認できていない（検索要約には10個入りの記載のみ）。原材料に卵白（卵）を含む。アレルゲン表示全文は未確認。着色料は合成着色料で、豚由来・アルコールに該当する語はない。あんと店頭の取扱い入数は未確認。"
+        },
+        {
+          "product_name": "金沢の琥珀糖 恐竜かいちん",
+          "category": "琥珀糖（干菓子）",
+          "description": "商品名に『恐竜』とあり、恐竜モチーフの琥珀糖と思われる（説明文は未確認）。",
+          "options": [
+            {
+              "qty_label": "9個入",
+              "qty": 9,
+              "unit": "個",
+              "price_tax_incl": 1296,
+              "evidence": "「入数：9個、賞味期限：20日間、原材料：砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）、価格：1,296円（税込）」",
+              "source_url": "https://shop.umaumatankentai.com/view/item/000000001635"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "未確認",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日間",
+          "ingredients": "砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年と思われる（期間限定の記載は検索結果になし）",
+          "page_url": "https://shop.umaumatankentai.com/view/item/000000001635",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "1つの検索要約に複数商品が並んだ中の情報で、商品ページ本文は直接見ていない。個包装・アレルゲン表示は未確認。あんと店頭の取扱い未確認。"
+        },
+        {
+          "product_name": "琥珀糖 かいちん どうぶつ園",
+          "category": "琥珀糖（干菓子）",
+          "description": "動物モチーフと思われる琥珀糖『かいちん』（商品名より。説明文は未確認）。",
+          "options": [
+            {
+              "qty_label": "14〜16個入（個数に幅あり）",
+              "qty": null,
+              "unit": "個",
+              "price_tax_incl": 1850,
+              "evidence": "「入数：14～16個入、原材料：砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）、賞味期限：20日間、価格：1,850円（税込）」",
+              "source_url": "https://shop.umaumatankentai.com/view/item/000000000033"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "未確認",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日間",
+          "ingredients": "砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年と思われる（期間限定の記載は検索結果になし）",
+          "page_url": "https://shop.umaumatankentai.com/view/item/000000000033",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "入数は『14～16個』と幅のある表記。商品ページ本文は直接見ていない。個包装・アレルゲン表示は未確認。あんと店頭の取扱い未確認。"
+        },
+        {
+          "product_name": "琥珀糖 かいちん コーラ味",
+          "category": "琥珀糖（干菓子）",
+          "description": "コーラ味の琥珀糖『かいちん』（商品名より。説明文は未確認）。",
+          "options": [
+            {
+              "qty_label": "85g",
+              "qty": 85,
+              "unit": "g",
+              "price_tax_incl": 900,
+              "evidence": "「入数：85g、原材料：砂糖（国内製造）、寒天、香料、カラメル、賞味期限：25日間、価格：900円（税込）」",
+              "source_url": "https://shop.umaumatankentai.com/view/item/000000001274"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "未確認",
+          "shelf_life_days": 25,
+          "shelf_life_text": "25日間",
+          "ingredients": "砂糖（国内製造）、寒天、香料、カラメル",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年と思われる（期間限定の記載は検索結果になし）",
+          "page_url": "https://shop.umaumatankentai.com/view/item/000000001274",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "原材料に卵白はない。香料の由来・溶剤（アルコールの有無）は表示から判断できない。商品ページ本文は直接見ていない。個包装は未確認。あんと店頭の取扱い未確認。"
+        },
+        {
+          "product_name": "金沢の琥珀糖 えらべるかいちん（味つき）",
+          "category": "琥珀糖（干菓子）",
+          "description": "味つきの琥珀糖『かいちん』を選べる商品（商品名より。説明文は未確認）。",
+          "options": [
+            {
+              "qty_label": "15〜20個程度（要約表記）",
+              "qty": null,
+              "unit": "個",
+              "price_tax_incl": 486,
+              "evidence": "「入数：15～20個程度、原材料：砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）香料、賞味期限：20日間、価格：486円（税込）」",
+              "source_url": "https://shop.umaumatankentai.com/view/item/000000001671"
+            }
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "未確認",
+          "shelf_life_days": 20,
+          "shelf_life_text": "20日間",
+          "ingredients": "砂糖、寒天、卵白、着色料（赤3、赤106、青1、青2、黄4、黄5）香料",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年と思われる（期間限定の記載は検索結果になし）",
+          "page_url": "https://shop.umaumatankentai.com/view/item/000000001671",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "価格486円に対して入数『15〜20個程度』は不自然で、選択式・小袋など別形態の可能性があり、要約の誤りも否定できない。香料の由来・溶剤（アルコールの有無）は表示から判断できない。あんと店頭の取扱い未確認。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "検索予算上限（1ターン200回・全エージェント共有）に達したため、以降の確認検索を実行できなかった。本ファイルは上限到達時点までの結果",
+        "かいちん いろいろ 20個入り（1,944円）の商品ページ・出典（前任データの再確認）",
+        "価格・入数が未確認の通販商品: かいちん水族館（https://shop.umaumatankentai.com/view/item/000000000032）、かいちん X'mas【期間限定】（.../000000000034、10月の販売有無も未確認）、琥珀糖セット かいちん＆紙ふうせん（.../000000001129）",
+        "別ブランド: 彩霞堂 琥珀糖（.../000000000967）、山中石川屋 娘娘万頭（.../000000000861）は、石川屋本舗のあんと店で扱うか・価格・日持ちとも未確認",
+        "個包装の有無（かいちん各種）、アレルゲン表示の全文",
+        "あんと店頭でのかいちん取扱い入数・在庫（今回は通販ページの情報のみ）、区画番号",
+        "菓匠 高木屋（100bangai id=347）との関係（通販の商品名に『石川屋本舗 菓匠高木屋』の併記あり。別の店舗ページが存在する）"
+      ]
+    },
+    {
+      "shop_name": "和菓子 末広堂",
+      "shop_short": "末広堂",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=304",
+      "anto_phone": "076-260-3784",
+      "anto_location": null,
+      "official_site": "https://www.suehirodou.jp/",
+      "online_shop": "https://store.suehirodou.jp/",
+      "in_scope": true,
+      "scope_note": "保留。100bangai店舗ページの説明は『四季折々の上生菓子、朝生菓子』のみで、生菓子は対象外。公式通販には日持ちする品がありそうだが、あんと店頭での取扱いは未確認。電話番号は100bangai id=304の記載で、番号を含めない検索で取得（営業時間8:30～20:00）。",
+      "products": [],
+      "skipped": [
+        "上生菓子・朝生菓子（四季折々）: 生菓子のため（100bangai店舗ページの説明）"
+      ],
+      "unresolved": [
+        "検索予算上限（1ターン200回・全エージェント共有）に達したため、末広堂の商品別（入数・税込価格・賞味期限・原材料・個包装）を1件も確認できなかった。本ファイルは上限到達時点までの結果",
+        "公式通販・ブログの検索要約に出た日持ち品の候補（いずれも二次情報、価格・入数は未確認）: きんつば（https://www.suehirodou.jp/collections/kintsuba）、薄皮饅頭、卵黄せんべい、金沢うさぎ（最中）、おかしの部屋 6個入り（https://store.suehirodou.jp/products/okashinoheya-6）、詰合せ（要約の英語表記 'Kanazawa no Tsudoi'、日本語名は未確認）",
+        "要約上の賞味期限: きんつば20日、薄皮饅頭20日、卵黄せんべい20日、金沢うさぎ（最中）30日。conflict: 詰合せの説明では卵黄せんべいが30日ともあり食い違う。出典は末広堂ブログ（https://suehirodou.jp/blog/?p=106 など）の要約で、商品ページ本文ではない",
+        "要約に『きんつば900円〜』『薄皮饅頭300円』とあるが、入数・単位・税込が不明なため採用しない",
+        "あんと店頭でこれらの日持ち品を扱うか、区画番号"
+      ]
+    }
+  ]
+}

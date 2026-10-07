@@ -1,0 +1,7 @@
+# 非公開（公開リポジトリには置かない）
+# - private/      : 公式サイトの商品写真（各社の著作物）と、渡し先の割り当て
+# - deliverables/ : 写真入りの完成版スプレッドシート
+private/
+deliverables/
+__pycache__/
+*.pyc

@@ -1,0 +1,457 @@
+{
+  "group": "G4",
+  "researched_at": "2026-10-07",
+  "group_note": "WebSearch の回数上限（1ターン200回・全エージェント共有）に達したため、35回の検索で調査を打ち切った。加賀陣屋は通販サイト（kagajinya.com）の検索要約ベースで商品データを取得（商品ページ本文は未閲覧）。金澤 福うさぎは観光サイト等の二次情報のみ。茶菓工房 たろう・あめの俵屋は商品データ未取得。兼六園本舗 高砂屋は破産・事業停止のため対象外。あんと店の電話番号は 100bangai.co.jp 店舗ページの検索要約文から採った（ページ原文は未閲覧）。",
+  "shops": [
+    {
+      "shop_name": "和菓子 加賀陣屋",
+      "shop_short": "加賀陣屋",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=306",
+      "anto_phone": "076-260-3760",
+      "anto_location": null,
+      "official_site": "http://www.kagajinya.com/index.html",
+      "online_shop": "https://kagajinya.com/SHOP/list.php?Search=&Type=02&PAGE=1",
+      "in_scope": true,
+      "scope_note": "（参考）あんと店の営業時間は 8:30〜20:00（100bangai.co.jp 店舗ページの検索要約より）。商品データは通販サイトの要約ベースのため、あんと店頭での取扱商品・店頭価格は要確認。",
+      "products": [
+        {
+          "product_name": "金沢の月プレミアム",
+          "category": "洋風菓子",
+          "description": "原材料表示（カスタードクリーム・小麦粉・鶏卵、着色料に金箔）から、金箔を使ったカスタードクリーム入りの洋風菓子と読み取れる。形状・味の商品説明文は検索結果に無く未確認。",
+          "options": [
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 1080,
+             "evidence": "金沢の月プレミアム 12個入 価格：¥1,080（税込）／賞味期限：常温で製造日より30日間（WebSearch要約。複数検索で一致）",
+             "source_url": "https://www.kagajinya.com/SHOP/900003n.html"},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 1944,
+             "evidence": "金沢の月プレミアム 20個入 - ¥1,944 (税込), shelf life of 30 days（検索1の要約）。別検索の要約では 20個入 ¥1,728 とあり矛盾",
+             "source_url": "https://www.kagajinya.com/SHOP/900004n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の明記は検索結果に無し（ある検索要約は『個包装で配りやすいようだ』と述べていたが、ページ原文の記載ではなく要約側の推測）",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温で製造日より30日間",
+          "ingredients": "鶏卵（国産）、カスタードクリーム（植物油脂、還元水飴、砂糖、加糖練乳、その他）、小麦粉、砂糖、植物油脂、マルチトール、加糖練乳／乳化剤（大豆由来）、ソルビトール、炭酸カルシウム、増粘多糖類、膨張剤、香料、酸化防止剤（V、E）、着色料（クチナシ、金箔）",
+          "ingredient_flags": ["乳化剤（大豆由来と表示）"],
+          "allergens": "小麦・乳成分・卵・大豆",
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://kagajinya.com/SHOP/153041/list.html",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "12個入 ¥1,080 は複数の検索で一致（この選択肢単体はB相当）。20個入は ¥1,944（検索1）と ¥1,728（別検索）で食い違い、再検索は検索回数上限で未実施のため、より根拠の多い ¥1,944 を主値に採用し、両方を記録。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "金箔羽二重餅",
+          "category": "羽二重餅",
+          "description": "水飴・餅粉などで作る羽二重餅に金箔をあしらった和菓子（原材料表示：水飴、麦芽糖、餅粉、砂糖、米粉、着色料に金箔）。形状・味の商品説明文は未確認。",
+          "options": [
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 972,
+             "evidence": "金箔羽二重餅 9個入 税込価格: ¥972／賞味期限: 常温で製造日より30日間（WebSearch要約。複数検索で一致）",
+             "source_url": "https://www.kagajinya.com/SHOP/900001n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の明記は検索結果に無し",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温で製造日より30日間",
+          "ingredients": "水飴（国内製造）、麦芽糖、餅粉、砂糖、米粉／トレハロース、着色料（カラメル、金箔）、グリセリンエステル",
+          "ingredient_flags": ["グリセリンエステル（乳化剤の一種。原料油脂が動物・植物いずれかは表示から判別不可）"],
+          "allergens": null,
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/153044/list.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "価格は複数の検索（個別ページ・1,500円以下一覧）で ¥972 と一致。アレルゲン欄は未確認。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "金箔羽二重餅・金箔黒羽二重餅詰合せ（各9個入）",
+          "category": "羽二重餅 詰合せ",
+          "description": "金箔羽二重餅と金箔黒羽二重餅を各9個ずつ詰め合わせたセット。黒羽二重餅は原材料表示にゴマ・炭末・金箔がある。",
+          "options": [
+            {"qty_label": "各9個入 計18個入", "qty": 18, "unit": "個", "price_tax_incl": 1836,
+             "evidence": "金箔羽二重餅・金箔黒羽二重餅詰合せ 各9個入 計18個入 価格：¥1,836（税込）（WebSearch要約。複数検索で一致）",
+             "source_url": "https://www.kagajinya.com/SHOP/900002n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の明記は検索結果に無し",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温で製造日より30日間（検索1の要約。別の検索では賞味期限の記載を取得できなかった）",
+          "ingredients": "金箔羽二重餅：水飴（国内製造）、麦芽糖、餅粉、砂糖、米粉／トレハロース、着色料（カラメル、金箔）、グリセリンエステル　金箔黒羽二重餅：水飴（国内製造）、砂糖、餅粉、米粉、ゴマ／トレハロース、ソルビトール、着色料（炭末、金箔）",
+          "ingredient_flags": ["グリセリンエステル（金箔羽二重餅側。乳化剤の一種で原料油脂の由来は判別不可）"],
+          "allergens": null,
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/900002n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "黒羽二重餅側には警戒成分なし（ソルビトールは糖アルコール）。賞味期限30日は1回の検索要約のみで根拠が弱い。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "加賀の殿様",
+          "category": "銘菓（梅鉢形）",
+          "description": "前田家御紋の梅鉢にかたどり、金沢金箔をあしらった銘菓（商品説明）。原材料に白生餡・小麦粉・鶏卵・バター・マーガリンを使用。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 1210,
+             "evidence": "加賀の殿様 6個入の税込価格は¥1,210です（WebSearch要約。1,500円以下一覧の要約でも ¥1,210）",
+             "source_url": "https://kagajinya.com/SHOP/777099n.html"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 1770,
+             "evidence": "加賀の殿様 10個入 ¥1,770 (税込), shelf life 30日（WebSearch要約。2回の検索で一致）",
+             "source_url": "https://kagajinya.com/SHOP/777041n.html"},
+            {"qty_label": "15個入", "qty": 15, "unit": "個", "price_tax_incl": 2670,
+             "evidence": "加賀の殿様 15個入 価格（税込）: ¥2,670（WebSearch要約）。2,300円超",
+             "source_url": "https://www.kagajinya.com/SHOP/777042n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "『脱酸素包装されており、賞味期限までは美味しく召し上がれます。開封後は、3日以内にお召し上がり下さい。』との記載あり（個包装か箱単位かは未確認）",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温で製造日より30日間（脱酸素包装。開封後は3日以内）",
+          "ingredients": "白生餡（国内製造）、砂糖、麦芽糖、小麦粉、鶏卵、加糖練乳、クリーム（乳製品）、全粉乳、バター、植物油脂、マーガリン、水飴、澱粉／トレハロース、膨張剤、加工澱粉、香料、セルロース、増粘多糖類、乳化剤(大豆由来）、着色料（カロチン、金箔）",
+          "ingredient_flags": ["マーガリン", "乳化剤（大豆由来と表示）"],
+          "allergens": "小麦・乳成分・卵・大豆",
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/97186/list.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "20個入（https://www.kagajinya.com/SHOP/777043n.html）の存在は確認したが価格は未取得。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "金沢のまち",
+          "category": "洋風菓子",
+          "description": "原材料表示（チョコレート、小麦粉、鶏卵、ココアパウダー、着色料に金箔）から、チョコレートを使い金箔を添えた洋風菓子と読み取れる。形状・味の商品説明文は検索結果に無く未確認。",
+          "options": [
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 1296,
+             "evidence": "金沢のまち 12個入 価格：¥1,296（税込）／賞味期限：常温で製造日より50日間（WebSearch要約。1,500円以下一覧の要約でも ¥1,296）",
+             "source_url": "https://www.kagajinya.com/SHOP/900005n.html"},
+            {"qty_label": "18個入", "qty": 18, "unit": "個", "price_tax_incl": 1728,
+             "evidence": "金沢のまち 18個入 価格：¥1,728（税込）（検索1・検索4の要約で一致）。別検索の要約では 18個入 ¥1,890 とあり矛盾",
+             "source_url": "https://www.kagajinya.com/SHOP/900006n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の明記は検索結果に無し",
+          "shelf_life_days": 50,
+          "shelf_life_text": "常温で製造日より50日間",
+          "ingredients": "チョコレート（国内製造）、小麦粉、乳等を主要原料とする食品、準チョコレート（砂糖、植物油脂（大豆を含む）、ココアパウダー、乳糖、澱粉、その他）、砂糖、ココアパウダー、コーンスターチ、鶏卵、食塩／香料、乳化剤、膨張剤、着色料（金箔）、酸化防止剤（V、C、ヒマワリ種子摘出物）",
+          "ingredient_flags": ["乳化剤"],
+          "allergens": "小麦・乳成分・卵・大豆",
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/900005n.html",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "18個入は ¥1,728（2回の検索）と ¥1,890（別検索）で食い違い。再検索は検索回数上限で未実施のため ¥1,728 を主値に採用し両方を記録。12個入 ¥1,296 は一致。賞味期限50日は商品の中で最長級。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "加賀のかがやき 上々かすてぃら プレーン",
+          "category": "カステラ",
+          "description": "上品な風味のカステラに、優美な金沢金箔をあしらいました（商品説明）。",
+          "options": [
+            {"qty_label": "1箱（切数は未確認）", "qty": 1, "unit": "箱", "price_tax_incl": 1512,
+             "evidence": "加賀のかがやき 上々かすてぃら プレーン Price (Tax included): ¥1,512／常温で製造日より30日間（WebSearch要約）",
+             "source_url": "https://www.kagajinya.com/SHOP/777101n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "切り分け包装の有無は検索結果に無し（抹茶は『1箱(11切入)』との記載のみ）",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温で製造日より30日間",
+          "ingredients": "砂糖(国内製造) 鶏卵、小麦粉、米飴/着色料(金箔)",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/777101n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "警戒成分なし（乳化剤・マーガリン・洋酒の記載なし）。アレルゲン欄は未確認（原材料に鶏卵・小麦粉）。1箱の切数・重量は未確認。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "加賀のかがやき 上々かすてぃら 抹茶",
+          "category": "カステラ",
+          "description": "抹茶風味のカステラに金沢金箔をあしらった商品（原材料表示：抹茶、着色料にクロレラ末・金箔）。",
+          "options": [
+            {"qty_label": "1箱（11切入）", "qty": 11, "unit": "切", "price_tax_incl": 1512,
+             "evidence": "加賀のかがやき 上々かすてぃら 抹茶 価格（税込）: ¥1,512／内容量: 抹茶 1箱(11切入)（WebSearch要約）",
+             "source_url": "https://www.kagajinya.com/SHOP/777102n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "切り分け包装の有無は検索結果に無し",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温で製造日より30日間",
+          "ingredients": "砂糖(国内製造) 鶏卵、小麦粉、米飴、抹茶/着色料(クロレラ末、金箔)",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/777102n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "警戒成分なし。アレルゲン欄は未確認。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "いしかわ自慢 甘えび煎餅",
+          "category": "煎餅",
+          "description": "石川県産甘えびと石川県産コシヒカリを使用したパリパリ食感の煎餅（商品説明）。製品サイズと商品デザインが大幅にリニューアルされたとの記載あり。",
+          "options": [
+            {"qty_label": "8枚入", "qty": 8, "unit": "枚", "price_tax_incl": 594,
+             "evidence": "8枚入は¥594（税込）（WebSearch要約。1,500円以下一覧の要約でも 8枚入 ¥594）",
+             "source_url": "https://www.kagajinya.com/SHOP/778001n.html"},
+            {"qty_label": "15枚入", "qty": 15, "unit": "枚", "price_tax_incl": 1026,
+             "evidence": "15枚入：¥1,026(税込)（複数の検索要約で一致）",
+             "source_url": "https://www.kagajinya.com/SHOP/778002n.html"},
+            {"qty_label": "24枚入", "qty": 24, "unit": "枚", "price_tax_incl": 1620,
+             "evidence": "24枚入は¥1,620（税込）（WebSearch要約）",
+             "source_url": "https://www.kagajinya.com/SHOP/778003n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の明記は検索結果に無し",
+          "shelf_life_days": null,
+          "shelf_life_text": "現行版（8/15/24枚入）の賞味期限は未確認。旧『10枚入』ページの要約では『常温で90日間』とあった",
+          "ingredients": "甘えび（石川県産）、澱粉、米粉（米（石川県産コシヒカリ））、魚介エキス粉末（小麦・大豆を含む）／トレハロース、調味料（アミノ酸等）、香料、膨張剤",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/103965/list.html",
+          "image_url": null,
+          "confidence": "C",
+          "notes": "検索1では同じURL（778001n）が『10枚入 ¥475』、別検索では『10枚入 ¥540』と出たが、最新の複数要約は 8枚入 ¥594 / 15枚入 ¥1,026 / 24枚入 ¥1,620（リニューアル後の構成と読み取れる）。10枚入は旧版の表記と判断し除外したが、再確認は検索回数上限で未実施。原材料に醤油・乳化剤の記載なし。えび（甘えび）使用のためえびアレルギーに注意。アレルゲン欄は未確認。"
+        },
+        {
+          "product_name": "五郎島金時 芋長寿",
+          "category": "スイートポテト系和菓子",
+          "description": "石川特産の「五郎島金時」を使用、薩摩芋の風味豊かなスイートポテトに調製された和菓子（商品説明）。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 1420,
+             "evidence": "6個入：¥1,420（税込）（WebSearch要約。1,500円以下一覧の要約でも 6個入 ¥1,420）",
+             "source_url": "https://kagajinya.com/SHOP/777063n.html"},
+            {"qty_label": "12個入", "qty": 12, "unit": "個", "price_tax_incl": 2660,
+             "evidence": "12個入：¥2,660（税込）（WebSearch要約）。2,300円超",
+             "source_url": "https://www.kagajinya.com/SHOP/777064n.html"},
+            {"qty_label": "20個入", "qty": 20, "unit": "個", "price_tax_incl": 4280,
+             "evidence": "20個入：¥4,280（税込）（WebSearch要約。2回の検索で一致）",
+             "source_url": "https://www.kagajinya.com/SHOP/777065n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の明記は検索結果に無し",
+          "shelf_life_days": 14,
+          "shelf_life_text": "常温で製造日より14日間",
+          "ingredients": "五郎島金時ペースト（国内製造）、乳等を主要原料とする食品、卵黄（卵を含む）、水飴、白生餡、バター、黒ごま、砂糖、麦芽糖、還元水飴／乳化剤（大豆由来）、香料、メタリン酸Na、増粘剤（グァー）、着色料（カラメル、カロチン）",
+          "ingredient_flags": ["乳化剤（大豆由来と表示）"],
+          "allergens": null,
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://kagajinya.com/SHOP/97188/list.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "賞味期限14日はやや短め。アレルゲン欄は未確認（原材料に卵・乳・ごま・大豆の記載あり）。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "栗春日",
+          "category": "栗菓子",
+          "description": "能登栗を1粒丸ごと使った上品な和菓子（検索要約：A refined product containing one large Noto chestnut）。",
+          "options": [
+            {"qty_label": "6個入", "qty": 6, "unit": "個", "price_tax_incl": 1500,
+             "evidence": "栗春日 6個入：¥1,500(税込)（1,500円以下一覧ページの要約）",
+             "source_url": "https://www.kagajinya.com/SHOP/152047/list.html"},
+            {"qty_label": "10個入", "qty": 10, "unit": "個", "price_tax_incl": 2420,
+             "evidence": "栗春日 10個入 Price (税込): ¥2,420／14 days from manufacture date at room temperature（WebSearch要約）。2,300円超",
+             "source_url": "https://www.kagajinya.com/SHOP/777052n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の明記は検索結果に無し",
+          "shelf_life_days": 14,
+          "shelf_life_text": "常温で製造日より14日間（開封後は3日以内）",
+          "ingredients": "【英語要約からの再構成。原文の表記・順序と異なる可能性あり】白生餡（国内製造）、砂糖、栗甘露煮（能登栗、砂糖）、米粉、麦芽糖、還元水飴、水飴、そば粉、山芋、小麦澱粉、コーンスターチ、乾燥卵白（卵を含む）、寒天／膨張剤、グリシン、くちなし色素、増粘剤（CMC、アルギン酸Na、増粘多糖類）、乳化剤",
+          "ingredient_flags": ["乳化剤"],
+          "allergens": null,
+          "seasonal": "未確認（能登栗使用。通販サイトには掲載）",
+          "page_url": "https://www.kagajinya.com/SHOP/777052n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "この商品の検索要約は英語で返ったため原材料は日本語に戻したもの。乳化剤は要約末尾に『emulsifier』とあるが、詳細表記（大豆由来など）は未確認。そば粉・小麦澱粉・卵・山芋が原材料に出てくる（アレルゲン欄は未確認）。6個入の価格は一覧ページ要約のみで個別ページは未確認。6個入のページURLは未取得。"
+        },
+        {
+          "product_name": "金沢あんころ餅",
+          "category": "餅菓子",
+          "description": "赤生餡と餅粉を使ったあんころ餅（原材料表示より）。",
+          "options": [
+            {"qty_label": "9個入", "qty": 9, "unit": "個", "price_tax_incl": 480,
+             "evidence": "金沢あんころ餅 9個入 価格（税込）: ¥480／賞味期限: 常温で製造日より７日間（WebSearch要約。1,500円以下一覧の要約でも ¥480）",
+             "source_url": "https://www.kagajinya.com/SHOP/900007n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の明記は検索結果に無し",
+          "shelf_life_days": 7,
+          "shelf_life_text": "常温で製造日より７日間",
+          "ingredients": "赤生餡（国内製造）、砂糖、餅粉、水飴／トレハロース、酵素、乳化剤、（一部に乳成分・大豆を含む）",
+          "ingredient_flags": ["乳化剤"],
+          "allergens": "乳成分・大豆",
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/153045/list.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "賞味期限7日は『7日未満はスキップ』の境界ちょうどのため記録した。日持ち重視の条件には不向き。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "愉経世",
+          "category": "棒状の和菓子",
+          "description": "優美な棒状の和菓子で、小豆を使用（内容量は1本）。形状・味の詳細な説明文は未確認。",
+          "options": [
+            {"qty_label": "1本入", "qty": 1, "unit": "本", "price_tax_incl": 735,
+             "evidence": "愉経世 ¥735(税込)／内容量 1本（WebSearch要約。1,500円以下一覧の要約でも ¥735）",
+             "source_url": "https://www.kagajinya.com/SHOP/777093n.html"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "1本単位の商品。個包装の明記は検索結果に無し",
+          "shelf_life_days": 15,
+          "shelf_life_text": "常温で製造日より15日間",
+          "ingredients": "砂糖（国内製造）、生餡、小豆、麦芽糖、白生餡、水飴、還元水飴、もち粉、米粉、寒天",
+          "ingredient_flags": [],
+          "allergens": null,
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/777093n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "警戒成分なし。1本入のみのため、多人数に配る用途では1本単位の購入になる。読み方・サイズは未確認。ページ本文は未閲覧。"
+        },
+        {
+          "product_name": "加賀のおかきパイ",
+          "category": "パイ菓子",
+          "description": "地元白山麓のくるみと井村の醤油たれを使用した香ばしい風味のおかきパイ（商品説明）。",
+          "options": [
+            {"qty_label": "1袋（2枚入）", "qty": 1, "unit": "袋", "price_tax_incl": 240,
+             "evidence": "加賀のおかきパイ 価格（税込）: ¥240／内容量: 1袋（2枚入）（WebSearch要約）",
+             "source_url": "https://www.kagajinya.com/SHOP/777071n.html"}
+          ],
+          "individually_wrapped": true,
+          "wrap_note": "1袋2枚入の小袋単位での販売（箱入りの詰合せは検索結果に無し）",
+          "shelf_life_days": 30,
+          "shelf_life_text": "常温で製造日より30日間",
+          "ingredients": "パイシート（小麦粉、マーガリン（乳成分を含む）（国内製造）、その他）、クルミ、砂糖、醤油（大豆を含む）／香料、乳化剤、着色料（カロチン、カラメル）、調味料（アミノ酸等）、甘味料（サッカリンNa、天草）",
+          "ingredient_flags": ["マーガリン", "乳化剤", "醤油"],
+          "allergens": "小麦・乳成分・大豆・くるみ",
+          "seasonal": "通年（通販サイトの定番商品として掲載。季節限定の記載は検索結果に無し）",
+          "page_url": "https://www.kagajinya.com/SHOP/777071n.html",
+          "image_url": null,
+          "confidence": "B",
+          "notes": "醤油・マーガリンを含むため今回の条件（醤油・マーガリン不可）には不適合。参考として記録。ページ本文は未閲覧。"
+        }
+      ],
+      "skipped": [
+        "手づくりどら焼き 生どら各種（小倉・抹茶・チーズ・ぷりん・ショコラ、10個詰合せ）: 冷凍発送商品（冷凍で出荷日より20日、解凍後は冷蔵で5日以内）のため常温土産に不適",
+        "能登栗の樹々（栗きんとんロール）: クール冷凍発送商品のため"
+      ],
+      "unresolved": [
+        "個包装の有無: 全商品で検索結果に明記なし（おかきパイのみ小袋単位）",
+        "あんと店頭での取扱商品・店頭価格: 本データは通販サイト基準のため、店頭と異なる可能性",
+        "金沢の月プレミアム20個入（¥1,944 / ¥1,728）、金沢のまち18個入（¥1,728 / ¥1,890）の価格矛盾: 再検索は検索回数上限で未実施",
+        "いしかわ自慢 甘えび煎餅 現行版（8/15/24枚入）の賞味期限・アレルゲン",
+        "加賀の殿様20個入の価格（777043n）",
+        "和菓子屋さんがつくったロールケーキ 能登大納言 上々巻（1箱8切入 ¥1,404、2箱化粧箱入あり）: 保存温度・賞味期限が未確認のため対象判断を保留",
+        "商品ページ本文は未閲覧（すべて WebSearch 要約文ベース）。商品一覧ページ（手土産・ギフト・売れ筋）の全件は未確認",
+        "区画番号（anto_location）"
+      ]
+    },
+    {
+      "shop_name": "金澤 福うさぎ",
+      "shop_short": "福うさぎ",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=329",
+      "anto_phone": "076-221-1511",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "（参考）あんと店の営業時間は 8:30〜20:00（100bangai.co.jp 店舗ページの検索要約より）。商品データは観光サイト等の二次情報のみ（公式サイト未特定）。",
+      "products": [
+        {
+          "product_name": "銘菓 福うさぎ",
+          "category": "蒸し饅頭",
+          "description": "ころんと丸みを帯びたうさぎをかたどった、ふんわり・もっちりとした生地でこだわりの餡を包んだ小さな蒸し饅頭（観光サイト要約）。味は五郎島金時・能登大納言・棒茶・能登産かぼちゃ・石川県産ゆずの5種。",
+          "options": [
+            {"qty_label": "2個入", "qty": 2, "unit": "個", "price_tax_incl": 378,
+             "evidence": "2個入り378円から販売されており（観光サイト要約）",
+             "source_url": "https://macaro-ni.jp/89323?page=2"},
+            {"qty_label": "5種詰め合わせ 10個入", "qty": 10, "unit": "個", "price_tax_incl": 1620,
+             "evidence": "銘菓福うさぎ5種詰め合わせ10個入が1,620円〜（観光サイト要約）",
+             "source_url": "https://macaro-ni.jp/89323?page=2"}
+          ],
+          "individually_wrapped": null,
+          "wrap_note": "個包装の記載は検索結果に無し",
+          "shelf_life_days": 30,
+          "shelf_life_text": "製造より30日間（観光サイト要約）",
+          "ingredients": null,
+          "ingredient_flags": null,
+          "allergens": null,
+          "seasonal": "通年と読み取れる（季節限定の記載は検索結果に無し）",
+          "page_url": null,
+          "image_url": null,
+          "confidence": "C",
+          "notes": "二次情報のみ（macaro-ni.jp、co-trip.jp、gltjp.com、mapple.net などの観光記事の要約）。価格は『から／〜』表記で、改定されている可能性がある。税込の明記は要約に無いが、378円・1,620円は 350円・1,500円の8%税込と一致する数字。source_url は候補の1つで、どの事実がどの記事由来かの対応は未確認。要約には『販売店舗はかなざわはこまち本店と百番街店』とあるが、この表記の意味（店名・運営会社）は未確認。原材料は前任調査と同様に未確認。"
+        }
+      ],
+      "skipped": [],
+      "unresolved": [
+        "公式サイト・通販サイトの特定（検索回数上限により未実施）",
+        "原材料・アレルゲン・個包装の有無（未取得）",
+        "最中・焼菓子など福うさぎ以外の商品ライン（依頼文では主力が最中・焼菓子とあるが、検索結果には蒸し饅頭の福うさぎしか出ず未確認）",
+        "価格・賞味期限の一次情報での裏取り（現状は観光サイト要約のみ）",
+        "区画番号（anto_location）"
+      ]
+    },
+    {
+      "shop_name": "茶菓工房 たろう",
+      "shop_short": "たろう",
+      "category": "和菓子",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=315",
+      "anto_phone": "076-263-1088",
+      "anto_location": null,
+      "official_site": null,
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "（参考）あんと店の営業時間は 8:30〜20:00（100bangai.co.jp 店舗ページの検索要約より）。商品調査は未実施（検索回数上限に到達）。対象商品の有無は不明。",
+      "products": [],
+      "skipped": [
+        "窓（キューブ型の最中）: 日持ち4〜6日・バター入りのため対象外（前任調査の既知データ。今回の検索での再確認はなし）"
+      ],
+      "unresolved": [
+        "公式サイト・通販サイトの特定（検索回数上限により未実施）",
+        "全商品の入数別価格・個包装・賞味期限・原材料（未取得）",
+        "窓以外の箱入り・日持ち商品の有無。観光サイト要約に、羊羹・最中・饅頭を詰め合わせた贈答品らしき記述（商品名は『Tokiiro』と英字で返り表記未確認）があったが、価格・入数・日持ち・原材料は未確認。三越伊勢丹ムードマークの通販ページ（https://www.mistore.jp/moodmark/product/MM-0415155000612.html）が検索に出たが、たろうの商品かどうか・内容は未確認",
+        "区画番号（anto_location）"
+      ]
+    },
+    {
+      "shop_name": "兼六園本舗 高砂屋",
+      "shop_short": "高砂屋",
+      "category": "和菓子",
+      "anto_page_url": null,
+      "anto_phone": null,
+      "anto_location": null,
+      "official_site": "https://kanazawa-takasagoya.com/",
+      "online_shop": null,
+      "in_scope": false,
+      "scope_note": "破産・事業停止のため購入不可。石引2丁目の本店と金沢百番街あんと店の両店とも2026年7月30日付で事業を停止し、2026年9月11日に金沢地裁が破産手続き開始を決定（負債総額は約9,000万円、1918年創業、銘菓『加賀の巻絹』）。北國新聞・石川テレビ・MRO北陸放送・JC-NET などが報道。出典: https://www.hokkoku.co.jp/articles/-/2232545 、https://www.ishikawa-tv.com/news/itc/00008527 、https://n-seikei.jp/2026/09/post-121793.html 。",
+      "products": [],
+      "skipped": [
+        "全商品（加賀の巻絹・深山の月・花扇寿・加賀の四季・俳菓・桜一花くず湯 など）: 2026年7月30日付で事業停止（破産）のため購入不可。価格等は調査していない"
+      ],
+      "unresolved": [
+        "あんと店ページ（100bangai.co.jp）は検索で特定できず、掲載終了かどうかは未確認（anto_page_url・anto_phone は null）",
+        "公式サイト（kanazawa-takasagoya.com）は検索結果上は存在したが、事業停止の告知が載っているかは未確認（要約では告知を確認できず）",
+        "在庫処分や事業承継・販売再開の有無（未確認）"
+      ]
+    },
+    {
+      "shop_name": "あめの俵屋",
+      "shop_short": "俵屋",
+      "category": "飴・水飴",
+      "anto_page_url": "https://www.100bangai.co.jp/shop/detail.php?id=243",
+      "anto_phone": "076-260-3745",
+      "anto_location": null,
+      "official_site": "http://www.ame-tawaraya.co.jp/",
+      "online_shop": null,
+      "in_scope": true,
+      "scope_note": "（参考）あんと店の営業時間は 8:30〜20:00。店舗ページ要約に『創業天保元年よりお米と大麦だけを原料としてつくっており、昔ながらのあめ屋』とある。商品調査は未実施（検索回数上限に到達）。対象商品の有無は不明。",
+      "products": [],
+      "skipped": [],
+      "unresolved": [
+        "通販サイトの特定（公式サイトの会社・製法ページのみ確認。通販ページは未確認）",
+        "全商品（じろあめ・飴・水飴のギフト向け小袋・缶など）の入数別価格・個包装・賞味期限・原材料（未取得）。観光記事の一覧に『飴の俵屋 じろあめ』が金沢土産として載っていることのみ確認",
+        "区画番号（anto_location）"
+      ]
+    }
+  ]
+}
