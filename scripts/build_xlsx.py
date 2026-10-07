@@ -128,10 +128,13 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
     subtitle = (picks or {}).get("subtitle", "海外の訪問先へ渡す手土産（金沢で購入）の候補")
 
     def photo_of(p):
-        if not use_photos or not p.get("image_key"):
+        # 前任が公式ページで確認した写真（image_key）→ scripts/fetch_photos.py が取得した写真（商品ID）の順に探す
+        if not use_photos:
             return None
-        f = img_dir / f"{p['image_key']}.jpg"
-        return f if f.exists() else None
+        for key in (p.get("image_key"), p["id"]):
+            if key and (img_dir / f"{key}.jpg").exists():
+                return img_dir / f"{key}.jpg"
+        return None
 
     # 並べ替え（既定の前提での総合評価が高い順 → 確認レベルが高い順 → 店の並び順）
     def best_overall(p):
@@ -197,6 +200,9 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
         n_pend = sum(1 for s in shops if s.get("in_scope") == "yes" and not n_by_shop.get(s["key"]))
         pts.append(f"菓子・食品の土産を扱う店（対象）{n_yes}店のうち、商品と入数別の価格まで調べられたのは{n_yes - n_pend}店です。"
                    f"残り{n_pend}店は検索回数の上限で未調査のため、「除外・要確認」の2に一覧にしています。")
+        if use_photos:
+            n_photo = sum(1 for p in products if photo_of(p))
+            pts.append(f"写真は{len(products)}商品のうち{n_photo}商品に入っています。写真のない商品は、「候補一覧」の「開く」から店の商品ページで確認できます。")
         return pts
 
     B = Book(out)
@@ -655,7 +661,10 @@ def build(out: str, data_dir: pathlib.Path, public: bool, private_dir: pathlib.P
     memo = [
         "確認レベルAのデータ（12商品）は、前任のセッション（Claude Desktop＋Claude in Chrome）が各店の公式の商品ページを直接開いて確認し、写真もそのときの公式写真です。",
         "それ以外（確認レベルB・C）は、公式ドメインに絞った検索（WebSearch）の結果に載っていた価格・入数・賞味期限・原材料です。検索結果は要約であり、商品ページ本文を直接見ていないため、買う前に店舗か公式ページで確認してください。",
-        "今回の環境では、金沢百番街の公式サイトと各店の公式・通販サイトに直接アクセスできませんでした（実行環境の通信制限）。このため、写真はAレベルの商品にしか付いていません。",
+        (f"写真は、確認レベルAの商品は前任が公式ページで取得したもの、それ以外は各店の商品ページ（公式・通販）から取得したものです。{sum(1 for p in products if photo_of(p))}／{len(products)}商品に付いています。"
+         "商品名と写真が合っているかは目視で確認していますが、通販ページの写真は入数や詰め合わせの内容と一致しないことがあります。"
+         if use_photos and sum(1 for p in products if photo_of(p)) > 12 else
+         "今回の環境では、金沢百番街の公式サイトと各店の公式・通販サイトに直接アクセスできませんでした（実行環境の通信制限）。このため、写真はAレベルの商品にしか付いていません。"),
         "検索の回数に上限があり、調べきれなかった店・商品は「除外・要確認」と「店舗一覧」に未調査として残しています。",
         "あんと店舗の電話番号は、金沢百番街の公式の店舗ページの記載を検索で確認したものです（本店・通販の番号とは別）。",
     ]

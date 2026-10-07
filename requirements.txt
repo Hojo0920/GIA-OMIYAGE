@@ -1,3 +1,6 @@
 XlsxWriter>=3.1
 # 検証スクリプト（scripts/verify_xlsx.py）だけで使う
 openpyxl>=3.1
+# 写真の取得（scripts/fetch_photos.py）だけで使う
+requests>=2.31
+Pillow>=10.0

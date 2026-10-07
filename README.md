@@ -39,6 +39,9 @@ scripts/build_xlsx.py           data/*.json → xlsx（数式・条件付き書�
 scripts/verify_xlsx.py          LibreOfficeで数式を再計算し、キャッシュ値と全数比較
 scripts/list_backlog.py         まだ商品を調べていない店の一覧
 scripts/gap_report.py           店ごとに「分かっていること」と「未確認の項目」をまとめる（調査の割り当て用）
+scripts/fetch_photos.py         商品ページから商品写真を取得して 240px 四方のJPEGにする（private/images/<商品ID>.jpg）
+tests/test_fetch_photos.py      fetch_photos.py の試験（手元のHTTPサーバの疑似ページ。外部通信なし）
+docs/photo_hosts.txt            写真の取得で通信が必要なドメイン（実行環境の Network access を Custom にするとき用）
 ```
 
 ## 使い方
@@ -51,6 +54,26 @@ python3 scripts/verify_xlsx.py /tmp/anto_omiyage_public.xlsx                  # 
 ```
 
 xlsx の判定（○△×）は数式で、「はじめに」シートの黄色いセル（予算・購入日・渡す日など）を変えると更新されます。
+
+## 商品写真の取得
+
+商品写真は各店の商品ページから `scripts/fetch_photos.py` で取得します。店のサイトへ通信できる環境が必要です（Claude Code の cloud 環境では、Network access を Full にするか、Custom にして `docs/photo_hosts.txt` のドメインを入れます。写真の配信用に別のドメインが必要な店もあり、拒否されたホストは実行結果の最後に一覧されます）。
+
+```bash
+pip install -r requirements.txt
+python3 scripts/fetch_photos.py --only-picks   # private/picks.json のおすすめ案・差し替え候補だけ先に
+python3 scripts/fetch_photos.py                # 写真のない商品すべて
+python3 scripts/fetch_photos.py --sheet        # 取得した写真を商品名つきの一覧画像にして、商品と写真が合っているか目で確かめる
+python3 scripts/fetch_photos.py --status       # 写真の有無の一覧
+python3 scripts/build_xlsx.py --out deliverables/anto_omiyage_candidates.xlsx
+```
+
+- 写真は `private/images/<商品ID>.jpg`（240px四方・白背景）に保存し、`build_xlsx.py` が読みます。`image_key` を持つ商品（前任が公式ページで確認した12商品）の写真は取り直しません。
+- 商品ページの JSON-LD → og:image → twitter:image → 本文中の画像の順に探します。ロゴ・バナーらしい画像と、題名が商品名と合わないページの og:image は使いません。複数の商品が同じページを指す店（一覧ページ）は、画像の alt や周辺の文字と商品名を照合します。決め手がなければ写真は付けません（誤った写真より空欄のほうがよいため）。
+- 結果は `private/photo_log.json`（元ページ・画像URL・方法・要確認かどうか）に残ります。確からしさが低い方法（本文中の画像・一覧ページの照合）は「要確認」になります。
+- うまく取れない商品は `private/photo_overrides.json` で手動指定できます: `{"P017": {"image_url": "https://..."}, "P038": {"page_url": "https://..."}, "P086": {"skip": true}}`。
+- 同じ写真が別のページの商品に使われていたら店の共通画像の疑いがあるため、3商品以上なら自動で不採用にします。
+- 同じホストへは1秒以上あけ、`robots.txt` で禁止されたページは取得しません。写真は各社の著作物なので、社内確認用に限り、公開リポジトリには入れません（`private/` は `.gitignore` で除外）。
 
 ## 判定のルール
 
@@ -65,5 +88,5 @@ xlsx の判定（○△×）は数式で、「はじめに」シートの黄色�
 1. `python3 scripts/list_backlog.py` で未調査の店を確認する。
 2. `docs/research_instructions.md`（基本ルール）と `docs/research_instructions_round2.md`（追加ルール）を読ませて、店を数店ずつのグループに分けて調査担当に割り当てる（出力は `data/raw/Gn_*.json`）。担当ごとに `python3 scripts/gap_report.py --shops "店名,店名"` で既知データと未確認項目の資料を作って渡すと、穴を狙って調べられる。上位候補の裏取りだけを行うグループは、`scripts/merge_research.py` の `VERIFY_GROUPS` に番号を足すと、前のグループの価格・原材料・個包装より優先される。
 3. `python3 scripts/merge_research.py` で統合し、`python3 scripts/build_xlsx.py` で作り直す。
-4. 検索の回数上限に達したら、次のターンで続ける。店舗サイトへ直接アクセスできる環境なら、公式の商品ページ本文を読んで確認レベルAに上げ、写真も取得できる（`private/images/<image_key>.jpg` に 240px 四方で置くと、完成版に入る）。
+4. 検索の回数上限に達したら、次のターンで続ける。店舗サイトへ直接アクセスできる環境なら、公式の商品ページ本文を読んで確認レベルAに上げられる。
 5. 食い違いは `data/overrides.json` に理由つきで残す。
