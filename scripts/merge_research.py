@@ -37,6 +37,7 @@ SHOP_ALIASES = {
     "クルミのおやつ": "大畑食品",
     "クルミのおやつ大畑食品": "大畑食品",
     "ルミュゼドゥアッシュ金沢駅百番街店": "ルミュゼドゥアッシュ",
+    "ルミュゼドゥアッシュフレ": "ルミュゼドゥアッシュ",   # 同じブランド・同じ通販。あんとには2店あるので電話番号は両方残す
 }
 
 # 原材料表示から機械的に拾う語。判断基準は観光庁「ベジタリアン・ヴィーガン／ムスリム旅行者おもてなしガイド」（2024年4月）に合わせ、
@@ -165,6 +166,9 @@ def parse_days(text: str | None) -> int | None:
     if not text:
         return None
     t = unicodedata.normalize("NFKC", text)
+    m = re.search(r"(\d+)\s*[〜~\-]\s*(\d+)\s*日", t)   # 「7〜10日」のような幅は短い方（保守的）を採る
+    if m:
+        return min(int(m.group(1)), int(m.group(2)))
     m = re.search(r"(\d+)\s*(?:か月|ヶ月|ケ月|カ月)", t)
     if m:
         return int(m.group(1)) * 30
@@ -277,6 +281,8 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
             v = s.get(fld_src)
             if v and (not info.get(fld_dst) or group == "G0"):
                 info[fld_dst] = v
+            elif fld_dst == "phone" and v and info.get(fld_dst) and v not in info[fld_dst]:
+                info[fld_dst] = f"{info[fld_dst]}／{v}"   # 同じブランドの2店（本店とフレなど）
         if s.get("category") and not info.get("raw_category"):
             info["raw_category"] = s["category"]
         if "in_scope" in s:
@@ -421,6 +427,8 @@ def merge(raw_dir: pathlib.Path, out_dir: pathlib.Path, overrides_path: pathlib.
                              ("area", "area"), ("shop_id", "shop_id"), ("source_url", "source_url")]:
                 if s.get(src) and s.get(src) != "不明" and not info.get(dst):
                     info[dst] = s[src]
+                elif dst == "phone" and s.get(src) and info.get(dst) and s[src] not in info[dst]:
+                    info[dst] = f"{info[dst]}／{s[src]}"
             if not info.get("in_scope"):
                 info["in_scope"] = s.get("in_scope") or "maybe"
                 info["reason"] = clean_text(s.get("reason"))
